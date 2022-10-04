@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>  
+    <title>
+        Character Directory
+    </title>
+    <body>
+        <family name= "Bolkonsky">
+            <character>Prince Nikolai Bolkonsky</character>
+            <character>Prince Andrei Bolkonsky</character>
+            <character>Nikolai Bolkonsky</character>
+            <character>Marya Bolkonskaya</character>
+        </family>
+        <family name= "Bourienne">
+            <character>Mademoiselle Bourienne</character>
+        </family>
+        <family name= "Mikhailovna">
+            <character>Anna Mikhailovna</character>
+            <character>Boris Mikhailovna</character>
+        </family>
+        <family name= "Rostov">
+            <character>Count Ilya Rostov</character>
+            <character>Countess Natalya Rostova</character>
+            <character>Nikolai Rostov</character>
+            <character>Natasha Rostova</character>
+            <character>Petya Rostov</character>
+            <character>Sonya Rostova</character>
+        </family>
+        <family name= "Kuragin">
+            <character>Prince Vassily Kuragin</character>
+            <character>Anatole Kuragin</character>
+            <character>Helene Kuragin</character>
+            <character>Count Pierre Bezukhov</character>
+        </family>
+        <family name= "Dolokhov">
+            <character>Fedya Dolokhov</character>
+        </family>
+    </body>
+</root>
