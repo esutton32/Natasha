@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prologue>
+<metadata>
+    <name>Prologue</name>
+    <characters></characters>
+    <composer></composer>
+    <lyricist></lyricist>
+    <source>https://genius.com/Original-broadway-cast-of-natasha-pierre-and-the-great-comet-of-1812-prologue-lyrics</source>
+</metadata>
+<lyrics>
+    <verse>
+        <speaker>PIERRE</speaker>
+        <stanza>
+            <line>There’s a war going on</line>
+            <line>Out there somewhere</line>
+            <line>And Andrey isn’t here</line>
+            <line>There’s a war going on</line>
+            <line>Out there somewhere</line>
+            <line>And Andrey isn’t here</line>
+        </stanza>
+
+        <speaker>ALL</speaker>
+        <stanza>
+            <line>There’s a war going on</line>
+            <line>Out there somewhere</line>
+            <line>And Andrey isn’t here</line>
+            <line>There’s a war going on</line>
+            <line>Out there somewhere</line>
+            <line>And Andrey isn’t here</line>
+        </stanza>
+    </verse>
+    <chorus>
+        <stanza>
+            <line>And this is all in your program</line>
+            <line>You are at the opera</line>
+            <line>Gonna have to study up a little bit</line>
+            <line>If you wanna keep with the plot</line>
+            <line>'Cause it’s a complicated Russian novel</line>
+            <line>Everyone’s got nine different names</line>
+            <line>So look it up in your program</line>
+            <line>We’d appreciate it, thanks a lot</line>
+            <line>Da da da</line>
+            <line>Da da da</line>
+            <line>Da da da...</line>
+            <line>Natasha!</line>
+        </stanza>
+    </chorus>
+
+    <verse>
+        <speaker>NATASHA</speaker>
+        <stanza>
+            <line>Natasha is young</line>
+            <line>She loves Andrey with all her heart</line>
+        </stanza>
+
+        <speaker>ALL</speaker>
+        <stanza>
+            <line>She loves Andrey with all her heart</line>
+            <line>Natasha is young</line>
+            <line>And Andrey isn’t here</line>
+        </stanza>
+
+        <speaker>SONYA</speaker>
+        <stanza>
+            <line>Sonya is good</line>
+            <line>Natasha’s cousin and closest friend</line>
+        </stanza>
+
+        <speaker>ALL</speaker>
+        <stanza>
+            <line>Natasha’s cousin and closest friend</line>
+            <line>Sonya is good</line>
+            <line>Natasha is young</line>
+            <line>And Andrey isn’t here</line>
+        </stanza>
+
+        <speaker>MARYA</speaker>
+        <stanza>
+            <line>Marya is old-school, a grande dame of Moscow</line>
+            <line>Natasha’s godmother, strict yet kind</line>
+        </stanza>
+
+        <speaker>ALL</speaker>
+        <stanza>
+            <line>Natasha’s godmother, strict yet kind</line>
+            <line>Marya is old-school</line>
+            <line>Sonya is good</line>
+            <line>Natasha is young</line>
+            <line>And Andrey isn’t here</line>
+        </stanza>
+    </verse>
+
+    <chorus>
+        <stanza>
+            <line>And this is all in your program</line>
+            <line>You are at the opera</line>
+            <line>Gonna have to study up a little bit</line>
+            <line>If you wanna keep with the plot</line>
+            <line>'Cause it’s a complicated Russian novel</line>
+            <line>Everyone’s got nine different names</line>
+            <line>So look it up in your program</line>
+            <line>We’d appreciate it, thanks a lot</line>
+            <line>Da da da</line>
+            <line>Da da da</line>
+            <line>Da da da...</line>
+            <line>Anatole!</line>
+        </stanza>
+    </chorus>
+
+    <verse>
+        <speaker>ANATOLE</speaker>
+        <stanza>
+            <line>Anatole is hot</line>
+            <line>He spends his money on women and wine</line>
+        </stanza>
+
+        <speaker>ALL</speaker>
+        <stanza>
+            <line>He spends his money on women and wine</line>
+            <line>Anatole is hot</line>
+            <line>Marya is old-school</line>
+            <line>Sonya is good</line>
+            <line>Natasha is young</line>
+            <line>And Andrey isn’t here</line>
+        </stanza>
+
+        <speaker>HÉLÈNE</speaker>
+        <stanza>
+            <line>Hélène is a slut</line>
+            <line>Anatole’s sister, married to Pierre</line>
+        </stanza>
+
+        <speaker>ALL</speaker>
+        <stanza>
+            <line>Anatole’s sister, married to Pierre</line>
+            <line>Hélène is a slut</line>
+            <line>Anatole is hot</line>
+            <line>Marya is old-school</line>
+            <line>Sonya is good</line>
+            <line>Natasha is young</line>
+            <line>And Andrey isn’t here</line>
+        </stanza>
+
+        <speaker>DOLOKHOV</speaker>
+        <stanza>
+            <line>Dolokhov is fierce, but not too important</line>
+            <line>Anatole’s friend, a crazy good shot</line>
+        </stanza>
+
+        <speaker>ALL</speaker>
+        <stanza>
+            <line>Anatole’s friend, a crazy good shot</line>
+            <line>Dolokhov is fierce</line>
+            <line>Hélène is a slut</line>
+            <line>Anatole is hot</line>
+            <line>Marya is old-school</line>
+            <line>Sonya is good</line>
+            <line>Natasha is young</line>
+            <line>And Andrey isn’t here</line>
+        </stanza>
+    </verse>
+    <verse>
+        <stanza>
+            <line>Chandeliers and caviar, the war can’t touch us here</line>
+            <line>Minor characters!</line>
+        </stanza>
+
+        <speaker>BOLKONSKY</speaker>
+        <stanza>
+            <line>Old Prince Bolkonsky is crazy</line>
+        </stanza>
+
+        <speaker>MARY</speaker>
+        <stanza>
+            <line>And Mary is plain</line>
+        </stanza>
+
+        <speaker>MARY &amp; BOLKONSKY</speaker>
+        <stanza>
+            <line>Andrey’s family, totally messed up</line>
+        </stanza>
+
+        <speaker>BALAGA</speaker>
+        <stanza>
+            <line>And Balaga’s just for fun!</line>
+        </stanza>
+
+        <speaker>ALL</speaker>
+        <stanza>
+            <line>Balaga’s just for fun!</line>
+            <line>Balaga is fun</line>
+            <line>Bolkonsky is crazy</line>
+            <line>Mary is plain</line>
+            <line>Dolokhov is fierce</line>
+            <line>Hélène is a slut</line>
+            <line>Anatole is hot</line>
+            <line>Marya is old-school</line>
+            <line>Sonya is good</line>
+            <line>Natasha is young</line>
+            <line>And Andrey isn’t here</line>
+        </stanza>
+    </verse>
+    <verse>
+        <stanza>
+            <line>And what about Pierre?</line>
+            <line>Dear, bewildered and awkward Pierre?</line>
+            <line>What about Pierre?</line>
+            <line>Rich, unhappily married Pierre?</line>
+            <line>What about Pierre?</line>
+            <line>What about Pierre?</line>
+            <line>What about Pierre?</line>
+        </stanza>
+    </verse>
+</lyrics>
+</prologue>
