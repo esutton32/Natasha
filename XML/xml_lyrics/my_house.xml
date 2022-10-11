@@ -1,0 +1,116 @@
+<my_house>
+    <metadata>
+        <name>In My House</name>
+        <characters/>
+        <composer/>
+        <lyricist/>
+        <source/>
+    </metadata>
+    <lyrics>
+        <stanza speaker="MARYA D.">
+            <line>You shameless good-for-nothing</line>
+            <line>You vile, shameless girl</line>
+            <line>In my house</line>
+            <line>In my house</line>
+            <line>A nice girl! Very nice!</line>
+        </stanza>
+
+        <stanza>
+            <line>You dirty nasty wench of a thing</line>
+            <line>Now don’t you say one word</line>
+            <line>In my house</line>
+            <line>In my house</line>
+            <line>Horrid girl, hussy!</line>
+            <line>It’s lucky for him he escaped, but I’ll find him</line>
+            <line>Now you listen to me when I speak to you!</line>
+            <line>Now you listen to me when I speak to you!</line>
+            <line>In my house!</line>
+            <line>In my house!</line>
+            <line>Do you hear what I am saying or not?</line>
+        </stanza>
+
+        <stanza speaker="SONYA">
+            <line>Natasha’s whole body shook</line>
+            <line>With noiseless, convulsive sobs</line>
+            <line>Marya touched her hand to her face</line>
+        </stanza>
+
+        <stanza speaker="NATASHA">
+            <line>Don’t touch me!</line>
+            <line>Let me be! What is it to me? I shall die!</line>
+        </stanza>
+
+        <stanza speaker="MARYA D.">
+            <line>What are we to tell your father? Eh?</line>
+            <line>In my house!</line>
+            <line>In my house!</line>
+            <line>What are we to tell Prince Andrey? Eh?</line>
+            <line>Oh what do we tell your betrothed?</line>
+        </stanza>
+
+        <stanza speaker="NATASHA">
+            <line>I have no betrothed, I have refused him!</line>
+        </stanza>
+
+        <stanza speaker="SONYA">
+            <line>Natasha, come here, kiss me</line>
+            <line>Press your wet face to mine</line>
+        </stanza>
+
+        <stanza speaker="NATASHA">
+            <line>Don’t touch me!</line>
+        </stanza>
+
+        <stanza speaker="MARYA D.">
+            <line>Why didn’t he come to the house?</line>
+            <line>Why didn’t he openly ask for your hand?</line>
+            <line>You were not kept under lock and key!</line>
+            <line>Carrying you off like some Gypsy girl!</line>
+            <line>And if he had carried you off, don’t you think your father would have found
+                him?</line>
+            <line>Your father, I know him</line>
+            <line>He will challenge him to a duel and what then?</line>
+            <line>Will that be all right? Eh?</line>
+            <line>He’s a scoundrel, he’s a wretch! That’s a fact!</line>
+        </stanza>
+
+        <stanza speaker="NATASHA">
+            <line>He is better than any of you I say</line>
+            <line>He is better than any of you I say</line>
+            <line>Why did you interfere! Oh God, what is it all?!</line>
+            <line>What is it?!</line>
+            <line>Who are you to tell me anything?!</line>
+            <line>Sonya, why?!</line>
+            <line>Go away!</line>
+            <line>Everyone, go away!</line>
+            <line>Marya Dmitryevna tried to speak again but Natasha cried out</line>
+            <line>Go away! Go away! You all hate and despise me!</line>
+            <line>And she threw herself down on the sofa</line>
+        </stanza>
+
+        <stanza speaker="MARYA D.">
+            <line>Natasha!</line>
+            <line>Natalya...</line>
+        </stanza>
+
+        <stanza>
+            <line>I put a pillow under her head</line>
+            <line>Covered her with two quilts</line>
+            <line>Brought her a glass of lime-flower water</line>
+            <line>But Natasha did not respond</line>
+            <line>Well, let her sleep</line>
+            <line>Let her sleep</line>
+        </stanza>
+
+        <direction>Marya D. leaves</direction>
+
+        <stanza speaker="NATASHA">
+            <line>But Natasha was not asleep</line>
+            <line>Her face was pale</line>
+            <line>Her eyes wide open</line>
+            <line>All that night she did not sleep or weep</line>
+            <line>She sat at the window</line>
+            <line>Waiting for him</line>
+        </stanza>
+    </lyrics>
+</my_house>
