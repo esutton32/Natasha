@@ -1,78 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-[HÉLÈNE]
-Oh my enchantress
-Oh you beautiful thing
-Charming, charming
-Oh, this is really beyond anything
-These dresses suit you
-This one, “metallic gauze”
-Straight from Paris
-Anything suits you, my charmer
+<charming>
+    <metadata>
+        <name/>
+        <characters/>
+        <composer/>
+        <lyricist/>
+        <source/>
+    </metadata>
+    <lyrics>
+        <verse>
+            <stanza speaker="HÉLÈNE">
+                <line>Oh my enchantress</line>
+                <line>Oh you beautiful thing</line>
+                <line>Charming, charming</line>
+                <line>Oh, this is really beyond anything</line>
+                <line>These dresses suit you</line>
+                <line>This one, “metallic gauze”</line>
+                <line>Straight from Paris</line>
+                <line>Anything suits you, my charmer</line>
+            </stanza>
+        </verse>
 
-Oh how she blushes, how she blushes, my pretty!
-Oh how she blushes, how she blushes, my pretty!
-Charmante, charmante!
-You are such a lovely thing
-Oh where have you been?
-It’s such a shame to bury pearls in the country
-Charmante, charmante, charming
-Now if you have a dress
-You must wear it out
-How can you live in Moscow and not go nowhere?
-So you love somebody, charming
-But that’s no reason to shut yourself in
-Even if you’re engaged
-You must wear your dress out somewhere
+        <stanza speaker="HÉLÈNE">
+            <line>Oh how she blushes, how she blushes, my pretty!</line>
+            <line>Oh how she blushes, how she blushes, my pretty!</line>
+            <line>Charmante, charmante!</line>
+            <line>You are such a lovely thing</line>
+            <line>Oh where have you been?</line>
+            <line>It’s such a shame to bury pearls in the country</line>
+            <line>Charmante, charmante, charming</line>
+        </stanza>
 
-My brother dined with me yesterday
-But he didn’t eat a thing
-Cuz he was thinking ’bout you
-He kept sighing about you
+        <verse>
+            <stanza speaker="HÉLÈNE">
+                <line>Now if you have a dress</line>
+                <line>You must wear it out</line>
+                <line>How can you live in Moscow and not go nowhere?</line>
+                <line>So you love somebody, charming</line>
+                <line>But that’s no reason to shut yourself in</line>
+                <line>Even if you’re engaged</line>
+                <line>You must wear your dress out somewhere</line>
+            </stanza>
 
-Oh how she blushes, how she blushes, my pretty!
-Oh how she blushes, how she blushes, my pretty!
-Charmante, charmante!
-You are such a lovely thing
-Oh where have you been?
-It’s such a shame to bury pearls in the country
-Charmante, charmante, charming
+            <stanza speaker="HÉLÈNE" type="prechorus">
+                <line>My brother dined with me yesterday</line>
+                <line>But he didn’t eat a thing</line>
+                <line>Cuz he was thinking ’bout you</line>
+                <line>He kept sighing about you</line>
+            </stanza>
+        </verse>
 
-Now a woman with a dress
-Is a frightening and powerful thing
-You are not a child
-When you’re draped in scarlet and lace
-Your fiancé would want you to have fun
-Rather than be bored to death
-Alliez dans le monde
-Plutôt que de dépérir d’ennui!
+        <chorus>
+            <stanza speaker="HÉLÈNE">
+                <line>Oh how she blushes, how she blushes, my pretty!</line>
+                <line>Oh how she blushes, how she blushes, my pretty!</line>
+                <line>Charmante, charmante!</line>
+                <line>You are such a lovely thing</line>
+                <line>Oh where have you been?</line>
+                <line>It’s such a shame to bury pearls in the country</line>
+                <line>Charmante, charmante, charming</line>
+            </stanza>
+        </chorus>
 
-My brother is quite madly in love
-He is quite madly in love with you, my dear
+        <verse>
+            <stanza speaker="HÉLÈNE">
+                <line>Now a woman with a dress</line>
+                <line>Is a frightening and powerful thing</line>
+                <line>You are not a child</line>
+                <line>When you’re draped in scarlet and lace</line>
+                <line>Your fiancé would want you to have fun</line>
+                <line>Rather than be bored to death</line>
+                <line>Alliez dans le monde</line>
+                <line>Plutôt que de dépérir d’ennui!</line>
+            </stanza>
 
-Oh how she blushes, how she blushes, my pretty!
-Oh how she blushes, how she blushes, my pretty!
-Charmante, charmante!
-You are such a lovely thing
-Oh where have you been?
-It’s such a shame to bury pearls in the country
-Charmante, charmante, charming
-Such a shame to bury pearls in the country
-Charmante, charmante, charming
+            <stanza speaker="HÉLÈNE" type="prechorus">
+                <line>My brother is quite madly in love</line>
+                <line>He is quite madly in love with you, my dear</line>
+            </stanza>
+        </verse>
 
-[NATASHA]
-What once seemed so terrible
-Now seems simple and natural
-She knows that I’m engaged
-And still she talks so frankly
-So it must be all right!
+        <chorus>
+            <stanza speaker="HÉLÈNE">
+                <line>Oh how she blushes, how she blushes, my pretty!</line>
+                <line>Oh how she blushes, how she blushes, my pretty!</line>
+                <line>Charmante, charmante!</line>
+                <line>You are such a lovely thing</line>
+                <line>Oh where have you been?</line>
+                <line>It’s such a shame to bury pearls in the country</line>
+                <line>Charmante, charmante, charming</line>
+                <line>Such a shame to bury pearls in the country</line>
+                <line>Charmante, charmante, charming</line>
+            </stanza>
+        </chorus>
 
-[HÉLÈNE]
-There is a ball at my house tonight
-You must come
-Oh your wide-open, wondering eyes!
-You will be the prettiest there!
-How the thought of throwing them together amuses me!
-You must come
+        <verse>
+            <stanza speaker="NATASHA">
+                <line>What once seemed so terrible</line>
+                <line>Now seems simple and natural</line>
+                <line>She knows that I’m engaged</line>
+                <line>And still she talks so frankly</line>
+                <line>So it must be all right!</line>
+            </stanza>
 
-[NATASHA]
-I will come
+            <stanza speaker="HÉLÈNE">
+                <line>There is a ball at my house tonight</line>
+                <line>You must come</line>
+                <line>Oh your wide-open, wondering eyes!</line>
+                <line>You will be the prettiest there!</line>
+                <line>How the thought of throwing them together amuses me!</line>
+                <line>You must come</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>I will come</line>
+            </stanza>
+        </verse>
+    </lyrics>
+</charming>

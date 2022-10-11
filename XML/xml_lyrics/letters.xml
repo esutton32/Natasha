@@ -1,0 +1,206 @@
+<letters>
+    <metadata>
+        <name>Letters</name>
+        <characters/>
+        <composer/>
+        <lyricist/>
+        <source/>
+    </metadata>
+    <lyrics>
+        <verse speaker="ALL">
+            <line>In nineteenth-century Russia, we write letters</line>
+            <line>We write letters</line>
+            <line>We put down in writing</line>
+            <line>What is happening in our minds</line>
+        </verse>
+
+        <verse speaker="ALL">
+            <line>Once it's on the paper, we feel better</line>
+            <line>We feel better</line>
+            <line>It's like some kind of clarity</line>
+            <line>When the letter's done and signed</line>
+        </verse>
+
+        <verse speaker="PIERRE">
+            <line>Dear Andrey</line>
+            <line>Dear old friend</line>
+            <line>How goes the war?</line>
+            <line>Do we march on the French splendidly?</line>
+            <line>Do our cannons crack and cry?</line>
+            <line>Do our bullets whistle and sing?</line>
+            <line>Does the air reek with smoke?</line>
+        </verse>
+
+        <verse speaker="PIERRE">
+            <line>I wish I were there</line>
+            <line>With death at my heels</line>
+        </verse>
+
+        <verse speaker="PIERRE">
+            <line>Dolokhov is recovering</line>
+            <line>He will be all right, the good man</line>
+            <line>And Natasha is in town</line>
+            <line>Your bride to be, so full of life and mischief</line>
+            <line>I should visit</line>
+            <line>I hear she is more beautiful than ever</line>
+            <line>How I envy you and your happiness</line>
+        </verse>
+
+        <verse speaker="PIERRE">
+            <line>Here at home I drink and read and drink and read and drink</line>
+            <line>But I think I've finally found it</line>
+            <line>What my heart has needed</line>
+        </verse>
+
+        <verse speaker="PIERRE">
+            <line>For I've been studying the Kabal</line>
+            <line>And I've calculated the number of the beast</line>
+            <line>It is Napoleon!</line>
+            <line>Six hundred three score and six</line>
+            <line>And I will kill him one day</line>
+            <line>He's no great man</line>
+            <line>None of us are great men</line>
+            <line>We're caught in the wave of history</line>
+            <line>Nothing matters</line>
+            <line>Everything matters</line>
+            <line>It's all the same</line>
+            <line>Oh, if only I could not see "it"</line>
+            <line>This dreadful, terrible "it"</line>
+        </verse>
+
+        <verse speaker="ALL">
+            <line>In nineteenth-century Russia, we write letters</line>
+            <line>We write letters</line>
+            <line>We put down in writing</line>
+            <line>What is happening in our minds</line>
+        </verse>
+
+        <verse speaker="NATASHA">
+            <line>Dear Andrey</line>
+        </verse>
+
+        <verse speaker="NATASHA">
+            <line>What more can I write</line>
+            <line>After all that has happened?</line>
+            <line>What am I to do if I love him and the other one too?</line>
+            <line>Must I break it off?</line>
+            <line>These terrible questions</line>
+        </verse>
+
+        <verse speaker="NATASHA">
+            <line>I see nothing but the candle in the mirror</line>
+            <line>No visions of the future</line>
+            <line>So lost and alone</line>
+        </verse>
+
+        <verse speaker="NATASHA">
+            <line>And what of Princess Mary?</line>
+        </verse>
+
+        <verse speaker="MARY">
+            <line>Dear Natasha</line>
+            <line>I am in deep despair at the misunderstanding there is between us</line>
+            <line>Whatever my father's feelings might be</line>
+            <line>I beg you to believe that I cannot help loving you</line>
+            <line>He is a tired old man and must be forgiven</line>
+            <line>Please, come see us again</line>
+        </verse>
+
+        <verse speaker="NATASHA">
+            <line>Dear Princess Mary</line>
+        </verse>
+
+        <verse speaker="NATASHA">
+            <line>Oh, what am I to write!</line>
+            <line>How do I choose?</line>
+            <line>What do I do?</line>
+            <line>I shall never be happy again</line>
+        </verse>
+
+        <verse speaker="PIERRE">
+            <line>These terrible questions</line>
+        </verse>
+
+        <verse speaker="MARY">
+            <line>I'm so alone here</line>
+        </verse>
+
+        <verse speaker="PIERRE" speaker2="NATASHA">
+            <line>So alone in here</line>
+        </verse>
+
+        <verse speaker="MARY">
+            <line>And I see nothing</line>
+        </verse>
+
+        <verse speaker="NATASHA" speaker2="PIERRE" speaker3="MARY">
+            <line>I see nothing but the candle in the mirror</line>
+            <line>No visions of the future</line>
+            <line>So lost and alone</line>
+        </verse>
+
+        <verse speaker="ALL">
+            <line>In nineteenth-century Russia, we write letters</line>
+            <line>We write letters</line>
+            <line>We put down in writing</line>
+            <line>What is happening in our minds</line>
+        </verse>
+
+        <verse speaker="ANATOLE">
+            <line>Dear Natalie</line>
+            <line>A love letter</line>
+            <line>A love letter</line>
+            <line>A love letter</line>
+        </verse>
+
+        <verse speaker="ANATOLE">
+            <line>A letter from him, from the man that I love</line>
+        </verse>
+
+        <verse speaker="DOLOKHOV">
+            <line>A letter which I composed</line>
+        </verse>
+
+        <verse speaker="ALL">
+            <line>A love letter</line>
+            <line>A love letter...</line>
+        </verse>
+
+        <verse speaker="ANATOLE">
+            <line>Natalie, Natalie, Natalie</line>
+            <line>I must love you or die</line>
+            <line>Natalie, Natalie, Natalie</line>
+            <line>If you love me, say yes</line>
+            <line>And I will come and steal you away</line>
+            <line>Steal you out of the dark</line>
+            <line>Natalie, Natalie, Natalie</line>
+            <line>I want nothing more</line>
+        </verse>
+
+        <verse speaker="ANATOLE">
+            <line backing="ALL">Natalie, Natalie, Natalie</line>
+            <line>I must love you or die</line>
+            <line backing="ALL">Natalie, Natalie, Natalie</line>
+            <line>If you love me, say yes</line>
+            <line>And I will come and steal you away</line>
+            <line>Steal you out of the dark</line>
+            <line backing="ALL">Natalie, Natalie, Natalie</line>
+            <line>I want nothing more</line>
+        </verse>
+
+        <verse speaker="ANATOLE">
+            <line>Just say yes</line>
+            <line>Just say yes</line>
+            <line>Just say yes</line>
+        </verse>
+
+        <verse speaker="NATASHA">
+            <line>Yes, yes, I love him</line>
+            <line>How else could I have his letter in my hand?</line>
+            <line>I read it twenty times</line>
+            <line>Thirty times, forty times!</line>
+            <line>Each and every word</line>
+            <line>I love him, I love him</line>
+        </verse>
+    </lyrics>
+</letters>

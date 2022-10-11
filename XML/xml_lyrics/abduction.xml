@@ -1,0 +1,222 @@
+<abduction>
+    <metadata>
+        <name>The Abduction</name>
+        <characters/>
+        <composer/>
+        <lyricist/>
+        <source/>
+    </metadata>
+    <lyrics>
+        <stanza speaker="ANATOLE">
+            <line>Everyone raise a glass! Whoa...</line>
+        </stanza>
+
+        <stanza speaker="ANATOLE">
+            <line>Well, comrades</line>
+            <line>We’ve had our fun</line>
+            <line>Lived, laughed and loved</line>
+            <line>Friends of my youth</line>
+            <line>When shall we meet again?</line>
+            <line>I’m going abroad</line>
+        </stanza>
+
+        <stanza speaker="ANATOLE">
+            <line>Goodbye my Gypsy lovers</line>
+            <line>All my revels here are over</line>
+            <line>Well, goodbye, Matryosha</line>
+            <line>Kiss me one last time, whoa</line>
+            <line>Remember me to Steshka</line>
+            <line>There, goodbye, goodbye, goodbye</line>
+            <line>Wish me luck my Gypsy lovers</line>
+            <line>Now goodbye, goodbye, goodbye</line>
+        </stanza>
+
+        <stanza speaker="ALL">
+            <line>Goodbye my Gypsy lovers</line>
+            <line>All my revels here are over</line>
+            <line>Well, goodbye, Matryosha</line>
+            <line>Kiss me one last time, whoa</line>
+            <line>Remember me to Steshka</line>
+            <line>There, goodbye, goodbye, goodbye</line>
+            <line>Wish me luck my Gypsy lovers</line>
+            <line>Now goodbye, goodbye, goodbye</line>
+        </stanza>
+
+        <stanza speaker="ANATOLE">
+            <line>Now drink!</line>
+        </stanza>
+
+        <stanza speaker="ALL">
+            <line>Hurrah!</line>
+            <line>Smash the glasses on the floor!</line>
+        </stanza>
+
+        <direction>They dance.</direction>
+
+        <stanza speaker="ALL">
+            <line>Hey! Hey! Hey! Hey!</line>
+            <line>Hey! Hey! Hey! Hey!</line>
+        </stanza>
+
+        <direction>They dance more. Pierre drunkenly raises a glass.</direction>
+
+        <stanza speaker="ALL">
+            <line>Hey! Hey! Hey! Hey!</line>
+            <line>Hey! Hey! Hey! Hey!</line>
+        </stanza>
+
+        <stanza speaker="PIERRE">
+            <line>Whoa!</line>
+        </stanza>
+
+        <stanza speaker="PIERRE">
+            <line>Here’s to happiness, freedom, and life!</line>
+            <line>May your travel be swift as a scythe cuts through the grass!</line>
+        </stanza>
+
+        <stanza speaker="ALL">
+            <line>Whoa...</line>
+            <line>Whoa...</line>
+        </stanza>
+
+        <stanza speaker="PIERRE">
+            <line>May your sorrows be counted and numbered as many</line>
+            <line>As drops of wine and vodka that stay in my glass!</line>
+        </stanza>
+
+        <stanza speaker="ALL">
+            <line>Whoa...</line>
+            <line>Whoa...</line>
+        </stanza>
+
+        <stanza speaker="PIERRE">
+            <line>Vsego horoshego</line>
+            <line>Na pososhok</line>
+            <line>Poekhali</line>
+        </stanza>
+
+        <stanza speaker="ALL">
+            <line>Vsego horoshego</line>
+            <line>Na pososhok</line>
+            <line>Poekhali</line>
+            <line>Vsego horoshego</line>
+            <line>Na pososhok</line>
+            <line>Poekhali</line>
+        </stanza>
+
+        <stanza speaker="ALL">
+            <line>Vsego horoshego</line>
+            <line>Na pososhok</line>
+            <line>Poekhali</line>
+            <line>Na pososhok!</line>
+            <line>Poekhali!</line>
+        </stanza>
+
+        <stanza speaker="ALL">
+            <line>Come on, let’s go!...</line>
+        </stanza>
+
+        <direction>They start to leave.</direction>
+
+        <stanza speaker="ANATOLE">
+            <line>Wait, wait, wait!</line>
+            <line>Shut the door!</line>
+            <line>First we have to sit down!</line>
+            <line>Yes, that’s the way</line>
+        </stanza>
+
+        <stanza speaker="ANATOLE">
+            <line>It’s a Russian custom</line>
+        </stanza>
+
+        <direction>They shut the door and all sit down for a moment.</direction>
+
+        <stanza speaker="ANATOLE">
+            <line>All right</line>
+        </stanza>
+
+        <direction>They start to leave.</direction>
+
+        <stanza speaker="DOLOKHOV">
+            <line>Wait, wait, wait, wait!</line>
+            <line>Where’s the fur cloak?</line>
+            <line>Huh?</line>
+        </stanza>
+
+        <stanza speaker="DOLOKHOV">
+            <line>I have heard what elopements are like</line>
+            <line>She’ll rush out more dead than alive</line>
+            <line>Just in the things she is wearing</line>
+            <line>If you delay at all, there’ll be tears and “Papa” and “Mama”</line>
+            <line>And she’s frozen in a minute and must go back</line>
+        </stanza>
+
+        <stanza speaker="DOLOKHOV">
+            <line>But you wrap the fur cloak 'round her</line>
+            <line>And you carry her to the sleigh</line>
+            <line>That’s the way</line>
+            <line>That’s the way</line>
+        </stanza>
+
+        <stanza speaker="ALL">
+            <line>That’s the way</line>
+            <line>That’s the way</line>
+        </stanza>
+
+        <stanza speaker="BALAGA">
+            <line>Let’s get outta here!</line>
+        </stanza>
+
+        <stanza speaker="BALAGA">
+            <line>And the troika tore down Nikitski Boulevard</line>
+            <line>Whoa! Giddyup, now! Whoa! Whoa!</line>
+        </stanza>
+
+        <stanza speaker="ALL">
+            <line>Hey Balaga</line>
+            <line>Ho Balaga</line>
+            <line>Hey hey ho Balaga</line>
+            <line>Hey hey Balaga</line>
+            <line>The famous troika driver</line>
+        </stanza>
+
+        <stanza speaker="ALL">
+            <line>Hey Balaga</line>
+            <line>Ho Balaga</line>
+            <line>Hey hey hey Balaga</line>
+            <line>Hey hey Balaga</line>
+            <line>The famous troika driver</line>
+        </stanza>
+
+        <stanza speaker="DOLOKHOV">
+            <line>When they reached the gate Dolokhov whistled</line>
+            <line>The whistle was answered, and a maidservant ran out</line>
+        </stanza>
+
+        <stanza speaker="MAIDSERVANT">
+            <line>Come in through the courtyard or you’ll be seen; she’ll come out directly</line>
+        </stanza>
+
+        <stanza speaker="DOLOKHOV">
+            <line>Dolokhov stayed by the gate</line>
+            <line>Anatole followed the maid into the courtyard</line>
+            <line>Turned the corner, ran up to the porch</line>
+        </stanza>
+
+        <direction>Anatole is stopped by Marya D.</direction>
+
+        <stanza speaker="MARYA D">
+            <line>You will not enter my house, scoundrel!</line>
+        </stanza>
+
+        <stanza speaker="DOLOKHOV">
+            <line>Anatole, come back!</line>
+            <line>Betrayed! Betrayed!</line>
+            <line>Betrayed, Anatole! Betrayed!</line>
+            <line>Come back!</line>
+            <line>Betrayed, Anatole! Betrayed! Betrayed!</line>
+        </stanza>
+
+        <direction>Dolokhov rushes in and rescues Anatole. They flee.</direction>
+    </lyrics>
+</abduction>
