@@ -1,0 +1,140 @@
+<?xml-model href="greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="A Call to Pierre">
+    <metadata>
+        <name>A Call To Pierre</name>
+        <characters>
+            <c>PIERRE</c>
+            <c>SERVANT</c>
+            <c>MARYA D</c>
+        </characters>
+        <source>https://genius.com/Dave-malloy-a-call-to-pierre-lyrics</source>
+    </metadata>
+    <lyrics>
+        <verse>
+            <direction>A servant hands a letter to Pierre.</direction>
+
+            <stanza speaker="SERVANT">
+                <line>A letter from <chara ref="MARYA D">Marya Dmitryevna</chara> asking you to come and visit her</line>
+                <line>On a matter of great importance</line>
+                <line>Relating to <chara ref="ANDREY">Andrey Bolkonsky</chara> and his betrothed</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>What?</line>
+                <line>What can they want with me?</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <direction>He arrives at Marya D.’s.</direction>
+
+            <stanza speaker="MARYA D">
+                <line><chara ref="PIERRE">Pierre</chara>, old friend I’m sorry it’s late</line>
+                <line>I’m sorry I haven’t seen you about</line>
+                <line>Where have you been?</line>
+                <line>Where have you been?</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>I have been studying</line>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line><chara ref="PIERRE">Pierre</chara> old friend, we need your help</line>
+                <line><chara ref="PIERRE">Pierre</chara> old friend: the family name!</line>
+                <line>We need your help</line>
+                <line>We need your help</line>
+                <line>There’s ruin at the door</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line><chara ref="MARYA D">Marya</chara>?</line>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line><chara ref="NATASHA">Natasha</chara> has let down the family</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>What?</line>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line><chara ref="NATASHA">Natasha</chara> has broken with <chara ref="ANDREY">Andrey</chara></line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>What?</line>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line><chara ref="NATASHA">Natasha</chara> has tried to elope</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>What?</line>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line><chara ref="NATASHA">Natasha</chara> and <chara ref="ANATOLE">Anatole Kuragin</chara>!</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>What?!</line>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line>We need your help</line>
+                <line>We need your help</line>
+                <line>There’s ruin at the door</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="PIERRE">
+                <line><chara ref="NATASHA">Natasha</chara>, that charming girl?</line>
+                <line>I can’t believe my ears</line>
+                <line>So I am not the only man</line>
+                <line>Chained to a bad woman</line>
+                <line>And <chara ref="ANATOLE">Anatole</chara>, that stupid child</line>
+                <line>They’ll lock him up for years</line>
+                <line>For <chara ref="ANATOLE">Anatole</chara> is a married man!</line>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line>Married? He’s married?</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>Yes</line>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line>Oh wait ’til I tell her</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>Poor <chara ref="ANDREY">Andrey</chara></line>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line>And when <chara ref="ANDREY">Andrey</chara> comes home</line>
+                <line>He will challenge <chara ref="ANATOLE">Anatole</chara> to a duel</line>
+                <line>And get himself killed</line>
+                <line>And all will be ruined</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="MARYA D">
+                <line>You must go see your brother-in-law</line>
+                <line>And tell him that he must leave Moscow</line>
+                <line>And not dare to let me set my eyes on him again</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>At once</line>
+            </stanza>
+        </verse>
+    </lyrics>
+</song>
