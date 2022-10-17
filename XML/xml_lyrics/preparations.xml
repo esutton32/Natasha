@@ -1,0 +1,187 @@
+ <?xml-model href="greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="Preparations">
+    <metadata>
+        <name>Preparations</name>
+        <characters>
+            <c>PIERRE</c>
+            <c>ANATOLE</c>
+            <c>DOLOKHOV</c>
+        </characters>
+        <source>https://genius.com/Dave-malloy-preparations-lyrics</source>
+    </metadata>
+    <lyrics>
+        <verse>
+            <direction>Pierre runs into Anatole on the street. Pierre is drunk, Anatole in a
+                hurry.</direction>
+
+            <stanza speaker="PIERRE">
+                <line>Ah, <chara ref="ANATOLE">Anatole</chara>! Where are you off to?</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line><chara ref="PIERRE">Pierre</chara>, good man</line>
+                <line>Tonight I go away, on an adventure</line>
+                <line>You’ll not be seeing me for some time</line>
+                <line>I’ve found a new pleasure</line>
+                <line>And I’m taking her away</line>
+                <line>I’ll send you a letter from Poland</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>Ha! An elopement!</line>
+                <line>Fool, you are married already!</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>Don’t talk to me of that!</line>
+                <line>I will not deprive myself of this one!</line>
+                <line>Tonight! I take her tonight!</line>
+                <line>Lend me fifty rubles?</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>Ah, that's a true sage</line>
+                <line>Living in the moment</line>
+                <line>What I wouldn’t give to be like him!</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="DOLOKHOV">
+                <line>The plan for <chara ref="NATASHA" address="familiar">Natalie Rostova</chara>’s abduction</line>
+                <line>Had all been arranged and the preparations made</line>
+                <line>On the day that <chara address="SONYA">Sonya</chara> decided to save her</line>
+                <line>That was the day that the game was to be played</line>
+            </stanza>
+
+            <stanza speaker="DOLOKHOV">
+                <line><chara ref="NATASHA">Natasha</chara> was to be on her back porch at ten</line>
+                <line><chara ref="ANATOLE">Anatole</chara> and his troika would scoop her up and then</line>
+                <line>They’d ride forty miles to the village of Kamenka</line>
+                <line>Where an unfrocked priest was to make ’em get wed</line>
+                <line>Then back into the troika off they’d go</line>
+                <line>Take the Poland highroad to the wedding bed</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>Passports, horses, ten thousand rubles I have taken from my sister</line>
+                <line>And another ten thousand raised with <chara ref="DOLOKHOV">Dolokhov</chara>’s help</line>
+            </stanza>
+
+            <stanza speaker="DOLOKHOV">
+                <s-action kind="mixed" descr="DOLOKHOV" descr2="ANATOLE"><line>We were gathered in my study drinking up some tea</line></s-action>
+                <line>Just <chara ref="ANATOLE">Anatole</chara>, the two wedding witnesses, and me</line>
+                <line>An abacus and paper money strewn on the desk</line>
+                <line>Persian rugs and bearskins hanging grotesque</line>
+                <s-action kind="other" descr="ANATOLE"><line><chara ref="ANATOLE">Anatole</chara> was walking with his uniform unbuttoned</line>
+                <line>Walking to and fro</line>
+                <line>To and fro</line>
+                <line>To and fro</line></s-action>
+            </stanza>
+
+            <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
+                <s-action descr="ANATOLE"><line>To and fro</line>
+                <line>To and fro</line>
+                <line>To and fro</line>
+                <line>To and fro</line></s-action>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="DOLOKHOV">
+                <line>Now wait!</line>
+                <line>You better</line>
+                <line>Just</line>
+                <line>Give it up now</line>
+                <line>Why dontcha</line>
+                <line>While there’s still time!</line>
+                <line>You’d really better drop it all</line>
+                <line>Give it up now!</line>
+                <line>While there’s still time!</line>
+                <line>Do you know?</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>What, teasing again?</line>
+                <line>Fool don’t talk nonsense!</line>
+                <line>Go to the devil! Eh?</line>
+                <line>Really this is no time for your stupid jokes</line>
+            </stanza>
+
+            <stanza speaker="DOLOKHOV">
+                <line>I am not joking, I am talking sense</line>
+                <line>This is serious business, a dangerous business</line>
+                <line>Come here, come here, come here <chara ref="ANATOLE">Anatole</chara>!</line>
+                <line>Why would I joke about it?</line>
+                <line>Me of all people</line>
+                <line>Who found the priest, raised the money, got the passports, got the
+                    horses?</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>And well I thank you for it</line>
+                <line>Do you think I am not grateful?</line>
+            </stanza>
+
+            <stanza speaker="DOLOKHOV">
+                <line>And now you’ll carry her away but will they let it stop there?</line>
+                <line>You haven’t thought this through or do you just don’t care?</line>
+                <line>Now listen to me tell it to you one last time</line>
+                <line>They will take you to the court and convict you for your crime</line>
+                <line>Already married and you’re playing with a little girl</line>
+                <line>Don’t you know, don’t you think, don’t you know?</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="ANATOLE">
+                <line>Nonsense, nonsense!</line>
+                <s-action kind="self" descr="ANATOLE" type="1st"><line>I’m scowling and grimacing</line></s-action>
+                <line>Didn’t I explain it to you, didn’t I, what?</line>
+            </stanza>
+
+            <stanza speaker="DOLOKHOV">
+                <s-action kind="other" descr="ANATOLE"><line>And here <chara ref="ANATOLE">Anatole</chara></line>
+                <line>With the stubborn attachment small-minded people have</line>
+                <line>For conclusions they’ve worked out for themselves</line>
+                <line>Repeated his argument to me for the hundredth time</line></s-action>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>If this marriage isn’t valid</line>
+                <line>Then I’m off the hook</line>
+                <line>But if it is valid, it really doesn’t matter!</line>
+                <line>No one abroad is gonna know a thing about it</line>
+                <line>Isn’t that so now don’t you know?</line>
+                <line>Don’t talk to me, don’t don’t what what</line>
+                <line>Ah go to hell now</line>
+                <s-action kind="self" descr="ANATOLE" type="1st"><line>I’m clutching my hair!</line></s-action>
+                <line>It’s the very devil!</line>
+                <line>Here, feel how it beats!</line>
+            </stanza>
+
+            <direction>He presses Dolokhov’s hand to his heart. A light comes up on Natasha across
+                the room.</direction>
+        </verse>
+
+        <verse>
+            <stanza speaker="ANATOLE">
+                <line>Ah ma chere, ma chere</line>
+                <line>Quel pied, quel regard!</line>
+                <line>What a foot she has, what a glance!</line>
+                <line>A goddess!</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <s-action kind="self" descr="ANATOLE" type="1st"><line>And my handsome lips</line>
+                <line>Mutter something tender to myself</line></s-action>
+                <line>It’s time!</line>
+                <line>It’s time!</line>
+                <line>Now then! Nearly ready? You’re dawdling!</line>
+                <line>The driver is here</line>
+                <line>The driver is here</line>
+                <line><chara ref="BALAGA">Balaga</chara> is here!</line>
+            </stanza>
+        </verse>
+    </lyrics>
+</song>
