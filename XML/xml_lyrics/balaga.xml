@@ -1,224 +1,241 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<balaga>
+<?xml-model href="greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="Balaga">
     <metadata>
         <name>Balaga</name>
-        <characters/>
-        <composer/>
-        <lyricist/>
-        <source/>
+        <characters>
+            <c>ANATOLE</c>
+            <c>DOLOKHOV</c>
+            <c>ALL</c>
+            <c>BALAGA</c>
+        </characters>
+        <source>https://genius.com/Dave-malloy-balaga-lyrics</source>
     </metadata>
     <lyrics>
-        <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
-            <line>Hey Balaga</line>
-            <line>Ho Balaga</line>
-            <line>Hey hey ho Balaga</line>
-            <line>Hey hey Balaga</line>
-            <line>The famous troika driver</line>
-        </stanza>
+        <verse>
+            <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
+                <line>Hey <chara ref="BALAGA">Balaga</chara></line>
+                <line>Ho <chara ref="BALAGA">Balaga</chara></line>
+                <line>Hey hey ho <chara ref="BALAGA">Balaga</chara></line>
+                <line>Hey hey <chara ref="BALAGA">Balaga</chara></line>
+                <line>The famous troika driver</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>Hey Balaga</line>
-            <line>Ho Balaga</line>
-            <line>Hey hey hey Balaga</line>
-            <line>Hey hey Balaga</line>
-            <line>The famous troika driver</line>
-        </stanza>
+            <stanza speaker="ALL">
+                <line>Hey <chara ref="BALAGA">Balaga</chara></line>
+                <line>Ho <chara ref="BALAGA">Balaga</chara></line>
+                <line>Hey hey hey <chara ref="BALAGA">Balaga</chara></line>
+                <line>Hey hey <chara ref="BALAGA">Balaga</chara></line>
+                <line>The famous troika driver</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Who’s that madman flying at full gallop down the street</line>
-            <line>Who’s that madman knocking people over</line>
-            <line>Running people down</line>
-            <line>While his fine gentlemen</line>
-            <line>Hold on to their seats</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Who’s that madman flying at full gallop down the street</line>
+                <line>Who’s that madman knocking people over</line>
+                <line>Running people down</line>
+                <line>While his fine gentlemen</line>
+                <line>Hold on to their seats</line>
+            </stanza>
+        </verse>
 
-        <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
-            <line>It’s Balaga!</line>
-        </stanza>
+        <chorus>
+            <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
+                <line>It’s <chara ref="BALAGA">Balaga</chara>!</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Driving mad at twelve miles an hour</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Driving mad at twelve miles an hour</line>
+            </stanza>
 
-        <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
-            <line>Balaga!</line>
-        </stanza>
+            <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
+                <line><chara ref="BALAGA">Balaga</chara>!</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Comin’ straight at you</line>
-            <line>Get out my way, get out my way</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Comin’ straight at you</line>
+                <line>Get out my way, get out my way</line>
+            </stanza>
 
-        <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
-            <line>Balaga!</line>
-        </stanza>
+            <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
+                <line><chara ref="BALAGA">Balaga</chara>!</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Lashin’ my whip at horses and peasants</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Lashin’ my whip at horses and peasants</line>
+            </stanza>
 
-        <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
-            <line>Balaga!</line>
-        </stanza>
+            <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
+                <line><chara ref="BALAGA">Balaga</chara>!</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Risking skin and life twenty times a year</line>
-            <line>For my fine fine gentlemen</line>
-            <line>Yessir hey ho yessir</line>
-            <line>Yessir yessir yessir</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Risking skin and life twenty times a year</line>
+                <line>For my fine fine gentlemen</line>
+                <line>Yessir hey ho yessir</line>
+                <line>Yessir yessir yessir</line>
+            </stanza>
+        </chorus>
 
-        <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
-            <line>More than once!</line>
-        </stanza>
+        <verse>
+            <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
+                <line>More than once!</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>From Tula to Moscow and back in just one night</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>From Tula to Moscow and back in just one night</line>
+            </stanza>
 
-        <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
-            <line>More than once!</line>
-        </stanza>
+            <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
+                <line>More than once!</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>A narrow escape from a wild Cossack fight</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>A narrow escape from a wild Cossack fight</line>
+            </stanza>
 
-        <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
-            <line>More than once!</line>
-        </stanza>
+            <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
+                <line>More than once!</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>They’ve beaten me and slapped me with their gloves</line>
-        </stanza>
-        
-        <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
-            <line>More than once!</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>They’ve beaten me and slapped me with their gloves</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Made me drunk on champagne, which I love!</line>
-        </stanza>
+            <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
+                <line>More than once!</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>Hey Balaga</line>
-            <line>Ho Balaga</line>
-            <line>Hey hey ho Balaga</line>
-            <line>Hey hey Balaga</line>
-            <line>The famous troika driver</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Made me drunk on champagne, which I love!</line>
+            </stanza>
+        </verse>
 
-        <stanza speaker="ALL">
-            <line>Hey Balaga</line>
-            <line>Ho Balaga</line>
-            <line>Hey hey hey Balaga</line>
-            <line>Hey hey Balaga</line>
-            <line>The famous troika driver</line>
-        </stanza>
+        <verse>
+            <stanza speaker="ALL">
+                <line>Hey <chara ref="BALAGA">Balaga</chara></line>
+                <line>Ho <chara ref="BALAGA">Balaga</chara></line>
+                <line>Hey hey ho <chara ref="BALAGA">Balaga</chara></line>
+                <line>Hey hey <chara ref="BALAGA">Balaga</chara></line>
+                <line>The famous troika driver</line>
+            </stanza>
 
-        <stanza speaker="ANATOLE">
-            <line>Who’s that slowpoke we abuse with wild and tipsy shouts</line>
-        </stanza>
+            <stanza speaker="ALL">
+                <line>Hey <chara ref="BALAGA">Balaga</chara></line>
+                <line>Ho <chara ref="BALAGA">Balaga</chara></line>
+                <line>Hey hey hey <chara ref="BALAGA">Balaga</chara></line>
+                <line>Hey hey <chara ref="BALAGA">Balaga</chara></line>
+                <line>The famous troika driver</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Who knows things that would get you sent straight to Siberia</line>
-            <line>If anyone found out</line>
-        </stanza>
+            <stanza speaker="ANATOLE">
+                <line>Who’s that slowpoke we abuse with wild and tipsy shouts</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>It’s Balaga!</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Who knows things that would get you sent straight to Siberia</line>
+                <line>If anyone found out</line>
+            </stanza>
+        </verse>
 
-        <stanza speaker="BALAGA">
-            <line>Driving mad at twelve miles an hour</line>
-        </stanza>
+        <chorus>
+            <stanza speaker="ALL">
+                <line>It’s <chara ref="BALAGA">Balaga</chara>!</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>Balaga!</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Driving mad at twelve miles an hour</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Comin’ straight at you</line>
-            <line>Get out my way, get out my way</line>
-        </stanza>
+            <stanza speaker="ALL">
+                <line><chara ref="BALAGA">Balaga</chara>!</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>Balaga!</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Comin’ straight at you</line>
+                <line>Get out my way, get out my way</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Drinking and dancing with my Ruska Roma</line>
-        </stanza>
+            <stanza speaker="ALL">
+                <line><chara ref="BALAGA">Balaga</chara>!</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>Balaga!</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Drinking and dancing with my Ruska Roma</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Riding my horses into the ground</line>
-            <line>For my fine fine gentlemen</line>
-            <line>Yessir hey ho yessir</line>
-            <line>Yessir yessir yessir</line>
-        </stanza>
+            <stanza speaker="ALL">
+                <line><chara ref="BALAGA">Balaga</chara>!</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>More than once!</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Riding my horses into the ground</line>
+                <line>For my fine fine gentlemen</line>
+                <line>Yessir hey ho yessir</line>
+                <line>Yessir yessir yessir</line>
+            </stanza>
+        </chorus>
 
-        <stanza speaker="BALAGA">
-            <line>Driven you round with ladies on your laps</line>
-        </stanza>
+        <verse>
+            <stanza speaker="ALL">
+                <line>More than once!</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>More than once!</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Driven you round with ladies on your laps</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Taken you places not on any maps</line>
-        </stanza>
+            <stanza speaker="ALL">
+                <line>More than once!</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>More than once!</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Taken you places not on any maps</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Galloped faster than ordinary men would dare</line>
-        </stanza>
+            <stanza speaker="ALL">
+                <line>More than once!</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>More than once!</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Galloped faster than ordinary men would dare</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>Jumped my troika right into the air</line>
-        </stanza>
+            <stanza speaker="ALL">
+                <line>More than once!</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>And I never ask for rubles</line>
-            <line>Except maybe once a year</line>
-            <line>I don’t do this for rubles</line>
-            <line>I do it cuz I like ’em!</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>Jumped my troika right into the air</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>And we like Balaga too!</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>And I never ask for rubles</line>
+                <line>Except maybe once a year</line>
+                <line>I don’t do this for rubles</line>
+                <line>I do it cuz I like ’em!</line>
+            </stanza>
 
-        <stanza speaker="ANATOLE">
-            <line>Whoa…</line>
-        </stanza>
+            <stanza speaker="ALL">
+                <line>And we like <chara ref="BALAGA">Balaga</chara> too!</line>
+            </stanza>
+        </verse>
 
-        <stanza speaker="ALL">
-            <line>Whoa…</line>
-        </stanza>
+        <verse>
+            <stanza speaker="ANATOLE">
+                <line>Whoa…</line>
+            </stanza>
 
-        <stanza speaker="BALAGA">
-            <line>That's my song!</line>
-        </stanza>
+            <stanza speaker="ALL">
+                <line>Whoa…</line>
+            </stanza>
 
-        <stanza speaker="ALL">
-            <line>Whoa...</line>
-            <line>Whoa...</line>
-        </stanza>
+            <stanza speaker="BALAGA">
+                <line>That's my song!</line>
+            </stanza>
+
+            <stanza speaker="ALL">
+                <line>Whoa...</line>
+                <line>Whoa...</line>
+            </stanza>
+        </verse>
     </lyrics>
-</balaga>
+</song>
