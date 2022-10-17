@@ -1,0 +1,49 @@
+start = song
+song = element song { title, metadata, lyrics }
+title = attribute title { text }
+# 
+#
+metadata = element metadata { name, characters, source }
+name = element name { text }
+characters = element characters { c+ }
+c = element c { text }
+# c is meant to indicate characters in the metadata. i did it this way so that it wouldn't cause confusion with the chara class
+# Characters is a list of characters who SING in the text, not that are mentioned. This can be changed
+source = element source { text }
+# 
+#
+lyrics = element lyrics { (verse | chorus | speech)* }
+verse = element verse { content }
+chorus = element chorus { content }
+content = (direction | stanza )*
+direction = element direction { text }
+speech = element speech { (line  | speaker)* }
+# S-action (abbreviated from spoken action) is meant to indicate when characters describe what they or another character are doing.
+s-action =
+    element s-action {
+        mixed { (line | kind | descr | descr2 | type | chara)* }
+    }
+kind = attribute kind { text }
+# This will have "self" and "other" tags to delineate whether they are describing themselves or another person.
+descr = attribute descr { text }
+descr2 = attribute descr2 { text }
+# The idea is that each s-action will have a descr that will say who they are describing; if it is two people there will be descr2
+type = attribute type { text }
+# If a character is describing themselves, type will say whether it is 1st or 3rd person
+#
+#
+stanza = element stanza { speaker, (line | s-action | speaker2 | speaker3)* }
+speaker = attribute speaker { text }
+speaker2 = attribute speaker2 { text }
+speaker3 = attribute speaker3 { text }
+line =
+    element line {
+        mixed { (chara | s-action | backing)* }
+    }
+backing = attribute backing { text }
+# Backing indicates when the chorus is singing the words alongside the main speaker
+chara = element chara { mixed {(ref | address)*}}
+# Chara is meant to indicate when a character's name is said; it will include their name in ref as it is when noted as speaker (i.e. capitals)
+ref = attribute ref { text }
+address = attribute address { text}
+# Address indicates what the level of formality is between the two; for example if it's a diminutive
