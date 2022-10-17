@@ -1,4 +1,4 @@
-<?xml-model href="greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song title="Pierre and Anatole">
     <metadata>
         <name>Pierre and Anatole</name>
@@ -44,7 +44,7 @@
             </stanza>
 
             <direction>He takes a heavy paperweight and lifts it threateningly, but at once puts it
-                back in its place.)</direction>
+                back in its place.</direction>
         </verse>
         <verse>
             <stanza speaker="PIERRE">
