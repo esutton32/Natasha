@@ -1,0 +1,80 @@
+<?xml-model href="greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="Sonya Alone"><metadata>
+    <name>Sonya Alone</name>
+    <characters>
+        <c>SONYA</c>
+    </characters>
+    <source>https://genius.com/Dave-malloy-sonya-alone-lyrics</source>
+</metadata>
+<lyrics>
+    <verse>
+        <stanza speaker="SONYA">
+            <line>Hard as it is</line>
+            <line>In the coming days</line>
+            <line>I watch my friend</line>
+            <line>In her strange unnatural state</line>
+            <line>Don’t let her out of my sight</line>
+            <line>She trails off</line>
+            <line>Stares at nothing</line>
+            <line>Laughs at random</line>
+            <line>And the letters come</line>
+            <line>She waits by the window</line>
+            <line>And I listen at the door</line>
+            <line>Until one day</line>
+            <line>I see by the sad look on her face</line>
+            <line>There is a dreadful plan in her heart</line>
+        </stanza>
+
+        <stanza speaker="SONYA">
+            <line>I know you are capable of anything</line>
+            <line>I know you so well my friend</line>
+            <line>I know you might just run away</line>
+            <line>What am I to do?</line>
+            <line>Who do I ask for help?</line>
+            <line>Is it all on me?</line>
+            <line>Is it all on me?</line>
+        </stanza>
+    </verse>
+
+    <chorus>
+        <stanza speaker="SONYA">
+            <line>I will stand in the dark for you</line>
+            <line>I will hold you back by force</line>
+            <line>I will stand here right outside your door</line>
+            <line>I won’t see you disgraced</line>
+            <line>I will protect your name and your heart</line>
+            <line>Because I miss my friend</line>
+        </stanza>
+    </chorus>
+
+    <verse>
+        <stanza speaker="SONYA">
+            <line>I know you’ve forgotten me</line>
+            <line>I know you so well my friend</line>
+            <line>I know you might just throw yourself over</line>
+            <line>But I won’t let you</line>
+            <line>I won’t let you</line>
+            <line>It’s all on me</line>
+        </stanza>
+
+        <stanza speaker="SONYA">
+            <line>And I remember this family</line>
+            <line>I remember their kindness</line>
+            <line>And if I never sleep again</line>
+        </stanza>
+    </verse>
+
+    <chorus>
+        <stanza speaker="SONYA">
+            <line>I will stand in the dark for you</line>
+            <line>I will hold you back by force</line>
+            <line>I will stand here right outside your door</line>
+            <line>I won’t see you disgraced</line>
+            <line>I will protect your name and your heart</line>
+            <line>Because I miss my friend</line>
+            <line>Because I miss my friend</line>
+            <line>Because I miss you, my friend</line>
+        </stanza>
+    </chorus>
+</lyrics>
+</song>
