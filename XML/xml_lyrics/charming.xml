@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="Charming">
+    <metadata>
+        <name>Charming</name>
+        <characters>
+            <c>HÉLÈNE</c>
+            <c>NATASHA</c>
+        </characters>
+        <source>https://genius.com/Dave-malloy-charming-lyrics</source>
+    </metadata>
+    <lyrics>
+        <verse>
+            <stanza speaker="HÉLÈNE">
+                <line>Oh <chara ref="NATASHA" address="pet">my enchantress</chara></line>
+                <line>Oh you <chara ref="NATASHA" address="pet">beautiful thing</chara></line>
+                <line>Charming, charming</line>
+                <line>Oh, this is really beyond anything</line>
+                <line>These dresses suit you</line>
+                <line>This one, “metallic gauze”</line>
+                <line>Straight from Paris</line>
+                <line>Anything suits you, <chara ref="NATASHA" address="pet">my charmer</chara></line>
+            </stanza>
+        </verse>
+
+        <chorus><stanza speaker="HÉLÈNE">
+            <line>Oh how she blushes, how she blushes, <chara ref="NATASHA" address="pet">my pretty!</chara></line>
+            <line>Oh how she blushes, how she blushes, <chara ref="NATASHA" address="pet">my pretty!</chara></line>
+            <line>Charmante, charmante!</line>
+            <line>You are such a lovely thing</line>
+            <line>Oh where have you been?</line>
+            <line>It’s such a shame to bury pearls in the country</line>
+            <line>Charmante, charmante, charming</line>
+        </stanza>
+        </chorus>
+
+        <verse>
+            <stanza speaker="HÉLÈNE">
+                <line>Now if you have a dress</line>
+                <line>You must wear it out</line>
+                <line>How can you live in Moscow and not go nowhere?</line>
+                <line>So you love somebody, charming</line>
+                <line>But that’s no reason to shut yourself in</line>
+                <line>Even if you’re engaged</line>
+                <line>You must wear your dress out somewhere</line>
+            </stanza>
+
+            <stanza speaker="HÉLÈNE">
+                <line><chara ref="ANATOLE" address="familial">My brother</chara> dined with me yesterday</line>
+                <line>But he didn’t eat a thing</line>
+                <line>Cuz he was thinking ’bout you</line>
+                <line>He kept sighing about you</line>
+            </stanza>
+        </verse>
+
+        <chorus>
+            <stanza speaker="HÉLÈNE">
+                <line>Oh how she blushes, how she blushes, <chara ref="NATASHA" address="pet">my pretty!</chara>!</line>
+                <line>Oh how she blushes, how she blushes, <chara ref="NATASHA" address="pet">my pretty!</chara>!</line>
+                <line>Charmante, charmante!</line>
+                <line>You are such a lovely thing</line>
+                <line>Oh where have you been?</line>
+                <line>It’s such a shame to bury pearls in the country</line>
+                <line>Charmante, charmante, charming</line>
+            </stanza>
+        </chorus>
+
+        <verse>
+            <stanza speaker="HÉLÈNE">
+                <line>Now a woman with a dress</line>
+                <line>Is a frightening and powerful thing</line>
+                <line>You are not a child</line>
+                <line>When you’re draped in scarlet and lace</line>
+                <line>Your fiancé would want you to have fun</line>
+                <line>Rather than be bored to death</line>
+                <line>Alliez dans le monde</line>
+                <line>Plutôt que de dépérir d’ennui!</line>
+            </stanza>
+            
+            <stanza speaker="HÉLÈNE">
+                <line><chara ref="ANATOLE" address="familial">My brother</chara> is quite madly in love</line>
+                <line>He is quite madly in love with you, my dear</line>
+            </stanza>
+        </verse>
+
+        <chorus>
+            <stanza speaker="HÉLÈNE">
+                <line>Oh how she blushes, how she blushes, <chara ref="NATASHA" address="pet">my pretty!</chara>!</line>
+                <line>Oh how she blushes, how she blushes, <chara ref="NATASHA" address="pet">my pretty!</chara>!</line>
+                <line>Charmante, charmante!</line>
+                <line>You are such a lovely thing</line>
+                <line>Oh where have you been?</line>
+                <line>It’s such a shame to bury pearls in the country</line>
+                <line>Charmante, charmante, charming</line>
+                <line>Such a shame to bury pearls in the country</line>
+                <line>Charmante, charmante, charming</line>
+            </stanza>
+        </chorus>
+
+        <verse>
+            <stanza speaker="NATASHA">
+                <line>What once seemed so terrible</line>
+                <line>Now seems simple and natural</line>
+                <line>She knows that I’m engaged</line>
+                <line>And still she talks so frankly</line>
+                <line>So it must be all right!</line>
+            </stanza>
+
+            <stanza speaker="HÉLÈNE">
+                <line>There is a ball at my house tonight</line>
+                <line>You must come</line>
+                <line>Oh your wide-open, wondering eyes!</line>
+                <line>You will be the prettiest there!</line>
+                <line>How the thought of throwing them together amuses me!</line>
+                <line>You must come</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>I will come</line>
+            </stanza>
+        </verse>
+    </lyrics>
+</song>
