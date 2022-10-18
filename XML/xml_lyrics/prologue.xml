@@ -1,4 +1,4 @@
-<?xml-model href="greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song title="Prologue">
     <metadata>
         <name>Prologue</name>
