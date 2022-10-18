@@ -7,7 +7,7 @@
             <c>PIERRE</c>
             <c>NATASHA</c>
             <c>SONYA</c>
-            <c>MARYA</c>
+            <c>MARYA D</c>
             <c>ANATOLE</c>
             <c>HÉLÈNE</c>
             <c>DOLOKHOV</c>
@@ -181,7 +181,7 @@
             <stanza speaker="ALL">
                 <line><chara ref="BALAGA">Balaga</chara>’s just for fun!</line>
                 <line><chara ref="BALAGA">Balaga</chara> is fun</line>
-                <line>Bolkonsky is crazy</line>
+                <line><chara ref="BOLKONSKY">Bolkonsky</chara> is crazy</line>
                 <line><chara ref="MARY">Mary</chara> is plain</line>
                 <line><chara ref="DOLOKHOV">Dolokhov</chara> is fierce</line>
                 <line><chara ref="HÉLÈNE">Hélène</chara> is a slut</line>
