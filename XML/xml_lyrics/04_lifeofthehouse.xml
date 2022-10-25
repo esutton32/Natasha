@@ -1,0 +1,194 @@
+<?xml-model href="../../greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="The Private and Intimate Life of the House">
+    <metadata>
+        <name>The Private and Intimate Life of the House</name>
+        <characters>
+            <c>BOLKONSKY</c>
+            <c>MARY</c>
+            <c>NATASHA</c>
+        </characters>
+        <source>https://genius.com/Dave-malloy-the-private-and-intimate-life-of-the-house-lyrics</source>
+    </metadata>
+    <lyrics>
+        <verse>
+            <stanza speaker="BOLKONSKY">
+                <line>I’ve aged</line>
+                <line>I’ve aged so very much</line>
+                <s-action kind="self" descr="BOLKONSKY" type="1st"><line>I fall asleep at the
+                        table</line>
+                    <line>My napkin drops to the floor</line></s-action>
+            </stanza>
+
+            <stanza speaker="BOLKONSKY">
+                <line>I’m full of childish vanities</line>
+                <line>I forget things</line>
+                <line>And I live in the past</line>
+                <line>I’ve aged so very much</line>
+                <line>People enjoy me though</line>
+                <line>I come in for tea in my old-fashioned coat and powdered wig</line>
+                <line>And I tell stories</line>
+                <line>And utter scathing critiques</line>
+                <s-action kind="self" descr="BOLKONSKY" type="3rd"><line>This <chara ref="BOLKONKSKY">stern, shrewd old
+                        man</chara></line>
+                    <line>A <chara ref="BOLKONSKY">relic of the past century</chara></line>
+                    <line>With <chara ref="MARY">his gentle daughter</chara></line></s-action>
+                <line>Such a <chara ref="MARY">majestic and agreeable spectacle</chara></line>
+            </stanza>
+
+            <stanza speaker="MARY">
+                <line>But besides the couple of hours during which we have guests</line>
+                <line>There are also twenty-two hours in the day</line>
+                <line>During which the private and intimate life of the house continues</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="BOLKONSKY">
+                <line>Bring my me slippers</line>
+            </stanza>
+
+            <stanza speaker="MARY">
+                <line>Yes <chara ref="BOLKONSKY" address="familial">father</chara>, yes <chara ref="BOLKONSKY" address="familial">father</chara></line>
+            </stanza>
+
+            <stanza speaker="BOLKONSKY">
+                <line>Bring me my wine</line>
+            </stanza>
+
+            <stanza speaker="MARY">
+                <line>Yes <chara ref="BOLKONSKY" address="familial">father</chara>, yes <chara ref="BOLKONSKY" address="familial">father</chara></line>
+            </stanza>
+
+            <stanza speaker="BOLKONSKY">
+                <line>If you’re not too busy</line>
+                <line>Fiddling with your incense and icons?</line>
+            </stanza>
+
+            <stanza speaker="MARY">
+                <line>No <chara ref="BOLKONSKY" address="familial">father</chara>, no <chara ref="BOLKONSKY" address="familial">father</chara></line>
+                <line>And I have no friends</line>
+                <line>No, never go anywhere</line>
+                <line>Never invited</line>
+                <line>For who would take care of him</line>
+            </stanza>
+
+            <stanza speaker="BOLKONSKY">
+                <line>I can hurt you</line>
+            </stanza>
+
+            <stanza speaker="MARY" speaker2="BOLKONSKY">
+                <line>I can hurt you</line>
+            </stanza>
+
+            <stanza speaker="MARY">
+                <line>But I never ever ever ever would</line>
+                <line>No <chara ref="BOLKONSKY">father</chara></line>
+                <line>I love you <chara ref="BOLKONSKY">father</chara></line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="MARY">
+                <line>And time moves on</line>
+                <line>And my fate slips past</line>
+                <line>And nothing ever happens to me</line>
+                <line>And <chara ref="NATASHA" address="formal">Countess Natalya Rostova</chara> is
+                    coming for tea</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>I know they’ll like me</line>
+                <line>Everyone has always liked me</line>
+            </stanza>
+
+            <stanza speaker="BOLKONSKY">
+                <line><chara ref="NATASHA">Natasha</chara> is young</line>
+                <line>And worthless and dumb</line>
+            </stanza>
+
+            <stanza speaker="MARY">
+                <line>And time moves on</line>
+                <line>And my fate slips past</line>
+                <line>Is this all I’ll make of my life?</line>
+                <line>Will I never be happy?</line>
+                <line>Will I never be anyone’s wife?</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="BOLKONSKY">
+                <line>Ah, what’s this? A young suitor?</line>
+                <line>Ah, come in, come in</line>
+                <line>But don’t sit down, don’t sit down</line>
+                <line>I’m cold to you</line>
+                <line>Yes I’m mean to you</line>
+                <line>Now be gone, be gone be gone!</line>
+                <line>And don’t come back!</line>
+                <line>Oh, maybe I’ll marry someone myself</line>
+                <line>Some cheap French thing</line>
+                <line>Oh that offends you does it?</line>
+                <line>Ah, come in my dear</line>
+                <line>Come in my dear, come in</line>
+            </stanza>
+
+            <stanza speaker="MARY">
+                <s-action kind="other" descr="BOLKONSKY"><line>And he draws her to him</line>
+                    <line>And he kisses her hand</line>
+                    <line>Embraces her affectionately</line></s-action>
+                <s-action kind="self" descr="MARY" type="1st"><line>And I flush and run out of the
+                        room</line></s-action>
+            </stanza>
+
+            <stanza speaker="BOLKONSKY">
+                <line>Come back here</line>
+                <line>Let an <chara ref="BOLKONSKY">old man</chara> have his fun</line>
+            </stanza>
+
+            <stanza speaker="MARY">
+                <line>But she’s just using you <chara ref="BOLKONSKY" address="familial">papa</chara></line>
+                <line>Wants your money <chara ref="BOLKONSKY" address="familial">papa</chara>!</line>
+                <line>To take advantage of your weakness like that</line>
+                <line>It’s disgusting</line>
+                <s-action kind="self" descr="MARY" type="1st"><line>My voice
+                    breaks</line></s-action>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="BOLKONSKY">
+                <line>It’s my money and I’ll throw it where I want</line>
+                <line>Not at you!</line>
+                <line>And not at <chara ref="ANDREY">Andrey</chara>’s <chara ref="NATASHA">harlot</chara>!</line>
+                <line><chara ref="MARY">Insolent girl</chara>!</line>
+                <line><chara ref="MARY">Insolent girl</chara>!</line>
+                <line>Where—</line>
+                <line>Where—</line>
+                <line>Where are my glasses?</line>
+                <line>Where are they?</line>
+                <line>Where are my glasses?</line>
+                <line>Oh God—</line>
+                <line>Oh God I’m frightened</line>
+                <line>Oh God I’ve aged so very much</line>
+                <line>Where are my glasses?</line>
+                <line>Where are my glasses?</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="MARY">
+                <line>They are there upon his head</line>
+                <s-action kind="self" descr="MARY" type="1st"><line>The pride of sacrifice</line>
+                    <line>Gathers in my soul</line></s-action>
+                <line>And he forgets things</line>
+                <s-action kind="other" descr="BOLKONSKY"><line>He falls asleep at the table</line>
+                    <line>His napkin drops to the floor</line>
+                    <line>His shaking head</line>
+                    <line>Sinks over his plate</line></s-action>
+                <line>He is old and feeble</line>
+                <line>And I dare to judge him</line>
+                <line>I disgust myself</line>
+                <line>I disgust myself</line>
+            </stanza>
+        </verse>
+    </lyrics>
+</song>
