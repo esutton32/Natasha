@@ -1,0 +1,303 @@
+<?xml-model href="../../greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="The Opera">
+    <metadata>
+        <name>The Opera</name>
+        <characters>
+            <c>MARYA D</c>
+            <c>SONYA</c>
+            <c>ANATOLE</c>
+            <c>HÉLÈNE</c>
+            <c>ALL</c>
+            <c>NATASHA</c>
+            <c>SERVANT</c>
+        </characters>
+        <source>https://genius.com/Dave-malloy-the-opera-lyrics</source>
+    </metadata>
+    <lyrics>
+        <verse>
+            <stanza speaker="MARYA D">
+                <line>The opera, the opera!</line>
+                <line>Stop mooning and moaning, we’ll miss the curtain!</line>
+            </stanza>
+
+            <stanza speaker="SERVANT">
+                <line>Ladies</line>
+                <line>Welcome to the opera</line>
+            </stanza>
+
+            <stanza speaker="SONYA">
+                <line>Bare arms and shoulders</line>
+                <line>Brilliant uniforms</line>
+                <line>Pearls and silk</line>
+                <line>Glittering before our eyes</line>
+                <line>Feminine envy</line>
+                <line>A whole crowd of memories</line>
+                <line>Desires and emotions</line>
+                <line><chara ref="NATASHA">Natasha</chara>, smooth your gown</line>
+            </stanza>
+
+            <stanza speaker="ALL">
+                <line><chara ref="NATASHA">Natasha</chara>, smooth your gown</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>Looking in the glass</line>
+                <line>I see I am pretty</line>
+                <line>Not a girl anymore</line>
+                <line>I’ve never felt like this before</line>
+                <line>Hundreds of eyes</line>
+                <line>Looking at my bare arms</line>
+                <line>My bare arms and neck</line>
+                <line>My bare arms and shoulders</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="ALL">
+                <line>The two remarkably pretty girls</line>
+                <line>Had not been seen in Moscow in many years</line>
+                <line>Everybody knew vaguely of <chara ref="NATASHA">Natasha</chara>’s engagement</line>
+                <line>One of the finest matches in all of Russia</line>
+            </stanza>
+
+            <stanza speaker="SONYA">
+                <line>Look, there’s Alexey, home from the war at last</line>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line>He has changed</line>
+                <line>Dear me, Michael Kirilovich has grown still stouter!</line>
+            </stanza>
+
+            <stanza speaker="ALL">
+                <line>There’s Boris and Julie, engaged</line>
+                <line>And Anna Mikhaylovna, what a headdress she has on!</line>
+            </stanza>
+
+            <stanza speaker="HÉLÈNE">
+                <line>And is that <chara ref="NATASHA">Natasha</chara></line>
+            </stanza>
+
+            <stanza speaker="ALL">
+                <line>And is that <chara ref="NATASHA">Natasha</chara></line>
+                <line>And is that <chara ref="NATASHA">Natasha</chara></line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <s-action kind="other" descr="ALL"><line>They are looking at me</line>
+                <line>They are talking about me!</line>
+                <line>They all like me so much</line>
+                <line>The women envious</line>
+                <line>The men calming their jealousy</line></s-action>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="SERVANT">
+                <line>Announcing <chara ref="DOLOKHOV">Fedya Dolokhov</chara></line>
+                <line>He dominates Moscow’s most brilliant young men</line>
+                <s-action kind="other" descr="DOLOKHOV"><line>He stands in full view</line>
+                <line>Well aware he’s attracting attention</line>
+                <line>Yet as much at ease as though he were in his own room</line></s-action>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line><chara ref="DOLOKHOV">Dolokhov</chara> was in the Caucasus</line>
+                <line>And he killed the Shah’s brother!</line>
+                <line>Now all the Moscow ladies are mad about him</line>
+                <line><chara ref="DOLOKHOV">Dolokhov</chara> the assassin!</line>
+            </stanza>
+
+            <stanza speaker="SERVANT">
+                <line>Announcing <chara ref="HÉLÈNE" address="formal">Countess Hélène Bezukhova</chara></line>
+                <s-action kind="other" type="HÉLÈNE"><line>The queen of society</line>
+                <line>Beautiful, barely clothed</line>
+                <line>Plump bare shoulders, and much-exposed neck</line>
+                <line>Round which she wears a double string of pearls</line></s-action>
+            </stanza>
+
+            <stanza speaker="ALL">
+                <line><chara ref="HÉLÈNE">Hélène</chara> and<chara ref="DOLOKHOV"> Dolokhov</chara>, arm in arm</line>
+                <line>Pierre the cuckold sits at home</line>
+                <line>Pierre the cuckold sits at home</line>
+                <line>The poor man</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>No, I am enjoying myself at home this evening</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="NATASHA">
+                <line>Oh, that neck</line>
+                <line>Oh, those pearls</line>
+            </stanza>
+
+            <stanza speaker="HÉLÈNE">
+                <line>So beautiful</line>
+                <line>What a <chara ref="NATASHA">charming young girl</chara></line>
+                <line>So enchanting</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <s-action kind="self" descr="NATASHA" type="1st"><line>I blush scarlet</line></s-action>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line><chara ref="HÉLÈNE" address="formal">Countess Bezukhova</chara>, Pierre’s wife</line>
+                <line>Have you been here long?</line>
+                <line>And where is dear <chara ref="PIERRE">Pierre</chara>?</line>
+                <line>He never used to forget us</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>Yes <chara ref="PIERRE">Pierre</chara>, that good man</line>
+                <line>A little sad, a little stout</line>
+                <line>He must come visit us</line>
+            </stanza>
+
+            <stanza speaker="HÉLÈNE">
+                <line>I will implore him to do so</line>
+            </stanza>
+        </verse>
+        <verse>
+            <stanza speaker="MARYA D">
+                <line>There’s <chara ref="HÉLÈNE">a woman one should stay far away from</chara></line>
+                <line>Now <chara ref="NATASHA">Natasha</chara></line>
+                <line>The curtain rises</line>
+            </stanza>
+
+            <stanza speaker="ALL">
+                <line>The curtain rises</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <s-action kind="other" descr="ALL"><line>Everyone in the boxes and the stalls became silent</line>
+                <line>All the men, old and young, in uniform and evening dress</line>
+                <line>All the women in the hall</line>
+                <line>With gems on their bare flesh</line>
+                <line>Turned their whole attention</line>
+                <line>With curiosity to the stage</line></s-action>
+            </stanza>
+
+            <direction>Two singers perform a scene from an avant-garde opera. It is grotesque and
+                amazing.</direction>
+        </verse>
+
+        <verse>
+            <stanza speaker="NATASHA">
+                <line>Grotesque and amazing</line>
+                <line>I cannot follow the opera</line>
+                <line>Or even listen to the music</line>
+                <line>I see painted cardboard</line>
+                <line>Queerly dressed actors</line>
+                <line>Moving and singing so strangely in the lights</line>
+                <line>So false and unnatural</line>
+                <line>I’m ashamed and amused</line>
+                <line>And everyone else seems oblivious</line>
+                <line>Yes everyone feigns delight</line>
+            </stanza>
+
+            <stanza speaker="SONYA">
+                <s-action kind="other" descr="NATASHA"><line>And feeling the flood of brilliant lights</line>
+                <line>The warm perfumed air heated by the crowd</line>
+                <line><chara ref="NATASHA">Natasha</chara> little by little</line>
+                <line>Began to pass into a state of intoxication</line></s-action>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>Oh I’d tickle you all if I could</line>
+                <line>Oh I’d tickle you all if I could</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="SONYA">
+                <line>And then</line>
+                <line>A rush of cold air</line>
+            </stanza>
+
+            <stanza speaker="NATASHA" speaker2="SONYA">
+                <s-action kind="other" descr="ANATOLE"><line>An <chara ref="ANATOLE">exceptionally handsome man</chara> walked in</line>
+                <line>With a confident yet courteous air</line></s-action>
+            </stanza>
+
+            <stanza speaker="HÉLÈNE">
+                <line>This was <chara ref="HÉLÈNE">Hélène</chara>’s <chara ref="ANATOLE">brother</chara></line>
+                <line><chara ref="ANATOLE" address="full">Anatole Kuragin</chara></line>
+                <s-action kind="other" descr="ANATOLE"><line>He moved with a swagger</line>
+                <line>Which would have been ridiculous</line>
+                <line>Had he not been so good-looking</line>
+                <line>And though it was the middle of the act</line>
+                <line>He walked right down the aisle</line>
+                <line>His sword and spurs jangling</line>
+                <line>His handsome perfumed head held high</line>
+                <line>And he looked right at <chara ref="NATASHA">Natasha</chara></line></s-action>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>Mais charmante</line>
+            </stanza>
+
+            <stanza speaker="HÉLÈNE">
+                <s-action kind="other" descr="ANATOLE"><line>And he took his place in the front row next to <chara ref="DOLOKHOV">Dolokhov</chara></line></s-action>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>How handsome he is</line>
+                <line>How intoxicating</line>
+            </stanza>
+        </verse>
+        <verse>
+            <stanza speaker="SONYA">
+                <s-action kind="other" descr="OPERA"><line>In the second act there were tombstones</line>
+                <line>The moon over the footlights</line>
+                <line>Horns and contrabass</line>
+                <line>Black cloaks and daggers in their hands</line></s-action>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <s-action kind="self" descr="NATASHA" type="1st"><line>I turn around again and our eyes meet</line></s-action>
+                <s-action kind="other" descr="ANATOLE"><line>He gazes straight into my eyes</line>
+                <line>He is talking about me</line></s-action>
+            </stanza>
+
+            <stanza speaker="SONYA">
+                <s-action kind="other" descr="OPERA"><line>Candles burning</line>
+                <line>A crimson throne</line>
+                <line>The Tsar wails a mournful tune</line>
+                <line>They all wave their arms</line></s-action>
+                <s-action kind="other" type="ALL"><line>And everybody cheers</line>
+                <line>“Bravo, bravo!”</line></s-action>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <s-action kind="other" descr="ANATOLE"><line>Every time I look at him</line>
+                <line>He’s looking at me</line>
+                <line>Every time I look at him</line>
+                <line>He's looking at me</line>
+                <line>Every time I look at him</line></s-action>
+            </stanza>
+
+            <stanza speaker="SONYA">
+                <s-action kind="other" descr="ALL"><line>A terrible noise, a clatter in the crowd</line>
+                <line>A storm of chromatic scales and diminished sevenths</line>
+                <line>With rapturous faces everyone was shouting</line>
+                <line>Screaming and shouting, “Bravo!”</line></s-action>
+            </stanza>
+
+            <stanza speaker="ALL">
+                <line>Bravo, bravo</line>
+                <line>Bravo, bravo</line>
+                <line>Bravo, bravo</line>
+            </stanza>
+
+            <stanza speaker="SONYA">
+                <line>And then</line>
+                <line>A rush of cold air</line>
+                <s-action kind="other" descr="ANATOLE"><line>And <chara ref="ANATOLE">Anatole</chara> entered the box</line></s-action>
+            </stanza>
+        </verse>
+    </lyrics>
+</song>
