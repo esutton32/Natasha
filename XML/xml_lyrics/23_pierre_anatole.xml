@@ -1,0 +1,154 @@
+<?xml-model href="../../greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="Pierre and Anatole">
+    <metadata>
+        <name>Pierre and Anatole</name>
+        <characters>
+            <c>PIERRE</c>
+            <c>ANATOLE</c>
+        </characters>
+        <source>https://genius.com/Dave-malloy-pierre-and-anatole-lyrics</source>
+    </metadata>
+    <lyrics>
+        <verse>
+            <direction>During this scene, Natasha prepares to poison herself.</direction>
+
+            <stanza speaker="PIERRE">
+                <line>You promised <chara ref="NATASHA" address="formal">Countess Rostova</chara> to marry her and were about to elope, is that
+                    so?</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line><chara ref="PIERRE">Mon cher</chara></line>
+                <line>I don’t consider myself bound to answer questions put to me in that
+                    tone</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <s-action kind="self" descr="PIERRE" type="1st"><line>My face, already pale</line>
+                    <line>Becomes distorted by fury</line>
+                    <line>I seize you by the collar with my big big hands</line>
+                    <line>And I shake you from side to side</line>
+                    <line>Until your face shows a sufficient degree of terror</line></s-action>
+                <line>When I tell you I must talk to you!</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>Come now, this is stupid!</line>
+                <line>What what, don’t don’t!</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>You’re a <chara ref="ANATOLE">scoundrel</chara> and a <chara ref="ANATOLE">blackguard</chara></line>
+                <line>And I don’t know what deprives me of the pleasure</line>
+                <line>Of smashing your head in with this!</line>
+            </stanza>
+
+            <direction>He takes a heavy paperweight and lifts it threateningly, but at once puts it
+                back in its place.</direction>
+        </verse>
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>Did you promise to marry her?</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>I didn’t think of it. I never promised, because—</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>Have you any letters of hers?</line>
+                <line>Any letters?</line>
+                <line>I shan’t be violent, don’t be afraid</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <direction>Anatole hands Pierre a pack of letters.</direction>
+
+            <stanza speaker="PIERRE">
+                <line>First, the letters</line>
+                <line>Second, tomorrow you must get out of Moscow</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>But how can I?</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>Third</line>
+                <line>You must never breathe a word of what has happened between you and <chara ref="NATASHA">the
+                    Countess</chara></line>
+                <line>Now I know I can’t prevent your doing so</line>
+                <line>But if you have a spark of conscience—</line>
+                <s-action kind="self" descr="PIERRE" type="3rd"><line><chara ref="PIERRE">Pierre</chara> paces the room several
+                        times in silence</line></s-action>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <s-action kind="self" descr="ANATOLE" type="3rd"><line><chara ref="ANATOLE">Anatole</chara> sits at a table
+                        frowning and biting his lips</line></s-action>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>After all, you must understand</line>
+                <line>That besides your pleasure</line>
+                <line>There is such a thing as other people</line>
+                <line>And their happiness and peace</line>
+                <line>And that you are ruining a whole life</line>
+                <line>For the sake of amusing yourself!</line>
+                <line>Amuse yourself with women like my wife</line>
+                <line>With them you’re within your rights</line>
+                <line>But to promise a young girl to marry her</line>
+                <line>To deceive, to kidnap</line>
+                <line>Don’t you understand that that’s as cruel</line>
+                <line>As beating an old man or a child?</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>Well, I don’t know about that, eh?</line>
+                <line>I don’t know that and I don’t want to</line>
+                <line>But you have used such words to me</line>
+                <line>“Scoundrel” and so on</line>
+                <line>Which as a man of honor</line>
+                <line>I will not allow anyone to use</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>Is it satisfaction you want?</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>You could at least take back your words, eh?</line>
+                <line>If you want me to do as you wish?</line>
+            </stanza>
+        </verse>
+        <verse>
+            <direction>Natasha drinks the poison.</direction>
+
+            <stanza speaker="PIERRE">
+                <line>Fine, I take them back, I take them back!</line>
+                <line>And I ask you to forgive me</line>
+                <line>And if you require money for your journey—</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <s-action kind="self" descr="ANATOLE" type="3rd"><line><chara ref="ANATOLE">Anatole</chara> smiled</line>
+                    <line>The reflection of that base and cringing smile</line></s-action>
+                <s-action kind="other" descr="PIERRE" type="3rd"><line>Which <chara ref="PIERRE">Pierre</chara> knew so well in
+                    <chara ref="HÉLÈNE">his wife</chara></line>
+                    <line>Revolted him</line></s-action>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>Oh, vile and heartless brood!</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <s-action kind="self" descr="ANATOLE" type="3rd"><line>Next day <chara ref="ANATOLE">Anatole</chara> left</line>
+                <line>For Petersburg!</line></s-action>
+            </stanza>
+        </verse>
+    </lyrics>
+</song>
