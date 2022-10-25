@@ -1,0 +1,229 @@
+<?xml-model href="../../greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="Letters">
+    <metadata>
+        <name>Letters</name>
+        <characters>
+            <c>ALL</c>
+            <c>PIERRE</c>
+            <c>NATASHA</c>
+            <c>MARY</c>
+            <c>ANATOLE</c>
+            <c>DOLOKHOV</c>
+        </characters>
+        <source>https://genius.com/Dave-malloy-letters-lyrics</source>
+    </metadata>
+    <lyrics>
+        <chorus>
+            <stanza speaker="ALL">
+                <line>In nineteenth-century Russia, we write letters</line>
+                <line>We write letters</line>
+                <line>We put down in writing</line>
+                <line>What is happening in our minds</line>
+            </stanza>
+
+            <stanza speaker="ALL">
+                <line>Once it's on the paper, we feel better</line>
+                <line>We feel better</line>
+                <line>It's like some kind of clarity</line>
+                <line>When the letter's done and signed</line>
+            </stanza>
+        </chorus>
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>Dear <chara ref="ANDREY">Andrey</chara></line>
+                <line><chara ref="ANDREY">Dear old friend</chara></line>
+                <line>How goes the war?</line>
+                <line>Do we march on the French splendidly?</line>
+                <line>Do our cannons crack and cry?</line>
+                <line>Do our bullets whistle and sing?</line>
+                <line>Does the air reek with smoke?</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>I wish I were there</line>
+                <line>With death at my heels</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="PIERRE">
+                <line><chara ref="DOLOKHOV">Dolokhov</chara> is recovering</line>
+                <line>He will be all right, the <chara ref="DOLOKHOV">good man</chara></line>
+                <line>And <chara ref="NATASHA">Natasha</chara> is in town</line>
+                <line><chara ref="NATASHA">Your bride to be</chara>, so full of life and mischief</line>
+                <line>I should visit</line>
+                <line>I hear she is more beautiful than ever</line>
+                <line>How I envy you and your happiness</line>
+            </stanza>
+        </verse>
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>Here at home I drink and read and drink and read and drink</line>
+                <line>But I think I've finally found it</line>
+                <line>What my heart has needed</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>For I've been studying the Kabal</line>
+                <line>And I've calculated the number of the beast</line>
+                <line>It is Napoleon!</line>
+                <line>Six hundred three score and six</line>
+                <line>And I will kill him one day</line>
+                <line>He's no great man</line>
+                <line>None of us are great men</line>
+                <line>We're caught in the wave of history</line>
+                <line>Nothing matters</line>
+                <line>Everything matters</line>
+                <line>It's all the same</line>
+                <line>Oh, if only I could not see "it"</line>
+                <line>This dreadful, terrible "it"</line>
+            </stanza>
+        </verse>
+
+        <chorus>
+            <stanza speaker="ALL">
+                <line>In nineteenth-century Russia, we write letters</line>
+                <line>We write letters</line>
+                <line>We put down in writing</line>
+                <line>What is happening in our minds</line>
+            </stanza>
+        </chorus>
+        <verse>
+            <stanza speaker="NATASHA">
+                <line>Dear <chara ref="ANDREY">Andrey</chara></line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>What more can I write</line>
+                <line>After all that has happened?</line>
+                <line>What am I to do if I love him and the other one too?</line>
+                <line>Must I break it off?</line>
+                <line>These terrible questions</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>I see nothing but the candle in the mirror</line>
+                <line>No visions of the future</line>
+                <line>So lost and alone</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>And what of <chara ref="MARY">Princess Mary</chara>?</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="MARY">
+                <line>Dear <chara ref="NATASHA">Natasha</chara></line>
+                <line>I am in deep despair at the misunderstanding there is between us</line>
+                <line>Whatever <chara ref="BOLKONSKY">my father</chara>'s feelings might be</line>
+                <line>I beg you to believe that I cannot help loving you</line>
+                <line>He is a <chara ref="BOLKONSKY">tired old man</chara> and must be forgiven</line>
+                <line>Please, come see us again</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>Dear <chara ref="MARY">Princess Mary</chara></line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>Oh, what am I to write!</line>
+                <line>How do I choose?</line>
+                <line>What do I do?</line>
+                <line>I shall never be happy again</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>These terrible questions</line>
+            </stanza>
+
+            <stanza speaker="MARY">
+                <line>I'm so alone here</line>
+            </stanza>
+
+            <stanza speaker="PIERRE" speaker2="NATASHA">
+                <line>So alone in here</line>
+            </stanza>
+
+            <stanza speaker="MARY">
+                <line>And I see nothing</line>
+            </stanza>
+
+            <stanza speaker="NATASHA" speaker2="PIERRE" speaker3="MARY">
+                <line>I see nothing but the candle in the mirror</line>
+                <line>No visions of the future</line>
+                <line>So lost and alone</line>
+            </stanza>
+        </verse>
+        <chorus>
+            <stanza speaker="ALL">
+                <line>In nineteenth-century Russia, we write letters</line>
+                <line>We write letters</line>
+                <line>We put down in writing</line>
+                <line>What is happening in our minds</line>
+            </stanza>
+        </chorus>
+        <verse>
+            <stanza speaker="ANATOLE">
+                <line>Dear <chara ref="NATASHA" address="familiar">Natalie</chara></line>
+                <line>A love letter</line>
+                <line>A love letter</line>
+                <line>A love letter</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>A letter from him, from <chara ref="ANATOLE">the man that I love</chara></line>
+            </stanza>
+
+            <stanza speaker="DOLOKHOV">
+                <line>A letter which I composed</line>
+            </stanza>
+
+            <stanza speaker="ALL">
+                <line>A love letter</line>
+                <line>A love letter...</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
+                <line>I must love you or die</line>
+                <line><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
+                <line>If you love me, say yes</line>
+                <line>And I will come and steal you away</line>
+                <line>Steal you out of the dark</line>
+                <line><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
+                <line>I want nothing more</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line backing="ALL"><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
+                <line>I must love you or die</line>
+                <line backing="ALL"><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
+                <line>If you love me, say yes</line>
+                <line>And I will come and steal you away</line>
+                <line>Steal you out of the dark</line>
+                <line backing="ALL"><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
+                <line>I want nothing more</line>
+            </stanza>
+
+            <stanza speaker="ANATOLE">
+                <line>Just say yes</line>
+                <line>Just say yes</line>
+                <line>Just say yes</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="NATASHA">
+                <line>Yes, yes, I love him</line>
+                <line>How else could I have his letter in my hand?</line>
+                <line>I read it twenty times</line>
+                <line>Thirty times, forty times!</line>
+                <line>Each and every word</line>
+                <line>I love him, I love him</line>
+            </stanza>
+        </verse>
+    </lyrics>
+</song>
