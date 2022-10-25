@@ -1,0 +1,88 @@
+<?xml-model href="../../greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="The Great Comet of 1812">
+    <metadata>
+        <name>The Great Comet of 1812</name>
+        <characters>
+            <c>PIERRE</c>
+            <c>ALL</c>
+        </characters>
+        <source>https://genius.com/Dave-malloy-the-great-comet-of-1812-lyrics</source>
+    </metadata>
+    <lyrics>
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>Where to now?</line>
+                <line>Where can I go now?</line>
+                <line>Not to the Club</line>
+                <line>Not to pay calls</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>Mankind seems so pitiful</line>
+                <line>So poor</line>
+                <line>Compared to that softened, grateful, last glance</line>
+                <line>She gave me through her tears</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="ALL">
+                <line>It was clear and cold</line>
+                <line>Above the dirty streets</line>
+                <line>Above the black roofs</line>
+                <line>Stretched the dark starry sky</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>This vast firmament</line>
+                <line>Open to my eyes</line>
+                <line>Wet with tears</line>
+            </stanza>
+
+            <stanza speaker="ALL">
+                <line>And there in the middle</line>
+                <line>Above Prechistensky Boulevard</line>
+                <line>Surrounded and sprinkled on all sides by stars</line>
+                <line>Shines The Great Comet of 1812</line>
+                <line>The Brilliant Comet of 1812</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>The comet said to portend</line>
+                <line>Untold horrors</line>
+                <line>And the end of the world</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>But for me</line>
+                <line>The comet brings no fear</line>
+                <line>No, I gaze joyfully</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>And this bright star</line>
+                <line>Having traced its parabola</line>
+                <line>With inexpressible speed</line>
+                <line>Through immeasurable space</line>
+                <line>Seems suddenly</line>
+                <line>To have stopped</line>
+                <line>Like an arrow piercing the earth</line>
+                <line>Stopped for me</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>It seems to me</line>
+                <line>That this comet</line>
+                <line>Feels me</line>
+                <line>Feels my softened and uplifted soul</line>
+                <line>And my newly melted heart</line>
+                <line>Now blossoming</line>
+                <line>Into a new life</line>
+            </stanza>
+        </verse>
+    </lyrics>
+</song>
