@@ -1,0 +1,151 @@
+<?xml-model href="../../greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="Pierre">
+    <metadata>
+        <name>Pierre</name>
+        <characters>
+            <c>PIERRE</c>
+            <c>ALL</c>
+            <c>WOMEN</c>
+            <c>MEN</c>
+        </characters>
+        <source>https://genius.com/Dave-malloy-pierre-lyrics</source>
+    </metadata>
+    <lyrics>
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>It's dawned on me suddenly</line>
+                <line>And for no obvious reason</line>
+                <line>That I can't go on</line>
+                <line>Living as I am</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>The zest of life has vanished</line>
+                <line>Only the skeleton remains</line>
+                <line>Unexpectedly vile</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>I used to be better</line>
+                <line>I used to be better</line>
+                <line>I used to be better</line>
+                <line>I used to be better</line>
+                <line>I used to be better</line>
+                <line>I used to be better</line>
+            </stanza>
+        </verse>
+
+        <chorus>
+            <stanza speaker="ALL">
+                <line>Oh, <chara ref="PIERRE">Pierre</chara></line>
+                <line>Our <chara ref="PIERRE">merry feasting crank</chara></line>
+                <line>Our most dear, most kind</line>
+                <line>Most smart and eccentric</line>
+                <line><chara ref="PIERRE">A warm-hearted Russian of the old-school</chara></line>
+                <line>His purse is always empty</line>
+                <line>Because it's open to all</line>
+                <line>Oh <chara ref="PIERRE">Pierre</chara></line>
+                <line>Just one of a hundred sad old men</line>
+                <line>Living out their final days in Moscow</line>
+            </stanza>
+        </chorus>
+
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>I drink too much</line>
+                <line>Right now, <chara ref="ANDREY">my friend</chara> fights and bleeds</line>
+                <line>And I sit at home and read</line>
+                <line>Hours at a time</line>
+                <line>Hours at my screen</line>
+                <line>Anything, anything</line>
+                <line>Abandoned to distraction</line>
+                <line>In order to forget</line>
+                <line>We waste our lives</line>
+                <line>Drowning in wine...</line>
+                <line>I never thought that I'd end up like this</line>
+                <line>I used to be better</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>And the women, they all pity me</line>
+                <line>Because I'm married</line>
+                <line>But not in love</line>
+                <line>Frozen at the center</line>
+            </stanza>
+
+            <stanza speaker="WOMEN">
+                <line>Il est charmant; il n'a pas de sexe</line>
+                <line>He is charming; he has no sex</line>
+            </stanza>
+        </verse>
+
+        <chorus>
+            <stanza speaker="ALL">
+                <line>Oh, <chara ref="PIERRE">Pierre</chara></line>
+                <line>Our <chara ref="PIERRE">merry feasting crank</chara></line>
+                <line>Our most dear, most kind</line>
+                <line>Most smart and eccentric</line>
+                <line><chara ref="PIERRE">A warm-hearted Russian of the old-school</chara></line>
+                <line>His purse is always empty</line>
+                <line>Because it's open to all</line>
+                <line>Oh <chara ref="PIERRE">Pierre</chara></line>
+                <line>Just one of a hundred sad old men</line>
+                <line>Living out their final days in Moscow</line>
+            </stanza>
+        </chorus>
+
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>There's a ringing my head</line>
+                <line>There's a sickness in the world</line>
+                <line>And everyone knows</line>
+                <line>But pretends that they don't see</line>
+                <line>Oh, I'll sort it out later</line>
+                <line>But later never comes</line>
+            </stanza>
+
+            <stanza speaker="PIERRE" speaker2="MEN">
+                <line>And how many men before</line>
+                <line>Good Russian men</line>
+                <line>Believing in goodness and truth</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>Entered that door</line>
+                <line>With all their teeth and hair</line>
+                <line>And left it toothless and bald?</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="PIERRE">
+                <line>You empty and stupid</line>
+                <line>Contented fellows</line>
+                <line>Satisfied with your place</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>I'm different from you</line>
+                <line>I'm different from you</line>
+                <line>I still want to do something</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>Or do you struggle too?</line>
+                <line>I pity you</line>
+                <line>I pity me</line>
+                <line>I pity you</line>
+            </stanza>
+
+            <stanza speaker="PIERRE">
+                <line>I pity you</line>
+                <line>I pity me</line>
+                <line>I pity you</line>
+            </stanza>
+
+            <stanza speaker="ALL">
+                <line>Ahh...</line>
+            </stanza>
+        </verse>
+    </lyrics>
+</song>
