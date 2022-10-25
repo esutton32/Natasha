@@ -1,0 +1,91 @@
+<?xml-model href="../../greatcomet_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song title="Sunday Morning">
+    <metadata>
+        <name>Sunday Morning</name>
+        <characters>
+            <c>NATASHA</c>
+            <c>SONYA</c>
+            <c>MARYA D</c>
+        </characters>
+        <source>https://genius.com/Dave-malloy-sunday-morning-lyrics</source>
+    </metadata>
+    <lyrics>
+        <verse>
+            <stanza speaker="SONYA">
+                <line>Early Sunday morning</line>
+                <s-action kind="mixed" descr="NATASHA" descr2="SONYA"><line><chara ref="NATASHA">Natasha</chara> and I lit a candle</line>
+                <line>Looked in the mirror</line></s-action>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>I see my face</line>
+            </stanza>
+
+            <stanza speaker="SONYA">
+                <line>Don’t be silly</line>
+                <line>They say you can see your future</line>
+                <line>In the long row of candles</line>
+                <line>Stretching back and back and back</line>
+                <line>Into the depths of the mirror</line>
+                <line>In the dim confused last square</line>
+                <line>You’ll see a coffin or a man</line>
+                <line>Everyone sees a man</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>I see the candles</line>
+                <line>Stretching back</line>
+                <line>So far away</line>
+                <line>I see the mirrors</line>
+                <line>I see a shape in the darkness</line>
+                <line>Is it him or is it—</line>
+                <line>He’s lying down</line>
+                <line>Oh <chara ref="SONYA">Sonya</chara> why is he lying down?</line>
+                <line>I’m so frightened!</line>
+                <line><chara ref="ANDREY">Andrey</chara> will never come</line>
+                <line>Or something will happen to me before he does</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="MARYA D">
+                <line>Sunday morning!</line>
+                <line>Time for church!</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>I suffer more now than before</line>
+                <line>The theater and <chara ref="ANATOLE">Anatole</chara></line>
+                <line><chara ref="ANATOLE">That man</chara> who aroused such terrible feelings</line>
+                <line>I don’t understand</line>
+                <line>Have I broken faith with <chara ref="ANDREY">Andrey</chara>?</line>
+                <line>Am I guilty?</line>
+            </stanza>
+        </verse>
+
+        <verse>
+            <stanza speaker="SONYA">
+                <s-action kind="other" descr="MARYA D"><line>After church, <chara ref="MARYA D">Marya</chara> left for <chara ref="BOLKONSKY">Prince Bolkonsky</chara>’s</line></s-action>
+            </stanza>
+
+            <stanza speaker="MARYA D">
+                <line>The rudeness of <chara ref="BOLKONSKY">that man</chara>!</line>
+                <line>I’ll straighten him out!</line>
+            </stanza>
+
+            <stanza speaker="NATASHA">
+                <line>That <chara ref="BOLKONSKY">terrible old Prince</chara></line>
+                <line>I can’t bear to think of it</line>
+                <line>I’ll shut myself in my room</line>
+                <line>And try on new dresses</line>
+            </stanza>
+
+            <stanza speaker="SONYA">
+                <line>And just after <chara ref="MARYA D">Marya</chara> left</line>
+                <line>There was a knock at the door</line>
+                <s-action kind="other" descr="NATASHA"><line><chara ref="NATASHA">Natasha</chara> had just turned her head to the glass</line>
+                <line>When she heard a voice that made her flush</line></s-action>
+            </stanza>
+        </verse>
+    </lyrics>
+</song>
