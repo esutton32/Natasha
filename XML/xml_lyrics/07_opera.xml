@@ -110,7 +110,7 @@
 
             <stanza speaker="SERVANT">
                 <line>Announcing <chara ref="HÉLÈNE" address="formal">Countess Hélène Bezukhova</chara></line>
-                <s-action kind="other" type="HÉLÈNE"><line>The queen of society</line>
+                <s-action kind="other" descr="HÉLÈNE"><line>The queen of society</line>
                 <line>Beautiful, barely clothed</line>
                 <line>Plump bare shoulders, and much-exposed neck</line>
                 <line>Round which she wears a double string of pearls</line></s-action>
@@ -268,7 +268,7 @@
                 <line>A crimson throne</line>
                 <line>The Tsar wails a mournful tune</line>
                 <line>They all wave their arms</line></s-action>
-                <s-action kind="other" type="ALL"><line>And everybody cheers</line>
+                <s-action kind="other" descr="ALL"><line>And everybody cheers</line>
                 <line>“Bravo, bravo!”</line></s-action>
             </stanza>
 
