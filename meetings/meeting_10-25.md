@@ -1,5 +1,8 @@
 # Natasha Meeting 10-25
 
+## Rotation for Friday project update 
+* Mikey (10/28), Maddie (11/4), Ella (11/11), etc.
+
 ## Accomplished
 
 ### Mikey
