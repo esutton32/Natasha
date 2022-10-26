@@ -69,7 +69,7 @@
             </stanza>
 
             <stanza speaker="ANATOLE" speaker2="NATASHA">
-                <s-action kind="self"><line>And I look you in the eye</line></s-action>
+                <s-action kind="self" descr="NATASHA" descr2="ANATOLE"><line>And I look you in the eye</line></s-action>
             </stanza>
 
             <stanza speaker="NATASHA">
