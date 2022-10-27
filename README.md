@@ -1,4 +1,8 @@
-# Natasha
+# Adapting War and Peace: A Lyrical/Musical Analysis of Natasha, Pierre, and the Great Comet of 1812 ☄️
 
-At present, the goals for this project are as follows:
-1. Compare *War and Peace* and its musical adaptation, *Natasha, Pierre, and the Great Comet of 1812* in order to see just how much of the lyrics of the musical are drawn directly from the text with little to no change. (This can be changed later, I just didn't want the readme to be barebones)
+Our project aims to analyze the lyrics and music of Dave Malloy's musical *Natasha, Pierre, and the Great Comet of 1812* in conjunction with the text it is based off of, Tolstoy's *War and Peace*, in order to see how similar the adaptation is to the original. 
+Research goals include:
+1. Finding tonal shifts in music, and how it correlates in the lyrics
+2. Analyzing the lyrics in comparison to the original text to see exactly what is similar
+3. Seeing how often each character speaks, and in what form
+4. Creating the most beautiful website ever to put our corpus, analysis, and findings in
