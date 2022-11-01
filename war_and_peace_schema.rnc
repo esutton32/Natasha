@@ -1,11 +1,11 @@
 start= war_and_peace
-war_and_peace= element war_and_peace {eight, ch+, text}
+war_and_peace= element war_and_peace {eight, ch+}
 eight= element eight {text}
 #
 #
 ch= element ch {title+, p+, text}
 title= element title {text}
-p= element p {chara+, q+, text}
+p= element p {mixed {chara | q}*}
 #
 #
 chara= element chara {text}
