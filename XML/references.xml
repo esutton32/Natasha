@@ -1,0 +1,1269 @@
+<references>
+    <!-- This document is meant to serve as a repository for any passage in War and Peace that the musical directly takes from. 
+    Ideally, the <ref> elements will have numbered elements so that lines in the XML lyric markup can be connected directly to the passages.
+    At this exact moment the passages include the entire paragraph or sentence the borrowed text comes from, 
+    but they can and should be whittled down or at least specified with elements to show exactly which phrases appear in the musical to make connecting
+    it to the XML lyrics easier.
+    Song no. correlates to the number in the XML title of the lyric doc.
+    Source: https://www.gutenberg.org/cache/epub/2600/pg2600.txt-->
+    <book n="8">
+        <chapter n="1">
+            <ch>CHAPTER 1</ch>
+            <ref song="02">Pierre without any apparent cause suddenly felt it impossible to go on
+                living as before.</ref>
+            <ref song="02">Only the skeleton of life remained: his house, a brilliant wife who now
+                enjoyed the favors of a very important personage, acquaintance with all Petersburg,
+                and his court service with its dull formalities.</ref>
+            <ref song="02">And this life suddenly seemed to Pierre unexpectedly loathsome.</ref>
+            <ref song="03">In Moscow as soon as he entered his huge house in which the faded and
+                fading princesses still lived, with its enormous retinue; as soon as, driving
+                through the town, he saw the Iberian shrine with innumerable tapers burning before
+                the golden covers of the icons, the Krémlin Square with its snow undisturbed by
+                vehicles, the sleigh drivers and hovels of the Sívtsev Vrazhók, those old Moscovites
+                who desired nothing, hurried nowhere, and were ending their days leisurely; when he
+                saw those old Moscow ladies, the Moscow balls, and the English Club, he felt himself
+                at home in a quiet haven.</ref>
+            <ref song="03">Moscow society, from the old women down to the children, received Pierre
+                like a long-expected guest whose place was always ready awaiting him. For Moscow
+                society Pierre was the nicest, kindest, most intellectual, merriest, and most
+                magnanimous of cranks, a heedless, genial nobleman of the old Russian type. His
+                purse was always empty because it was open to everyone.</ref>
+            <ref song="02"><q>Il est charmant; il n’a pas de sexe,</q> they said of him. <q>He is
+                    charming; he has no sex.</q></ref>
+            <ref song="02">Pierre was one of those retired gentlemen-in-waiting of whom there were
+                hundreds good-humoredly ending their days in Moscow.</ref>
+            <ref song="02">Sometimes he consoled himself with the thought that he was only living
+                this life temporarily; but then he was shocked by the thought of how many, like
+                himself, had entered that life and that club temporarily, with all their teeth and
+                hair, and had only left it when not a single tooth or hair remained.</ref>
+            <ref song="02">In moments of pride, when he thought of his position it seemed to him
+                that he was quite different and distinct from those other retired
+                gentlemen-in-waiting he had formerly despised: they were empty, stupid, contented
+                fellows, satisfied with their position, <q>while I am still discontented and want to
+                    do something for mankind. But perhaps all these comrades of mine struggled just
+                    like me and sought something new, a path in life of their own, and like me were
+                    brought by force of circumstances, society, and race—by that elemental force
+                    against which man is powerless—to the condition I am in,</q> said he to himself
+                in moments of humility; and after living some time in Moscow he no longer despised,
+                but began to grow fond of, to respect, and to pity his comrades in destiny, as he
+                pitied himself.</ref>
+            <ref song="02">So thought Pierre, and the whole of this general deception which everyone
+                accepts, accustomed as he was to it, astonished him each time as if it were
+                something new. <q>I understand the deception and confusion,</q> he thought, <q>but
+                    how am I to tell them all that I see? I have tried, and have always found that
+                    they too in the depths of their souls understand it as I do, and only try not to
+                    see it. So it appears that it must be so! But I—what is to become of
+                me?</q></ref>
+            <ref song="09">Though the doctors warned him that with his corpulence wine was dangerous
+                for him, he drank a great deal. He was only quite at ease when having poured several
+                glasses of wine mechanically into his large mouth he felt a pleasant warmth in his
+                body, an amiability toward all his fellows, and a readiness to respond superficially
+                to every idea without probing it deeply</ref>
+            <ref song="02"><q>It doesn’t matter. I’ll get it unraveled. I have a solution ready, but
+                    have no time now—I’ll think it all out later on!</q> But the later on never
+                came.</ref>
+            <ref song="14"><q>Nothing is trivial, and nothing is important, it’s all the same—only
+                    to save oneself from it as best one can,</q> thought Pierre. <q>Only not to see
+                    it, that dreadful it!</q></ref>
+        </chapter>
+        <chapter n="2">
+            <ch>CHAPTER 2</ch>
+            <ref song="04">The prince had aged very much that year. He showed marked signs of
+                senility by a tendency to fall asleep, forgetfulness of quite recent events,
+                remembrance of remote ones, and the childish vanity with which he accepted the role
+                of head of the Moscow opposition. In spite of this the old man inspired in all his
+                visitors alike a feeling of respectful veneration—especially of an evening when he
+                came in to tea in his old-fashioned coat and powdered wig and, aroused by anyone,
+                told his abrupt stories of the past, or uttered yet more abrupt and scathing
+                criticisms of the present. For them all, that old-fashioned house with its gigantic
+                mirrors, pre-Revolution furniture, powdered footmen, and the stern shrewd old man
+                (himself a relic of the past century) with his gentle daughter and the pretty
+                Frenchwoman who were reverently devoted to him presented a majestic and agreeable
+                spectacle.</ref>
+            <ref song="04">But the visitors did not reflect that besides the couple of hours during
+                which they saw their host, there were also twenty-two hours in the day during which
+                the private and intimate life of the house continued.</ref>
+            <ref song="04">She did not go out into society; everyone knew that her father would not
+                let her go anywhere without him, and his failing health prevented his going out
+                himself, so that she was not invited to dinners and evening parties. She had quite
+                abandoned the hope of getting married.</ref>
+            <ref song="04">She saw the coldness and malevolence with which the old prince received
+                and dismissed the young men, possible suitors, who sometimes appeared at their
+                house. She had no friends</ref>
+            <ref song="04">The idea that at the first moment of receiving the news of his son’s
+                intentions had occurred to him in jest—that if Andrew got married he himself would
+                marry Bourienne—had evidently pleased him</ref>
+            <ref song="04">One day in Moscow in Princess Mary’s presence (she thought her father did
+                it purposely when she was there) the old prince kissed Mademoiselle Bourienne’s hand
+                and, drawing her to him, embraced her affectionately. Princess Mary flushed and ran
+                out of the room.</ref>
+            <ref song="04">
+                <q>It’s horrible, vile, inhuman, to take advantage of the weakness...</q>
+            </ref>
+            <ref song="04">At such moments something like a pride of sacrifice gathered in her soul.
+                And suddenly that father whom she had judged would look for his spectacles in her
+                presence, fumbling near them and not seeing them, or would forget something that had
+                just occurred, or take a false step with his failing legs and turn to see if anyone
+                had noticed his feebleness, or, worst of all, at dinner when there were no visitors
+                to excite him would suddenly fall asleep, letting his napkin drop and his shaking
+                head sink over his plate. <q>He is old and feeble, and I dare to condemn him!</q>
+                she thought at such moments, with a feeling of revulsion against herself.</ref>
+        </chapter>
+        <chapter n="6">
+            <ch>CHAPTER 6</ch>
+            <ref song="03">Then she had dinner, a substantial and appetizing meal at which there
+                were always three or four guests; after dinner she played a game of boston, and at
+                night she had the newspapers or a new book read to her while she knitted.</ref>
+            <ref song="03"><q>The count’s things? Bring them here,</q> she said, pointing to the
+                portmanteaus and not greeting anyone. <q>The young ladies’? There to the left. Now
+                    what are you dawdling for?</q> she cried to the maids. <q>Get the samovar
+                    ready!... You’ve grown plumper and prettier,</q> she remarked, drawing Natásha
+                (whose cheeks were glowing from the cold) to her by the hood. <q>Foo! You are cold!
+                    Now take off your things, quick!</q> she shouted to the count who was going to
+                kiss her hand. <q>You’re half frozen, I’m sure! Bring some rum for tea!... Bonjour,
+                    Sónya dear!</q> she added, turning to Sónya and indicating by this French
+                greeting her slightly contemptuous though affectionate attitude toward her.</ref>
+            <ref song="03"><q>All right. All right. They’ll be safe with me, as safe as in Chancery!
+                    I’ll take them where they must go, scold them a bit, and pet them a bit,</q>
+                said Márya Dmítrievna, touching her goddaughter and favorite, Natásha, on the cheek
+                with her large hand.</ref>
+            <ref song="03"><q>Well, now we’ll talk. I congratulate you on your betrothed. You’ve
+                    hooked a fine fellow! I am glad for your sake and I’ve known him since he was so
+                    high.</q> She held her hand a couple of feet from the ground. <c3>Natásha</c3>
+                blushed happily. <q>I like him and all his family. Now listen! You know that old
+                        <c11>Prince Nicholas</c11> much dislikes his son’s marrying. The old
+                    fellow’s crotchety! Of course <c1>Prince Andrew</c1> is not a child and can
+                    shift without him, but it’s not nice to enter a family against a father’s will.
+                    One wants to do it peacefully and lovingly. You’re a clever girl and you’ll know
+                    how to manage. Be kind, and use your wits. Then all will be well.</q></ref>
+            <ref song="03">Natásha remained silent, from shyness Márya Dmítrievna supposed, but
+                really because she disliked anyone interfering in what touched her love of Prince
+                Andrew, which seemed to her so apart from all human affairs that no one could
+                understand it. She loved and knew Prince Andrew, he loved her only, and was to come
+                one of these days and take her. She wanted nothing more.</ref>
+        </chapter>
+        <chapter n="7">
+            <ch>CHAPTER 7</ch>
+            <ref song="05"><q>They can’t help liking me,</q> she thought. <q>Everybody always has
+                    liked me, and I am so willing to do anything they wish, so ready to be fond of
+                    him—for being his father—and of her—for being his sister—that there is no reason
+                    for them not to like me....</q></ref>
+            <ref song="05">From the first glance Princess Mary did not like Natásha. She thought her
+                too fashionably dressed, frivolously gay and vain. She did not at all realize that
+                before having seen her future sister-in-law she was prejudiced against her by
+                involuntary envy of her beauty, youth, and happiness, as well as by jealousy of her
+                brother’s love for her.</ref>
+            <ref song="05">Apart from this insuperable antipathy to her, Princess Mary was agitated
+                just then because on the Rostóvs’ being announced, the old prince had shouted that
+                he did not wish to see them, that Princess Mary might do so if she chose, but they
+                were not to be admitted to him. She had decided to receive them, but feared lest the
+                prince might at any moment indulge in some freak, as he seemed much upset by the
+                Rostóvs’ visit.</ref>
+            <ref song="05"><q>I am so glad you should get to know one another... very sorry the
+                    prince is still ailing,</q> and after a few more commonplace remarks he
+                rose.</ref>
+            <ref song="05">She blushed for him, grew still angrier at having blushed, and looked at
+                the princess with a bold and defiant expression which said that she was not afraid
+                of anybody.</ref>
+            <ref song="05">Natásha felt offended by the hesitation she had noticed in the anteroom,
+                by her father’s nervousness, and by the unnatural manner of the princess who—she
+                thought—was making a favor of receiving her, and so everything displeased her. She
+                did not like Princess Mary, whom she thought very plain, affected, and dry.</ref>
+            <ref song="05">Natásha suddenly shrank into herself and involuntarily assumed an offhand
+                air which alienated Princess Mary still more. After five minutes of irksome,
+                constrained conversation, they heard the sound of slippered feet rapidly
+                approaching.</ref>
+            <ref song="05"><q>I beg you to excuse me, excuse me! God is my witness, I did not
+                    know,</q> muttered the old man, and after looking Natásha over from head to foot
+                he went out.</ref>
+            <ref song="05"><q>Dear Natalie,</q> said Princess Mary, <q>I want you to know that I am
+                    glad my brother has found happiness....</q></ref>
+            <ref song="05"><q>I think, Princess, it is not convenient to speak of that now,</q> she
+                said with external dignity and coldness, though she felt the tears choking her.
+                    <q>What have I said and what have I done?</q> thought she, as soon as she was
+                out of the room.They waited a long time for Natásha to come to dinner that day. She
+                sat in her room crying like a child, blowing her nose and sobbing. Sónya stood
+                beside her, kissing her hair. <q> Natásha, what is it about?</q> she asked. <q>What
+                    do they matter to you? It will all pass, Natásha.</q>
+                <q>But if you only knew how offensive it was... as if I...</q>
+                <q>Don’t talk about it, Natásha. It wasn’t your fault so why should you mind? Kiss
+                    me,</q> said Sónya.Natásha raised her head and, kissing her friend on the lips,
+                pressed her wet face against her. <q>I can’t tell you, I don’t know. No one’s to
+                    blame,</q> said Natásha—<q>It’s my fault. But it all hurts terribly. Oh, why
+                    doesn’t he come?...</q>
+            </ref>
+        </chapter>
+        <chapter n="8">
+            <ch>CHAPTER 8</ch>
+            <ref song="06"><q>O God, if he were here now I would not behave as I did then, but
+                    differently. I would not be silly and afraid of things, I would simply embrace
+                    him, cling to him, and make him look at me with those searching inquiring eyes
+                    with which he has so often looked at me, and then I would make him laugh as he
+                    used to laugh. And his eyes—how I see those eyes!</q> thought Natásha. <q>And
+                    what do his father and sister matter to me? I love him alone, him, him, with
+                    that face and those eyes, with his smile, manly and yet childlike....</q></ref>
+            <ref song="03">
+                <q>I can’t bear this waiting and I shall cry in a minute!</q>
+            </ref>
+            <ref song="03">Natásha at that moment felt so softened and tender that it was not enough
+                for her to love and know she was beloved, she wanted now, at once, to embrace the
+                man she loved, to speak and hear from him words of love such as filled her
+                heart.</ref>
+            <ref song="07">The music sounded louder and through the door rows of brightly lit boxes
+                in which ladies sat with bare arms and shoulders, and noisy stalls brilliant with
+                uniforms, glittered before their eyes. A lady entering the next box shot a glance of
+                feminine envy at Natásha. The curtain had not yet risen and the overture was being
+                played. Natásha, smoothing her gown, went in with Sónya and sat down, scanning the
+                brilliant tiers of boxes opposite. A sensation she had not experienced for a long
+                time—that of hundreds of eyes looking at her bare arms and neck—suddenly affected
+                her both agreeably and disagreeably and called up a whole crowd of memories, desires
+                and emotions associated with that feeling.</ref>
+            <ref song="07">The two remarkably pretty girls, Natásha and Sónya, with Count Rostóv who
+                had not been seen in Moscow for a long time, attracted general attention. Moreover,
+                everybody knew vaguely of Natásha’s engagement to Prince Andrew, and knew that the
+                Rostóvs had lived in the country ever since, and all looked with curiosity at a
+                fiancée who was making one of the best matches in Russia.</ref>
+            <ref song="07"><q>Dear me, Michael Kirílovich has grown still stouter!</q> remarked the
+                count. <q>Look at our Anna Mikháylovna—what a headdress she has on!</q><q>The
+                    Karágins, Julie—and Borís with them. One can see at once that they’re
+                    engaged....</q></ref>
+            <ref song="07"><q>They are talking about us, about me and him!</q> thought Natásha.
+                    <q>And he no doubt is calming her jealousy of me. They needn’t trouble
+                    themselves! If only they knew how little I am concerned about any of
+                them.</q></ref>
+            <ref song="07">He stood in full view of the audience, well aware that he was attracting
+                everyone’s attention, yet as much at ease as though he were in his own room. Around
+                him thronged Moscow’s most brilliant young men, whom he evidently dominated.</ref>
+            <ref song="07"><q>He did,</q> replied Shinshín. <q>He was in the Caucasus and ran away
+                    from there. They say he has been acting as minister to some ruling prince in
+                    Persia, where he killed the Shah’s brother. Now all the Moscow ladies are mad
+                    about him! It’s Dólokhov the Persian that does it!</q></ref>
+            <ref song="07">A tall, beautiful woman with a mass of plaited hair and much exposed
+                plump white shoulders and neck, round which she wore a double string of large
+                pearls, entered the adjoining box rustling her heavy silk dress and took a long time
+                settling into her place.</ref>
+            <ref song="07">Natásha involuntarily gazed at that neck, those shoulders, and pearls and
+                coiffure, and admired the beauty of the shoulders and the pearls. While Natásha was
+                fixing her gaze on her for the second time the lady looked round and, meeting the
+                count’s eyes, nodded to him and smiled. She was the Countess Bezúkhova, Pierre’s
+                wife, and the count, who knew everyone in society, leaned over and spoke to
+                her.</ref>
+            <ref song="07"><q>Have you been here long, Countess?</q> he inquired. <q>I’ll call, I’ll
+                    call to kiss your hand. I’m here on business and have brought my girls with me.
+                    They say Semënova acts marvelously. Count Pierre never used to forget us. Is he
+                    here?</q></ref>
+            <ref song="07">As soon as it rose everyone in the boxes and stalls became silent, and
+                all the men, old and young, in uniform and evening dress, and all the women with
+                gems on their bare flesh, turned their whole attention with eager curiosity to the
+                stage.</ref>
+        </chapter>
+        <chapter n="9">
+            <ch>CHAPTER 9</ch>
+            <ref song="07">After her life in the country, and in her present serious mood, all this
+                seemed grotesque and amazing to Natásha. She could not follow the opera nor even
+                listen to the music; she saw only the painted cardboard and the queerly dressed men
+                and women who moved, spoke, and sang so strangely in that brilliant light. She knew
+                what it was all meant to represent, but it was so pretentiously false and unnatural
+                that she first felt ashamed for the actors and then amused at them. She looked at
+                the faces of the audience, seeking in them the same sense of ridicule and perplexity
+                she herself experienced, but they all seemed attentive to what was happening on the
+                stage, and expressed delight which to Natásha seemed feigned.</ref>
+            <ref song="07">especially at Hélène in the next box, who—apparently quite unclothed—sat
+                with a quiet tranquil smile</ref>
+            <ref song="07">And feeling the bright light that flooded the whole place and the warm
+                air heated by the crowd, Natásha little by little began to pass into a state of
+                intoxication she had not experienced for a long while.</ref>
+            <ref song="07">As she looked and thought, the strangest fancies unexpectedly and
+                disconnectedly passed through her mind: the idea occurred to her of jumping onto the
+                edge of the box and singing the aria the actress was singing, then she wished to
+                touch with her fan an old gentleman sitting not far from her, then to lean over to
+                Hélène and tickle her.</ref>
+            <ref song="07">At a moment when all was quiet before the commencement of a song, a door
+                leading to the stalls on the side nearest the Rostóvs’ box creaked, and the steps of
+                a belated arrival were heard. <q>There’s <c7>Kurágin</c7>!</q> whispered Shinshín.
+                    <c9>Countess Bezúkhova</c9> turned smiling to the newcomer, and
+                <c3>Natásha</c3>, following the direction of that look, saw an exceptionally
+                handsome adjutant approaching their box with a self-assured yet courteous bearing.
+                This was <c7>Anatole Kurágin</c7> whom she had seen and noticed long ago at the ball
+                in Petersburg. He was now in an adjutant’s uniform with one epaulet and a shoulder
+                knot. He moved with a restrained swagger which would have been ridiculous had he not
+                been so good-looking and had his handsome face not worn such an expression of
+                good-humored complacency and gaiety. Though the performance was proceeding, he
+                walked deliberately down the carpeted gangway, his sword and spurs slightly jingling
+                and his handsome perfumed head held high. Having looked at <c3>Natásha</c3> he
+                approached his sister, laid his well gloved hand on the edge of her box, nodded to
+                her, and leaning forward asked a question, with a motion toward
+                <c3>Natásha</c3>.</ref>
+            <ref song="07"><q>Mais charmante!</q> said he, evidently referring to <c3>Natásha</c3>,
+                who did not exactly hear his words but understood them from the movement of his
+                lips. Then he took his place in the first row of the stalls and sat down beside
+                    <c8>Dólokhov</c8>, nudging with his elbow in a friendly and offhand way that
+                    <c8>Dólokhov</c8> whom others treated so fawningly. He winked at him gaily,
+                smiled, and rested his foot against the orchestra screen.</ref>
+            <ref song="07">She turned and their eyes met. Almost smiling, he gazed straight into her
+                eyes with such an enraptured caressing look that it seemed strange to be so near
+                him, to look at him like that, to be so sure he admired her, and not to be
+                acquainted with him.</ref>
+            <ref song="07">In the second act there was scenery representing tombstones, there was a
+                round hole in the canvas to represent the moon, shades were raised over the
+                footlights, and from horns and contrabass came deep notes while many people appeared
+                from right and left wearing black cloaks and holding things like daggers in their
+                hands. They began waving their arms.</ref>
+            <ref song="12">
+                <q>How is it you’re not ashamed to bury such pearls in the country?</q>
+            </ref>
+            <ref song="12"><c9>Countess Bezúkhova</c9> quite deserved her reputation of being a
+                fascinating woman. She could say what she did not think—especially what was
+                flattering—quite simply and naturally.</ref>
+            <ref song="07">The scene of the third act represented a palace in which many candles
+                were burning and pictures of knights with short beards hung on the walls. In the
+                middle stood what were probably a king and a queen. The king waved his right arm
+                and, evidently nervous, sang something badly and sat down on a crimson throne.</ref>
+            <ref song="07">But suddenly a storm came on, chromatic scales and diminished sevenths
+                were heard in the orchestra, everyone ran off, again dragging one of their number
+                away, and the curtain dropped. Once more there was a terrible noise and clatter
+                among the audience, and with rapturous faces everyone began shouting: <q>Duport!
+                    Duport! Duport!</q></ref>
+        </chapter>
+        <chapter n="10">
+            <ch>CHAPTER 10</ch>
+            <ref song="07">During the entr’acte a whiff of cold air came into <c9>Hélène</c9>’s box,
+                the door opened, and <c7>Anatole</c7> entered, stooping and trying not to brush
+                against anyone.</ref>
+            <ref song="08"><c7>Anatole</c7>, who was as handsome at close quarters as at a distance,
+                sat down beside her and told her he had long wished to have this happiness—ever
+                since the Narýshkins’ ball in fact, at which he had had the well-remembered pleasure
+                of seeing her. <c7>Kurágin</c7> was much more sensible and simple with women than
+                among men. He talked boldly and naturally, and <c3>Natásha</c3> was strangely and
+                agreeably struck by the fact that there was nothing formidable in this man about
+                whom there was so much talk, but that on the contrary his smile was most naïve,
+                cheerful, and good-natured.</ref>
+            <ref song="08"><c7>Kurágin</c7> asked her opinion of the performance and told her how at
+                a previous performance Semënova had fallen down on the stage.</ref>
+            <ref song="08"><q>And do you know, Countess,</q> he said, suddenly addressing her as an
+                old, familiar acquaintance, <q>we are getting up a costume tournament; you ought to
+                    take part in it! It will be great fun. We shall all meet at the Karágins’!
+                    Please come! No! Really, eh?</q> said he.</ref>
+            <ref song="08">While saying this he never removed his smiling eyes from her face, her
+                neck, and her bare arms. <c3>Natásha</c3> knew for certain that he was enraptured by
+                her. This pleased her, yet his presence made her feel constrained and oppressed.
+                When she was not looking at him she felt that he was looking at her shoulders, and
+                she involuntarily caught his eye so that he should look into hers rather than this.
+                But looking into his eyes she was frightened, realizing that there was not that
+                barrier of modesty she had always felt between herself and other men. She did not
+                know how it was that within five minutes she had come to feel herself terribly near
+                to this man. When she turned away she feared he might seize her from behind by her
+                bare arm and kiss her on the neck. They spoke of most ordinary things, yet she felt
+                that they were closer to one another than she had ever been to any man.</ref>
+            <ref song="08">During one of these moments of awkward silence when <c7>Anatole</c7>’s
+                prominent eyes were gazing calmly and fixedly at her, <c3>Natásha</c3>, to break the
+                silence, asked him how he liked Moscow.</ref>
+            <ref song="08"><q>At first I did not like it much, because what makes a town pleasant ce
+                    sont les jolies femmes, * isn’t that so? But now I like it very much indeed,</q>
+                he said, looking at her significantly. <q>You’ll come to the costume tournament,
+                    Countess? Do come!</q> and putting out his hand to her bouquet and dropping his
+                voice, he added, <q>You will be the prettiest there. Do come, dear countess, and
+                    give me this flower as a pledge!</q></ref>
+            <ref song="08">She smiled just as he was doing, gazing straight into his eyes. And again
+                she felt with horror that no barrier lay between him and her.</ref>
+        </chapter>
+        <chapter n="11">
+            <ch>CHAPTER 11</ch>
+            <ref song="09">There was a special reason for this, as he had got married two years
+                before—a fact known only to his most intimate friends. At that time while with his
+                regiment in Poland, a Polish landowner of small means had forced him to marry his
+                daughter.</ref>
+            <ref song="09"><c7>Anatole</c7> was always content with his position, with himself, and
+                with others. He was instinctively and thoroughly convinced that it was impossible
+                for him to live otherwise than as he did and that he had never in his life done
+                anything base. He was incapable of considering how his actions might affect others
+                or what the consequences of this or that action of his might be. He was convinced
+                that, as a duck is so made that it must live in water, so God had made him such that
+                he must spend thirty thousand rubles a year and always occupy a prominent position
+                in society.</ref>
+            <ref song="09">All he cared about was gaiety and women, and as according to his ideas
+                there was nothing dishonorable in these tastes, and he was incapable of considering
+                what the gratification of his tastes entailed for others, he honestly considered
+                himself irreproachable, sincerely despised rogues and bad people, and with a
+                tranquil conscience carried his head high.</ref>
+            <ref song="09">At supper after the opera he described to <c8>Dólokhov</c8> with the air
+                of a connoisseur the attractions of her arms, shoulders, feet, and hair and
+                expressed his intention of making love to her.</ref>
+            <ref song="09"><q>She’s first-rate, my dear fellow, but not for us,</q> replied
+                    <c8>Dólokhov</c8>. <q>I will tell my sister to ask her to dinner,</q> said
+                    <c7>Anatole</c7>. <q>Eh?</q>
+                <q>You’d better wait till she’s married....</q></ref>
+            <ref song="13"><q>You know, I adore little girls, they lose their heads at once,</q>
+                pursued <c7>Anatole</c7>.</ref>
+        </chapter>
+        <chapter n="12">
+            <ch>CHAPTER 12</ch>
+            <ref song="11">She suffered more now than during her first days in Moscow. To her
+                impatience and pining for him were now added the unpleasant recollection of her
+                interview with <c13>Princess Mary</c13> and the old prince, and a fear and anxiety
+                of which she did not understand the cause. She continually fancied that either he
+                would never come or that something would happen to her before he came.</ref>
+            <ref song="11">As soon as she began to think of him, the recollection of the old prince,
+                of <c13>Princess Mary</c13>, of the theater, and of <c7>Kurágin</c7> mingled with
+                her thoughts. The question again presented itself whether she was not guilty,
+                whether she had not already broken faith with <c1>Prince Andrew</c1>, and again she
+                found herself recalling to the minutest detail every word, every gesture, and every
+                shade in the play of expression on the face of the man who had been able to arouse
+                in her such an incomprehensible and terrifying feeling.</ref>
+            <ref song="11">She wore her holiday shawl, in which she paid calls, and announced that
+                she was going to see <c11>Prince Nicholas</c11> Bolkónski to have an explanation
+                with him about <c3>Natásha</c3>.</ref>
+            <ref song="11">After she had gone, a dressmaker from Madame Suppert-Roguet waited on the
+                Rostóvs, and <c3>Natásha</c3>, very glad of this diversion, having shut herself into
+                a room adjoining the drawing room, occupied herself trying on the new dresses.</ref>
+            <ref song="11">Just as she had put on a bodice without sleeves and only tacked together,
+                and was turning her head to see in the glass how the back fitted, she heard in the
+                drawing room the animated sounds of her father’s voice and another’s—a woman’s—that
+                made her flush.</ref>
+            <ref song="12"><q>Oh, my enchantress!</q> she cried to the blushing <c3>Natásha</c3>.
+                    <q>Charming! No, this is really beyond anything, my dear count,</q> said she to
+                    <c5>Count Rostóv</c5> who had followed her in. <q>How can you live in Moscow and
+                    go nowhere?</q></ref>
+            <ref song="12">She looked at <c3>Natásha</c3>’s dresses and praised them, as well as a
+                new dress of her own made of <q>metallic gauze,</q> which she had received from
+                Paris, and advised <c3>Natásha</c3> to have one like it.</ref>
+            <ref song="12"><q>But anything suits you, my charmer!</q> she remarked.</ref>
+            <ref song="12">The idea of throwing her brother and <c3>Natásha</c3> together amused
+                her.</ref>
+            <ref song="12">
+                <q>My brother dined with me yesterday—we nearly died of laughter—he ate nothing and
+                    kept sighing for you, my charmer! He is madly, quite madly, in love with you, my
+                    dear.</q>
+            </ref>
+            <ref song="12"><q>How she blushes, how she blushes, my pretty!</q> said <c9>Hélène</c9>.
+                    <q>You must certainly come. If you love somebody, my charmer, that is not a
+                    reason to shut yourself up. Even if you are engaged, I am sure your fiancé would
+                    wish you to go into society rather than be bored to death.</q></ref>
+            <ref song="12"><q>So she knows I am engaged, and she and her husband
+                    <c2>Pierre</c2>—that good <c2>Pierre</c2>—have talked and laughed about this. So
+                    it’s all right.</q> And again, under <c9>Hélène</c9>’s influence, what had
+                seemed terrible now seemed simple and natural. <q>And she is such a grande dame, so
+                    kind, and evidently likes me so much. And why not enjoy myself?</q> thought
+                    <c3>Natásha</c3>, gazing at <c9>Hélène</c9> with wide-open, wondering
+                eyes.</ref>
+        </chapter>
+        <chapter n="13">
+            <ch>CHAPTER 13</ch>
+            <ref song="13"><c7>Anatole</c7> was at the door, evidently on the lookout for the
+                Rostóvs.</ref>
+            <ref song="13">As soon as she saw him she was seized by the same feeling she had had at
+                the opera—gratified vanity at his admiration of her and fear at the absence of a
+                moral barrier between them.</ref>
+            <ref song="13"><q>Adorable! divine! delicious!</q> was heard from every side.
+                    <c3>Natásha</c3> looked at the fat actress, but neither saw nor heard nor
+                understood anything of what went on before her. She only felt herself again
+                completely borne away into this strange senseless world—so remote from her old
+                world—a world in which it was impossible to know what was good or bad, reasonable or
+                senseless. Behind her sat <c7>Anatole</c7>, and conscious of his proximity she
+                experienced a frightened sense of expectancy.</ref>
+            <ref song="13">He said this at a moment when she alone could hear him. <q>You are
+                    enchanting... from the moment I saw you I have never ceased...</q></ref>
+            <ref song="13"><c7>Anatole</c7> asked <c3>Natásha</c3> for a valse and as they danced he
+                pressed her waist and hand and told her she was bewitching and that he loved her.
+                During the écossaise, which she also danced with him, <c7>Anatole</c7> said nothing
+                when they happened to be by themselves, but merely gazed at her. <c3>Natásha</c3>
+                lifted her frightened eyes to him, but there was such confident tenderness in his
+                affectionate look and smile that she could not, whilst looking at him, say what she
+                had to say. She lowered her eyes.</ref>
+            <ref song="13"><q>Don’t say such things to me. I am betrothed and love another,</q> she
+                said rapidly.... She glanced at him.</ref>
+            <ref song="13"><q>Don’t speak to me of that! What can I do?</q> said he. <q>I tell you I
+                    am madly, madly, in love with you! Is it my fault that you are enchanting?...
+                    It’s our turn to begin.</q></ref>
+            <ref song="13"><c3>Natásha</c3>, animated and excited, looked about her with wide-open
+                frightened eyes and seemed merrier than usual. She understood hardly anything that
+                went on that evening. They danced the écossaise and the Grossvater.</ref>
+            <ref song="13"><q>I cannot come to visit you but is it possible that I shall never see
+                    you? I love you madly. Can I never...?</q> and, blocking her path, he brought
+                his face close to hers. His large, glittering, masculine eyes were so close to hers
+                that she saw nothing but them.<q>
+                    <c3>Natalie</c3>?</q> he whispered inquiringly while she felt her hands being
+                painfully pressed. <q><c3>Natalie</c3>?</q>
+                <q>I don’t understand. I have nothing to say,</q> her eyes replied.</ref>
+            <ref song="13">Burning lips were pressed to hers, and at the same instant she felt
+                herself released, and <c9>Hélène</c9>’s footsteps and the rustle of her dress were
+                heard in the room. <c3>Natásha</c3> looked round at her, and then, red and
+                trembling, threw a frightened look of inquiry at <c7>Anatole</c7> and moved toward
+                the door.</ref>
+            <ref song="13">She paused. She so wanted a word from him that would explain to her what
+                had happened and to which she could find no answer.</ref>
+            <ref song="13">After reaching home <c3>Natásha</c3> did not sleep all night. She was
+                tormented by the insoluble question whether she loved <c7>Anatole</c7> or <c1>Prince
+                    Andrew</c1>. She loved Prince <c1>Andrew</c1>—she remembered distinctly how
+                deeply she loved him. But she also loved <c7>Anatole</c7>, of that there was no
+                doubt. <q>Else how could all this have happened?</q> thought she. <q>If, after that,
+                    I could return his smile when saying good-by, if I was able to let it come to
+                    that, it means that I loved him from the first. It means that he is kind, noble,
+                    and splendid, and I could not help loving him.</q></ref>
+            <ref song="14"><q>What am I to do if I love him and the other one too?</q> she asked
+                herself, unable to find an answer to these terrible questions.</ref>
+        </chapter>
+        <chapter n="14">
+            <ch>CHAPTER 14</ch>
+            <ref song="14"><c13>Princess Mary</c13> wrote that she was in despair at the
+                misunderstanding that had occurred between them. Whatever her father’s feelings
+                might be, she begged <c3>Natásha</c3> to believe that she could not help loving her
+                as the one chosen by her brother, for whose happiness she was ready to sacrifice
+                everything.</ref>
+            <ref song="14"><q>Do not think, however,</q> she wrote, <q>that my father is
+                    ill-disposed toward you. He is an invalid and an old man who must be forgiven;
+                    but he is good and magnanimous and will love her who makes his son happy.</q>
+                <c13>Princess Mary</c13> went on to ask <c3>Natásha</c3> to fix a time when she
+                could see her again.</ref>
+            <ref song="14"><q>Dear Princess,</q> she wrote in French quickly and mechanically, and
+                then paused. What more could she write after all that had happened the evening
+                before? <q>Yes, yes! All that has happened, and now all is changed,</q> she thought
+                as she sat with the letter she had begun before her. <q>Must I break off with him?
+                    Must I really? That’s awful...</q> and to escape from these dreadful thoughts
+                she went to <c6>Sónya</c6> and began sorting patterns with her.</ref>
+            <ref song="14"><q>Only, for Christ’s sake...</q> the girl went on, as <c3>Natásha</c3>,
+                without thinking, mechanically broke the seal and read a love letter from
+                    <c7>Anatole</c7>, of which, without taking in a word, she understood only that
+                it was a letter from him—from the man she loved. Yes, she loved him, or else how
+                could that have happened which had happened? And how could she have a love letter
+                from him in her hand?</ref>
+            <ref song="14">With trembling hands <c3>Natásha</c3> held that passionate love letter
+                which <c8>Dólokhov</c8> had composed for <c7>Anatole</c7></ref>
+            <ref song="14"><q>Since yesterday evening my fate has been sealed; to be loved by you or
+                    to die. There is no other way for me,</q> the letter began. Then he went on to
+                say that he knew her parents would not give her to him—for this there were secret
+                reasons he could reveal only to her—but that if she loved him she need only say the
+                word yes, and no human power could hinder their bliss. Love would conquer all. He
+                would steal her away and carry her off to the ends of the earth.</ref>
+            <ref song="14"><q>Yes, yes! I love him!</q> thought <c3>Natásha</c3>, reading the letter
+                for the twentieth time and finding some peculiarly deep meaning in each word of
+                it.</ref>
+        </chapter>
+        <chapter n="15">
+            <ch>CHAPTER 15</ch>
+            <ref song="15"><q>How was it I noticed nothing? How could it go so far? Can she have
+                    left off loving <c1>Prince Andrew</c1>? And how could she let <c7>Kurágin</c7>
+                    go to such lengths? He is a deceiver and a villain, that’s plain! What will
+                    Nicholas, dear noble Nicholas, do when he hears of it? So this is the meaning of
+                    her excited, resolute, unnatural look the day before yesterday, yesterday, and
+                    today,</q> thought <c6>Sónya</c6>. <q>But it can’t be that she loves him! She
+                    probably opened the letter without knowing who it was from. Probably she is
+                    offended by it. She could not do such a thing!</q></ref>
+            <ref song="15"><q><c3>Natásha</c3>!</q> she said, just audibly. <c3>Natásha</c3> awoke
+                and saw <c6>Sónya</c6>. <q>Ah, you’re back?</q></ref>
+            <ref song="15">And with the decision and tenderness that often come at the moment of
+                awakening, she embraced her friend, but noticing <c6>Sónya</c6>’s look of
+                embarrassment, her own face expressed confusion and suspicion.</ref>
+            <ref song="15">
+                <p><q><c6>Sónya</c6>, you’ve read that letter?</q> she demanded.</p>
+                <p><q>Yes,</q> answered <c6>Sónya</c6> softly.</p>
+                <p><c3>Natásha</c3> smiled rapturously.</p>
+                <p><q>No, <c6>Sónya</c6>, I can’t any longer!</q> she said. <q>I can’t hide it from
+                        you any longer. You know, we love one another! <c6>Sónya</c6>, darling, he
+                        writes... <c6>Sónya</c6>...</q></p>
+                <p><c6>Sónya</c6> stared open-eyed at <c3>Natásha</c3>, unable to believe her
+                    ears.</p>
+                <p><q>And Bolkónski?</q> she asked.</p>
+                <p><q>Ah, <c6>Sónya</c6>, if you only knew how happy I am!</q> cried
+                        <c3>Natásha</c3>. <q>You don’t know what love is....</q></p>
+                <p>
+                    <q>But, <c3>Natásha</c3>, can that be all over?</q>
+                </p>
+                <p><c3>Natásha</c3> looked at <c6>Sónya</c6> with wide-open eyes as if she could not
+                    grasp the question.</p>
+                <p><q>Well, then, are you refusing <c1>Prince Andrew</c1>?</q> said
+                    <c6>Sónya</c6>.</p>
+                <p><q>Oh, you don’t understand anything! Don’t talk nonsense, just listen!</q> said
+                        <c3>Natásha</c3>, with momentary vexation.</p>
+                <p><q>But I can’t believe it,</q> insisted <c6>Sónya</c6>. <q>I don’t understand.
+                        How is it you have loved a man for a whole year and suddenly... Why, you
+                        have only seen him three times! <c3>Natásha</c3>, I don’t believe you,
+                        you’re joking! In three days to forget everything and so...</q></p>
+                <p><q>Three days?</q> said <c3>Natásha</c3>. <q>It seems to me I’ve loved him a
+                        hundred years. It seems to me that I have never loved anyone before. You
+                        can’t understand it.... <c6>Sónya</c6>, wait a bit, sit here,</q> and
+                        <c3>Natásha</c3> embraced and kissed her.</p>
+                <p><q>I had heard that it happens like this, and you must have heard it too, but
+                        it’s only now that I feel such love. It’s not the same as before. As soon as
+                        I saw him I felt he was my master and I his slave, and that I could not help
+                        loving him. Yes, his slave! Whatever he orders I shall do. You don’t
+                        understand that. What can I do? What can I do, <c6>Sónya</c6>?</q> cried
+                        <c3>Natásha</c3> with a happy yet frightened expression.</p>
+                <p><q>But think what you are doing,</q> cried <c6>Sónya</c6>. <q>I can’t leave it
+                        like this. This secret correspondence... How could you let him go so
+                        far?</q> she went on, with a horror and disgust she could hardly
+                    conceal.</p>
+                <p><q>I told you that I have no will,</q>
+                    <c3>Natásha</c3> replied. <q>Why can’t you understand? I love him!</q></p>
+                <p><q>Then I won’t let it come to that... I shall tell!</q> cried <c6>Sónya</c6>,
+                    bursting into tears.</p>
+                <p><q>What do you mean? For God’s sake... If you tell, you are my enemy!</q>
+                    declared <c3>Natásha</c3>. <q>You want me to be miserable, you want us to be
+                        separated....</q></p>
+                <p>When she saw <c3>Natásha</c3>’s fright, <c6>Sónya</c6> shed tears of shame and
+                    pity for her friend.</p>
+                <p><q>But what has happened between you?</q> she asked. <q>What has he said to you?
+                        Why doesn’t he come to the house?</q></p>
+                <p><c3>Natásha</c3> did not answer her questions.</p>
+                <p><q>For God’s sake, <c6>Sónya</c6>, don’t tell anyone, don’t torture me,</q>
+                    <c3>Natásha</c3> entreated. <q>Remember no one ought to interfere in such
+                        matters! I have confided in you....</q></p>
+                <p><q>But why this secrecy? Why doesn’t he come to the house?</q> asked
+                        <c6>Sónya</c6>. <q>Why doesn’t he openly ask for your hand? You know
+                            <c1>Prince Andrew</c1> gave you complete freedom—if it is really so; but
+                        I don’t believe it! <c3>Natásha</c3>, have you considered what these secret
+                        reasons can be?</q></p>
+                <p><c3>Natásha</c3> looked at <c6>Sónya</c6> with astonishment. Evidently this
+                    question presented itself to her mind for the first time and she did not know
+                    how to answer it.</p>
+                <p>
+                    <q>I don’t know what the reasons are. But there must be reasons!</q>
+                </p>
+                <p><c6>Sónya</c6> sighed and shook her head incredulously.</p>
+                <p><q>If there were reasons...</q> she began.</p>
+                <p>But <c3>Natásha</c3>, guessing her doubts, interrupted her in alarm.</p>
+                <p><q><c6>Sónya</c6>, one can’t doubt him! One can’t, one can’t! Don’t you
+                        understand?</q> she cried.</p>
+                <p>
+                    <q>Does he love you?</q>
+                </p>
+                <p><q>Does he love me?</q>
+                    <c3>Natásha</c3> repeated with a smile of pity at her friend’s lack of
+                    comprehension. <q>Why, you have read his letter and you have seen him.</q></p>
+                <p>
+                    <q>But if he is dishonorable?</q>
+                </p>
+                <p><q>He! dishonorable? If you only knew!</q> exclaimed <c3>Natásha</c3>.</p>
+                <p><q>If he is an honorable man he should either declare his intentions or cease
+                        seeing you; and if you won’t do this, I will. I will write to him, and I
+                        will tell Papa!</q> said <c6>Sónya</c6> resolutely.</p>
+                <p><q>But I can’t live without him!</q> cried <c3>Natásha</c3>.</p>
+                <p>
+                    <q><c3>Natásha</c3>, I don’t understand you. And what are you saying! Think of
+                        your father and of Nicholas.</q>
+                </p>
+                <p><q>I don’t want anyone, I don’t love anyone but him. How dare you say he is
+                        dishonorable? Don’t you know that I love him?</q> screamed <c3>Natásha</c3>.
+                        <q>Go away, <c6>Sónya</c6>! I don’t want to quarrel with you, but go, for
+                        God’s sake go! You see how I am suffering!</q>
+                    <c3>Natásha</c3> cried angrily, in a voice of despair and repressed irritation.
+                        <c6>Sónya</c6> burst into sobs and ran from the room.</p>
+            </ref>
+            <ref song="15"><c3>Natásha</c3> went to the table and without a moment’s reflection
+                wrote that answer to <c13>Princess Mary</c13> which she had been unable to write all
+                the morning. In this letter she said briefly that all their misunderstandings were
+                at an end; that availing herself of the magnanimity of <c1>Prince Andrew</c1> who
+                when he went abroad had given her her freedom, she begged <c13>Princess Mary</c13>
+                to forget everything and forgive her if she had been to blame toward her, but that
+                she could not be his wife. At that moment this all seemed quite easy, simple, and
+                clear to <c3>Natásha</c3>.</ref>
+            <ref song="15"><q>Oh, <c6>Sónya</c6>, if you knew him as I do! He said... He asked me
+                    what I had promised Bolkónski. He was glad I was free to refuse him.</q>
+                <c6>Sónya</c6> sighed sorrowfully. <q>But you haven’t refused Bolkónski?</q> said
+                she. <q>Perhaps I have. Perhaps all is over between me and Bolkónski. Why do you
+                    think so badly of me?</q></ref>
+            <ref song="15"><c6>Sónya</c6> did not succumb to the tender tone <c3>Natásha</c3> used
+                toward her. The more emotional and ingratiating the expression of <c3>Natásha</c3>’s
+                face became, the more serious and stern grew <c6>Sónya</c6>’s.</ref>
+            <ref song="15"><q><c3>Natásha</c3>, I am afraid for you!</q>
+                <q>Afraid of what?</q>
+                <q>I am afraid you’re going to your ruin,</q> said <c6>Sónya</c6> resolutely, and
+                was herself horrified at what she had said. Anger again showed in <c3>Natásha</c3>’s
+                face. <q>And I’ll go to my ruin, I will, as soon as possible! It’s not your
+                    business! It won’t be you, but I, who’ll suffer. Leave me alone, leave me alone!
+                    I hate you!</q>
+                <q><c3>Natásha</c3>!</q> moaned <c6>Sónya</c6>, aghast. <q>I hate you, I hate you!
+                    You’re my enemy forever!</q> And <c3>Natásha</c3> ran out of the room.</ref>
+            <ref song="16">Hard as it was for <c6>Sónya</c6>, she watched her friend and did not let
+                her out of her sight. The day before the count was to return, <c6>Sónya</c6> noticed
+                that <c3>Natásha</c3> sat by the drawing room window all the morning as if expecting
+                something and that she made a sign to an officer who drove past, whom <c6>Sónya</c6>
+                took to be <c7>Anatole</c7>. <c6>Sónya</c6> began watching her friend still more
+                attentively and noticed that at dinner and all that evening <c3>Natásha</c3> was in
+                a strange and unnatural state. She answered questions at random, began sentences she
+                did not finish, and laughed at everything.</ref>
+            <ref song="16">After tea <c6>Sónya</c6> noticed a housemaid at <c3>Natásha</c3>’s door
+                timidly waiting to let her pass. She let the girl go in, and then listening at the
+                door learned that another letter had been delivered. Then suddenly it became clear
+                to <c6>Sónya</c6> that <c3>Natásha</c3> had some dreadful plan for that evening.
+                    <c6>Sónya</c6> knocked at her door. <c3>Natásha</c3> did not let her in.</ref>
+            <ref song="16"><q>She will run away with him!</q> thought <c6>Sónya</c6>. <q>She is
+                    capable of anything. There was something particularly pathetic and resolute in
+                    her face today. She cried as she said good-by to Uncle,</q>
+                <c6>Sónya</c6> remembered. <q>Yes, that’s it, she means to elope with him, but what
+                    am I to do?</q> thought she, recalling all the signs that clearly indicated that
+                    <c3>Natásha</c3> had some terrible intention. <q>The count is away. What am I to
+                    do? Write to <c7>Kurágin</c7> demanding an explanation? But what is there to
+                    oblige him to reply? Write to <c2>Pierre</c2>, as <c1>Prince Andrew</c1> asked
+                    me to in case of some misfortune?... But perhaps she really has already refused
+                    Bolkónski—she sent a letter to <c13>Princess Mary</c13> yesterday. And Uncle is
+                    away....</q> To tell <c4>Márya Dmítrievna</c4> who had such faith in
+                    <c3>Natásha</c3> seemed to <c6>Sónya</c6> terrible. <q>Well, anyway,</q> thought
+                    <c6>Sónya</c6> as she stood in the dark passage, <q>now or never I must prove
+                    that I remember the family’s goodness to me and that I love Nicholas. Yes! If I
+                    don’t sleep for three nights I’ll not leave this passage and will hold her back
+                    by force and will and not let the family be disgraced,</q> thought she.</ref>
+        </chapter>
+        <chapter n="16">
+            <ch>CHAPTER 16</ch>
+            <ref song="17">The plan for <c3>Natalie Rostóva</c3>’s abduction had been arranged and
+                the preparations made by <c8>Dólokhov</c8> a few days before, and on the day that
+                    <c6>Sónya</c6>, after listening at <c3>Natásha</c3>’s door, resolved to
+                safeguard her, it was to have been put into execution. <c3>Natásha</c3> had promised
+                to come out to <c7>Kurágin</c7> at the back porch at ten that evening.
+                    <c7>Kurágin</c7> was to put her into a troyka he would have ready and to drive
+                her forty miles to the village of Kámenka, where an unfrocked priest was in
+                readiness to perform a marriage ceremony over them. At Kámenka a relay of horses was
+                to wait which would take them to the Warsaw highroad, and from there they would
+                hasten abroad with post horses.</ref>
+            <ref song="17"><c7>Anatole</c7> had a passport, an order for post horses, ten thousand
+                rubles he had taken from his sister and another ten thousand borrowed with
+                    <c8>Dólokhov</c8>’s help.</ref>
+            <ref song="17">Two witnesses for the mock marriage—Khvóstikov, a retired petty official
+                whom <c8>Dólokhov</c8> made use of in his gambling transactions, and Makárin, a
+                retired hussar, a kindly, weak fellow who had an unbounded affection for
+                    <c7>Kurágin</c7>—were sitting at tea in <c8>Dólokhov</c8>’s front room.</ref>
+            <ref song="17">In his large study, the walls of which were hung to the ceiling with
+                Persian rugs, bearskins, and weapons, sat <c8>Dólokhov</c8> in a traveling cloak and
+                high boots, at an open desk on which lay an abacus and some bundles of paper money.
+                    <c7>Anatole</c7>, with uniform unbuttoned, walked to and fro from the room where
+                the witnesses were sitting, through the study to the room behind, where his French
+                valet and others were packing the last of his things. <c8>Dólokhov</c8> was counting
+                the money and noting something down.</ref>
+            <ref song="17"><q>Do you know? You’d really better drop it all. There’s still time!</q>
+                <q>Fool,</q> retorted <c7>Anatole</c7>. <q>Don’t talk nonsense! If you only knew...
+                    it’s the devil knows what!</q>
+                <q>No, really, give it up!</q> said <c8>Dólokhov</c8>. <q>I am speaking seriously.
+                    It’s no joke, this plot you’ve hatched.</q>
+                <q>What, teasing again? Go to the devil! Eh?</q> said <c7>Anatole</c7>, making a
+                grimace. <q>Really it’s no time for your stupid jokes,</q> and he left the
+                room.</ref>
+            <ref song="17"><q>You wait a bit,</q> he called after him. <q>I’m not joking, I’m
+                    talking sense. Come here, come here!</q>
+                <c7>Anatole</c7> returned and looked at <c8>Dólokhov</c8>, trying to give him his
+                attention and evidently submitting to him involuntarily. <q>Now listen to me. I’m
+                    telling you this for the last time. Why should I joke about it? Did I hinder
+                    you? Who arranged everything for you? Who found the priest and got the passport?
+                    Who raised the money? I did it all.</q>
+                <q>Well, thank you for it. Do you think I am not grateful?</q> And <c7>Anatole</c7>
+                sighed and embraced <c8>Dólokhov</c8>. <q>I helped you, but all the same I must tell
+                    you the truth; it is a dangerous business, and if you think about it—a stupid
+                    business. Well, you’ll carry her off—all right! Will they let it stop at that?
+                    It will come out that you’re already married. Why, they’ll have you in the
+                    criminal court....</q></ref>
+            <ref song="17"><q>Oh, nonsense, nonsense!</q>
+                <c7>Anatole</c7> ejaculated and again made a grimace. <q>Didn’t I explain to you?
+                    What?</q> And <c7>Anatole</c7>, with the partiality dull-witted people have for
+                any conclusion they have reached by their own reasoning, repeated the argument he
+                had already put to <c8>Dólokhov</c8> a hundred times. <q>Didn’t I explain to you
+                    that I have come to this conclusion: if this marriage is invalid,</q> he went
+                on, crooking one finger, <q>then I have nothing to answer for; but if it is valid,
+                    no matter! Abroad no one will know anything about it. Isn’t that so? And don’t
+                    talk to me, don’t, don’t.</q></ref>
+            <ref song="17"><q>Go to the devil!</q> cried <c7>Anatole</c7> and, clutching his hair,
+                left the room, but returned at once and dropped into an armchair in front of
+                    <c8>Dólokhov</c8> with his feet turned under him. <q>It’s the very devil! What?
+                    Feel how it beats!</q> He took <c8>Dólokhov</c8>’s hand and put it on his heart.
+                    <q>What a foot, my dear fellow! What a glance! A goddess!</q> he added in
+                French.</ref>
+            <ref song="17"><q>Now then! Nearly ready? You’re dawdling!</q> he shouted to the
+                servants.</ref>
+            <ref song="17"><c7>Anatole</c7> lay on the sofa in the study leaning on his elbow and
+                smiling pensively, while his handsome lips muttered tenderly to himself.</ref>
+            <ref song="17">
+                <q>Come! <c12>Balagá</c12> is here.</q>
+            </ref>
+            <ref song="18"><c12>Balagá</c12> was a famous troyka driver who had known
+                    <c8>Dólokhov</c8> and <c7>Anatole</c7> some six years and had given them good
+                service with his troykas. More than once when <c7>Anatole</c7>’s regiment was
+                stationed at Tver he had taken him from Tver in the evening, brought him to Moscow
+                by daybreak, and driven him back again the next night. More than once he had enabled
+                    <c8>Dólokhov</c8> to escape when pursued. More than once he had driven them
+                through the town with gypsies and <q>ladykins</q> as he called the cocottes. More
+                than once in their service he had run over pedestrians and upset vehicles in the
+                streets of Moscow and had always been protected from the consequences by <q>my
+                    gentlemen</q> as he called them. He had ruined more than one horse in their
+                service. More than once they had beaten him, and more than once they had made him
+                drunk on champagne and Madeira, which he loved; and he knew more than one thing
+                about each of them which would long ago have sent an ordinary man to Siberia. They
+                often called <c12>Balagá</c12> into their orgies and made him drink and dance at the
+                gypsies’, and more than one thousand rubles of their money had passed through his
+                hands. In their service he risked his skin and his life twenty times a year, and in
+                their service had lost more horses than the money he had from them would buy. But he
+                liked them; liked that mad driving at twelve miles an hour, liked upsetting a driver
+                or running down a pedestrian, and flying at full gallop through the Moscow streets.
+                He liked to hear those wild, tipsy shouts behind him: <q>Get on! Get on!</q> when it
+                was impossible to go any faster. He liked giving a painful lash on the neck to some
+                peasant who, more dead than alive, was already hurrying out of his way. <q>Real
+                    gentlemen!</q> he considered them.</ref>
+        </chapter>
+        <chapter n="17">
+            <ch>CHAPTER 17</ch>
+            <ref song="19"><q>All take glasses; you too, <c12>Balagá</c12>. Well, comrades and
+                    friends of my youth, we’ve had our fling and lived and reveled. Eh? And now,
+                    when shall we meet again? I am going abroad. We have had a good time—now
+                    farewell, lads! To our health! Hurrah!...</q> he cried, and emptying his glass
+                flung it on the floor.</ref>
+            <ref song="19"><q>No, stop!</q> said <c7>Anatole</c7>. <q>Shut the door; we have first
+                    to sit down. That’s the way.</q></ref>
+            <ref song="19"><q>And where’s the fur cloak?</q> asked <c8>Dólokhov</c8>. <q>Hey,
+                    Ignátka! Go to Matrëna Matrévna and ask her for the sable cloak. I have heard
+                    what elopements are like,</q> continued <c8>Dólokhov</c8> with a wink. <q>Why,
+                    she’ll rush out more dead than alive just in the things she is wearing; if you
+                    delay at all there’ll be tears and <q2>Papa</q2> and <q2>Mamma,</q2> and she’s
+                    frozen in a minute and must go back—but you wrap the fur cloak round her first
+                    thing and carry her to the sleigh.</q></ref>
+            <ref song="19"><q>That’s the way,</q> said <c8>Dólokhov</c8></ref>
+            <ref song="19"><q>Well, good-by, Matrëna,</q> said <c7>Anatole</c7>, kissing her. <q>Ah,
+                    my revels here are over. Remember me to Stëshka. There, good-by! Good-by,
+                    Matrëna, wish me luck!</q></ref>
+            <ref song="19"><q>Go!</q> he cried, twisting the reins round his hands, and the troyka
+                tore down the Nikítski Boulevard.</ref>
+            <ref song="19">When they reached the gate <c8>Dólokhov</c8> whistled. The whistle was
+                answered, and a maidservant ran out. <q>Come into the courtyard or you’ll be seen;
+                    she’ll come out directly,</q> said she. <c8>Dólokhov</c8> stayed by the gate.
+                    <c7>Anatole</c7> followed the maid into the courtyard, turned the corner, and
+                ran up into the porch. </ref>
+            <ref song="19"><q><c7>Kurágin</c7>! Come back!</q> shouted <c8>Dólokhov</c8>.
+                    <q>Betrayed! Back!</q></ref>
+        </chapter>
+        <chapter n="18">
+            <ch>CHAPTER 18</ch>
+            <ref song="20"><q>You shameless good-for-nothing!</q> said she. <q>I won’t hear a
+                    word.</q></ref>
+            <ref song="20"><q>Disgusting, abominable... In my house... horrid girl, hussy! I’m only
+                    sorry for her father!</q> thought she, trying to restrain her wrath.</ref>
+            <ref song="20"><q>A nice girl! Very nice!</q> said <c4>Márya Dmítrievna</c4>.
+                    <q>Arranging meetings with lovers in my house! It’s no use pretending: you
+                    listen when I speak to you!</q> And <c4>Márya Dmítrievna</c4> touched her arm.
+                    <q>Listen when I speak! You’ve disgraced yourself like the lowest of hussies.
+                    I’d treat you differently, but I’m sorry for your father, so I will conceal
+                    it.</q></ref>
+            <ref song="20"><c3>Natásha</c3> did not change her position, but her whole body heaved
+                with noiseless, convulsive sobs which choked her.</ref>
+            <ref song="20"><q>It’s lucky for him that he escaped me; but I’ll find him!</q> she said
+                in her rough voice. <q>Do you hear what I am saying or not?</q> she added.</ref>
+            <ref song="20">She put her large hand under <c3>Natásha</c3>’s face and turned it toward
+                her.</ref>
+            <ref song="20"><q>Let me be!... What is it to me?... I shall die!</q> she muttered,
+                wrenching herself from <c4>Márya Dmítrievna</c4>’s hands with a vicious effort and
+                sinking down again into her former position.</ref>
+            <ref song="20"><q>But when your father comes back tomorrow what am I to tell him?
+                    Eh?</q> Again <c3>Natásha</c3>’s body shook with sobs. <q>Suppose he finds out,
+                    and your brother, and your betrothed?</q></ref>
+            <ref song="20"><q>I have no betrothed: I have refused him!</q> cried <c3>Natásha</c3>.
+                    <q>That’s all the same,</q> continued <c4>Márya Dmítrievna</c4>. <q>If they hear
+                    of this, will they let it pass? He, your father, I know him... if he challenges
+                    him to a duel will that be all right? Eh?</q>
+                <q>Oh, let me be! Why have you interfered at all? Why? Why? Who asked you to?</q>
+                shouted <c3>Natásha</c3>, raising herself on the sofa and looking malignantly at
+                    <c4>Márya</c4> Dmítrievna.</ref>
+            <ref song="20"><q>But what did you want?</q> cried <c4>Márya Dmítrievna</c4>, growing
+                angry again. <q>Were you kept under lock and key? Who hindered his coming to the
+                    house? Why carry you off as if you were some gypsy singing girl?... Well, if he
+                    had carried you off... do you think they wouldn’t have found him? Your father,
+                    or brother, or your betrothed? And he’s a scoundrel, a wretch—that’s a fact!</q>
+                <q>He is better than any of you!</q> exclaimed <c3>Natásha</c3> getting up. <q>If
+                    you hadn’t interfered... Oh, my God! What is it all? What is it? <c6>Sónya</c6>,
+                    why?... Go away!</q></ref>
+            <ref song="20">And she burst into sobs with the despairing vehemence with which people
+                bewail disasters they feel they have themselves occasioned. <c4>Márya
+                    Dmítrievna</c4> was to speak again but <c3>Natásha</c3> cried out: <q>Go away!
+                    Go away! You all hate and despise me!</q> and she threw herself back on the
+                sofa.</ref>
+            <ref song="20"><c4>Márya Dmítrievna</c4> put a pillow under her head, covered her with
+                two quilts, and herself brought her some lime-flower water, but <c3>Natásha</c3> did
+                not respond to her.</ref>
+            <ref song="20"><q>Well, let her sleep,</q> said <c4>Márya Dmítrievna</c4> as she went
+                out of the room supposing <c3>Natásha</c3> to be asleep.</ref>
+            <ref song="20">But <c3>Natásha</c3> was not asleep; with pale face and fixed wide-open
+                eyes she looked straight before her. All that night she did not sleep or weep and
+                did not speak to <c6>Sónya</c6> who got up and went to her several times.</ref>
+            <ref song="20">With compressed and parched lips and dry fixed eyes, she sat at the
+                window, uneasily watching the people who drove past and hurriedly glancing round at
+                anyone who entered the room. She was evidently expecting news of him and that he
+                would come or would write to her.</ref>
+        </chapter>
+        <chapter n="19">
+            <ch>CHAPTER 19</ch>
+            <ref song="21">When he returned to Moscow <c2>Pierre</c2> was handed a letter from
+                    <c4>Márya Dmítrievna</c4> asking him to come and see her on a matter of great
+                importance relating to <c1>Andrew</c1> Bolkónski and his betrothed.</ref>
+            <ref song="21"><q>What can have happened? And what can they want with me?</q> thought he
+                as he dressed to go to <c4>Márya Dmítrievna</c4>’s.</ref>
+            <ref song="17"><q>Yes, indeed, that’s a true sage,</q> thought <c2>Pierre</c2>. <q>He
+                    sees nothing beyond the pleasure of the moment, nothing troubles him and so he
+                    is always cheerful, satisfied, and serene. What wouldn’t I give to be like
+                    him!</q> he thought enviously.</ref>
+            <ref song="21"><c4>Márya Dmítrievna</c4> informed him that <c3>Natásha</c3> had refused
+                    <c1>Prince Andrew</c1> without her parents’ knowledge and that the cause of this
+                was <c7>Anatole Kurágin</c7> into whose society <c2>Pierre</c2>’s wife had thrown
+                her and with whom <c3>Natásha</c3> had tried to elope during her father’s absence,
+                in order to be married secretly.</ref>
+            <ref song="21"><c2>Pierre</c2> raised his shoulders and listened open-mouthed to what
+                was told him, scarcely able to believe his own ears. That <c1>Prince Andrew</c1>’s
+                deeply loved affianced wife—the same <c3>Natásha</c3> Rostóva who used to be so
+                charming—should give up Bolkónski for that fool <c7>Anatole</c7> who was already
+                secretly married (as <c2>Pierre</c2> knew), and should be so in love with him as to
+                agree to run away with him, was something <c2>Pierre</c2> could not conceive and
+                could not imagine.</ref>
+            <ref song="21"><q>They are all alike!</q> he said to himself, reflecting that he was not
+                the only man unfortunate enough to be tied to a bad woman. But still he pitied
+                    <c1>Prince Andrew</c1> to the point of tears and sympathized with his wounded
+                pride, and the more he pitied his friend the more did he think with contempt and
+                even with disgust of that <c3>Natásha</c3> who had just passed him in the ballroom
+                with such a look of cold dignity.</ref>
+            <ref song="21">Natásha looked from one to the other as a hunted and wounded animal looks
+                at the approaching dogs and sportsmen.</ref>
+            <ref song="21">She was afraid that the count or Bolkónski, who might arrive at any
+                moment, if they knew of this affair (which she hoped to hide from them) might
+                challenge <c7>Anatole</c7> to a duel, and she therefore asked <c2>Pierre</c2> to
+                tell his brother-in-law in her name to leave Moscow and not dare to let her set eyes
+                on him again. <c2>Pierre</c2>—only now realizing the danger to the old count,
+                Nicholas, and Prince <c1>Andrew</c1>—promised to do as she wished.</ref>
+        </chapter>
+        <chapter n="20">
+            <ch>CHAPTER 20</ch>
+            <ref song="22">He drove through the town seeking <c7>Anatole Kurágin</c7>, at the
+                thought of whom now the blood rushed to his heart and he felt a difficulty in
+                breathing. He was not at the ice hills, nor at the gypsies’, nor at Komoneno’s.
+                    <c2>Pierre</c2> drove to the Club. In the Club all was going on as usual. The
+                members who were assembling for dinner were sitting about in groups; they greeted
+                    <c2>Pierre</c2> and spoke of the town news.</ref>
+            <ref song="22">One of <c2>Pierre</c2>’s acquaintances, while they were talking about the
+                weather, asked if he had heard of <c7>Kurágin</c7>’s abduction of Rostóva which was
+                talked of in the town, and was it true? <c2>Pierre</c2> laughed and said it was
+                nonsense for he had just come from the Rostóvs’.</ref>
+            <ref song="22">It seemed to him essential to see <c3>Natásha</c3>. In the evening he
+                drove to his sister’s to discuss with her how to arrange a meeting. When
+                    <c2>Pierre</c2> returned home after vainly hunting all over Moscow, his valet
+                informed him that Prince <c7>Anatole</c7> was with the countess.</ref>
+            <ref song="22"><c2>Pierre</c2> without greeting his wife whom he had not seen since his
+                return—at that moment she was more repulsive to him than ever—entered the drawing
+                room and seeing <c7>Anatole</c7> went up to him.</ref>
+            <ref song="22"><q>Ah, <c2>Pierre</c2>,</q> said the countess going up to her husband.
+                    <q>You don’t know what a plight our <c7>Anatole</c7>...</q></ref>
+            <ref song="22"><q>Where you are, there is vice and evil!</q> said <c2>Pierre</c2> to his
+                wife. <q><c7>Anatole</c7>, come with me! I must speak to you,</q> he added in
+                French.</ref>
+            <ref song="22"><c7>Anatole</c7> followed him with his usual jaunty step but his face
+                betrayed anxiety.</ref>
+            <ref song="22">Having entered his study <c2>Pierre</c2> closed the door and addressed
+                    <c7>Anatole</c7> without looking at him.</ref>
+            <ref song="23">
+                <q>You promised <c3>Countess Rostóva</c3> to marry her and were about to elope with
+                    her, is that so?</q>
+            </ref>
+            <ref song="23"><q>Mon cher,</q> answered <c7>Anatole</c7> (their whole conversation was
+                in French), <q>I don’t consider myself bound to answer questions put to me in that
+                    tone.</q></ref>
+            <ref song="23"><c2>Pierre</c2>’s face, already pale, became distorted by fury. He seized
+                    <c7>Anatole</c7> by the collar of his uniform with his big hand and shook him
+                from side to side till <c7>Anatole</c7>’s face showed a sufficient degree of
+                terror.</ref>
+            <ref song="23"><q>When I tell you that I must talk to you!...</q> repeated
+                    <c2>Pierre</c2>. <q>Come now, this is stupid. What?</q> said <c7>Anatole</c7>,
+                fingering a button of his collar that had been wrenched loose with a bit of the
+                cloth. <q>You’re a scoundrel and a blackguard, and I don’t know what deprives me
+                    from the pleasure of smashing your head with this!</q> said <c2>Pierre</c2>,
+                expressing himself so artificially because he was talking French.</ref>
+            <ref song="23">
+                <q>Did you promise to marry her?</q>
+                <q>I... I didn’t think of it. I never promised, because...</q>
+            </ref>
+            <ref song="23"><q>Have you any letters of hers? Any letters?</q> he said, moving toward
+                    <c7>Anatole</c7>.</ref>
+            <ref song="23"><q>I shan’t be violent, don’t be afraid!</q> said <c2>Pierre</c2> in
+                answer to a frightened gesture of <c7>Anatole</c7>’s. <q>First, the letters,</q>
+                said he, as if repeating a lesson to himself. <q>Secondly,</q> he continued after a
+                short pause, again rising and again pacing the room, <q>tomorrow you must get out of
+                    Moscow.</q>
+                <q>But how can I?...</q>
+                <q>Thirdly,</q>
+                <c2>Pierre</c2> continued without listening to him, <q>you must never breathe a word
+                    of what has passed between you and <c3>Countess Rostóva</c3>. I know I can’t
+                    prevent your doing so, but if you have a spark of conscience...</q>
+                <c2>Pierre</c2> paced the room several times in silence. <c7>Anatole</c7> sat at a
+                table frowning and biting his lips.</ref>
+            <ref song="23">
+                <q>After all, you must understand that besides your pleasure there is such a thing
+                    as other people’s happiness and peace, and that you are ruining a whole life for
+                    the sake of amusing yourself! Amuse yourself with women like my wife—with them
+                    you are within your rights, for they know what you want of them. They are armed
+                    against you by the same experience of debauchery; but to promise a maid to marry
+                    her... to deceive, to kidnap.... Don’t you understand that it is as mean as
+                    beating an old man or a child?...</q>
+            </ref>
+            <ref song="23"><q>I don’t know about that, eh?</q> said <c7>Anatole</c7>, growing more
+                confident as <c2>Pierre</c2> mastered his wrath. <q>I don’t know that and don’t want
+                    to,</q> he said, not looking at <c2>Pierre</c2> and with a slight tremor of his
+                lower jaw, <q>but you have used such words to me—<q2>mean</q2> and so on—which as a
+                    man of honor I can’t allow anyone to use.</q></ref>
+            <ref song="23"><q>Is it satisfaction you want?</q> said <c2>Pierre</c2> ironically.
+                    <q>You could at least take back your words. What? If you want me to do as you
+                    wish, eh?</q></ref>
+            <ref song="23"><q>I take them back, I take them back!</q> said <c2>Pierre</c2>, <q>and I
+                    ask you to forgive me.</q>
+                <c2>Pierre</c2> involuntarily glanced at the loose button. <q>And if you require
+                    money for your journey...</q>
+                <c7>Anatole</c7> smiled. The expression of that base and cringing smile, which
+                    <c2>Pierre</c2> knew so well in his wife, revolted him. <q>Oh, vile and
+                    heartless brood!</q> he exclaimed, and left the room. Next day <c7>Anatole</c7>
+                left for Petersburg.</ref>
+        </chapter>
+        <chapter n="21">
+            <ch>CHAPTER 21</ch>
+            <ref song="24">The whole house was in a state of alarm and commotion. <c3>Natásha</c3>
+                was very ill, having, as <c4>Márya Dmítrievna</c4> told him in secret, poisoned
+                herself the night after she had been told that <c7>Anatole</c7> was married, with
+                some arsenic she had stealthily procured. After swallowing a little she had been so
+                frightened that she woke <c6>Sónya</c6> and told her what she had done. The
+                necessary antidotes had been administered in time and she was now out of danger,
+                though still so weak that it was out of the question to move her to the country, and
+                so the countess had been sent for.</ref>
+            <ref song="24">He was awaiting <c1>Prince Andrew</c1>’s return with dread and went every
+                day to the old prince’s for news of him.</ref>
+            <ref song="25"><q>Well, how are you? Still getting stouter?</q> he said with animation,
+                but the new wrinkle on his forehead deepened. <q>Yes, I am well,</q> he said in
+                answer to <c2>Pierre</c2>’s question, and smiled.</ref>
+            <ref song="25">
+                <q>Forgive me for troubling you....</q>
+            </ref>
+            <ref song="25">
+                <q>I have received a refusal from <c3>Countess Rostóva</c3> and have heard reports
+                    of your brother-in-law having sought her hand, or something of that kind. Is
+                    that true?</q>
+            </ref>
+            <ref song="25">
+                <p><q>Here are her letters and her portrait,</q> said he.</p>
+                <p>He took the packet from the table and handed it to <c2>Pierre</c2>.</p>
+                <p>
+                    <q>Give this to the countess... if you see her.</q>
+                </p>
+                <p><q>She is very ill,</q> said <c2>Pierre</c2>.</p>
+            </ref>
+            <ref song="25">
+                <p>
+                    <q>He left long ago. She has been at death’s door.</q>
+                </p>
+                <p><q>I much regret her illness,</q> said <c1>Prince Andrew</c1>; and he smiled like
+                    his father, coldly, maliciously, and unpleasantly.</p>
+            </ref>
+            <ref song="25">
+                <p><q>Well, it doesn’t matter,</q> said <c1>Prince Andrew</c1>. <q>Tell <c3>Countess
+                            Rostóva</c3> that she was and is perfectly free and that I wish her all
+                        that is good.</q></p>
+
+                <p><c2>Pierre</c2> took the packet. <c1>Prince Andrew</c1>, as if trying to remember
+                    whether he had something more to say, or waiting to see if <c2>Pierre</c2> would
+                    say anything, looked fixedly at him.</p>
+
+                <p><q>I say, do you remember our discussion in Petersburg?</q> asked
+                    <c2>Pierre</c2>, <q>about...</q></p>
+
+                <p><q>Yes,</q> returned <c1>Prince Andrew</c1> hastily. <q>I said that a fallen
+                        woman should be forgiven, but I didn’t say I could forgive her. I
+                    can’t.</q></p>
+            </ref>
+            <ref song="25"><c1>Prince Andrew</c1> interrupted him and cried sharply: <q>Yes, ask her
+                    hand again, be magnanimous, and so on?... Yes, that would be very noble, but I
+                    am unable to follow in that gentleman’s footsteps. If you wish to be my friend
+                    never speak to me of that... of all that! Well, good-by. So you’ll give her the
+                    packet?</q></ref>
+        </chapter>
+        <chapter n="22">
+            <ch>CHAPTER 22</ch>
+            <ref song="26"><c3>Natásha</c3> was standing in the middle of the drawing room,
+                emaciated, with a pale set face, but not at all shamefaced as <c2>Pierre</c2>
+                expected to find her. When he appeared at the door she grew flurried, evidently
+                undecided whether to go to meet him or to wait till he came up.</ref>
+            <ref song="26"><c2>Pierre</c2> hastened to her. He thought she would give him her hand
+                as usual; but she, stepping up to him, stopped, breathing heavily, her arms hanging
+                lifelessly just in the pose she used to stand in when she went to the middle of the
+                ballroom to sing, but with quite a different expression of face.</ref>
+            <ref song="26"><q><c2>Peter Kirílovich</c2>,</q> she began rapidly, <q>Prince Bolkónski
+                    was your friend—is your friend,</q> she corrected herself. (It seemed to her
+                that everything that had once been must now be different.) <q>He told me once to
+                    apply to you...</q></ref>
+            <ref song="26"><c2>Pierre</c2> sniffed as he looked at her, but did not speak. Till then
+                he had reproached her in his heart and tried to despise her, but he now felt so
+                sorry for her that there was no room in his soul for reproach.</ref>
+            <ref song="26">
+                <p><q>He is here now: tell him... to for... forgive me!</q> She stopped and breathed
+                    still more quickly, but did not shed tears.</p>
+
+                <p><q>Yes... I will tell him,</q> answered <c2>Pierre</c2>; <q>but...</q></p>
+            </ref>
+            <ref song="26"><q>No, I know all is over,</q> she said hurriedly. <q>No, that can never
+                    be. I’m only tormented by the wrong I have done him. Tell him only that I beg
+                    him to forgive, forgive, forgive me for everything....</q></ref>
+            <ref song="26"><q>I will tell him, I will tell him everything once more,</q> said
+                    <c2>Pierre</c2>. <q>But... I should like to know one thing....</q></ref>
+            <ref song="26">
+                <p><q>I should like to know, did you love...</q>
+                    <c2>Pierre</c2> did not know how to refer to <c7>Anatole</c7> and flushed at the
+                    thought of him—<q>did you love that bad man?</q></p>
+
+                <p><q>Don’t call him bad!</q> said <c3>Natásha</c3>. <q>But I don’t know, don’t know
+                        at all....</q></p>
+            </ref>
+            <ref song="26">She began to cry and a still greater sense of pity, tenderness, and love
+                welled up in <c2>Pierre</c2>. He felt the tears trickle under his spectacles and
+                hoped they would not be noticed.</ref>
+            <ref song="26">
+                <p><q>We won’t speak of it any more, my dear,</q> said <c2>Pierre</c2>, and his
+                    gentle, cordial tone suddenly seemed very strange to <c3>Natásha</c3>.</p>
+
+                <p><q>We won’t speak of it, my dear—I’ll tell him everything; but one thing I beg of
+                        you, consider me your friend and if you want help, advice, or simply to open
+                        your heart to someone—not now, but when your mind is clearer--think of
+                        me!</q> He took her hand and kissed it. <q>I shall be happy if it’s in my
+                        power...</q></p>
+            </ref>
+            <ref song="26">
+                <p><c2>Pierre</c2> grew confused.</p>
+
+                <p><q>Don’t speak to me like that. I am not worth it!</q> exclaimed <c3>Natásha</c3>
+                    and turned to leave the room, but <c2>Pierre</c2> held her hand.</p>
+            </ref>
+            <ref song="26">
+                <p><q>Stop, stop! You have your whole life before you,</q> said he to her.</p>
+
+                <p><q>Before me? No! All is over for me,</q> she replied with shame and
+                    self-abasement.</p>
+
+                <p><q>All over?</q> he repeated. <q>If I were not myself, but the handsomest,
+                        cleverest, and best man in the world, and were free, I would this moment ask
+                        on my knees for your hand and your love!</q></p>
+
+                <p>For the first time for many days <c3>Natásha</c3> wept tears of gratitude and
+                    tenderness, and glancing at <c2>Pierre</c2> she went out of the room.</p>
+            </ref>
+            <ref song="26"><c2>Pierre</c2> too when she had gone almost ran into the anteroom,
+                restraining tears of tenderness and joy that choked him, and without finding the
+                sleeves of his fur cloak threw it on and got into his sleigh.</ref>
+            <ref song="27"><q>Where to?</q>
+                <c2>Pierre</c2> asked himself. <q>Where can I go now? Surely not to the Club or to
+                    pay calls?</q> All men seemed so pitiful, so poor, in comparison with this
+                feeling of tenderness and love he experienced: in comparison with that softened,
+                grateful, last look she had given him through her tears.</ref>
+            <ref song="26"><q>Home!</q> said <c2>Pierre</c2>, and despite twenty-two degrees of
+                frost Fahrenheit he threw open the bearskin cloak from his broad chest and inhaled
+                the air with joy.</ref>
+            <ref song="27">It was clear and frosty. Above the dirty, ill-lit streets, above the
+                black roofs, stretched the dark starry sky. Only looking up at the sky did
+                    <c2>Pierre</c2> cease to feel how sordid and humiliating were all mundane things
+                compared with the heights to which his soul had just been raised. At the entrance to
+                the Arbát Square an immense expanse of dark starry sky presented itself to his eyes.
+                Almost in the center of it, above the Prechístenka Boulevard, surrounded and
+                sprinkled on all sides by stars but distinguished from them all by its nearness to
+                the earth, its white light, and its long uplifted tail, shone the enormous and
+                brilliant comet of 1812—the comet which was said to portend all kinds of woes and
+                the end of the world. In <c2>Pierre</c2>, however, that comet with its long luminous
+                tail aroused no feeling of fear. On the contrary he gazed joyfully, his eyes moist
+                with tears, at this bright comet which, having traveled in its orbit with
+                inconceivable velocity through immeasurable space, seemed suddenly—like an arrow
+                piercing the earth—to remain fixed in a chosen spot, vigorously holding its tail
+                erect, shining and displaying its white light amid countless other scintillating
+                stars. It seemed to <c2>Pierre</c2> that this comet fully responded to what was
+                passing in his own softened and uplifted soul, now blossoming into a new life.</ref>
+        </chapter>
+    </book>
+    <book n="4">
+        <chapter n="4">
+            <ch>CHAPTER 4</ch>
+            <ref song="09">
+                <p><q>Well, now to the health of handsome women!</q> said Dólokhov, and with a
+                    serious expression, but with a smile lurking at the corners of his mouth, he
+                    turned with his glass to Pierre.</p>
+                <p><q>Here’s to the health of lovely women, Peterkin—and their lovers!</q> he
+                    added.</p>
+            </ref>
+            <ref song="09">Dólokhov looked at Pierre with clear, mirthful, cruel eyes, and that
+                smile of his which seemed to say, <q>Ah! This is what I like!</q></ref>
+            <ref song="09"><q>You...! you... scoundrel! I challenge you!</q> he ejaculated, and,
+                pushing back his chair, he rose from the table.</ref>
+        </chapter>
+        <chapter n="5">
+            <ref song="09">Denísov first went to the barrier and announced: <q>As the adve’sawies
+                    have wefused a weconciliation, please pwoceed. Take your pistols, and at the
+                    word thwee begin to advance</q></ref>
+            <ref song="09"><q>No-o-o!</q> muttered Dólokhov through his teeth, <q>no, it’s not
+                    over.</q></ref>
+            <ref song="09"><q>Missed!</q> shouted Dólokhov, and he lay helplessly, face downwards on
+                the snow.</ref>
+            <ref song="09"><q>My mother! My mother, my angel, my adored angel mother,</q> and
+                Dólokhov pressed Rostóv’s hand and burst into tears.</ref>
+        </chapter>
+        <chapter n="5">
+            <ch>CHAPTER 5</ch>
+            <ref song="10">Such a storm of feelings, thoughts, and memories suddenly arose within
+                him that he could not fall asleep, nor even remain in one place, but had to jump up
+                and pace the room with rapid steps.</ref>
+        </chapter>
+    </book>
+    <book n="2">
+        <chapter n="4">
+            <ch>CHAPTER 4</ch>
+            <ref song="10"><q>You see, my fwiend,</q> he said, <q>we sleep when we don’t love. We
+                    are childwen of the dust... but one falls in love and one is a God, one is pua’
+                    as on the fihst day of cweation... Who’s that now? Send him to the devil, I’m
+                    busy!</q> he shouted to Lavrúshka, who went up to him not in the least
+                abashed.</ref>
+        </chapter>
+    </book>
+    <book n="6">
+        <chapter n="2">
+            <ch>CHAPTER 2</ch>
+            <ref song="06"><q>Sónya! Sónya!</q> he again heard the first speaker. <q>Oh, how can you
+                    sleep? Only look how glorious it is! Ah, how glorious! Do wake up, Sónya!</q>
+                she said almost with tears in her voice. <q>There never, never was such a lovely
+                    night before!</q></ref>
+            <ref song="06">
+                <q>Do just come and see what a moon!... Oh, how lovely! Come here.... Darling,
+                    sweetheart, come here! There, you see? I feel like sitting down on my heels,
+                    putting my arms round my knees like this, straining tight, as tight as possible,
+                    and flying away! Like this....</q>
+            </ref>
+        </chapter>
+    </book>
+    <book n="7">
+        <chapter n="10">
+            <ch>CHAPTER 10</ch>
+            <ref song="06"><q>No, I don’t believe we ever were in animals,</q> said Natásha, still
+                in a whisper though the music had ceased. <q>But I am certain that we were angels
+                    somewhere there, and have been here, and that is why we remember....</q></ref>
+        </chapter>
+    </book>
+    <book n="9">
+        <chapter n="19">
+            <ch>CHAPTER 19</ch>
+            <ref song="14"><p>Writing the words L’Empereur Napoléon in numbers, it appears that the sum of them is
+                666, and that Napoleon was therefore the beast foretold in the Apocalypse. Moreover,
+                by applying the same system to the words quarante-deux, * which was the term allowed
+                to the beast that <q>spoke great things and blasphemies,</q> the same number 666 was
+                obtained; from which it followed that the limit fixed for Napoleon’s power had come
+                in the year 1812 when the French emperor was forty-two. This prophecy pleased Pierre
+                very much and he often asked himself what would put an end to the power of the
+                beast, that is, of Napoleon, and tried by the same system of using letters as
+                numbers and adding them up, to find an answer to the question that engrossed him. He
+                wrote the words L’Empereur Alexandre, La nation russe and added up their numbers,
+                but the sums were either more or less than 666. Once when making such calculations
+                he wrote down his own name in French, Comte Pierre Besouhoff, but the sum of the
+                numbers did not come right. Then he changed the spelling, substituting a z for the s
+                and adding de and the article le, still without obtaining the desired result. Then
+                it occurred to him: if the answer to the question were contained in his name, his
+                nationality would also be given in the answer. So he wrote Le russe Besuhof and
+                adding up the numbers got 671. This was only five too much, and five was represented
+                by e, the very letter elided from the article le before the word Empereur. By
+                omitting the e, though incorrectly, Pierre got the answer he sought. L’russe Besuhof
+                made 666. This discovery excited him. How, or by what means, he was connected with
+                the great event foretold in the Apocalypse he did not know, but he did not doubt
+                that connection for a moment. His love for Natásha, Antichrist, Napoleon, the
+                invasion, the comet, 666, L’Empereur Napoléon, and L’russe Besuhof—all this had to
+                mature and culminate, to lift him out of that spellbound, petty sphere of Moscow
+                habits in which he felt himself held captive and lead him to a great achievement and
+                great happiness.</p></ref>
+        </chapter>
+    </book>
+</references>
