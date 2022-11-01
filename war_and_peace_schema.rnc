@@ -1,0 +1,13 @@
+start= war_and_peace
+war_and_peace= element war_and_peace {eight, ch+, text}
+eight= element eight {text}
+#
+#
+ch= element ch {title+, p+, text}
+title= element title {text}
+p= element p {chara+, q+, text}
+#
+#
+chara= element chara {text}
+q= element q {text}
+
