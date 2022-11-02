@@ -44,6 +44,6 @@ backing = attribute backing { text }
 # Backing indicates when the chorus is singing the words alongside the main speaker
 chara = element chara { ref?, address?, text}
 # Chara is meant to indicate when a character's name is said; it will include their name in ref as it is when noted as speaker (i.e. capitals)
-ref = attribute ref { text }
+ref = attribute ref { "PIERRE" | "NATASHA" | "SONYA" | "MARYA D" | "ANATOLE" | "DOLOKHOV" | "BOLKONSKY" | "ANDREY" | "MARY" | "ALL" | "SERVANT" | "HÉLÈNE" }
 address = attribute address { text}
 # Address indicates what the level of formality is between the two; for example if it's a diminutive
