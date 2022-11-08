@@ -20,11 +20,13 @@
             <direction>Natasha and Sonya arrive on sleighs.</direction>
 
             <stanza speaker="NATASHA">
-                <line><chara ref="MARYA D" address="full">Marya Dmitryevna Akhrosimova</chara></line>
+                <line><chara ref="MARYA D" address="full">Marya Dmitryevna
+                    Akhrosimova</chara></line>
             </stanza>
 
             <stanza speaker="MARYA D">
-                <line><chara ref="NATASHA" address="full">Countess Natalya Ilyinichna Rostova</chara></line>
+                <line><chara ref="NATASHA" address="full">Countess Natalya Ilyinichna
+                        Rostova</chara></line>
             </stanza>
 
             <stanza speaker="NATASHA">
@@ -32,7 +34,8 @@
             </stanza>
 
             <stanza speaker="SONYA">
-                <line><chara ref="MARYA D" address="full">Marya Dmitryevna Akhrosimova</chara></line>
+                <line><chara ref="MARYA D" address="full">Marya Dmitryevna
+                    Akhrosimova</chara></line>
             </stanza>
 
             <stanza speaker="MARYA D">
@@ -47,13 +50,18 @@
         <verse>
             <stanza speaker="MARYA D">
                 <line>Welcome</line>
-                <line>Welcome to Moscow</line>
-                <line>Where faded and fading princesses live</line>
+                <wp-ref id="wp-ref4">
+                    <line>Welcome to Moscow</line>
+                    <line>Where faded and fading princesses live</line>
+                </wp-ref>
                 <line>I'll take you where you must go</line>
                 <line>Pet you a bit</line>
                 <line>And I'll scold you a bit</line>
-                <line><chara ref="NATASHA">My goddaughter</chara>, <chara ref="NATASHA">my favorite</chara>, <chara ref="NATASHA">Natasha</chara></line>
-                <line>I will touch you on the cheek</line>
+                <wp-ref id="wp-ref24">
+                    <line><chara ref="NATASHA">My goddaughter</chara>, <chara ref="NATASHA">my
+                            favorite</chara>, <chara ref="NATASHA">Natasha</chara></line>
+                    <line>I will touch you on the cheek</line>
+                </wp-ref>
             </stanza>
         </verse>
 
@@ -66,23 +74,28 @@
             </stanza>
 
             <stanza speaker="MARYA D">
-                <line>Bring in their things!</line>
-                <line>What are you dawdling for?</line>
-                <line>Get the samovar ready!</line>
-                <line>You're half frozen, I'm sure!</line>
-                <line>Bring some rum for the tea!</line>
-                <line><chara ref="SONYA" address="diminutive">Sonyushka</chara> bonjour</line>
-                <line>And <chara ref="NATASHA">Natasha</chara> my darling</line>
-                <line>You've grown plumper and prettier</line>
+                <wp-ref id="wp-ref23">
+                    <line>Bring in their things!</line>
+                    <line>What are you dawdling for?</line>
+                    <line>Get the samovar ready!</line>
+                    <line>You're half frozen, I'm sure!</line>
+                    <line>Bring some rum for the tea!</line>
+                    <line><chara ref="SONYA" address="diminutive">Sonyushka</chara> bonjour</line>
+                    <line>And <chara ref="NATASHA">Natasha</chara> my darling</line>
+                    <line>You've grown plumper and prettier</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>My cheeks are glowing from the cold</line>
+                <wp-ref id="wp-ref23">
+                    <line>My cheeks are glowing from the cold</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
                 <s-action kind="other" descr="NATASHA"><line>She said</line>
-                <line>Gazing at <chara ref="MARYA D">Marya</chara> with kind, glittering eyes</line></s-action>
+                    <line>Gazing at <chara ref="MARYA D">Marya</chara> with kind, glittering
+                        eyes</line></s-action>
             </stanza>
         </verse>
 
@@ -111,22 +124,23 @@
             <stanza speaker="NATASHA">
                 <line><chara ref="SONYA">Cousin dear</chara> I love you</line>
                 <line>Trust no one but you</line>
-                <line>But I can't bear this waiting</line>
-                <s-action kind="other" descr="NATASHA" type="1st"><line>I cry and I cry</line></s-action>
+                <wp-ref id="wp-ref38"><line>But I can't bear this waiting</line>
+                <s-action kind="other" descr="NATASHA" type="1st"><line>I cry and I
+                    cry</line></s-action></wp-ref>
                 <line><chara ref="ANDREY">Andrey</chara> where are you?</line>
-                <line>I want him now, at once</line>
-                <line>To embrace him and cling to him</line>
-                <line>No one can understand</line>
+                <wp-ref id="wp-ref39"><line>I want him now, at once</line>
+                <line>To embrace him and cling to him</line></wp-ref>
+                <wp-ref id="wp-ref26"><line>No one can understand</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>I love him</line>
+                <wp-ref id="wp-ref26"><line>I love him</line>
                 <line>I know him</line>
                 <line>He loves me only</line>
                 <line>He'll come home one day</line>
                 <line>And take me away</line>
                 <line>I want nothing more</line>
-                <line>I want nothing more</line>
+                <line>I want nothing more</line></wp-ref>
                 <line>Hmmm...</line>
             </stanza>
         </verse>
@@ -135,8 +149,10 @@
             <stanza speaker="MARYA D">
                 <line>First thing tomorrow to Madame Chambords</line>
                 <line>Dresses, dresses, we'll buy what we can afford</line>
-                <line>Then dinner and a game of Boston</line>
-                <line>Then you'll read to me while I knit!</line>
+                <wp-ref id="wp-ref22">
+                    <line>Then dinner and a game of Boston</line>
+                    <line>Then you'll read to me while I knit!</line>
+                </wp-ref>
                 <line>How wonderful to have you here</line>
                 <line>Instead of these gossips and crybabies</line>
             </stanza>
@@ -148,36 +164,50 @@
             </stanza>
 
             <stanza speaker="SONYA">
-                <line><chara ref="NATASHA">Her goddaughter</chara>, <chara ref="NATASHA">her favorite</chara>, <chara ref="NATASHA">Natasha</chara></line>
-                <line>She will touch you on the cheek</line>
+                <wp-ref id="wp-ref24">
+                    <line><chara ref="NATASHA">Her goddaughter</chara>, <chara ref="NATASHA">her
+                            favorite</chara>, <chara ref="NATASHA">Natasha</chara></line>
+                    <line>She will touch you on the cheek</line>
+                </wp-ref>
             </stanza>
 
             <direction>Sonya leaves.</direction>
 
             <stanza speaker="MARYA D">
                 <line>Well, now we'll talk</line>
-                <line>I congratulate you and <chara ref="ANDREY">Andrey</chara></line>
-                <line>You've hooked a <chara ref="ANDREY">fine fellow</chara>!</line>
+                <wp-ref id="wp-ref25">
+                    <line>I congratulate you and <chara ref="ANDREY">Andrey</chara></line>
+                    <line>You've hooked a <chara ref="ANDREY">fine fellow</chara>!</line>
+                </wp-ref>
                 <line>One of the finest matches in all of Russia</line>
                 <line>I am glad and relieved</line>
                 <line>He'll be the family's saving grace</line>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <s-action kind="self" descr="NATASHA" type="1st"><line>I blush happily</line></s-action>
+                <wp-ref id="wp-ref25">
+                    <s-action kind="self" descr="NATASHA" type="1st"><line>I blush
+                        happily</line></s-action>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="MARYA D">
-                <line>But <chara ref="BOLKONSKY">his father</chara>, <chara ref="BOLKONSKY" address="formal">Prince Bolkonsky</chara>, much dislikes <chara ref="ANDREY">his sons</chara> marrying</line>
-                <line>The <chara ref="BOLKONSKY">old fellow</chara>'s crotchety!</line>
-                <line>Of course <chara ref="ANDREY" address="formal">Prince Andrey</chara>'s not a child</line>
-                <line>But it's not nice to enter a family against a father's will</line>
-                <line>One wants to do it peacefully and lovingly</line>
-                <line>But you're a <chara ref="NATASHA">clever girl</chara></line>
-                <line>Just be kind to <chara ref="ANDREY">Andrey</chara>'s <chara ref="MARY">sister</chara></line>
-                <line>And when the sister loves you</line>
-                <line>So will the father</line>
-                <line>And all will be well</line>
+                <wp-ref id="wp-ref25">
+                    <line>But <chara ref="BOLKONSKY">his father</chara>, <chara ref="BOLKONSKY"
+                            address="formal">Prince Bolkonsky</chara>, much dislikes <chara
+                            ref="ANDREY">his sons</chara> marrying</line>
+                    <line>The <chara ref="BOLKONSKY">old fellow</chara>'s crotchety!</line>
+                    <line>Of course <chara ref="ANDREY" address="formal">Prince Andrey</chara>'s not
+                        a child</line>
+                    <line>But it's not nice to enter a family against a father's will</line>
+                    <line>One wants to do it peacefully and lovingly</line>
+                    <line>But you're a <chara ref="NATASHA">clever girl</chara></line>
+                    <line>Just be kind to <chara ref="ANDREY">Andrey</chara>'s <chara ref="MARY"
+                            >sister</chara></line>
+                    <line>And when the sister loves you</line>
+                    <line>So will the father</line>
+                    <line>And all will be well</line>
+                </wp-ref>
             </stanza>
         </verse>
     </lyrics>
