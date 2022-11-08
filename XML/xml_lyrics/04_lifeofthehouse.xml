@@ -110,8 +110,8 @@
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>I know they’ll like me</line>
-                <line>Everyone has always liked me</line>
+                <wp-ref id="wp-ref27"><line>I know they’ll like me</line>
+                <line>Everyone has always liked me</line></wp-ref>
             </stanza>
 
             <stanza speaker="BOLKONSKY">
