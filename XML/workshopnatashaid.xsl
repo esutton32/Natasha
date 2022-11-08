@@ -8,15 +8,10 @@
             <xsl:apply-templates select="//chapter/ref"/>
         </body>
     </xsl:template>
-    
-    <xsl:template match="chapter/ref">
-        <ref xml:id="wp-ref-{count(preceding::ref) + 1}">
-            <!--<xsl:value-of select="count(preceding::fn) + 1"/> -->
-            <xsl:apply-templates/>
+
+    <xsl:template match="ref">
+        <ref xml:id="wp-ref{count(preceding::ref) + 1}">
+                <xsl:apply-templates/>          
         </ref>
-        <!--<ref>
-            <xsl:value-of select="count(preceding::ref) + 1"/>
-            <xsl:apply-templates/>
-        </ref> -->
     </xsl:template>
 </xsl:stylesheet>
