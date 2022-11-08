@@ -17,7 +17,7 @@ verse = element verse { content }
 chorus = element chorus { content }
 content = (direction | stanza )*
 direction = element direction { text }
-speech = element speech { (line  | speaker)* }
+speech = element speech { (line  | speaker | wp-ref)* }
 # S-action (abbreviated from spoken action) is meant to indicate when characters describe what they or another character are doing.
 s-action =
     element s-action { kind, descr, descr2?, type?,
@@ -32,7 +32,8 @@ type = attribute type { text }
 # If a character is describing themselves, type will say whether it is 1st or 3rd person
 #
 #
-stanza = element stanza { speaker, speaker2?, speaker3?, ( line | s-action)* }
+stanza = element stanza { speaker, speaker2?, speaker3?, ( line | s-action | wp-ref)* }
+wp-ref= element wp-ref { (line | s-action)* }
 speaker = attribute speaker { text }
 speaker2 = attribute speaker2 { text }
 speaker3 = attribute speaker3 { text }
