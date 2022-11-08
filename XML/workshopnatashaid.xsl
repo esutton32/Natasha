@@ -10,7 +10,7 @@
     </xsl:template>
 
     <xsl:template match="ref">
-        <ref xml:id="wp-ref{count(preceding::ref) + 1}">
+        <ref xml:id="wp-ref{count(preceding::ref) + 1}" song="{@song}">
                 <xsl:apply-templates/>          
         </ref>
     </xsl:template>
