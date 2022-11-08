@@ -13,7 +13,8 @@
     <lyrics>
         <verse>
             <stanza speaker="SERVANT">
-                <line>May I present the <chara ref="NATASHA" address="formal">Countess</chara></line>
+                <line>May I present the <chara ref="NATASHA" address="formal"
+                    >Countess</chara></line>
                 <line><chara ref="NATASHA" address="formal">Natalya Rostova</chara></line>
             </stanza>
 
@@ -32,24 +33,33 @@
 
         <verse>
             <stanza speaker="MARY">
-                <line>And from the first glance I do not like <chara ref="NATASHA">Natasha</chara></line>
-                <line>Too fashionably dressed</line>
-                <line>Frivolous and vain</line>
-                <line>Her beauty, youth, and happiness</line>
-                <line><chara ref="ANDREY">My brother</chara>’s love for her</line>
+                <wp-ref id="wp-ref28">
+                    <line>And from the first glance I do not like <chara ref="NATASHA"
+                            >Natasha</chara></line>
+                    <line>Too fashionably dressed</line>
+                    <line>Frivolous and vain</line>
+                    <line>Her beauty, youth, and happiness</line>
+                    <line><chara ref="ANDREY">My brother</chara>’s love for her</line>
+                </wp-ref>
                 <line>And <chara ref="BOLKONSKY">my father</chara>—</line>
             </stanza>
 
             <stanza speaker="BOLKONSKY">
-                <line>I do not wish to see her!</line>
+                <wp-ref id="wp-ref29">
+                    <line>I do not wish to see her!</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="MARY">
-                <line>I know at any moment he might indulge in some freak</line>
+                <wp-ref id="wp-ref29">
+                    <line>I know at any moment he might indulge in some freak</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>I’m sorry the <chara ref="BOLKONSKY">Prince</chara> is still ailing</line>
+                <wp-ref id="wp-ref30">
+                    <line>I’m sorry the <chara ref="BOLKONSKY">Prince</chara> is still ailing</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="BOLKONSKY">
@@ -57,30 +67,45 @@
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>I am not afraid of anyone</line>
-                <line>But such hesitation</line>
-                <line>Such unnatural manners</line>
+                <wp-ref id="wp-ref31">
+                    <line>I am not afraid of anyone</line>
+                </wp-ref>
+                <wp-ref id="wp-ref32">
+                    <line>But such hesitation</line>
+                    <line>Such unnatural manners</line>
+                </wp-ref>
             </stanza>
         </verse>
         <verse>
             <stanza speaker="NATASHA">
-                <line>And from the first glance I do not like <chara ref="MARY" address="formal">Princess Mary</chara></line>
-                <line>Too plain and affected</line>
-                <line>Insolent and dry</line>
-                <s-action kind="self" descr="NATASHA" type="1st"><line>I shrink into myself</line>
-                <line>Assume an offhand air</line></s-action>
+                <line>And from the first glance I do not like <chara ref="MARY" address="formal"
+                        >Princess Mary</chara></line>
+                <wp-ref id="wp-ref32">
+                    <line>Too plain and affected</line>
+                    <line>Insolent and dry</line>
+                </wp-ref>
+                <wp-ref id="wp-ref33">
+                    <s-action kind="self" descr="NATASHA" type="1st"><line>I shrink into
+                            myself</line>
+                        <line>Assume an offhand air</line></s-action>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="MARY">
-               <s-action kind="self" descr="MARY" type="1st"><line>Which alienates me still more</line></s-action>
+                <wp-ref id="wp-ref33">
+                    <s-action kind="self" descr="MARY" type="1st"><line>Which alienates me still
+                            more</line></s-action>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA" speaker2="MARY">
-                <line>Constrained and strained</line>
-                <line>Constrained and strained</line>
-                <line>Constrained and strained</line>
-                <line>Irksome</line>
-                <line>Irksome</line>
+                <wp-ref id="wp-ref33">
+                    <line>Constrained and strained</line>
+                    <line>Constrained and strained</line>
+                    <line>Constrained and strained</line>
+                    <line>Irksome</line>
+                    <line>Irksome</line>
+                </wp-ref>
             </stanza>
         </verse>
 
@@ -98,15 +123,21 @@
             <stanza speaker="BOLKONSKY">
                 <line>Oh, so this is <chara ref="NATASHA">Natasha</chara></line>
                 <line>Not much to look at</line>
-                <s-action kind="self" descr="BOLKONSKY" type="3rd"><line>Says the <chara ref="BOLKONSKY">mean old man</chara> in his underthings</line></s-action>
+                <s-action kind="self" descr="BOLKONSKY" type="3rd"><line>Says the <chara
+                            ref="BOLKONSKY">mean old man</chara> in his
+                    underthings</line></s-action>
                 <line>I never dress for children or peasants</line>
-                <s-action kind="self" descr="BOLKONSKY" type="3rd"><line>Says the <chara ref="BOLKONSKY">mean old man</chara> in his underthings</line></s-action>
+                <s-action kind="self" descr="BOLKONSKY" type="3rd"><line>Says the <chara
+                            ref="BOLKONSKY">mean old man</chara> in his
+                    underthings</line></s-action>
             </stanza>
 
             <stanza speaker="MARY">
-                <s-action kind="other" descr="BOLKONSKY"><line>And he looked at her once</line>
-                <line>Head to toe</line>
-                <line>And left muttering</line></s-action>
+                <wp-ref id="wp-ref34">
+                    <s-action kind="other" descr="BOLKONSKY"><line>And he looked at her once</line>
+                        <line>Head to toe</line>
+                        <line>And left muttering</line></s-action>
+                </wp-ref>
             </stanza>
         </verse>
 
@@ -116,29 +147,39 @@
             </stanza>
 
             <stanza speaker="MARY">
-                <line>Please wait—</line>
-                <line>Dear <chara ref="NATASHA" address="familiar">Natalie</chara></line>
-                <line>I want you to know how glad I am <chara ref="ANDREY">my brother</chara> has found happiness</line>
+                <wp-ref id="wp-ref35">
+                    <line>Please wait—</line>
+                    <line>Dear <chara ref="NATASHA" address="familiar">Natalie</chara></line>
+                    <line>I want you to know how glad I am <chara ref="ANDREY">my brother</chara>
+                        has found happiness</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Is that the truth?</line>
-                <line>I think it is not convenient to speak of that now</line>
-                <line>Dear <chara ref="MARY" address="formal">Princess</chara></line>
+                <wp-ref id="wp-ref36">
+                    <line>Is that the truth?</line>
+                    <line>I think it is not convenient to speak of that now</line>
+                    <line>Dear <chara ref="MARY" address="formal">Princess</chara></line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="MARY">
-                <s-action kind="other" descr="NATASHA"><line>She said</line>
-                <line>With such dignity and coldness</line></s-action>
+                <wp-ref id="wp-ref36">
+                    <s-action kind="other" descr="NATASHA"><line>She said</line>
+                        <line>With such dignity and coldness</line></s-action>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>What have I said, what have I done?</line>
-                <s-action kind="self" descr="NATASHA" type="1st"><line>Crying like a child</line></s-action>
-                <line>Oh, they were so awful!</line>
-                <line>Oh, it all hurts so terribly</line>
-                <line><chara ref="ANDREY">Andrey</chara></line>
-                <line>Where are you?</line>
+                <wp-ref id="wp-ref36">
+                    <line>What have I said, what have I done?</line>
+                    <s-action kind="self" descr="NATASHA" type="1st"><line>Crying like a
+                            child</line></s-action>
+                    <line>Oh, they were so awful!</line>
+                    <line>Oh, it all hurts so terribly</line>
+                    <line><chara ref="ANDREY">Andrey</chara></line>
+                    <line>Where are you?</line>
+                </wp-ref>
             </stanza>
         </verse>
     </lyrics>
