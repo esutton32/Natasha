@@ -33,7 +33,8 @@ type = attribute type { text }
 #
 #
 stanza = element stanza { speaker, speaker2?, speaker3?, ( line | s-action | wp-ref)* }
-wp-ref= element wp-ref { (line | s-action)* }
+wp-ref= element wp-ref { id, (line | s-action)* }
+id = attribute id { text}
 speaker = attribute speaker { text }
 speaker2 = attribute speaker2 { text }
 speaker3 = attribute speaker3 { text }
