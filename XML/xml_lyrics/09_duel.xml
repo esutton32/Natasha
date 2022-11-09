@@ -83,8 +83,8 @@
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>The doctors warned me</line>
-                <line>That with my corpulence</line>
+                <wp-ref id="wp-ref11"><line>The doctors warned me</line>
+                <line>That with my corpulence</line></wp-ref>
             </stanza>
 
             <stanza speaker="ALL">
@@ -92,17 +92,17 @@
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>Vodka and wine are dangerous for me</line>
+                <wp-ref id="wp-ref11"><line>Vodka and wine are dangerous for me</line>
                 <s-action kind="self" descr="PIERRE" type="1st"><line>But I drink a great deal</line>
                 <line>Only quite at ease</line>
                 <line>After pouring several glasses mechanically</line>
-                <line>Into my large mouth</line></s-action>
+                <line>Into my large mouth</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE" speaker2="ALL">
-                <s-action kind="self" descr="PIERRE"><line>Then I feel</line>
+                <wp-ref id="wp-ref11"><s-action kind="self" descr="PIERRE"><line>Then I feel</line>
                 <line>A pleasant warmth in my body</line>
-                <line>A sentimental attachment to my fellow man</line></s-action>
+                <line>A sentimental attachment to my fellow man</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="HÉLÈNE">
@@ -129,37 +129,37 @@
             </stanza>
 
             <stanza speaker="HÉLÈNE">
-                <line>The air of a connoisseur</line>
+                <wp-ref id="wp-ref73"><line>The air of a connoisseur</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>I will make love to her</line>
+                <wp-ref id="wp-ref73"><line>I will make love to her</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <line>Better not, <chara ref="ANATOLE">monsieur</chara></line>
-                <line>She's first rate, but nothing but trouble</line>
+                <wp-ref id="wp-ref74"><line>Better not, <chara ref="ANATOLE">monsieur</chara></line>
+                <line>She's first rate, but nothing but trouble</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV" speaker2="HÉLÈNE">
-                <line>Better wait till she's married</line>
+                <wp-ref id="wp-ref74"><line>Better wait till she's married</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <line><chara ref="ANATOLE">Anatole</chara> is a married man</line>
+                <wp-ref id="wp-ref70"><line><chara ref="ANATOLE">Anatole</chara> is a married man</line>
                 <line>A fact known only to his intimates</line>
                 <line>A Polish landowner of some small means</line>
-                <line>Had forced him to marry his daughter</line>
+                <line>Had forced him to marry his daughter</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
                 <line>Nevermind about that now</line>
                 <line>It doesn't matter</line>
                 <line>I don't give a damn</line>
-                <line>Just as a duck is made to swim in water</line>
-                <line>God has made me as I am</line>
-                <line>All I care for is gaiety and women</line>
-                <line>And there's no dishonor in that</line>
+                <wp-ref id="wp-ref71"><line>Just as a duck is made to swim in water</line>
+                <line>God has made me as I am</line></wp-ref>
+                <wp-ref id="wp-ref72"><line>All I care for is gaiety and women</line>
+                <line>And there's no dishonor in that</line></wp-ref>
                 <line>As long as there's money and vodka</line>
                 <line>I'll keep a feather in my hat</line>
             </stanza>
@@ -201,19 +201,19 @@
 
         <verse>
             <stanza speaker="DOLOKHOV">
-                <line>Here's to the health of married women</line>
+                <wp-ref id="wp-ref206"><line>Here's to the health of married women</line>
                 <line>And a smile lurks at the corner of my mouth</line>
                 <line>Here's to the health of married women</line>
-                <line>And their lovers!</line>
+                <line>And their lovers!</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV" speaker2="ALL">
-                <line>Here's to the health of married women</line>
-                <line>Here's to the health of married women</line>
-                <line>And their lovers!</line>
-                <line>Here's to the health of married women</line>
+                <wp-ref id="wp-ref206"><line>Here's to the health of married women</line>
                 <line>Here's to the health of married women</line>
                 <line>And their lovers!</line>
+                <line>Here's to the health of married women</line>
+                <line>Here's to the health of married women</line>
+                <line>And their lovers!</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
@@ -227,13 +227,13 @@
         <verse>
             <stanza speaker="PIERRE">
                 <line>Enough!</line>
-                <line><chara ref="DOLOKHOV">You bully</chara>, <chara ref="DOLOKHOV">you scoundrel</chara></line>
-                <line>I challenge you</line>
+                <wp-ref id="wp-ref208"><line><chara ref="DOLOKHOV">You bully</chara>, <chara ref="DOLOKHOV">you scoundrel</chara></line>
+                <line>I challenge you</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
                 <line>Oh, a duel?</line>
-                <line>Yes, this is what I like</line>
+                <wp-ref id="wp-ref207"><line>Yes, this is what I like</line></wp-ref>
             </stanza>
 
             <stanza speaker="HÉLÈNE">
@@ -258,11 +258,11 @@
 
         <verse>
             <stanza speaker="SERVANT">
-                <line>As the adversaries have refused a reconciliation</line>
+                <wp-ref id="wp-ref209"><line>As the adversaries have refused a reconciliation</line>
                 <line>We shall please proceed with the duel</line>
                 <line>Ready your pistols</line>
                 <line>And on the count of tri</line>
-                <line>Begin to advance</line>
+                <line>Begin to advance</line></wp-ref>
             </stanza>
 
             <stanza speaker="ALL">
@@ -278,7 +278,7 @@
             <direction>PIERRE shoots DOLOKHOV.</direction>
 
             <stanza speaker="DOLOKHOV">
-                <line>No!</line>
+                <wp-ref id="wp-ref210"><line>No!</line></wp-ref>
                 <line>Shot by <chara ref="PIERRE">a fool</chara>!</line>
             </stanza>
 
@@ -304,9 +304,9 @@
 
         <verse>
             <stanza speaker="DOLOKHOV">
-                <line>Missed, missed</line>
-                <line>Oh my mother, my angel</line>
-                <line>My adored angel mother</line>
+                <wp-ref id="wp-ref211"><line>Missed, missed</line></wp-ref>
+                <wp-ref id="wp-ref212"><line>Oh my mother, my angel</line>
+                <line>My adored angel mother</line></wp-ref>
             </stanza>
 
             <stanza speaker="HÉLÈNE">
