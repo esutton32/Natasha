@@ -11,84 +11,84 @@
     <lyrics>
         <verse>
             <stanza speaker="ANATOLE">
-                <s-action kind="self" descr="ANATOLE" type="1st"><line>Waiting at the door</line>
+                <wp-ref id="wp-ref88"><s-action kind="self" descr="ANATOLE" type="1st"><line>Waiting at the door</line>
                 <line>Waiting at the door, waiting</line>
                 <line>Waiting at the door</line>
-                <line>Waiting at the door, waiting</line></s-action>
-                <line>Oh, how I adore little girls</line>
-                <line>They lose their heads at once!</line>
+                <line>Waiting at the door, waiting</line></s-action></wp-ref>
+                <wp-ref id="wp-ref75"><line>Oh, how I adore little girls</line>
+                <line>They lose their heads at once!</line></wp-ref>
             </stanza>
         </verse>
         <verse>
             <direction>The ball begins; they dance.</direction>
 
             <stanza speaker="NATASHA">
-                <s-action kind="self" descr="NATASHA" type="1st"><line>I am seized by feelings of vanity and fear</line></s-action>
-                <line>There is no barrier between us</line>
+                <wp-ref id="wp-ref89"><s-action kind="self" descr="NATASHA" type="1st"><line>I am seized by feelings of vanity and fear</line></s-action>
+                <line>There is no barrier between us</line></wp-ref>
                 <line>Whispers and moans, and ringing in my ear</line>
                 <line>There is no barrier between us</line>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Divine, delicious, but I do not see or hear anything</line>
+                <wp-ref id="wp-ref90"><line>Divine, delicious, but I do not see or hear anything</line>
                 <line>I'm borne away to a senseless world</line>
                 <line>So strange, so remote</line>
                 <line>I don't know good from bad</line>
                 <line><chara ref="ANATOLE">Anatole</chara></line>
                 <line><chara ref="ANATOLE">Anatole</chara></line>
-                <line>I'm so frightened</line>
+                <line>I'm so frightened</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>You are enchanting</line>
+                <wp-ref id="wp-ref91"><line>You are enchanting</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>And as we danced</line>
+                <wp-ref id="wp-ref92"><line>And as we danced</line>
                 <s-action kind="other" descr="ANATOLE"><line>He pressed my waist and hand</line>
-                <line>And told me I was</line></s-action>
+                <line>And told me I was</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA" speaker2="ANATOLE">
-                <line>Bewitching</line>
+                <wp-ref id="wp-ref92"><line>Bewitching</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>And I love you</line>
+                <wp-ref id="wp-ref92"><line>And I love you</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA" speaker2="ANATOLE">
-                <line>Bewitching</line>
+                <wp-ref id="wp-ref92"><line>Bewitching</line></wp-ref>
             </stanza>
-
+            
             <stanza speaker="ANATOLE">
-                <line>And I love you</line>
+                <wp-ref id="wp-ref92"><line>And I love you</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>And during the ecossaise, he</line>
+                <wp-ref id="wp-ref92"><line>And during the ecossaise, he</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA" speaker2="ANATOLE">
-                <s-action kind="other" descr="ANATOLE"><line>Gazed/(Gaze) in my eyes</line></s-action>
+                <wp-ref id="wp-ref92"><s-action kind="other" descr="ANATOLE"><line>Gazed/(Gaze) in my eyes</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>And said nothing, just</line>
+                <wp-ref id="wp-ref92"><line>And said nothing, just</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA" speaker2="ANATOLE">
-                <s-action kind="other" descr="ANATOLE"><line>Gazed/(Gaze) in my eyes</line></s-action>
+                <wp-ref id="wp-ref92"><s-action kind="other" descr="ANATOLE"><line>Gazed/(Gaze) in my eyes</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>My frightened eyes</line>
+                <wp-ref id="wp-ref92"><line>My frightened eyes</line>
                 <line>Such confident tenderness</line>
-                <line>I could not say what I had to say</line>
+                <line>I could not say what I had to say</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
@@ -106,20 +106,20 @@
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>Don't say such things</line>
+                <wp-ref id="wp-ref93"><line>Don't say such things</line>
                 <line>I am betrothed</line>
-                <line>I love another</line>
+                <line>I love another</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>Don't speak to me of that!</line>
+                <wp-ref id="wp-ref94"><line>Don't speak to me of that!</line>
                 <line>When I tell you that I am madly, madly in love with you!</line>
-                <line>Is it my fault that you're enchanting?</line>
+                <line>Is it my fault that you're enchanting?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>I'm so frightened</line>
-                <line>I don't understand anything tonight</line>
+                <wp-ref id="wp-ref95"><line>I'm so frightened</line>
+                <line>I don't understand anything tonight</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
@@ -138,19 +138,19 @@
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <s-action kind="self" descr="ANATOLE" type="1st"><line>Blocking her path, I bring her face close to mine</line></s-action>
+                <wp-ref id="wp-ref96"><s-action kind="self" descr="ANATOLE" type="1st"><line>Blocking her path, I bring her face close to mine</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>His large, glittering, masculine eyes are so close to mine</line>
-                <line>That I see nothing else</line>
+                <wp-ref id="wp-ref96"><line>His large, glittering, masculine eyes are so close to mine</line>
+                <line>That I see nothing else</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>Is it possible that I should never see you again?</line>
+               <wp-ref id="wp-ref96"><line>Is it possible that I should never see you again?</line>
                 <line>I love you madly!</line>
                 <line>Can I never?</line>
-                <line><chara ref="NATASHA" address="familiar">Natalie</chara>?</line>
+                <line><chara ref="NATASHA" address="familiar">Natalie</chara>?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
@@ -158,7 +158,7 @@
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line><chara ref="NATASHA" address="familiar">Natalie</chara>?</line>
+                <wp-ref id="wp-ref96"><line><chara ref="NATASHA" address="familiar">Natalie</chara>?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
@@ -166,12 +166,12 @@
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line><chara ref="NATASHA" address="familiar">Natalie</chara>?</line>
+                <wp-ref id="wp-ref96"><line><chara ref="NATASHA" address="familiar">Natalie</chara>?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>I don't understand</line>
-                <line>I have nothing to say</line>
+                <wp-ref id="wp-ref96"><line>I don't understand</line>
+                <line>I have nothing to say</line></wp-ref>
             </stanza>
         </verse>
 
@@ -179,19 +179,19 @@
             <direction>They kiss.</direction>
 
             <stanza speaker="NATASHA">
-                <line>Burning lips pressed to mine</line>
-                <line>Tell me what just happened</line>
-                <s-action kind="self" descr="NATASHA" type="1st"><line>I'm trembling</line></s-action>
-                <line>So frightening</line>
+                <wp-ref id="wp-ref97"><line>Burning lips pressed to mine</line></wp-ref>
+                <wp-ref id="wp-ref98"><line>Tell me what just happened</line></wp-ref>
+                <wp-ref id="wp-ref97"><s-action kind="self" descr="NATASHA" type="1st"><line>I'm trembling</line></s-action>
+                <line>So frightening</line></wp-ref>
                 <line><chara ref="ANDREY">Andrey</chara></line>
-                <line>But I love you</line>
+                <wp-ref id="wp-ref99"><line>But I love you</line>
                 <line>Of that there is no doubt</line>
                 <line>How else could all of this have happened?</line>
                 <line>How else could we have kissed?</line>
                 <line>It means that I have loved you from the first</line>
                 <line>It means that you are kind</line>
                 <line>Noble and splendid</line>
-                <line>And I could not help loving you</line>
+                <line>And I could not help loving you</line></wp-ref>
                 <line>I will love you, <chara ref="ANATOLE">Anatole</chara></line>
                 <line>I'll do anything for you</line>
             </stanza>
