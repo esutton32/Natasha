@@ -35,8 +35,8 @@
             <stanza speaker="NATASHA">
                 <line>Oh the moon</line>
                 <line>Oh the snow in the moonlight</line>
-                <line>And your childlike eyes</line>
-                <line>And your distant smile</line>
+                <wp-ref id="37"><line>And your childlike eyes</line>
+                <line>And your distant smile</line></wp-ref>
                 <line>I’ll never be this happy again</line>
                 <line>You and I</line>
                 <line>And no one else</line>
@@ -45,9 +45,9 @@
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>We’ve done this all before</line>
+                <wp-ref id="wp-ref217"><line>We’ve done this all before</line>
                 <line>We were angels once</line>
-                <line>Don’t you remember?</line>
+                <line>Don’t you remember?</line></wp-ref>
                 <line>Joy and life</line>
                 <line>Inside our souls</line>
                 <line>And nobody knows</line>
@@ -56,13 +56,13 @@
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>This winter sky</line>
+                <wp-ref id="wp-215"><line>This winter sky</line>
                 <line>How can anyone sleep?</line>
-                <line>There was never such a night before!</line>
-                <line>I feel like putting my arms round my knees</line>
+                <line>There was never such a night before!</line></wp-ref>
+                <wp-ref id="wp-216"><line>I feel like putting my arms round my knees</line>
                 <line>And squeezing tight as possible</line>
                 <line>And flying away</line>
-                <line>Like this...</line>
+                <line>Like this...</line></wp-ref>
             </stanza>
         </verse>
 
@@ -70,8 +70,8 @@
             <stanza speaker="NATASHA">
                 <line>Oh the moon</line>
                 <line>Oh the snow in the moonlight</line>
-                <line>And your childlike eyes</line>
-                <line>And your distant smile</line>
+                <wp-ref id="37"><line>And your childlike eyes</line>
+                    <line>And your distant smile</line></wp-ref>
                 <line>I’ll never be this happy again</line>
                 <line>You and I</line>
                 <line>You and I</line>
