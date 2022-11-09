@@ -11,29 +11,29 @@
     <lyrics>
         <verse>
             <stanza speaker="ANATOLE">
-                <line>I have long wished to have this happiness</line>
+                <wp-ref id="wp-ref63"><line>I have long wished to have this happiness</line>
                 <line>Ever since the Naryshkins’ ball</line>
-                <line>Where I had the well-remembered pleasure of seeing you</line>
-                <line>How do you like the performance?</line>
-                <line>Last week Semenova fell down on the stage</line>
+                <line>Where I had the well-remembered pleasure of seeing you</line></wp-ref>
+                <wp-ref id="wp-ref64"><line>How do you like the performance?</line>
+                <line>Last week Semenova fell down on the stage</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>He is sensible and simple</line>
+                <wp-ref id="wp-ref63"><line>He is sensible and simple</line>
                 <line>Bold and natural</line>
                 <line>So strange and agreeable</line>
                 <line>There is nothing formidable</line>
                 <line>His smile is most naive</line>
-                <line>Cheerful and good-natured</line>
+                <line>Cheerful and good-natured</line></wp-ref>
                 <line>And he’s as handsome up close as at a distance</line>
                 <line>And he’s as handsome up close as at a distance</line>
             </stanza>
         </verse>
         <verse>
             <stanza speaker="ANATOLE">
-                <line>And do you know, <chara ref="NATASHA">Natasha</chara></line>
+                <wp-ref id="wp-ref65"><line>And do you know, <chara ref="NATASHA">Natasha</chara></line>
                 <line>We are having a costume tournament soon</line>
-                <line>You ought to come, please come!</line>
+                <line>You ought to come, please come!</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
@@ -41,7 +41,7 @@
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>You ought to come, please come!</line>
+                <wp-ref id="wp-ref65"><line>You ought to come, please come!</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
@@ -49,47 +49,47 @@
             </stanza>
 
             <stanza speaker="ANATOLE">
-               <s-action kind="self" descr="ANATOLE" type="1st"><line>And I never remove my smiling eyes</line>
+              <wp-ref id="wp-ref66"> <s-action kind="self" descr="ANATOLE" type="1st"><line>And I never remove my smiling eyes</line>
                 <line>From your face, your neck, your bare arms</line>
                 <line>And I never remove my smiling eyes</line>
-                <line>From your face, your neck, your bare arms</line></s-action>
+                <line>From your face, your neck, your bare arms</line></s-action></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>I know for certain that he is taken by me</line>
+                <wp-ref id="wp-ref66"><line>I know for certain that he is taken by me</line>
                 <line>I know for certain that he is enraptured by me</line>
                 <line>I feel him looking at my shoulders</line>
-                <line>My face, my neck, my bare arms</line>
+                <line>My face, my neck, my bare arms</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <s-action kind="self" descr="ANATOLE" type="1st"><line>And I look you in the eye</line></s-action>
+                <wp-ref id="wp-ref66"><s-action kind="self" descr="ANATOLE" type="1st"><line>And I look you in the eye</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE" speaker2="NATASHA">
-                <s-action kind="self" descr="NATASHA" descr2="ANATOLE"><line>And I look you in the eye</line></s-action>
+                <wp-ref id="wp-ref66"><s-action kind="self" descr="NATASHA" descr2="ANATOLE"><line>And I look you in the eye</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <s-action kind="self" descr="NATASHA" type="1st"><line>And looking into his eyes</line>
+                <wp-ref id="wp-ref66"><s-action kind="self" descr="NATASHA" type="1st"><line>And looking into his eyes</line>
                 <line>I am frightened</line></s-action>
                 <line>There’s not that barrier of modesty</line>
                 <line>I’ve always felt with men</line>
                 <line>I feel so terribly near</line>
                 <line>I fear that he may seize me from behind</line>
-                <line>And kiss me on the neck</line>
+                <line>And kiss me on the neck</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>How do you like Moscow?</line>
+                <wp-ref id="wp-ref67"><line>How do you like Moscow?</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>At first I did not like it much</line>
+                <wp-ref id="wp-ref68"><line>At first I did not like it much</line>
                 <line>Because what makes a town pleasant</line>
                 <line>Ce sont les jolies femmes</line>
                 <line>Isn’t that so?</line>
@@ -98,12 +98,12 @@
                 <line>Do come!</line>
                 <line>You will be the prettiest there</line>
                 <line>You will be the prettiest there</line>
-                <line>Do come, dear <chara ref="NATASHA">Countess</chara>, and give me this flower as a pledge</line>
-                <line>We are speaking of most ordinary things</line>
+                <line>Do come, dear <chara ref="NATASHA">Countess</chara>, and give me this flower as a pledge</line></wp-ref>
+                <wp-ref id="wp-ref66"><line>We are speaking of most ordinary things</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Yet I feel closer to you than I’ve ever felt with any other man</line>
+                <wp-ref id="wp-ref66"><line>Yet I feel closer to you than I’ve ever felt with any other man</line></wp-ref>
                 <line>No one else is here</line>
                 <line>No one else can see us</line>
                 <line>Your eyes</line>
@@ -119,10 +119,10 @@
             </stanza>
 
             <stanza speaker="ANATOLE" speaker2="NATASHA">
-                <line>So near</line>
+                <wp-ref id="wp-ref69"><line>So near</line>
                 <line>Nothing between us</line>
                 <line>Smile at me</line>
-                <line>There is nothing between us</line>
+                <line>There is nothing between us</line></wp-ref>
             </stanza>
         </verse>
     </lyrics>
