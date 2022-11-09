@@ -30,9 +30,11 @@
                 <line>Brilliant uniforms</line>
                 <line>Pearls and silk</line>
                 <line>Glittering before our eyes</line>
-                <line>Feminine envy</line>
-                <line>A whole crowd of memories</line>
-                <line>Desires and emotions</line>
+                <wp-ref id="wp-ref40">
+                    <line>Feminine envy</line>
+                    <line>A whole crowd of memories</line>
+                    <line>Desires and emotions</line>
+                </wp-ref>
                 <line><chara ref="NATASHA">Natasha</chara>, smooth your gown</line>
             </stanza>
 
@@ -45,19 +47,24 @@
                 <line>I see I am pretty</line>
                 <line>Not a girl anymore</line>
                 <line>I’ve never felt like this before</line>
-                <line>Hundreds of eyes</line>
-                <line>Looking at my bare arms</line>
-                <line>My bare arms and neck</line>
-                <line>My bare arms and shoulders</line>
+                <wp-ref id="wp-ref40">
+                    <line>Hundreds of eyes</line>
+                    <line>Looking at my bare arms</line>
+                    <line>My bare arms and neck</line>
+                    <line>My bare arms and shoulders</line>
+                </wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="ALL">
-                <line>The two remarkably pretty girls</line>
-                <line>Had not been seen in Moscow in many years</line>
-                <line>Everybody knew vaguely of <chara ref="NATASHA">Natasha</chara>’s engagement</line>
-                <line>One of the finest matches in all of Russia</line>
+                <wp-ref id="wp-ref41">
+                    <line>The two remarkably pretty girls</line>
+                    <line>Had not been seen in Moscow in many years</line>
+                    <line>Everybody knew vaguely of <chara ref="NATASHA">Natasha</chara>’s
+                        engagement</line>
+                    <line>One of the finest matches in all of Russia</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
@@ -66,12 +73,16 @@
 
             <stanza speaker="MARYA D">
                 <line>He has changed</line>
-                <line>Dear me, Michael Kirilovich has grown still stouter!</line>
+                <wp-ref id="wp-ref42">
+                    <line>Dear me, Michael Kirilovich has grown still stouter!</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="ALL">
-                <line>There’s Boris and Julie, engaged</line>
-                <line>And Anna Mikhaylovna, what a headdress she has on!</line>
+                <wp-ref id="wp-ref42">
+                    <line>There’s Boris and Julie, engaged</line>
+                    <line>And Anna Mikhaylovna, what a headdress she has on!</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="HÉLÈNE">
@@ -84,40 +95,51 @@
             </stanza>
 
             <stanza speaker="NATASHA">
-                <s-action kind="other" descr="ALL"><line>They are looking at me</line>
-                <line>They are talking about me!</line>
-                <line>They all like me so much</line>
-                <line>The women envious</line>
-                <line>The men calming their jealousy</line></s-action>
+                <wp-ref id="wp-ref43">
+                    <s-action kind="other" descr="ALL"><line>They are looking at me</line>
+                        <line>They are talking about me!</line>
+                        <line>They all like me so much</line>
+                        <line>The women envious</line>
+                        <line>The men calming their jealousy</line></s-action>
+                </wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="SERVANT">
                 <line>Announcing <chara ref="DOLOKHOV">Fedya Dolokhov</chara></line>
-                <line>He dominates Moscow’s most brilliant young men</line>
-                <s-action kind="other" descr="DOLOKHOV"><line>He stands in full view</line>
-                <line>Well aware he’s attracting attention</line>
-                <line>Yet as much at ease as though he were in his own room</line></s-action>
+                <wp-ref id="wp-ref44">
+                    <line>He dominates Moscow’s most brilliant young men</line>
+                    <s-action kind="other" descr="DOLOKHOV"><line>He stands in full view</line>
+                        <line>Well aware he’s attracting attention</line>
+                        <line>Yet as much at ease as though he were in his own
+                        room</line></s-action>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="MARYA D">
-                <line><chara ref="DOLOKHOV">Dolokhov</chara> was in the Caucasus</line>
-                <line>And he killed the Shah’s brother!</line>
-                <line>Now all the Moscow ladies are mad about him</line>
+                <wp-ref id="wp-ref45">
+                    <line><chara ref="DOLOKHOV">Dolokhov</chara> was in the Caucasus</line>
+                    <line>And he killed the Shah’s brother!</line>
+                    <line>Now all the Moscow ladies are mad about him</line>
+                </wp-ref>
                 <line><chara ref="DOLOKHOV">Dolokhov</chara> the assassin!</line>
             </stanza>
 
             <stanza speaker="SERVANT">
-                <line>Announcing <chara ref="HÉLÈNE" address="formal">Countess Hélène Bezukhova</chara></line>
-                <s-action kind="other" descr="HÉLÈNE"><line>The queen of society</line>
-                <line>Beautiful, barely clothed</line>
-                <line>Plump bare shoulders, and much-exposed neck</line>
-                <line>Round which she wears a double string of pearls</line></s-action>
+                <line>Announcing <chara ref="HÉLÈNE" address="formal">Countess Hélène
+                        Bezukhova</chara></line>
+                <wp-ref id="wp-ref46">
+                    <s-action kind="other" descr="HÉLÈNE"><line>The queen of society</line>
+                        <line>Beautiful, barely clothed</line>
+                        <line>Plump bare shoulders, and much-exposed neck</line>
+                        <line>Round which she wears a double string of pearls</line></s-action>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="ALL">
-                <line><chara ref="HÉLÈNE">Hélène</chara> and<chara ref="DOLOKHOV"> Dolokhov</chara>, arm in arm</line>
+                <line><chara ref="HÉLÈNE">Hélène</chara> and<chara ref="DOLOKHOV"> Dolokhov</chara>,
+                    arm in arm</line>
                 <line>Pierre the cuckold sits at home</line>
                 <line>Pierre the cuckold sits at home</line>
                 <line>The poor man</line>
@@ -130,8 +152,10 @@
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>Oh, that neck</line>
-                <line>Oh, those pearls</line>
+                <wp-ref id="wp-ref47">
+                    <line>Oh, that neck</line>
+                    <line>Oh, those pearls</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="HÉLÈNE">
@@ -141,14 +165,20 @@
             </stanza>
 
             <stanza speaker="NATASHA">
-                <s-action kind="self" descr="NATASHA" type="1st"><line>I blush scarlet</line></s-action>
+                <s-action kind="self" descr="NATASHA" type="1st"><line>I blush
+                    scarlet</line></s-action>
             </stanza>
 
             <stanza speaker="MARYA D">
-                <line><chara ref="HÉLÈNE" address="formal">Countess Bezukhova</chara>, Pierre’s wife</line>
-                <line>Have you been here long?</line>
-                <line>And where is dear <chara ref="PIERRE">Pierre</chara>?</line>
-                <line>He never used to forget us</line>
+                <wp-ref id="wp-ref47">
+                    <line><chara ref="HÉLÈNE" address="formal">Countess Bezukhova</chara>, Pierre’s
+                        wife</line>
+                </wp-ref>
+                <wp-ref id="wp-ref48">
+                    <line>Have you been here long?</line>
+                    <line>And where is dear <chara ref="PIERRE">Pierre</chara>?</line>
+                    <line>He never used to forget us</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
@@ -163,7 +193,8 @@
         </verse>
         <verse>
             <stanza speaker="MARYA D">
-                <line>There’s <chara ref="HÉLÈNE">a woman one should stay far away from</chara></line>
+                <line>There’s <chara ref="HÉLÈNE">a woman one should stay far away
+                    from</chara></line>
                 <line>Now <chara ref="NATASHA">Natasha</chara></line>
                 <line>The curtain rises</line>
             </stanza>
@@ -173,12 +204,15 @@
             </stanza>
 
             <stanza speaker="NATASHA">
-                <s-action kind="other" descr="ALL"><line>Everyone in the boxes and the stalls became silent</line>
-                <line>All the men, old and young, in uniform and evening dress</line>
-                <line>All the women in the hall</line>
-                <line>With gems on their bare flesh</line>
-                <line>Turned their whole attention</line>
-                <line>With curiosity to the stage</line></s-action>
+                <wp-ref id="wp-ref49">
+                    <s-action kind="other" descr="ALL"><line>Everyone in the boxes and the stalls
+                            became silent</line>
+                        <line>All the men, old and young, in uniform and evening dress</line>
+                        <line>All the women in the hall</line>
+                        <line>With gems on their bare flesh</line>
+                        <line>Turned their whole attention</line>
+                        <line>With curiosity to the stage</line></s-action>
+                </wp-ref>
             </stanza>
 
             <direction>Two singers perform a scene from an avant-garde opera. It is grotesque and
@@ -187,28 +221,35 @@
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>Grotesque and amazing</line>
-                <line>I cannot follow the opera</line>
-                <line>Or even listen to the music</line>
-                <line>I see painted cardboard</line>
-                <line>Queerly dressed actors</line>
-                <line>Moving and singing so strangely in the lights</line>
-                <line>So false and unnatural</line>
-                <line>I’m ashamed and amused</line>
-                <line>And everyone else seems oblivious</line>
-                <line>Yes everyone feigns delight</line>
+                <wp-ref id="wp-ref50">
+                    <line>Grotesque and amazing</line>
+                    <line>I cannot follow the opera</line>
+                    <line>Or even listen to the music</line>
+                    <line>I see painted cardboard</line>
+                    <line>Queerly dressed actors</line>
+                    <line>Moving and singing so strangely in the lights</line>
+                    <line>So false and unnatural</line>
+                    <line>I’m ashamed and amused</line>
+                    <line>And everyone else seems oblivious</line>
+                    <line>Yes everyone feigns delight</line>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
-                <s-action kind="other" descr="NATASHA"><line>And feeling the flood of brilliant lights</line>
-                <line>The warm perfumed air heated by the crowd</line>
-                <line><chara ref="NATASHA">Natasha</chara> little by little</line>
-                <line>Began to pass into a state of intoxication</line></s-action>
+                <wp-ref id="wp-ref52">
+                    <s-action kind="other" descr="NATASHA"><line>And feeling the flood of brilliant
+                            lights</line>
+                        <line>The warm perfumed air heated by the crowd</line>
+                        <line><chara ref="NATASHA">Natasha</chara> little by little</line>
+                        <line>Began to pass into a state of intoxication</line></s-action>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Oh I’d tickle you all if I could</line>
-                <line>Oh I’d tickle you all if I could</line>
+                <wp-ref id="wp-ref53">
+                    <line>Oh I’d tickle you all if I could</line>
+                    <line>Oh I’d tickle you all if I could</line>
+                </wp-ref>
             </stanza>
         </verse>
 
@@ -219,29 +260,37 @@
             </stanza>
 
             <stanza speaker="NATASHA" speaker2="SONYA">
-                <s-action kind="other" descr="ANATOLE"><line>An <chara ref="ANATOLE">exceptionally handsome man</chara> walked in</line>
-                <line>With a confident yet courteous air</line></s-action>
+                <wp-ref id="wp-ref54">
+                    <s-action kind="other" descr="ANATOLE"><line>An <chara ref="ANATOLE"
+                                >exceptionally handsome man</chara> walked in</line>
+                        <line>With a confident yet courteous air</line></s-action>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="HÉLÈNE">
-                <line>This was <chara ref="HÉLÈNE">Hélène</chara>’s <chara ref="ANATOLE">brother</chara></line>
+                <line>This was <chara ref="HÉLÈNE">Hélène</chara>’s <chara ref="ANATOLE"
+                        >brother</chara></line>
                 <line><chara ref="ANATOLE" address="full">Anatole Kuragin</chara></line>
-                <s-action kind="other" descr="ANATOLE"><line>He moved with a swagger</line>
-                <line>Which would have been ridiculous</line>
-                <line>Had he not been so good-looking</line>
-                <line>And though it was the middle of the act</line>
-                <line>He walked right down the aisle</line>
-                <line>His sword and spurs jangling</line>
-                <line>His handsome perfumed head held high</line>
-                <line>And he looked right at <chara ref="NATASHA">Natasha</chara></line></s-action>
+                <wp-ref id="wp-ref54">
+                    <s-action kind="other" descr="ANATOLE"><line>He moved with a swagger</line>
+                        <line>Which would have been ridiculous</line>
+                        <line>Had he not been so good-looking</line>
+                        <line>And though it was the middle of the act</line>
+                        <line>He walked right down the aisle</line>
+                        <line>His sword and spurs jangling</line>
+                        <line>His handsome perfumed head held high</line>
+                        <line>And he looked right at <chara ref="NATASHA"
+                        >Natasha</chara></line></s-action>
+                </wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>Mais charmante</line>
+                <wp-ref id="wp-ref55"><line>Mais charmante</line></wp-ref>
             </stanza>
 
             <stanza speaker="HÉLÈNE">
-                <s-action kind="other" descr="ANATOLE"><line>And he took his place in the front row next to <chara ref="DOLOKHOV">Dolokhov</chara></line></s-action>
+                <wp-ref id="wp-ref55"><s-action kind="other" descr="ANATOLE"><line>And he took his place in the front row
+                        next to <chara ref="DOLOKHOV">Dolokhov</chara></line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
@@ -251,40 +300,43 @@
         </verse>
         <verse>
             <stanza speaker="SONYA">
-                <s-action kind="other" descr="OPERA"><line>In the second act there were tombstones</line>
-                <line>The moon over the footlights</line>
-                <line>Horns and contrabass</line>
-                <line>Black cloaks and daggers in their hands</line></s-action>
+                <wp-ref id="wp-ref57"><s-action kind="other" descr="OPERA"><line>In the second act there were
+                        tombstones</line>
+                    <line>The moon over the footlights</line>
+                    <line>Horns and contrabass</line>
+                    <line>Black cloaks and daggers in their hands</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <s-action kind="self" descr="NATASHA" type="1st"><line>I turn around again and our eyes meet</line></s-action>
+                <wp-ref id="wp-ref56"><s-action kind="self" descr="NATASHA" type="1st"><line>I turn around again and our
+                        eyes meet</line></s-action>
                 <s-action kind="other" descr="ANATOLE"><line>He gazes straight into my eyes</line>
-                <line>He is talking about me</line></s-action>
+                    <line>He is talking about me</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
-                <s-action kind="other" descr="OPERA"><line>Candles burning</line>
-                <line>A crimson throne</line>
-                <line>The Tsar wails a mournful tune</line>
-                <line>They all wave their arms</line></s-action>
+                <wp-ref id="wp-ref60"><s-action kind="other" descr="OPERA"><line>Candles burning</line>
+                    <line>A crimson throne</line>
+                    <line>The Tsar wails a mournful tune</line>
+                    <line>They all wave their arms</line></s-action></wp-ref>
                 <s-action kind="other" descr="ALL"><line>And everybody cheers</line>
-                <line>“Bravo, bravo!”</line></s-action>
+                    <line>“Bravo, bravo!”</line></s-action>
             </stanza>
 
             <stanza speaker="NATASHA">
                 <s-action kind="other" descr="ANATOLE"><line>Every time I look at him</line>
-                <line>He’s looking at me</line>
-                <line>Every time I look at him</line>
-                <line>He's looking at me</line>
-                <line>Every time I look at him</line></s-action>
+                    <line>He’s looking at me</line>
+                    <line>Every time I look at him</line>
+                    <line>He's looking at me</line>
+                    <line>Every time I look at him</line></s-action>
             </stanza>
 
             <stanza speaker="SONYA">
-                <s-action kind="other" descr="ALL"><line>A terrible noise, a clatter in the crowd</line>
-                <line>A storm of chromatic scales and diminished sevenths</line>
-                <line>With rapturous faces everyone was shouting</line>
-                <line>Screaming and shouting, “Bravo!”</line></s-action>
+               <wp-ref id="wp-ref61"><line>A terrible noise, a clatter in the
+                        crowd</line>
+                    <line>A storm of chromatic scales and diminished sevenths</line>
+                     <s-action kind="other" descr="ALL"><line>With rapturous faces everyone was shouting</line>
+                    <line>Screaming and shouting, “Bravo!”</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="ALL">
@@ -294,9 +346,10 @@
             </stanza>
 
             <stanza speaker="SONYA">
-                <line>And then</line>
+                <wp-ref id="wp-ref62"><line>And then</line>
                 <line>A rush of cold air</line>
-                <s-action kind="other" descr="ANATOLE"><line>And <chara ref="ANATOLE">Anatole</chara> entered the box</line></s-action>
+                <s-action kind="other" descr="ANATOLE"><line>And <chara ref="ANATOLE"
+                            >Anatole</chara> entered the box</line></s-action></wp-ref>
             </stanza>
         </verse>
     </lyrics>
