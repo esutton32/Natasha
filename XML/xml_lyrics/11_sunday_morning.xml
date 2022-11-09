@@ -42,8 +42,8 @@
                 <line>He’s lying down</line>
                 <line>Oh <chara ref="SONYA">Sonya</chara> why is he lying down?</line>
                 <line>I’m so frightened!</line>
-                <line><chara ref="ANDREY">Andrey</chara> will never come</line>
-                <line>Or something will happen to me before he does</line>
+                <wp-ref id="wp-ref76"><line><chara ref="ANDREY">Andrey</chara> will never come</line>
+                <line>Or something will happen to me before he does</line></wp-ref>
             </stanza>
         </verse>
 
@@ -54,18 +54,18 @@
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>I suffer more now than before</line>
-                <line>The theater and <chara ref="ANATOLE">Anatole</chara></line>
+                <wp-ref id="wp-ref76"><line>I suffer more now than before</line></wp-ref>
+                <wp-ref id="wp-ref77"><line>The theater and <chara ref="ANATOLE">Anatole</chara></line>
                 <line><chara ref="ANATOLE">That man</chara> who aroused such terrible feelings</line>
                 <line>I don’t understand</line>
                 <line>Have I broken faith with <chara ref="ANDREY">Andrey</chara>?</line>
-                <line>Am I guilty?</line>
+                <line>Am I guilty?</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="SONYA">
-                <s-action kind="other" descr="MARYA D"><line>After church, <chara ref="MARYA D">Marya</chara> left for <chara ref="BOLKONSKY">Prince Bolkonsky</chara>’s</line></s-action>
+                <wp-ref id="wp-ref78"><s-action kind="other" descr="MARYA D"><line>After church, <chara ref="MARYA D">Marya</chara> left for <chara ref="BOLKONSKY">Prince Bolkonsky</chara>’s</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="MARYA D">
@@ -76,15 +76,15 @@
             <stanza speaker="NATASHA">
                 <line>That <chara ref="BOLKONSKY">terrible old Prince</chara></line>
                 <line>I can’t bear to think of it</line>
-                <line>I’ll shut myself in my room</line>
-                <line>And try on new dresses</line>
+                <wp-ref id="wp-ref79"><line>I’ll shut myself in my room</line>
+                <line>And try on new dresses</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
                 <line>And just after <chara ref="MARYA D">Marya</chara> left</line>
                 <line>There was a knock at the door</line>
-                <s-action kind="other" descr="NATASHA"><line><chara ref="NATASHA">Natasha</chara> had just turned her head to the glass</line>
-                <line>When she heard a voice that made her flush</line></s-action>
+                <wp-ref id="wp-ref80"><s-action kind="other" descr="NATASHA"><line><chara ref="NATASHA">Natasha</chara> had just turned her head to the glass</line>
+                <line>When she heard a voice that made her flush</line></s-action></wp-ref>
             </stanza>
         </verse>
     </lyrics>
