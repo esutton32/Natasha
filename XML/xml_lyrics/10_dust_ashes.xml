@@ -46,10 +46,10 @@
 
         <verse>
             <stanza speaker="PIERRE">
-                <line>They say we are asleep</line>
-                <line>Until we fall in love</line>
+                <wp-ref id="wp-ref214"><line>They say we are asleep</line>
+                <line>Until we fall in love</line></wp-ref>
                 <line>We are children of dust and ashes</line>
-                <line>But when we fall in love we wake up</line>
+                <wp-ref id="wp-ref214"><line>But when we fall in love we wake up</line></wp-ref>
                 <line>And we are a God</line>
                 <line>And angels weep</line>
                 <line>But if I die here tonight</line>
@@ -93,7 +93,7 @@
                 <line>Is this how I die?</line>
                 <line>Was there ever any other way my life could be?</line>
                 <line>Is this how I die?</line>
-                <line>Such a storm of feelings inside of me?</line>
+                <wp-ref id="wp-ref213"><line>Such a storm of feelings inside of me?</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
@@ -102,10 +102,10 @@
                 <line>Oh God, was there something that I missed?</line>
                 <line>Did I squander my divinity?</line>
                 <line>Was happiness within me the whole time?</line>
-                <line>They say we are asleep</line>
-                <line>Until we fall in love</line>
+                <wp-ref id="wp-ref214"><line>They say we are asleep</line>
+                    <line>Until we fall in love</line></wp-ref>
                 <line>We are children of dust and ashes</line>
-                <line>But when we fall in love we wake up</line>
+                <wp-ref id="wp-ref214"><line>But when we fall in love we wake up</line></wp-ref>
                 <line>And we are a God</line>
                 <line>And angels weep</line>
                 <line>But if I die here tonight</line>
@@ -115,8 +115,8 @@
 
         <verse>
             <stanza speaker="PIERRE">
-                <line>They say we are asleep</line>
-                <line>Until we fall in love</line>
+                <wp-ref id="wp-ref214"><line>They say we are asleep</line>
+                <line>Until we fall in love</line></wp-ref>
                 <line>And I’m so ready</line>
                 <line>To wake up now</line>
             </stanza>
