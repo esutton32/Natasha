@@ -5,9 +5,9 @@ eight= element eight {text}
 #
 ch= element ch {title+, p+, text}
 title= element title {text}
-p= element p {mixed {chara | q}*}
+p= element p {mixed {(chara | q)*}}
 #
 #
 chara= element chara {text}
-q= element q {text}
-
+q= element q { mixed { (chara | q2)*}}
+q2 = element q2 { mixed { (chara)* }}
