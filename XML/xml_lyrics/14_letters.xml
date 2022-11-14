@@ -72,11 +72,11 @@
                 <line>He's no great man</line>
                 <line>None of us are great men</line>
                 <line>We're caught in the wave of history</line>
-                <line>Nothing matters</line>
+                <wp-ref id="wp-ref13"><line>Nothing matters</line>
                 <line>Everything matters</line>
                 <line>It's all the same</line>
                 <line>Oh, if only I could not see "it"</line>
-                <line>This dreadful, terrible "it"</line>
+                <line>This dreadful, terrible "it"</line></wp-ref>
             </stanza>
         </verse>
 
@@ -94,11 +94,11 @@
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>What more can I write</line>
-                <line>After all that has happened?</line>
-                <line>What am I to do if I love him and the other one too?</line>
-                <line>Must I break it off?</line>
-                <line>These terrible questions</line>
+                <wp-ref id="wp-ref103"><line>What more can I write</line>
+                <line>After all that has happened?</line></wp-ref>
+                <wp-ref id="wp-ref100"><line>What am I to do if I love him and the other one too?</line></wp-ref>
+                <wp-ref id="wp-ref103"><line>Must I break it off?</line></wp-ref>
+                <wp-ref id="wp-ref100"><line>These terrible questions</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
@@ -115,11 +115,11 @@
         <verse>
             <stanza speaker="MARY">
                 <line>Dear <chara ref="NATASHA">Natasha</chara></line>
-                <line>I am in deep despair at the misunderstanding there is between us</line>
+                <wp-ref id="wp-ref101"><line>I am in deep despair at the misunderstanding there is between us</line>
                 <line>Whatever <chara ref="BOLKONSKY">my father</chara>'s feelings might be</line>
-                <line>I beg you to believe that I cannot help loving you</line>
-                <line>He is a <chara ref="BOLKONSKY">tired old man</chara> and must be forgiven</line>
-                <line>Please, come see us again</line>
+                <line>I beg you to believe that I cannot help loving you</line></wp-ref>
+                <wp-ref id="wp-ref102"><line>He is a <chara ref="BOLKONSKY">tired old man</chara> and must be forgiven</line>
+                <line>Please, come see us again</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
@@ -173,8 +173,8 @@
                 <line>A love letter</line>
             </stanza>
 
-            <stanza speaker="ANATOLE">
-                <line>A letter from him, from <chara ref="ANATOLE">the man that I love</chara></line>
+            <stanza speaker="NATASHA">
+                <wp-ref id="wp-ref104"><line>A letter from him, from <chara ref="ANATOLE">the man that I love</chara></line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
@@ -187,39 +187,39 @@
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
+                <wp-ref id="wp-ref106"><line><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
                 <line>I must love you or die</line>
                 <line><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
                 <line>If you love me, say yes</line>
                 <line>And I will come and steal you away</line>
                 <line>Steal you out of the dark</line>
                 <line><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
-                <line>I want nothing more</line>
+                <line>I want nothing more</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line backing="ALL"><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
+                <wp-ref id="wp-ref106"><line backing="ALL"><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
                 <line>I must love you or die</line>
                 <line backing="ALL"><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
                 <line>If you love me, say yes</line>
                 <line>And I will come and steal you away</line>
                 <line>Steal you out of the dark</line>
                 <line backing="ALL"><chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara>, <chara ref="NATASHA" address="familiar">Natalie</chara></line>
-                <line>I want nothing more</line>
+                <line>I want nothing more</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
+                <wp-ref id="wp-ref106"><line>Just say yes</line>
                 <line>Just say yes</line>
-                <line>Just say yes</line>
-                <line>Just say yes</line>
+                <line>Just say yes</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>Yes, yes, I love him</line>
-                <line>How else could I have his letter in my hand?</line>
-                <line>I read it twenty times</line>
+                <wp-ref id="wp-ref107"><line>Yes, yes, I love him</line></wp-ref>
+                <wp-ref id="wp-ref104"><line>How else could I have his letter in my hand?</line></wp-ref>
+                <wp-ref id="wp-ref107"><line>I read it twenty times</line></wp-ref>
                 <line>Thirty times, forty times!</line>
                 <line>Each and every word</line>
                 <line>I love him, I love him</line>
