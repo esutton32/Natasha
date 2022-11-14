@@ -20,34 +20,34 @@
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>Well, comrades</line>
+                <wp-ref id="wp-ref131"><line>Well, comrades</line>
                 <line>We’ve had our fun</line>
                 <line>Lived, laughed and loved</line>
                 <line>Friends of my youth</line>
                 <line>When shall we meet again?</line>
-                <line>I’m going abroad</line>
+                <line>I’m going abroad</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>Goodbye my Gypsy lovers</line>
+                <wp-ref id="wp-ref135"><line>Goodbye my Gypsy lovers</line>
                 <line>All my revels here are over</line>
                 <line>Well, goodbye, Matryosha</line>
                 <line>Kiss me one last time, whoa</line>
                 <line>Remember me to Steshka</line>
                 <line>There, goodbye, goodbye, goodbye</line>
                 <line>Wish me luck my Gypsy lovers</line>
-                <line>Now goodbye, goodbye, goodbye</line>
+                <line>Now goodbye, goodbye, goodbye</line></wp-ref>
             </stanza>
 
             <stanza speaker="ALL">
-                <line>Goodbye my Gypsy lovers</line>
+                <wp-ref id="wp-ref135"><line>Goodbye my Gypsy lovers</line>
                 <line>All my revels here are over</line>
                 <line>Well, goodbye, Matryosha</line>
                 <line>Kiss me one last time, whoa</line>
                 <line>Remember me to Steshka</line>
                 <line>There, goodbye, goodbye, goodbye</line>
                 <line>Wish me luck my Gypsy lovers</line>
-                <line>Now goodbye, goodbye, goodbye</line>
+                <line>Now goodbye, goodbye, goodbye</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
@@ -56,7 +56,7 @@
 
             <stanza speaker="ALL">
                 <line>Hurrah!</line>
-                <line>Smash the glasses on the floor!</line>
+                <wp-ref id="wp-ref131"><line>Smash the glasses on the floor!</line></wp-ref>
             </stanza>
 
             <direction>They dance.</direction>
@@ -131,10 +131,10 @@
             <direction>They start to leave.</direction>
 
             <stanza speaker="ANATOLE">
-                <line>Wait, wait, wait!</line>
+                <wp-ref id="wp-ref132"><line>Wait, wait, wait!</line>
                 <line>Shut the door!</line>
                 <line>First we have to sit down!</line>
-                <line>Yes, that’s the way</line>
+                <line>Yes, that’s the way</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
@@ -152,29 +152,29 @@
 
         <verse>
             <stanza speaker="DOLOKHOV">
-                <line>Wait, wait, wait, wait!</line>
+                <wp-ref id="wp-ref133"><line>Wait, wait, wait, wait!</line>
                 <line>Where’s the fur cloak?</line>
-                <line>Huh?</line>
+                <line>Huh?</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <line>I have heard what elopements are like</line>
+                <wp-ref id="wp-ref133"><line>I have heard what elopements are like</line>
                 <line>She’ll rush out more dead than alive</line>
                 <line>Just in the things she is wearing</line>
                 <line>If you delay at all, there’ll be tears and “Papa” and “Mama”</line>
-                <line>And she’s frozen in a minute and must go back</line>
+                <line>And she’s frozen in a minute and must go back</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <line>But you wrap the fur cloak 'round her</line>
-                <line>And you carry her to the sleigh</line>
-                <line>That’s the way</line>
-                <line>That’s the way</line>
+                <wp-ref id="wp-ref133"><line>But you wrap the fur cloak 'round her</line>
+                <line>And you carry her to the sleigh</line></wp-ref>
+                <wp-ref id="wp-ref134"><line>That’s the way</line>
+                <line>That’s the way</line></wp-ref>
             </stanza>
 
             <stanza speaker="ALL">
-                <line>That’s the way</line>
-                <line>That’s the way</line>
+                <wp-ref id="wp-ref134"><line>That’s the way</line>
+                <line>That’s the way</line></wp-ref>
             </stanza>
         </verse>
 
@@ -184,7 +184,7 @@
             </stanza>
 
             <stanza speaker="BALAGA">
-                <line>And the troika tore down Nikitski Boulevard</line>
+                <wp-ref id="wp-ref136"><line>And the troika tore down Nikitski Boulevard</line></wp-ref>
                 <line>Whoa! Giddyup, now! Whoa! Whoa!</line>
             </stanza>
 
@@ -193,7 +193,7 @@
                 <line>Ho <chara ref="BALAGA">Balaga</chara></line>
                 <line>Hey hey ho <chara ref="BALAGA">Balaga</chara></line>
                 <line>Hey hey <chara ref="BALAGA">Balaga</chara></line>
-                <line><chara ref="BALAGA">The famous troika driver</chara></line>
+                <wp-ref id="wp-ref130"><line><chara ref="BALAGA">The famous troika driver</chara></line></wp-ref>
             </stanza>
 
             <stanza speaker="ALL">
@@ -201,25 +201,25 @@
                 <line>Ho <chara ref="BALAGA">Balaga</chara></line>
                 <line>Hey hey hey <chara ref="BALAGA">Balaga</chara></line>
                 <line>Hey hey <chara ref="BALAGA">Balaga</chara></line>
-                <line><chara ref="BALAGA">The famous troika driver</chara></line>
+                <wp-ref id="wp-ref130"><line><chara ref="BALAGA">The famous troika driver</chara></line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <line>When they reached the gate <chara ref="DOLOKHOV">Dolokhov</chara>
+                <wp-ref id="wp-ref137"><line>When they reached the gate <chara ref="DOLOKHOV">Dolokhov</chara>
                     whistled</line>
-                <line>The whistle was answered, and a maidservant ran out</line>
+                <line>The whistle was answered, and a maidservant ran out</line></wp-ref>
             </stanza>
 
             <stanza speaker="MAIDSERVANT">
-                <line>Come in through the courtyard or you’ll be seen; she’ll come out
-                    directly</line>
+                <wp-ref id="wp-ref137"><line>Come in through the courtyard or you’ll be seen; she’ll come out
+                    directly</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <s-action kind="self" descr="DOLOKHOV" type="3rd"><line><chara ref="DOLOKHOV">Dolokhov</chara> stayed by the gate</line></s-action>
+                <wp-ref id="wp-ref137"><s-action kind="self" descr="DOLOKHOV" type="3rd"><line><chara ref="DOLOKHOV">Dolokhov</chara> stayed by the gate</line></s-action>
                 <s-action kind="other" descr="ANATOLE"><line><chara ref="ANATOLE">Anatole</chara> followed the maid into the
                         courtyard</line>
-                    <line>Turned the corner, ran up to the porch</line></s-action>
+                    <line>Turned the corner, ran up to the porch</line></s-action></wp-ref>
             </stanza>
         </verse>
         <verse>
@@ -230,11 +230,11 @@
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <line><chara ref="ANATOLE">Anatole</chara>, come back!</line>
+                <wp-ref id="wp-ref138"><line><chara ref="ANATOLE">Anatole</chara>, come back!</line>
                 <line>Betrayed! Betrayed!</line>
                 <line>Betrayed, <chara ref="ANATOLE">Anatole</chara>! Betrayed!</line>
                 <line>Come back!</line>
-                <line>Betrayed, <chara ref="ANATOLE">Anatole</chara>! Betrayed! Betrayed!</line>
+                <line>Betrayed, <chara ref="ANATOLE">Anatole</chara>! Betrayed! Betrayed!</line></wp-ref>
             </stanza>
 
             <direction>Dolokhov rushes in and rescues Anatole. They flee.</direction>
