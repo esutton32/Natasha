@@ -12,79 +12,79 @@
     <lyrics>
         <verse>
             <stanza speaker="SONYA">
-                <line>How was it I noticed nothing?</line>
+                <wp-ref id="wp-ref108"><line>How was it I noticed nothing?</line>
                 <line>How could it go so far?</line>
                 <line>It can’t be that she loves him</line>
-                <line>It can’t be</line>
-                <line><chara ref="NATASHA">Natasha</chara></line>
+                <line>It can’t be</line></wp-ref>
+                <wp-ref id="wp-ref109"><line><chara ref="NATASHA">Natasha</chara></line></wp-ref>
             </stanza>
 
             <direction>Natasha awakes and sees Sonya.</direction>
 
             <stanza speaker="NATASHA">
-                <line><chara ref="SONYA">Sonya</chara>, you’re back</line>
-                <s-action kind="self" descr="NATASHA" type="1st"><line>And with the tender resolve
+                <wp-ref id="wp-ref109"><line><chara ref="SONYA">Sonya</chara>, you’re back</line></wp-ref>
+                <wp-ref id="wp-ref110"><s-action kind="self" descr="NATASHA" type="1st"><line>And with the tender resolve
                         that often comes at the moment of awakening</line>
                     <line>I embraced <chara ref="SONYA">my friend</chara></line>
                     <line>But noticing <chara ref="SONYA">Sonya</chara>’s look of
                         embarrassment</line>
                     <line>My face expressed confusion</line>
-                    <line>And suspicion</line></s-action>
-                <line><chara ref="SONYA">Sonya</chara>, you’ve read the letter?</line>
+                    <line>And suspicion</line></s-action></wp-ref>
+                <wp-ref id="111"><line><chara ref="SONYA">Sonya</chara>, you’ve read the letter?</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
-                <line>Yes</line>
+                <wp-ref id="wp-ref111"><line>Yes</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Oh <chara ref="SONYA">Sonya</chara>, I’m glad</line>
+                <wp-ref id="wp-ref111"><line>Oh <chara ref="SONYA">Sonya</chara>, I’m glad</line>
                 <line>I can’t hide it any longer!</line>
                 <line>Now you know, we love one another!</line>
                 <line>Oh <chara ref="SONYA">Sonya</chara>, he writes, he writes</line>
-                <line>He writes, he writes, he writes</line>
+                <line>He writes, he writes, he writes</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
-                <line>And <chara ref="ANDREY">Andrey</chara>?</line>
+                <wp-ref id="wp-ref111"><line>And <chara ref="ANDREY">Andrey</chara>?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Oh <chara ref="SONYA">Sonya</chara>, if you only knew how happy I am!</line>
-                <line>You don’t know what love is</line>
+                <wp-ref id="wp-ref111"><line>Oh <chara ref="SONYA">Sonya</chara>, if you only knew how happy I am!</line>
+                <line>You don’t know what love is</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
-                <line>But <chara ref="NATASHA">Natasha</chara>, can that all be over?</line>
+                <wp-ref id="wp-ref111"><line>But <chara ref="NATASHA">Natasha</chara>, can that all be over?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>I do not grasp the question</line>
+                <wp-ref id="wp-ref111"><line>I do not grasp the question</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
-                <line>Are you refusing <chara ref="ANDREY">Prince Andrey</chara>?</line>
+                <wp-ref id="wp-ref111"><line>Are you refusing <chara ref="ANDREY">Prince Andrey</chara>?</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>Oh, you don’t understand anything!</line>
-                <line>Don’t talk nonsense, just listen</line>
+                <wp-ref id="wp-ref111"><line>Oh, you don’t understand anything!</line>
+                <line>Don’t talk nonsense, just listen</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
-                <line>But I can’t believe it, I don’t understand</line>
+                <wp-ref id="wp-ref111"><line>But I can’t believe it, I don’t understand</line>
                 <line>How you loved <chara ref="ANDREY">one man</chara> a whole year</line>
                 <line>And suddenly—</line>
                 <line>You’ve only known him three days!</line>
-                <line><chara ref="NATASHA">Natasha</chara>, you're joking!</line>
+                <line><chara ref="NATASHA">Natasha</chara>, you're joking!</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>Three days?</line>
+                <wp-ref id="wp-ref111"><line>Three days?</line>
                 <line>It seems to me I’ve loved him a hundred years</line>
                 <line>It seems to me I’ve never loved anyone before</line>
                 <line>Not like this</line>
@@ -92,58 +92,58 @@
                 <line>My life is his</line>
                 <line>I’ll do anything he wants me to</line>
                 <line>What can I do?</line>
-                <line><chara ref="SONYA">Sonya</chara>, what can I do?</line>
+                <line><chara ref="SONYA">Sonya</chara>, what can I do?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
                 <line>I’m so happy</line>
                 <line>And so frightened</line>
-                <line>Why can’t you understand?</line>
-                <line>I love him!</line>
+                <wp-ref id="wp-ref111"><line>Why can’t you understand?</line>
+                <line>I love him!</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
-                <line>Then I won’t let it come to that, I shall tell!</line>
+                <wp-ref id="wp-ref111"><line>Then I won’t let it come to that, I shall tell!</line>
                 <s-action kind="self" descr="SONYA" type="1st"><line>Bursting into
-                    tears</line></s-action>
+                    tears</line></s-action></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>What do you mean?</line>
+                <wp-ref id="wp-ref111"><line>What do you mean?</line>
                 <line>For God’s sake, if you tell, you are my enemy!</line>
                 <line>You want me to be miserable</line>
                 <line>You want to tear us apart</line>
                 <line>For God’s sake, <chara ref="SONYA">Sonya</chara>, don’t tell anyone, don’t
                     torture me</line>
-                <line>I have confided in you</line>
+                <line>I have confided in you</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
-                <line>What has happened between you?</line>
+                <wp-ref id="wp-ref111"><line>What has happened between you?</line>
                 <line>What has he said to you?</line>
                 <line>Why doesn’t he come to the house and openly ask for your hand?</line>
                 <line>Why this secrecy?</line>
-                <line>Have you thought what his secret reasons may be?</line>
+                <line>Have you thought what his secret reasons may be?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>I don’t know what the reasons are</line>
+                <wp-ref id="wp-ref111"><line>I don’t know what the reasons are</line>
                 <line>But there must be reasons!</line>
-                <line><chara ref="SONYA">Sonya</chara>, one can’t doubt him!</line>
+                <line><chara ref="SONYA">Sonya</chara>, one can’t doubt him!</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="SONYA">
-                <line>Does he love you?</line>
+                <wp-ref id="wp-ref111"><line>Does he love you?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Does he love me?</line>
+                <wp-ref id="wp-ref111"><line>Does he love me?</line>
                 <line>Why, you’ve read his letter, you’ve seen him</line>
-                <line>I can’t live without him</line>
+                <line>I can’t live without him</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
@@ -152,39 +152,39 @@
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line><chara ref="ANDREY">Andrey</chara> said I was free to refuse him</line>
+                <wp-ref id="wp-ref113"><line><chara ref="ANDREY">Andrey</chara> said I was free to refuse him</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
-                <line>But you haven’t refused him, or have you?</line>
+                <wp-ref id="wp-ref113"><line>But you haven’t refused him, or have you?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Perhaps I have</line>
+                <wp-ref id="wp-ref113"><line>Perhaps I have</line>
                 <line>Perhaps all is over between me and <chara ref="ANDREY" address="formal"
                     >Bolkonsky</chara></line>
-                <line>Would you think so badly of me?</line>
+                <line>Would you think so badly of me?</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="SONYA">
-                <line>I won’t succumb to your tender tone <chara ref="NATASHA"
-                    >Natasha</chara></line>
+                <wp-ref id="wp-ref114"><line>I won’t succumb to your tender tone <chara ref="NATASHA"
+                    >Natasha</chara></line></wp-ref>
                 <line>I don’t trust him, <chara ref="NATASHA">Natasha</chara>!</line>
-                <line>I’m afraid for you, <chara ref="NATASHA">Natasha</chara>!</line>
-                <line>Afraid you are going to your ruin</line>
+                <wp-ref id="wp-ref115"><line>I’m afraid for you, <chara ref="NATASHA">Natasha</chara>!</line>
+                <line>Afraid you are going to your ruin</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Then I’ll go to my ruin, yes I will, as soon as possible!</line>
+                <wp-ref id="wp-ref115"><line>Then I’ll go to my ruin, yes I will, as soon as possible!</line>
                 <line>But it’s not your business!</line>
                 <line>It won’t be you, it’ll be me, who’ll suffer</line>
                 <line>Leave me alone, yes leave me alone!</line>
                 <line>I hate you <chara ref="SONYA">Sonya</chara>!</line>
                 <line>I hate you <chara ref="SONYA">Sonya</chara>!</line>
                 <line>I hate you, I hate you!</line>
-                <line>You’re <chara ref="SONYA">my enemy</chara> forever!</line>
+                <line>You’re <chara ref="SONYA">my enemy</chara> forever!</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
@@ -197,16 +197,16 @@
 
         <verse>
             <stanza speaker="NATASHA">
-                <s-action kind="self" descr="NATASHA" type="1st"><line>And without a moment’s
+                <wp-ref id="wp-ref112"><s-action kind="self" descr="NATASHA" type="1st"><line>And without a moment’s
                         reflection</line>
                     <line>I wrote the answer to <chara ref="MARY" address="formal">Princess Mary</chara></line>
-                    <line>I’d been unable to write all morning</line></s-action>
+                    <line>I’d been unable to write all morning</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>All our misunderstandings are at an end</line>
+                <wp-ref id="wp-ref112"><line>All our misunderstandings are at an end</line>
                 <line>Forget everything and forgive me</line>
-                <line>But I can’t be <chara ref="ANDREY">Andrey</chara>’s wife</line>
+                <line>But I can’t be <chara ref="ANDREY">Andrey</chara>’s wife</line></wp-ref>
             </stanza>
         </verse>
     </lyrics>
