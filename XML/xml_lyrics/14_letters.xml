@@ -64,11 +64,11 @@
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>For I've been studying the Kabal</line>
+                <wp-ref id="wp-ref218"><line>For I've been studying the Kabal</line>
                 <line>And I've calculated the number of the beast</line>
                 <line>It is Napoleon!</line>
                 <line>Six hundred three score and six</line>
-                <line>And I will kill him one day</line>
+                <line>And I will kill him one day</line></wp-ref>
                 <line>He's no great man</line>
                 <line>None of us are great men</line>
                 <line>We're caught in the wave of history</line>
