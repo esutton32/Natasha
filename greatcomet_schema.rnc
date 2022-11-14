@@ -20,7 +20,7 @@ direction = element direction { text }
 speech = element speech { (line  | speaker | wp-ref)* }
 # S-action (abbreviated from spoken action) is meant to indicate when characters describe what they or another character are doing.
 s-action =
-    element s-action { kind, descr, descr2?, type?,
+    element s-action { kind*, descr, descr2?, type?,
         mixed { (line | chara )* }
     }
 kind = attribute kind { text }
