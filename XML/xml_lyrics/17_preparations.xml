@@ -40,43 +40,43 @@
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>Ah, that's <chara ref="ANATOLE">a true sage</chara></line>
+                <wp-ref id="wp-ref156"><line>Ah, that's <chara ref="ANATOLE">a true sage</chara></line>
                 <line>Living in the moment</line>
-                <line>What I wouldn’t give to be like him!</line>
+                <line>What I wouldn’t give to be like him!</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="DOLOKHOV">
-                <line>The plan for <chara ref="NATASHA" address="familiar">Natalie Rostova</chara>’s abduction</line>
+                <wp-ref id="wp-ref119"><line>The plan for <chara ref="NATASHA" address="familiar">Natalie Rostova</chara>’s abduction</line>
                 <line>Had all been arranged and the preparations made</line>
                 <line>On the day that <chara ref="SONYA">Sonya</chara> decided to save her</line>
-                <line>That was the day that the game was to be played</line>
+                <line>That was the day that the game was to be played</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <line><chara ref="NATASHA">Natasha</chara> was to be on her back porch at ten</line>
+                <wp-ref id="wp-ref119"><line><chara ref="NATASHA">Natasha</chara> was to be on her back porch at ten</line>
                 <line><chara ref="ANATOLE">Anatole</chara> and his troika would scoop her up and then</line>
                 <line>They’d ride forty miles to the village of Kamenka</line>
                 <line>Where an unfrocked priest was to make ’em get wed</line>
                 <line>Then back into the troika off they’d go</line>
-                <line>Take the Poland highroad to the wedding bed</line>
+                <line>Take the Poland highroad to the wedding bed</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>Passports, horses, ten thousand rubles I have taken from <chara ref="HÉLÈNE">my sister</chara></line>
-                <line>And another ten thousand raised with <chara ref="DOLOKHOV">Dolokhov</chara>’s help</line>
+                <wp-ref id="wp-ref120"><line>Passports, horses, ten thousand rubles I have taken from <chara ref="HÉLÈNE">my sister</chara></line>
+                <line>And another ten thousand raised with <chara ref="DOLOKHOV">Dolokhov</chara>’s help</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <s-action kind="mixed" descr="DOLOKHOV" descr2="ANATOLE"><line>We were gathered in my study drinking up some tea</line></s-action>
-                <line>Just <chara ref="ANATOLE">Anatole</chara>, the two wedding witnesses, and me</line>
-                <line>An abacus and paper money strewn on the desk</line>
+                <wp-ref id="wp-ref121"><s-action kind="mixed" descr="DOLOKHOV" descr2="ANATOLE"><line>We were gathered in my study drinking up some tea</line></s-action>
+                <line>Just <chara ref="ANATOLE">Anatole</chara>, the two wedding witnesses, and me</line></wp-ref>
+                <wp-ref id="wp-ref122"><line>An abacus and paper money strewn on the desk</line>
                 <line>Persian rugs and bearskins hanging grotesque</line>
                 <s-action kind="other" descr="ANATOLE"><line><chara ref="ANATOLE">Anatole</chara> was walking with his uniform unbuttoned</line>
                 <line>Walking to and fro</line>
                 <line>To and fro</line>
-                <line>To and fro</line></s-action>
+                <line>To and fro</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE" speaker2="DOLOKHOV">
@@ -94,70 +94,70 @@
                 <line>Just</line>
                 <line>Give it up now</line>
                 <line>Why dontcha</line>
-                <line>While there’s still time!</line>
+                <wp-ref id="wp-ref123"><line>While there’s still time!</line>
                 <line>You’d really better drop it all</line>
                 <line>Give it up now!</line>
                 <line>While there’s still time!</line>
-                <line>Do you know?</line>
+                <line>Do you know?</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>What, teasing again?</line>
+                <wp-ref id="wp-ref123"><line>What, teasing again?</line>
                 <line><chara ref="DOLOKHOV">Fool</chara> don’t talk nonsense!</line>
                 <line>Go to the devil! Eh?</line>
-                <line>Really this is no time for your stupid jokes</line>
+                <line>Really this is no time for your stupid jokes</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <line>I am not joking, I am talking sense</line>
+                <wp-ref id="wp-ref124"><line>I am not joking, I am talking sense</line>
                 <line>This is serious business, a dangerous business</line>
                 <line>Come here, come here, come here <chara ref="ANATOLE">Anatole</chara>!</line>
                 <line>Why would I joke about it?</line>
                 <line>Me of all people</line>
                 <line>Who found the priest, raised the money, got the passports, got the
-                    horses?</line>
+                    horses?</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>And well I thank you for it</line>
-                <line>Do you think I am not grateful?</line>
+                <wp-ref id="wp-ref124"><line>And well I thank you for it</line>
+                <line>Do you think I am not grateful?</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <line>And now you’ll carry her away but will they let it stop there?</line>
+                <wp-ref id="wp-ref124"><line>And now you’ll carry her away but will they let it stop there?</line>
                 <line>You haven’t thought this through or do you just don’t care?</line>
                 <line>Now listen to me tell it to you one last time</line>
                 <line>They will take you to the court and convict you for your crime</line>
-                <line>Already married and you’re playing with <chara ref="NATASHA">a little girl</chara></line>
+                <line>Already married and you’re playing with <chara ref="NATASHA">a little girl</chara></line></wp-ref>
                 <line>Don’t you know, don’t you think, don’t you know?</line>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="ANATOLE">
-                <line>Nonsense, nonsense!</line>
+                <wp-ref id="wp-ref125"><line>Nonsense, nonsense!</line>
                 <s-action kind="self" descr="ANATOLE" type="1st"><line>I’m scowling and grimacing</line></s-action>
-                <line>Didn’t I explain it to you, didn’t I, what?</line>
+                <line>Didn’t I explain it to you, didn’t I, what?</line></wp-ref>
             </stanza>
 
             <stanza speaker="DOLOKHOV">
-                <s-action kind="other" descr="ANATOLE"><line>And here <chara ref="ANATOLE">Anatole</chara></line>
+                <wp-ref id="wp-ref125"><s-action kind="other" descr="ANATOLE"><line>And here <chara ref="ANATOLE">Anatole</chara></line>
                 <line>With the stubborn attachment small-minded people have</line>
                 <line>For conclusions they’ve worked out for themselves</line>
-                <line>Repeated his argument to me for the hundredth time</line></s-action>
+                <line>Repeated his argument to me for the hundredth time</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <line>If this marriage isn’t valid</line>
+                <wp-ref id="wp-ref125"><line>If this marriage isn’t valid</line>
                 <line>Then I’m off the hook</line>
                 <line>But if it is valid, it really doesn’t matter!</line>
                 <line>No one abroad is gonna know a thing about it</line>
                 <line>Isn’t that so now don’t you know?</line>
-                <line>Don’t talk to me, don’t don’t what what</line>
-                <line>Ah go to hell now</line>
+                <line>Don’t talk to me, don’t don’t what what</line></wp-ref>
+                <wp-ref id="wp-ref126"><line>Ah go to hell now</line>
                 <s-action kind="self" descr="ANATOLE" type="1st"><line>I’m clutching my hair!</line></s-action>
                 <line>It’s the very devil!</line>
-                <line>Here, feel how it beats!</line>
+                <line>Here, feel how it beats!</line></wp-ref>
             </stanza>
 
             <direction>He presses Dolokhov’s hand to his heart. A light comes up on Natasha across
@@ -166,21 +166,21 @@
 
         <verse>
             <stanza speaker="ANATOLE">
-                <line>Ah <chara ref="NATASHA">ma chere</chara>, <chara ref="NATASHA">ma chere</chara></line>
+                <wp-ref id="wp-ref126"><line>Ah <chara ref="NATASHA">ma chere</chara>, <chara ref="NATASHA">ma chere</chara></line>
                 <line>Quel pied, quel regard!</line>
                 <line>What a foot she has, what a glance!</line>
-                <line><chara ref="NATASHA">A goddess</chara>!</line>
+                <line><chara ref="NATASHA">A goddess</chara>!</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-                <s-action kind="self" descr="ANATOLE" type="1st"><line>And my handsome lips</line>
-                <line>Mutter something tender to myself</line></s-action>
+                <wp-ref id="wp-ref128"><s-action kind="self" descr="ANATOLE" type="1st"><line>And my handsome lips</line>
+                <line>Mutter something tender to myself</line></s-action></wp-ref>
                 <line>It’s time!</line>
                 <line>It’s time!</line>
-                <line>Now then! Nearly ready? You’re dawdling!</line>
+                <wp-ref id="wp-ref127"><line>Now then! Nearly ready? You’re dawdling!</line></wp-ref>
                 <line><chara ref="BALAGA">The driver</chara> is here</line>
                 <line><chara ref="BALAGA">The driver</chara> is here</line>
-                <line><chara ref="BALAGA">Balaga</chara> is here!</line>
+                <wp-ref id="wp-ref129"><line><chara ref="BALAGA">Balaga</chara> is here!</line></wp-ref>
             </stanza>
         </verse>
     </lyrics>
