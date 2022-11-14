@@ -9,28 +9,28 @@
 <lyrics>
     <verse>
         <stanza speaker="SONYA">
-            <line>Hard as it is</line>
+           <wp-ref id="wp-ref116"><line>Hard as it is</line>
             <line>In the coming days</line>
             <line>I watch <chara ref="NATASHA">my friend</chara></line>
             <line>In her strange unnatural state</line>
             <line>Don’t let her out of my sight</line>
             <s-action descr="NATASHA" kind="other"><line>She trails off</line>
             <line>Stares at nothing</line>
-            <line>Laughs at random</line></s-action>
+            <line>Laughs at random</line></s-action></wp-ref>
             <line>And the letters come</line>
             <s-action kind="other" descr="NATASHA"><line>She waits by the window</line></s-action>
-            <s-action kind="self" descr="SONYA" type="1st"><line>And I listen at the door</line></s-action>
+            <wp-ref id="wp-ref117"><s-action kind="self" descr="SONYA" type="1st"><line>And I listen at the door</line></s-action></wp-ref>
             <line>Until one day</line>
             <line>I see by the sad look on her face</line>
-            <line>There is a dreadful plan in her heart</line>
+            <wp-ref id="wp-ref117"><line>There is a dreadful plan in her heart</line></wp-ref>
         </stanza>
 
         <stanza speaker="SONYA">
             <line>I know you are capable of anything</line>
             <line>I know you so well <chara ref="NATASHA">my friend</chara></line>
-            <line>I know you might just run away</line>
+            <wp-ref id="wp-ref118"><line>I know you might just run away</line>
             <line>What am I to do?</line>
-            <line>Who do I ask for help?</line>
+            <line>Who do I ask for help?</line></wp-ref>
             <line>Is it all on me?</line>
             <line>Is it all on me?</line>
         </stanza>
@@ -38,11 +38,11 @@
 
     <chorus>
         <stanza speaker="SONYA">
-            <line>I will stand in the dark for you</line>
+            <wp-ref id="wp-ref118"><line>I will stand in the dark for you</line>
             <line>I will hold you back by force</line>
             <line>I will stand here right outside your door</line>
             <line>I won’t see you disgraced</line>
-            <line>I will protect your name and your heart</line>
+            <line>I will protect your name and your heart</line></wp-ref>
             <line>Because I miss <chara ref="NATASHA">my friend</chara></line>
         </stanza>
     </chorus>
@@ -58,19 +58,19 @@
         </stanza>
 
         <stanza speaker="SONYA">
-            <line>And I remember this family</line>
+            <wp-ref id="wp-ref118"><line>And I remember this family</line>
             <line>I remember their kindness</line>
-            <line>And if I never sleep again</line>
+            <line>And if I never sleep again</line></wp-ref>
         </stanza>
     </verse>
 
     <chorus>
         <stanza speaker="SONYA">
-            <line>I will stand in the dark for you</line>
+            <wp-ref id="wp-ref118"><line>I will stand in the dark for you</line>
             <line>I will hold you back by force</line>
             <line>I will stand here right outside your door</line>
             <line>I won’t see you disgraced</line>
-            <line>I will protect your name and your heart</line>
+            <line>I will protect your name and your heart</line></wp-ref>
             <line>Because I miss <chara ref="NATASHA">my friend</chara></line>
             <line>Because I miss <chara ref="NATASHA">my friend</chara></line>
             <line>Because I miss you, <chara ref="NATASHA">my friend</chara></line>
