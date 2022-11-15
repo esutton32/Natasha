@@ -11,12 +11,12 @@
     <lyrics>
         <verse>
             <stanza speaker="PIERRE">
-                <s-action kind="other" descr="NATASHA"><line><chara ref="NATASHA">Natasha</chara>
+                <wp-ref id="wp-ref190"><s-action kind="other" descr="NATASHA"><line><chara ref="NATASHA">Natasha</chara>
                         was standing</line>
                     <line>In the middle of the drawing room</line>
                     <line>With a pale yet steady face</line></s-action>
-                <line>When I appeared in the doorway</line>
-                <line><s-action kind="other" descr="NATASHA">She grew flustered</s-action> and
+                <line>When I appeared in the doorway</line></wp-ref>
+                <wp-ref id="wp-ref191"><line><s-action kind="other" descr="NATASHA">She grew flustered</s-action> and
                         <s-action kind="self" descr="PIERRE" type="1st">I hurried to
                     her</s-action></line>
                 <line>I thought that she would give me her hand</line>
@@ -27,11 +27,11 @@
                 <line>She used to stand in as a young girl</line>
                 <line>When she went to the middle of the ballroom to sing</line>
                 <s-action kind="other" descr="NATASHA"><line>But the look on her face was quite
-                        different</line></s-action>
+                        different</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line><chara ref="PIERRE" address="formal">Peter Kirilovich</chara></line>
+                <wp-ref id="wp-ref192"><line><chara ref="PIERRE" address="formal">Peter Kirilovich</chara></line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
@@ -39,130 +39,130 @@
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line><chara ref="ANDREY" address="formal">Prince Bolkonsky</chara> was <chara ref="ANDREY">your
+                <wp-ref id="wp-ref192"><line><chara ref="ANDREY" address="formal">Prince Bolkonsky</chara> was <chara ref="ANDREY">your
                     friend</chara>—</line>
                 <line>He is <chara ref="ANDREY">your friend</chara></line>
-                <line>He once told me that I should turn to you</line>
+                <line>He once told me that I should turn to you</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <s-action kind="self" descr="PIERRE" type="3rd"><line><chara ref="PIERRE"
+                <wp-ref id="wp-ref193"><s-action kind="self" descr="PIERRE" type="3rd"><line><chara ref="PIERRE"
                             >Pierre</chara> sniffed as he looked at her, but he didn’t speak</line>
                     <line>’Til then he had reproached her, and tried to despise her</line>
                     <line>But now he felt such pity for her</line>
-                    <line>That there was no room in his soul for reproach</line></s-action>
+                    <line>That there was no room in his soul for reproach</line></s-action></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="NATASHA">
-                <line>He is here now</line>
-                <line>Tell him to—tell him to forgive me</line>
+                <wp-ref id="wp-ref194"><line>He is here now</line>
+                <line>Tell him to—tell him to forgive me</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>Yes, I will tell him to forgive you</line>
+                <wp-ref id="wp-ref194"><line>Yes, I will tell him to forgive you</line></wp-ref>
                 <line>But, he gave me your letters—</line>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>No, I know that all is over</line>
+                <wp-ref id="wp-ref195"><line>No, I know that all is over</line>
                 <line>I know that it never can be</line>
                 <line>But still I’m tormented by the wrongs I’ve done him</line>
                 <line>Tell him that I beg him to forgive, forgive</line>
-                <line>Forgive me for everything</line>
+                <line>Forgive me for everything</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>Yes I will tell him, tell him everything</line>
+                <wp-ref id="wp-ref196"><line>Yes I will tell him, tell him everything</line>
                 <line>But—</line>
-                <line>But I should like to know one thing</line>
-                <line>Did you love—</line>
-                <line>Did you love <chara ref="ANATOLE">that bad man</chara>?</line>
+                <line>But I should like to know one thing</line></wp-ref>
+                <wp-ref id="wp-ref197"><line>Did you love—</line>
+                <line>Did you love <chara ref="ANATOLE">that bad man</chara>?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Don’t call him bad</line>
-                <line>But I don’t know, I don’t know at all</line>
+                <wp-ref id="wp-ref197"><line>Don’t call him bad</line>
+                <line>But I don’t know, I don’t know at all</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="PIERRE">
-                <s-action kind="other" descr="NATASHA"><line>She began to cry</line></s-action>
+                <wp-ref id="wp-ref198"><s-action kind="other" descr="NATASHA"><line>She began to cry</line></s-action>
                 <s-action kind="self" descr="PIERRE" type="3rd"><line>And a greater sense of pity,
                         tenderness, and love overflowed <chara ref="PIERRE">Pierre</chara>’s
                         heart</line>
                     <line>He felt the tears begin to trickle underneath his spectacles</line>
-                    <line>And he hoped that no one would see</line></s-action>
+                    <line>And he hoped that no one would see</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>We won’t speak of it anymore</line>
+                <wp-ref id="wp-ref199"><line>We won’t speak of it anymore</line>
                 <line>We won’t speak of it, <chara ref="NATASHA">my dear</chara></line>
                 <line>But one thing I beg of you, consider me your friend</line>
                 <line>And if you ever need help, or simply to open your heart to someone</line>
                 <line>Not now, but when your mind is clear</line>
-                <line>Think of me—</line>
-                <s-action kind="other" descr="PIERRE" type="3rd"><line><chara ref="PIERRE"
-                            >Pierre</chara> grew confused</line></s-action>
+                <line>Think of me—</line></wp-ref>
+                <wp-ref id="wp-ref200"><s-action kind="other" descr="PIERRE" type="3rd"><line><chara ref="PIERRE"
+                            >Pierre</chara> grew confused</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Don’t speak to me like that</line>
-                <line>I am not worth it!</line>
+                <wp-ref id="wp-ref200"><line>Don’t speak to me like that</line>
+                <line>I am not worth it!</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>Stop, stop, stop!</line>
-                <line>You have your whole life before you—</line>
+                <wp-ref id="wp-ref201"><line>Stop, stop, stop!</line>
+                <line>You have your whole life before you—</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>Before me? No, all is over for me!</line>
+                <wp-ref id="wp-ref201"><line>Before me? No, all is over for me!</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>All over?</line>
+                <wp-ref id="wp-ref201"><line>All over?</line></wp-ref>
             </stanza>
 
             <direction>Music stops.</direction>
         </verse>
 
         <speech speaker="PIERRE">
-            <line>If I were not myself</line>
+            <wp-ref id="wp-ref201"><line>If I were not myself</line>
             <line>But the brightest, handsomest</line>
             <line>Best man on earth</line>
             <line>And if I were free—</line>
             <line>I would get down on my knees this minute</line>
             <line>And ask you for your hand</line>
-            <line>And for your love</line>
+            <line>And for your love</line></wp-ref>
         </speech>
 
         <verse>
             <direction>Music resumes.</direction>
 
             <stanza speaker="NATASHA">
-                <s-action kind="self" descr="NATASHA" type="1st"><line>And for the first time in
+                <wp-ref id="wp-ref201"><s-action kind="self" descr="NATASHA" type="1st"><line>And for the first time in
                         many days</line>
                     <line>I weep tears of gratitude</line>
                     <line>Tears of tenderness</line>
                     <line>Tears of thanks</line>
                     <line>And glancing at <chara ref="PIERRE">Pierre</chara></line>
                     <line>Oh <chara ref="PIERRE">Pierre</chara></line>
-                    <line>I leave the room smiling</line></s-action>
+                    <line>I leave the room smiling</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <s-action kind="self" descr="PIERRE" type="1st"><line>And restraining tears of
+                <wp-ref id="wp-ref202"><s-action kind="self" descr="PIERRE" type="1st"><line>And restraining tears of
                         tenderness</line>
                     <line>Tears of joy which choke me</line>
                     <line>I throw my fur coat on my shoulders</line>
-                    <line>Unable to find the sleeves</line>
-                    <line>Outside, my great broad chest</line>
+                    <line>Unable to find the sleeves</line></s-action></wp-ref>
+                <wp-ref id="wp-ref203"><s-action kind="self" descr="PIERRE" type="1st"><line>Outside, my great broad chest</line>
                     <line>Breathes in deep the air with joy</line>
-                    <line>Despite the ten degrees of frost</line>
-                    <line>And I get into my sleigh</line></s-action>
+                    <line>Despite the ten degrees of frost</line></s-action></wp-ref>
+                    <wp-ref id="wp-ref202"><s-action kind="self" descr="PIERRE" type="1st"><line>And I get into my sleigh</line></s-action></wp-ref>
             </stanza>
         </verse>
     </lyrics>
