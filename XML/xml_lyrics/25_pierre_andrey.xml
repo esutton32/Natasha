@@ -13,13 +13,13 @@
             <direction>Andrey visits Pierre.</direction>
 
             <stanza speaker="ANDREY">
-                <line>Well, how are you?</line>
-                <line>Still getting stouter?</line>
+                <wp-ref id="wp-ref183"><line>Well, how are you?</line>
+                <line>Still getting stouter?</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>There’s a new wrinkle</line>
-                <line>On your forehead <chara ref="ANDREY">old friend</chara></line>
+                <wp-ref id="wp-ref183"><line>There’s a new wrinkle</line>
+                <line>On your forehead <chara ref="ANDREY">old friend</chara></line></wp-ref>
             </stanza>
 
             <stanza speaker="ANDREY">
@@ -38,12 +38,12 @@
             </stanza>
 
             <stanza speaker="ANDREY">
-                <line>Forgive me for troubling you</line>
-                <line>I have received a refusal from <chara ref="NATASHA" address="formal">Countess
+                <wp-ref id="wp-ref184"><line>Forgive me for troubling you</line></wp-ref>
+                <wp-ref id="wp-ref185"><line>I have received a refusal from <chara ref="NATASHA" address="formal">Countess
                         Rostova</chara></line>
                 <line>And have heard reports of <chara ref="ANATOLE">your brother-in-law</chara> having sought her hand</line>
                 <line>Or something of that kind</line>
-                <line>Is this true?</line>
+                <line>Is this true?</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
@@ -53,46 +53,46 @@
 
         <verse>
             <stanza speaker="ANDREY">
-                <line>Here are her letters</line>
+                <wp-ref id="wp-ref186"><line>Here are her letters</line>
                 <line>Please give them to the <chara ref="NATASHA" address="formal"
-                    >Countess</chara></line>
+                    >Countess</chara></line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line><chara ref="NATASHA">Natasha</chara> is ill</line>
-                <line>She has been at death’s door</line>
+                <wp-ref id="wp-ref186"><line><chara ref="NATASHA">Natasha</chara> is ill</line></wp-ref>
+                <wp-ref id="wp-ref187"><line>She has been at death’s door</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANDREY">
-                <line>I much regret her illness</line>
+                <wp-ref id="wp-ref187"><line>I much regret her illness</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <s-action kind="other" descr="ANDREY"><line>And he smiled like <chara ref="BOLKONSKY">his father</chara></line>
-                <line>Coldly, maliciously</line></s-action>
+                <wp-ref id="wp-ref187"><s-action kind="other" descr="ANDREY"><line>And he smiled like <chara ref="BOLKONSKY">his father</chara></line>
+                <line>Coldly, maliciously</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="ANDREY">
-                <line>Well, it doesn’t matter</line>
+                <wp-ref id="wp-ref188"><line>Well, it doesn’t matter</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>You told me once</line>
-                <line>A fallen woman should be forgiven</line>
+                <wp-ref id="wp-ref188"><line>You told me once</line>
+                <line>A fallen woman should be forgiven</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANDREY">
-                <line>But I didn’t say that I could forgive</line>
-                <line>I can’t</line>
+                <wp-ref id="wp-ref188"><line>But I didn’t say that I could forgive</line>
+                <line>I can’t</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANDREY">
-                <line>Yes, ask her hand again</line>
+                <wp-ref id="wp-ref189"><line>Yes, ask her hand again</line>
                 <line>Be magnanimous, and so on</line>
                 <line>Yes, that would be very noble</line>
                 <line>But I can’t be that man</line>
                 <line>If you wish to be my friend</line>
-                <line>Never speak of that again</line>
+                <line>Never speak of that again</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANDREY">
