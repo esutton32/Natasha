@@ -14,14 +14,14 @@
             <direction>A servant hands a letter to Pierre.</direction>
 
             <stanza speaker="SERVANT">
-                <line>A letter from <chara ref="MARYA D">Marya Dmitryevna</chara> asking you to come and visit her</line>
+                <wp-ref id="wp-ref154"><line>A letter from <chara ref="MARYA D">Marya Dmitryevna</chara> asking you to come and visit her</line>
                 <line>On a matter of great importance</line>
-                <line>Relating to <chara ref="ANDREY">Andrey Bolkonsky</chara> and <chara ref="NATASHA">his betrothed</chara></line>
+                <line>Relating to <chara ref="ANDREY">Andrey Bolkonsky</chara> and <chara ref="NATASHA">his betrothed</chara></line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>What?</line>
-                <line>What can they want with me?</line>
+                <wp-ref id="wp-ref155"><line>What?</line>
+                <line>What can they want with me?</line></wp-ref>
             </stanza>
         </verse>
 
@@ -60,7 +60,7 @@
             </stanza>
 
             <stanza speaker="MARYA D">
-                <line><chara ref="NATASHA">Natasha</chara> has broken with <chara ref="ANDREY">Andrey</chara></line>
+                <wp-ref id="wp-ref157"><line><chara ref="NATASHA">Natasha</chara> has broken with <chara ref="ANDREY">Andrey</chara></line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
@@ -68,7 +68,7 @@
             </stanza>
 
             <stanza speaker="MARYA D">
-                <line><chara ref="NATASHA">Natasha</chara> has tried to elope</line>
+                <wp-ref id="wp-ref157"><line><chara ref="NATASHA">Natasha</chara> has tried to elope</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
@@ -76,7 +76,7 @@
             </stanza>
 
             <stanza speaker="MARYA D">
-                <line><chara ref="NATASHA">Natasha</chara> and <chara ref="ANATOLE">Anatole Kuragin</chara>!</line>
+                <wp-ref id="wp-ref157"><line><chara ref="NATASHA">Natasha</chara> and <chara ref="ANATOLE">Anatole Kuragin</chara>!</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
@@ -92,13 +92,13 @@
 
         <verse>
             <stanza speaker="PIERRE">
-                <line><chara ref="NATASHA">Natasha</chara>, that <chara ref="NATASHA">charming girl</chara>?</line>
-                <line>I can’t believe my ears</line>
-                <line>So I am not the only man</line>
-                <line>Chained to a bad woman</line>
+                <wp-ref id="wp-ref158"><line><chara ref="NATASHA">Natasha</chara>, that <chara ref="NATASHA">charming girl</chara>?</line>
+                <line>I can’t believe my ears</line></wp-ref>
+                <wp-ref id="wp-ref159"><line>So I am not the only man</line>
+                <line>Chained to a bad woman</line></wp-ref>
                 <line>And <chara ref="ANATOLE">Anatole</chara>, that <chara ref="ANATOLE">stupid child</chara></line>
                 <line>They’ll lock him up for years</line>
-                <line>For <chara ref="ANATOLE">Anatole</chara> is a married man!</line>
+                <wp-ref id="wp-ref158"><line>For <chara ref="ANATOLE">Anatole</chara> is a married man!</line></wp-ref>
             </stanza>
 
             <stanza speaker="MARYA D">
@@ -114,22 +114,22 @@
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>Poor <chara ref="ANDREY">Andrey</chara></line>
+                <wp-ref id="wp-ref158"><line>Poor <chara ref="ANDREY">Andrey</chara></line></wp-ref>
             </stanza>
 
             <stanza speaker="MARYA D">
-                <line>And when <chara ref="ANDREY">Andrey</chara> comes home</line>
+                <wp-ref id="wp-ref161"><line>And when <chara ref="ANDREY">Andrey</chara> comes home</line>
                 <line>He will challenge <chara ref="ANATOLE">Anatole</chara> to a duel</line>
                 <line>And get himself killed</line>
-                <line>And all will be ruined</line>
+                <line>And all will be ruined</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="MARYA D">
-                <line>You must go see <chara ref="ANATOLE">your brother-in-law</chara></line>
+                <wp-ref id="wp-ref161"><line>You must go see <chara ref="ANATOLE">your brother-in-law</chara></line>
                 <line>And tell him that he must leave Moscow</line>
-                <line>And not dare to let me set my eyes on him again</line>
+                <line>And not dare to let me set my eyes on him again</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
