@@ -19,33 +19,33 @@
                         >Anatole</chara></line>
                 <line><chara ref="ANATOLE">Anatole</chara>, find <chara ref="ANATOLE"
                         >Anatole</chara></line>
-                <s-action kind="self" descr="PIERRE" type="1st"><line>The blood rushes to my
+                <wp-ref id="wp-ref162"><s-action kind="self" descr="PIERRE" type="1st"><line>The blood rushes to my
                         heart</line>
-                    <line>It’s difficult to breathe</line></s-action>
+                    <line>It’s difficult to breathe</line></s-action></wp-ref>
                 <line><chara ref="ANATOLE">Anatole</chara>, find <chara ref="ANATOLE"
                         >Anatole</chara></line>
                 <line><chara ref="ANATOLE">Anatole</chara>, find <chara ref="ANATOLE"
                         >Anatole</chara></line>
-                <line>Not at the ice hills</line>
+                <wp-ref id="wp-ref162"><line>Not at the ice hills</line>
                 <line>Not at Matreshka’s</line>
-                <line>Not at Komoneno’s</line>
+                <line>Not at Komoneno’s</line></wp-ref>
                 <line><chara ref="ANATOLE">Anatole</chara>, find <chara ref="ANATOLE"
                         >Anatole</chara></line>
                 <line><chara ref="ANATOLE">Anatole</chara>, find <chara ref="ANATOLE"
                         >Anatole</chara></line>
                 <line>To the Club</line>
-                <line>And at the Club all is going on as usual</line>
+                <wp-ref id="wp-ref162"><line>And at the Club all is going on as usual</line>
                 <s-action kind="other" descr="ALL"><line>The members eat their dinners</line>
-                <line>And gossip in small groups</line></s-action>
+                <line>And gossip in small groups</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE" speaker2="ALL">
-                <line>Have I heard of <chara ref="ANATOLE">Kuragin</chara>’s abduction?</line>
-                <line>Is it true <chara ref="NATASHA">Natasha</chara> is ruined?</line>
+                <wp-ref id="wp-ref163"><line>Have I heard of <chara ref="ANATOLE">Kuragin</chara>’s abduction?</line>
+                <line>Is it true <chara ref="NATASHA">Natasha</chara> is ruined?</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line>Nonsense, nonsense</line>
+                <wp-ref id="wp-ref163"><line>Nonsense, nonsense</line></wp-ref>
                 <line>Nothing has happened</line>
                 <line>Everything is fine</line>
             </stanza>
@@ -57,8 +57,8 @@
             <stanza speaker="ANATOLE">
                 <line><chara ref="NATASHA">Natasha</chara></line>
                 <line><chara ref="NATASHA">Natasha</chara></line>
-                <line>It is essential that I see <chara ref="NATASHA">Natasha</chara></line>
-                <line>How can I see her?</line>
+                <wp-ref id="wp-ref164"><line>It is essential that I see <chara ref="NATASHA">Natasha</chara></line>
+                <line>How can I see her?</line></wp-ref>
             </stanza>
 
             <stanza speaker="HÉLÈNE">
@@ -76,7 +76,7 @@
                 <line>What? What?</line>
                 <line>I don’t believe that he is married</line>
                 <line>I don’t believe you</line>
-                <s-action kind="self" descr="NATASHA" type="1st"><line>And I stare like a hunted wounded animal</line></s-action>
+                <wp-ref id="wp-ref160"><s-action kind="self" descr="NATASHA" type="1st"><line>And I stare like a hunted wounded animal</line></s-action></wp-ref>
                 <line>He can’t be married!</line>
             </stanza>
         </verse>
@@ -86,38 +86,38 @@
 
             <stanza speaker="SERVANT">
                 <line>Good evening sir</line>
-                <line><chara ref="ANATOLE">Prince Anatole</chara> is in the drawing room with the
-                    <chara ref="HÉLÈNE">Countess</chara></line>
+                <wp-ref id="wp-ref164"><line><chara ref="ANATOLE">Prince Anatole</chara> is in the drawing room with the
+                    <chara ref="HÉLÈNE">Countess</chara></line></wp-ref>
             </stanza>
 
             <stanza speaker="HÉLÈNE">
-                <line>Ah, <chara ref="PIERRE">Pierre</chara></line>
+                <wp-ref id="wp-ref166"><line>Ah, <chara ref="PIERRE">Pierre</chara></line>
                 <line><chara ref="PIERRE">Sweet husband</chara></line>
                 <line>You don’t know what a plight <chara ref="ANATOLE">our Anatole</chara> has
-                    had</line>
+                    had</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
                 <line>Be quiet</line>
-                <line>I will not greet you</line>
-                <line>At this moment you are more repulsive to me than ever</line>
+                <wp-ref id="wp-ref165"><line>I will not greet you</line>
+                <line>At this moment you are more repulsive to me than ever</line></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <line><chara ref="ANATOLE">Anatole</chara>, come <chara ref="ANATOLE"
+                <wp-ref id="wp-ref167"><line><chara ref="ANATOLE">Anatole</chara>, come <chara ref="ANATOLE"
                         >Anatole</chara></line>
-                <line><chara ref="ANATOLE">Anatole</chara>, must speak to you</line>
+                <line><chara ref="ANATOLE">Anatole</chara>, must speak to you</line></wp-ref>
             </stanza>
 
             <stanza speaker="ANATOLE">
-               <s-action kind="self" descr="ANATOLE" type="3rd"><line><chara ref="ANATOLE">Anatole</chara> followed with his usual jaunty
+               <wp-ref id="wp-ref168"><s-action kind="self" descr="ANATOLE" type="3rd"><line><chara ref="ANATOLE">Anatole</chara> followed with his usual jaunty
                     step</line>
-                <line>But his face betrayed anxiety</line></s-action>
+                <line>But his face betrayed anxiety</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="PIERRE">
-                <s-action kind="self" descr="PIERRE" type="3rd"><line><chara ref="PIERRE">Pierre</chara> closed the door and addressed <chara
-                        ref="ANATOLE">Anatole</chara> without looking at him</line></s-action>
+                <wp-ref id="wp-ref169"><s-action kind="self" descr="PIERRE" type="3rd"><line><chara ref="PIERRE">Pierre</chara> closed the door and addressed <chara
+                        ref="ANATOLE">Anatole</chara> without looking at him</line></s-action></wp-ref>
             </stanza>
         </verse>
     </lyrics>
