@@ -13,51 +13,51 @@
     <lyrics>
         <verse>
             <stanza speaker="MARYA D">
-                <line>You <chara ref="NATASHA">shameless good-for-nothing</chara></line>
+                <wp-ref id="wp-ref139"><line>You <chara ref="NATASHA">shameless good-for-nothing</chara></line></wp-ref>
                 <line>You <chara ref="NATASHA">vile, shameless girl</chara></line>
-                <line>In my house</line>
-                <line>In my house</line>
-                <line><chara ref="NATASHA">A nice girl</chara>! Very nice!</line>
+                <wp-ref id="wp-ref140"><line>In my house</line>
+                <line>In my house</line></wp-ref>
+                <wp-ref id="wp-ref141"><line><chara ref="NATASHA">A nice girl</chara>! Very nice!</line></wp-ref>
             </stanza>
 
             <stanza speaker="MARYA D">
                 <line>You <chara ref="NATASHA">dirty nasty wench of a thing</chara></line>
-                <line>Now don’t you say one word</line>
+                <wp-ref id="wp-ref139"><line>Now don’t you say one word</line></wp-ref>
+                <wp-ref id="wp-ref140"><line>In my house</line>
                 <line>In my house</line>
-                <line>In my house</line>
-                <line><chara ref="NATASHA">Horrid girl</chara>, <chara ref="NATASHA">hussy</chara>!</line>
-                <line>It’s lucky for him he escaped, but I’ll find him</line>
-                <line>Now you listen to me when I speak to you!</line>
-                <line>Now you listen to me when I speak to you!</line>
-                <line>In my house!</line>
-                <line>In my house!</line>
-                <line>Do you hear what I am saying or not?</line>
+                <line><chara ref="NATASHA">Horrid girl</chara>, <chara ref="NATASHA">hussy</chara>!</line></wp-ref>
+                <wp-ref id="wp-ref143"><line>It’s lucky for him he escaped, but I’ll find him</line></wp-ref>
+                <wp-ref id="wp-ref141"><line>Now you listen to me when I speak to you!</line>
+                <line>Now you listen to me when I speak to you!</line></wp-ref>
+                <wp-ref id="wp-ref140"><line>In my house!</line>
+                <line>In my house!</line></wp-ref>
+                <wp-ref id="wp-ref143"><line>Do you hear what I am saying or not?</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
-                <s-action kind="other" descr="NATASHA"><line><chara ref="NATASHA">Natasha</chara>’s whole body shook</line>
-                    <line>With noiseless, convulsive sobs</line></s-action>
-                <s-action kind="other" descr="MARYA D"><line><chara ref="MARYA D">Marya</chara> touched her hand to her
-                        face</line></s-action>
+                <wp-ref id="wp-ref142"><s-action kind="other" descr="NATASHA"><line><chara ref="NATASHA">Natasha</chara>’s whole body shook</line>
+                    <line>With noiseless, convulsive sobs</line></s-action></wp-ref>
+                <wp-ref id="wp-ref144"><s-action kind="other" descr="MARYA D"><line><chara ref="MARYA D">Marya</chara> touched her hand to her
+                        face</line></s-action></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
                 <line>Don’t touch me!</line>
-                <line>Let me be! What is it to me? I shall die!</line>
+                <wp-ref id="wp-ref145"><line>Let me be! What is it to me? I shall die!</line></wp-ref>
             </stanza>
         </verse>
 
         <verse>
             <stanza speaker="MARYA D">
-                <line>What are we to tell your father? Eh?</line>
-                <line>In my house!</line>
-                <line>In my house!</line>
-                <line>What are we to tell <chara ref="ANDREY" address="formal">Prince Andrey</chara>? Eh?</line>
-                <line>Oh what do we tell <chara ref="ANDREY">your betrothed</chara>?</line>
+                <wp-ref id="wp-ref146"><line>What are we to tell your father? Eh?</line></wp-ref>
+                <wp-ref id="wp-ref140"><line>In my house!</line>
+                <line>In my house!</line></wp-ref>
+                <wp-ref id="wp-ref146"><line>What are we to tell <chara ref="ANDREY" address="formal">Prince Andrey</chara>? Eh?</line>
+                <line>Oh what do we tell <chara ref="ANDREY">your betrothed</chara>?</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>I have no betrothed, I have refused him!</line>
+                <wp-ref id="wp-ref147"><line>I have no betrothed, I have refused him!</line></wp-ref>
             </stanza>
 
             <stanza speaker="SONYA">
@@ -70,33 +70,33 @@
             </stanza>
 
             <stanza speaker="MARYA D">
-                <line>Why didn’t he come to the house?</line>
+                <wp-ref id="wp-ref148"><line>Why didn’t he come to the house?</line>
                 <line>Why didn’t he openly ask for your hand?</line>
                 <line>You were not kept under lock and key!</line>
                 <line>Carrying you off like some Gypsy girl!</line>
                 <line>And if he had carried you off, don’t you think your father would have found
-                    him?</line>
-                <line>Your father, I know him</line>
+                    him?</line></wp-ref>
+                <wp-ref id="wp-ref147"><line>Your father, I know him</line>
                 <line>He will challenge him to a duel and what then?</line>
-                <line>Will that be all right? Eh?</line>
-                <line>He’s a <chara ref="ANATOLE">scoundrel</chara>, he’s a <chara ref="ANATOLE">wretch</chara>! That’s a fact!</line>
+                <line>Will that be all right? Eh?</line></wp-ref>
+                <wp-ref id="wp-ref148"><line>He’s a <chara ref="ANATOLE">scoundrel</chara>, he’s a <chara ref="ANATOLE">wretch</chara>! That’s a fact!</line></wp-ref>
             </stanza>
 
             <stanza speaker="NATASHA">
-                <line>He is better than any of you I say</line>
+                <wp-ref id="wp-ref148"><line>He is better than any of you I say</line>
                 <line>He is better than any of you I say</line>
                 <line>Why did you interfere! Oh God, what is it all?!</line>
                 <line>What is it?!</line>
                 <line>Who are you to tell me anything?!</line>
                 <line><chara ref="SONYA">Sonya</chara>, why?!</line>
                 <line>Go away!</line>
-                <line>Everyone, go away!</line>
-                <line><s-action kind="other" descr="MARYA D"><chara ref="MARYA D">Marya Dmitryevna</chara> tried to speak
+                <line>Everyone, go away!</line></wp-ref>
+                <wp-ref id="wp-ref149"><line><s-action kind="other" descr="MARYA D"><chara ref="MARYA D">Marya Dmitryevna</chara> tried to speak
                         again</s-action> but <s-action kind="self" descr="NATASHA" type="3rd"
                         ><chara ref="NATASHA">Natasha</chara> cried out</s-action></line>
                 <line>Go away! Go away! You all hate and despise me!</line>
                 <s-action kind="self" descr="NATASHA" type="3rd"><line>And she threw herself down on
-                        the sofa</line></s-action>
+                        the sofa</line></s-action></wp-ref>
             </stanza>
         </verse>
 
@@ -107,26 +107,26 @@
             </stanza>
 
             <stanza speaker="MARYA D">
-                <s-action kind="self" descr="MARYA D" type="1st"><line>I put a pillow under her
+                <wp-ref id="wp-ref150"><s-action kind="self" descr="MARYA D" type="1st"><line>I put a pillow under her
                         head</line>
                     <line>Covered her with two quilts</line>
                     <line>Brought her a glass of lime-flower water</line></s-action>
                 <s-action kind="other" descr="NATASHA"><line>But <chara ref="NATASHA">Natasha</chara> did not
-                    respond</line></s-action>
-                <line>Well, let her sleep</line>
-                <line>Let her sleep</line>
+                    respond</line></s-action></wp-ref>
+                <wp-ref id="wp-ref151"><line>Well, let her sleep</line>
+                <line>Let her sleep</line></wp-ref>
             </stanza>
 
             <direction>>Marya D. leaves</direction>
 
             <stanza speaker="NATASHA">
-                <s-action kind="self" descr="NATASHA" type="3rd"><line>But <chara ref="NATASHA">Natasha</chara> was not
+                <wp-ref id="wp-ref152"><s-action kind="self" descr="NATASHA" type="3rd"><line>But <chara ref="NATASHA">Natasha</chara> was not
                         asleep</line>
                     <line>Her face was pale</line>
                     <line>Her eyes wide open</line>
-                    <line>All that night she did not sleep or weep</line>
-                    <line>She sat at the window</line>
-                    <line>Waiting for him</line></s-action>
+                    <line>All that night she did not sleep or weep</line></s-action></wp-ref>
+                <wp-ref id="wp-ref153"><s-action kind="self" descr="NATASHA" type="3rd"><line>She sat at the window</line>
+                    <line>Waiting for him</line></s-action></wp-ref>
             </stanza>
         </verse>
     </lyrics>
