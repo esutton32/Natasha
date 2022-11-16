@@ -8,6 +8,10 @@ title= element title {text}
 p= element p {mixed {(chara | q)*}}
 #
 #
-chara= element chara {text}
-q= element q { mixed { (chara | q2)*}}
-q2 = element q2 { mixed { (chara)* }}
+chara= element chara {ref?, text}
+ref= attribute ref { "PIERRE" | "NATASHA" | "SONYA" | "MARYA D" | "ANATOLE" | "DOLOKHOV" | "BOLKONSKY" | "ANDREY" | "MARY" | "HÉLÈNE" | "BALAGA" }
+q= element q {mixed {(q2 | chara)*}}
+#
+#
+q2= element q2 {mixed {(chara)*}}
+
