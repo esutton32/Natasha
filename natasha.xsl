@@ -53,8 +53,11 @@
     </xsl:template>
     <xsl:template match="stanza">
         <div>
-            <p> [<xsl:apply-templates select="@speaker"/>] <xsl:apply-templates select="line"/>
-            </p>
+            <div> <xsl:text>[</xsl:text><xsl:apply-templates select="@speaker"/><xsl:text>]</xsl:text> <xsl:apply-templates select="line"/>
+            </div>
+            <xsl:if test="wp-ref">
+                <div xml:id="{wp-ref/attribute::id}"><xsl:apply-templates/></div>
+            </xsl:if>
             <br/>
         </div>
     </xsl:template>
