@@ -32,11 +32,9 @@
     <xsl:template match="metadata">
         <xsl:apply-templates select="name"/>
     </xsl:template>
-    <xsl:template match="metadata/characters">
-        Featured Characters: <xsl:apply-templates select="c=>string-join(', ')"/>
-        <br/>
-        Placeholder (percentage in W+P): 
-    </xsl:template>
+    <xsl:template match="metadata/characters"> Featured Characters: <xsl:apply-templates
+            select="c => string-join(', ')"/>
+        <br/> Placeholder (percentage in W+P): </xsl:template>
     <xsl:template match="verse">
         <div>
             <div>
@@ -53,11 +51,22 @@
     </xsl:template>
     <xsl:template match="stanza">
         <div>
-            <div> <xsl:text>[</xsl:text><xsl:apply-templates select="@speaker"/><xsl:text>]</xsl:text> <xsl:apply-templates select="line"/>
+            <div>
+                <xsl:text>[</xsl:text>
+                <xsl:apply-templates select="@speaker"/>
+                <xsl:text>]</xsl:text>
+                <xsl:apply-templates select="line"/>
             </div>
-            <xsl:if test="wp-ref">
-                <div xml:id="{wp-ref/attribute::id}"><xsl:apply-templates/></div>
-            </xsl:if>
+            <xsl:choose>
+                <xsl:when test="wp-ref">
+                    <span id="{wp-ref/attribute::id}">
+                        <xsl:apply-templates select="line"/>
+                    </span>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates select="line"/>
+                </xsl:otherwise>
+            </xsl:choose>
             <br/>
         </div>
     </xsl:template>
