@@ -11,21 +11,14 @@
                 <title>Lyrics</title>
             </head>
             <body>
-                <h1>
-                    <xsl:apply-templates select="//metadata"/>
-                </h1>
                 <section>
+                    <h1>
+                    <xsl:apply-templates select="//metadata"/>
+                    </h1>                
                     <xsl:apply-templates select="//metadata/characters"/>
                     <br/>
                 </section>
-                <xsl:choose>
-                    <xsl:when test="//lyrics/verse">
-                        <xsl:apply-templates select="//verse"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:apply-templates select="//chorus"/>
-                    </xsl:otherwise>
-                </xsl:choose>
+                <xsl:apply-templates select="//stanza"/>
             </body>
         </html>
     </xsl:template>
@@ -34,45 +27,38 @@
     </xsl:template>
     <xsl:template match="metadata/characters"> Featured Characters: <xsl:apply-templates
             select="c => string-join(', ')"/>
-        <br/> Placeholder (percentage in W+P): </xsl:template>
-    <xsl:template match="verse">
-        <div>
-            <div>
-                <xsl:apply-templates select="stanza"/>
-            </div>
-        </div>
-    </xsl:template>
-    <xsl:template match="chorus">
-        <div>
-            <div>
-                <xsl:apply-templates select="stanza"/>
-            </div>
-        </div>
+        <br/> Placeholder (percentage in W+P): 
     </xsl:template>
     <xsl:template match="stanza">
-        <div>
-            <div>
+        <p>
                 <xsl:text>[</xsl:text>
                 <xsl:apply-templates select="@speaker"/>
-                <xsl:text>]</xsl:text>
-                <xsl:apply-templates select="line"/>
-            </div>
-            <xsl:choose>
-                <xsl:when test="wp-ref">
-                    <span id="{wp-ref/attribute::id}">
-                        <xsl:apply-templates select="line"/>
-                    </span>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:apply-templates select="line"/>
-                </xsl:otherwise>
-            </xsl:choose>
+                <xsl:text>]</xsl:text><br/>   
+            <xsl:for-each select="wp-ref">            
+                    <xsl:apply-templates select="line" mode="ref"/>
+            </xsl:for-each>
+            <!--<xsl:for-each select="s-action">            
+                <xsl:apply-templates select="line" mode="action"/>
+            </xsl:for-each>-->
+            <xsl:apply-templates select="line"/>
             <br/>
-        </div>
+        </p>
     </xsl:template>
     <xsl:template match="line">
-        <p>
-            <xsl:apply-templates/>
-        </p>
+            <xsl:apply-templates/><br/>
+    </xsl:template>
+    <xsl:template match="line" mode="ref">     
+            <span id="{@id}" class="ref">
+            <xsl:apply-templates/><br/>
+                <xsl:for-each select="s-action">            
+                    <xsl:apply-templates select="line" mode="action"/>
+                </xsl:for-each>
+            </span>
+    </xsl:template>
+    <xsl:template match="line" mode="action">
+       
+            <span class="action">
+                <xsl:apply-templates/></span><br/>
+        
     </xsl:template>
 </xsl:stylesheet>
