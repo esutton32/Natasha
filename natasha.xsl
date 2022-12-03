@@ -4,7 +4,10 @@
     exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
-
+    <!-- CURRENT PROBLEMS:
+    - ID numbers not outputting into id elements
+    - Lines with spoken action out of order
+    - Span w ref/action don't appear within each other, it's always one or the other-->
     <xsl:template match="/">
         <html>
             <head>
@@ -13,8 +16,8 @@
             <body>
                 <section>
                     <h1>
-                    <xsl:apply-templates select="//metadata"/>
-                    </h1>                
+                        <xsl:apply-templates select="//metadata"/>
+                    </h1>
                     <xsl:apply-templates select="//metadata/characters"/>
                     <br/>
                 </section>
@@ -27,38 +30,53 @@
     </xsl:template>
     <xsl:template match="metadata/characters"> Featured Characters: <xsl:apply-templates
             select="c => string-join(', ')"/>
-        <br/> Placeholder (percentage in W+P): 
-    </xsl:template>
+        <br/> Placeholder (percentage in W+P): </xsl:template>
     <xsl:template match="stanza">
         <p>
-                <xsl:text>[</xsl:text>
-                <xsl:apply-templates select="@speaker"/>
-                <xsl:text>]</xsl:text><br/>   
-            <xsl:for-each select="wp-ref">            
-                    <xsl:apply-templates select="line" mode="ref"/>
+            <!-- Expressing speaker of a sentence with allowances for multiple speakers -->
+            <xsl:text>[</xsl:text>
+            <xsl:apply-templates select="@speaker"/>
+            <xsl:for-each select="@speaker2">
+                <xsl:text>, </xsl:text>
             </xsl:for-each>
-            <!--<xsl:for-each select="s-action">            
-                <xsl:apply-templates select="line" mode="action"/>
-            </xsl:for-each>-->
+            <xsl:apply-templates select="@speaker2"/>
+            <xsl:for-each select="@speaker3">
+                <xsl:text>, </xsl:text>
+            </xsl:for-each>
+            <xsl:apply-templates select="@speaker3"/>
+            <xsl:text>]</xsl:text>
+            <br/>
+            <!-- Expressing lines -->
             <xsl:apply-templates select="line"/>
+            <xsl:apply-templates select="wp-ref"/>
+            <xsl:apply-templates select="s-action"/>
             <br/>
         </p>
     </xsl:template>
     <xsl:template match="line">
-            <xsl:apply-templates/><br/>
+        <xsl:apply-templates/>
+        <br/>
     </xsl:template>
-    <xsl:template match="line" mode="ref">     
-            <span id="{@id}" class="ref">
-            <xsl:apply-templates/><br/>
-                <xsl:for-each select="s-action">            
+    <xsl:template match="wp-ref">
+        <span id="{@id}" class="ref">
+            <xsl:apply-templates select="line" mode="ref"/>
+        <xsl:apply-templates select="s-action"/>
+        </span>     
+    </xsl:template>
+    <xsl:template match="s-action">
+        <xsl:apply-templates select="line" mode="action"/>
+    </xsl:template>
+    <xsl:template match="line" mode="ref">
+        <xsl:apply-templates/>
+        <br/>
+        <!--<xsl:for-each select="wp-ref/s-action">            
                     <xsl:apply-templates select="line" mode="action"/>
-                </xsl:for-each>
-            </span>
+                </xsl:for-each>-->
     </xsl:template>
     <xsl:template match="line" mode="action">
-       
-            <span class="action">
-                <xsl:apply-templates/></span><br/>
-        
+        <span class="action">
+            <xsl:apply-templates/>
+        </span>
+        <br/>
     </xsl:template>
 </xsl:stylesheet>
