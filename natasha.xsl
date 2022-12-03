@@ -5,9 +5,8 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
     <!-- CURRENT PROBLEMS:
-    - ID numbers not outputting into id elements
-    - Lines with spoken action out of order
-    - Span w ref/action don't appear within each other, it's always one or the other-->
+    - Type/kind/descr in span class="action" not outputting into elements
+    - Lines out of order -->
     <xsl:template match="/">
         <html>
             <head>
@@ -46,15 +45,16 @@
             <xsl:apply-templates select="@speaker3"/>
             <xsl:text>]</xsl:text>
             <br/>
-            <!-- Expressing lines -->
-            <xsl:apply-templates select="line"/>
+            <!-- Expressing lines   -->
             <xsl:apply-templates select="wp-ref"/>
+            <xsl:apply-templates select="line"/> 
             <xsl:apply-templates select="s-action"/>
             <br/>
         </p>
     </xsl:template>
     <xsl:template match="line">
         <xsl:apply-templates/>
+        <xsl:apply-templates select="s-action"/>
         <br/>
     </xsl:template>
     <xsl:template match="wp-ref">
@@ -69,12 +69,9 @@
     <xsl:template match="line" mode="ref">
         <xsl:apply-templates/>
         <br/>
-        <!--<xsl:for-each select="wp-ref/s-action">            
-                    <xsl:apply-templates select="line" mode="action"/>
-                </xsl:for-each>-->
     </xsl:template>
     <xsl:template match="line" mode="action">
-        <span class="action">
+        <span class="action" type="{@type}" kind="{@kind}" descr="{@descr}">
             <xsl:apply-templates/>
         </span>
         <br/>
