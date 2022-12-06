@@ -45,10 +45,10 @@
             <xsl:apply-templates select="@speaker3"/>
             <xsl:text>]</xsl:text>
             <br/>
-            <!-- Expressing lines   -->
-            <xsl:apply-templates select="wp-ref"/>
-            <xsl:apply-templates select="line"/> 
+            <!-- Expressing lines-->   
+            <xsl:apply-templates select="wp-ref"/>        
             <xsl:apply-templates select="s-action"/>
+            <xsl:apply-templates select="line"/>                  
             <br/>
         </p>
     </xsl:template>
