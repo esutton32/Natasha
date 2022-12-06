@@ -13,6 +13,15 @@ ul {
 li {
     display: inline;
     text-align:center;
+    font-weight:bold;
+}
+
+li a:hover {
+    background-color:#E57853;
+    color:white;
+}
+.active {
+    background-color:#E57853;
 }
 
 h1 {
@@ -20,6 +29,7 @@ h1 {
     font-family:"Georgia", serif;
     font-size:2.5em;
     background-color:#FED69A;
+    text-align:center;
 }
 
 h2 {
@@ -27,14 +37,17 @@ h2 {
     font-size:1.75em;
     border: 1px solid black;
     background-color:#FED69A;
+    text-align:center;
 }
 
-h3 {
-    font-family:"Georgia", serif;
+h3 { 
+font-family:"Georgia", serif;
     font-size:1.75em;
     border:1px solid black;
     background-color:#FED69A;
+        text-align:center;   
 }
+
 
 p {
     font-family:"Georgia", serif;
