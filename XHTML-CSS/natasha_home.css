@@ -51,9 +51,8 @@ font-family:"Georgia", serif;
 
 p {
     font-family:"Georgia", serif;
-    font-size:1em;
-    background-color:#B3090c;
-    color:white
+    font-size:1em;   
+    color:white;
 }
 /* The sidebar menu */
 .sidenav {

@@ -1,0 +1,16 @@
+.wikiTitle {
+    text-align:left;
+    text-indent:1em;
+    font-size:2em;
+}
+
+table {
+    background-color:#FED69A;
+    border-width:1em;
+    text-align:center;
+    padding:10px;
+}
+
+th{
+    font-size:1.5em;
+}
