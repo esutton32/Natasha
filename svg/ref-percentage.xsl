@@ -7,7 +7,7 @@
     <xsl:variable name="barSpacing" as="xs:double" select="$barWidth div 2"/> 
     <xsl:variable name="totalBarWidth" as="xs:double" select="$barWidth + $barSpacing"/>
         <xsl:template match="/">     
-            <svg viewBox="0 -100 4100 100"> 
+            <svg viewBox="0 -100 4100 100" width="100%"> 
             <xsl:apply-templates select="//song"/>
         </svg>
     </xsl:template>
@@ -15,6 +15,6 @@
         <xsl:variable name="allLines" as="xs:integer" select="count(descendant::line)"/>
         <xsl:variable name="refLines" as="xs:integer" select="count(descendant::line[ancestor::wp-ref])"/>
         <xsl:variable name="refPercentage" as="xs:double" select="$refLines div $allLines * 100"/>
-        <rect x="{$totalBarWidth * position()}" y="-{$refPercentage}" width="{$barWidth}" height="{$refPercentage}" fill="red"></rect>
+        <rect x="{$totalBarWidth * (position()-1)}" y="-{$refPercentage}" width="{$barWidth}" height="{$refPercentage}" fill="red"></rect>
     </xsl:template>
 </xsl:stylesheet>
