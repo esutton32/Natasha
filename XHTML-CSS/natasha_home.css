@@ -1,8 +1,13 @@
 body {
-    background-color:#B3090c
+    background-color:#B3090c;
 }
 
-ul {
+html, body {
+    max-width:100%;
+    overflow-x:hidden;
+}
+
+.navbar {
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
@@ -10,8 +15,8 @@ ul {
     padding: 0;
 }
 
-li {
-    display: inline;
+.navlist {
+    display:inline;
     text-align:center;
     font-weight:bold;
 }
