@@ -25,10 +25,13 @@ th {
 }
 
 .item-b {
+    justify-self:left;
     grid-column-start: 1;
     grid-column-end: span col4-start;
-    grid-row-start: 2;
-    grid-row-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: last-line;
+    color:black;
+    background-color: #FED69A;
 }
 
 .item-a {
