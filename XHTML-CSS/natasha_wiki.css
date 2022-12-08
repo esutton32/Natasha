@@ -1,16 +1,60 @@
 .wikiTitle {
-    text-align:left;
-    text-indent:1em;
-    font-size:2em;
+    text-align: left;
+    text-indent: 1em;
+    font-size: 1.75em;
+    margin-left:150px;
+    margin-right:200px;
+    
 }
-
+/* * 
 table {
-    background-color:#FED69A;
-    border-width:1em;
-    text-align:center;
-    padding:10px;
+    background-color: #FED69A;
+    border-width: 1em;
+    text-align: center;
+    padding: 10px;
 }
 
-th{
+th {
+    font-size: 1.5em;
+}
+*/
+.container {
+    display: grid;
+    grid-template-columns:[first] 40px [line2] 50px [line3] auto [col4-start] 200px [five] 200px [end];
+    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+}
+
+.item-b {
+    grid-column-start: 1;
+    grid-column-end: span col4-start;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+}
+
+.item-a {
+    grid-area: 1/col4-start/last-line/6;
+    text-align:center;
+    background-color: #FED69A;
+    padding: 10px;
+}
+
+.sub-item {
+    
+
+}
+
+.side {
+    color:black;
+}
+
+.wiki {
     font-size:1.5em;
+}
+
+.wikiHeading {
+    text-align: left;
+    text-indent: 1em;
+    font-size: 1.5em;
+    border:0px solid black;
+    background-color:#B3090c;
 }
