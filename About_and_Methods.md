@@ -3,7 +3,6 @@ About
 Site Navigation/User-interface
 	Each of the tabs at the top of the screen contains separate sections of the project. The ‘METHODOLOGY’  tab describes the process and progress of the site. It shares information regarding how the site was developed, the research conducted, and the visual development of the research analysis. The ‘TEXT’ tab contains the relevant text from War and Peace that is being compared to the musical score of “Natasha, Pierre, and the Great Comet of 1812” (under the ‘MUSIC’ tab). (add stuff in about text and music navigation) The ‘ANALYSIS’ tab features the results and conclusions of the study through generated visualization and prose. 
 
-
 Background
 	Originating from Leo Tolstoy’s War and Peace, “Natasha, Pierre, and the Great Comet of 1812” is a musical adaptation following the eighth part of Tolstoy’s most famous work.  As one of the many musicals that follow the pipeline of best-seller to Broadway, a person must ask oneself how this production made its way to the stage despite the convoluted storylines it contains. 
 The production began its Broadway run in November of 2016 as a tremendous hit, receiving 12 Tony award nominations (including Best Musical, Best Original Score, and Best Book of a Musical) and winning two awards (Best Scenic Design and Best Lighting Design). The musical then proceeded to close less than a year later. However, the history of the musical began long before its mark on Broadway, starting with its first run in 2012 off-Broadway. Going even further back, specifically 143 years, was the first publishing of the novel in its entirety. 
@@ -14,7 +13,11 @@ This project takes a look at the section of the book from which the musical is d
 Russian Naming Conventions
 	The pieces used in this project include Russian names, containing multiple forms. These forms consist of but are not limited to a given name, family name (dependent on the individual’s gender), patronymic (formed from the father’s name), and nickname. This project looks at the frequency of character referral by specific characters and which name form is used to address them. 
 
-Bibliography (will be completed later)
+Bibliography
+    Fosse, E., Schwarz, E., Leatherbarrow, M., & Montoni, M. (2022, September 13). Natasha. GitHub. Retrieved December 8, 2022, from https://github.com/esutton32/Natasha 
+    Malloy, D. (2017, May 19). Natasha, Pierre & the Great Comet of 1812 (Original Broadway Cast Recording). Genius. Retrieved December 8, 2022, from https://genius.com/albums/Original-broadway-cast-of-natasha-pierre-and-the-great-comet-of-1812/Natasha-pierre-the-great-comet-of-1812-original-broadway-cast-recording 
+    Tolstoy, L. (2001, April 1). War and Peace. Project Gutenberg. Retrieved December 8, 2022, from https://www.gutenberg.org/ 
+    W3Schools. (1999). HTML Tutorial. HTML tutorial. Retrieved December 8, 2022, from https://www.w3schools.com/html/default.asp 
 
 Developers (taken from site)
 
