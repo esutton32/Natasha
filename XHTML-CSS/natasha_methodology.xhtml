@@ -6,7 +6,9 @@
         <link rel="stylesheet" type="text/css" href="natasha_home.css" />
     </head>
     <body>
-        <div class="topnav"><h1>War and Peace in Adaptation</h1><hr/>
+        <div class="topnav">
+            <h1>War and Peace in Adaptation</h1>
+            <hr />
             <ul class="navbar">
                 <li class="navlist"><a href="index.xhtml">HOME</a></li>
                 <li class="navlist"><a href="natasha_about.xhtml">ABOUT</a></li>
@@ -14,13 +16,31 @@
                 <li class="navlist"><a href="natasha_text.xhtml">TEXT</a></li>
                 <li class="navlist"><a href="natasha_wiki.xhtml">WIKI</a></li>
                 <li class="navlist"><a href="natasha_analysis.xhtml">ANALYSIS</a></li>
-                
-            </ul></div>
+
+            </ul>
+        </div>
         <div class="sidenav">
             <img src="img/IMG-1339.jpeg" height="160" width="160" />
         </div>
         <div class="main">
             <h2>Methodology</h2>
+            <h3>Book Markup</h3>
+            <p>The book markup began with XML tagging through the use of regular expressions. All
+                characters were tagged through regular expressions and then manually after for
+                nicknames/mentions that might have been missed in the regular expressions. Each
+                character was given an attribute that aligns with the musical markup. A schema was
+                developed to ensure the validity of the markup, as well as group character names. As
+                mentioned in the Russian Naming Conventions section in the ‘ABOUT’ tab, the
+                characters in the novel are referred to by multiple names depending on who addresses
+                them. The text of War and Peace was found online at “Project Gutenberg” and already
+                contained markup of the text including books, book titles, chapter, chapter titles,
+                paragraphs, and quotations.</p>
+            <h3>Music Markup</h3>
+            <p>The musical markup consisted of XML tagging of the speakers, stanzas,
+                choruses/verses, characters, spoken action, and references to War and Peace through
+                the use of regular expressions. A schema was developed to ensure the validity of the
+                markup and group character names, similar to the book markup. The musical lyrics
+                were found online at “Genius Lyrics.”</p>
         </div>
     </body>
 </html>
