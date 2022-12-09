@@ -11,8 +11,17 @@
     <xsl:variable name="maxHeight" as="xs:double" select="100 * $yScale"/>
     <xsl:variable name="maxWidth" as="xs:double" select="$totalBarWidth * count(//song)"/>
 
+
     <xsl:template match="/">
-        <svg height="{$maxHeight + 150}" viewBox="0 -100 4100 100" width="100%">
+        <svg height="{$maxHeight + 150}" viewBox="-100 -100 4100 100" width="100%">
+            <xsl:for-each select="1 to 10">
+                <xsl:variable name="height" as="xs:double" select=". * 10 * $yScale"/>
+                <line x1="0" y1="-{$height}" x2="-10" y2="-{$height}" stroke="black"/>
+                <line x1="0" y1="-{$height}" x2="{$maxWidth}" y2="-{$height}" stroke="lightgray"/>
+                <text x="-20" y="-{$height}" text-anchor="end" dominant-baseline="central">
+                    <xsl:value-of select=". * 10"/>
+                </text>
+            </xsl:for-each>
             <xsl:apply-templates select="//song"/>
             <line x1="0" y1="0" x2="{$maxWidth}" y2="0" stroke="black" stroke-linecap="square"/>
             <line x1="0" y1="0" x2="0" y2="-{$maxHeight}" stroke="black" stroke-linecap="square"/>
@@ -28,12 +37,19 @@
         <xsl:variable name="refLines" as="xs:integer"
             select="count(descendant::line[ancestor::wp-ref])"/>
         <xsl:variable name="refPercentage" as="xs:double" select="$refLines div $allLines * 100"/>
+        <xsl:variable name="xPos" as="xs:double" select="
+            ($barSpacing div 2) +
+            (position() - 1) * ($barWidth + $barSpacing)"/>
+        
         <rect x="{$totalBarWidth * (position()-1)}" y="-{$refPercentage * $yScale}" width="{$barWidth}"
             height="{$refPercentage * $yScale}" fill="red"/>
-        <text x="{$yScale * $refPercentage + 50}">
-            <xsl:value-of select="$refPercentage"/>
+        <!-- LABELING EACH BAR -->
+        <text x="{$xPos + $barWidth div 2}" y="{5 * $yScale}" text-anchor="middle" font-size="smaller">
+            <xsl:value-of select="@title"/>
         </text>
-        
+        <text x="{$xPos + $barWidth div 2}" y="-{$refPercentage*10 + 5}" text-anchor="middle">
+            <xsl:value-of select="round-half-to-even($refPercentage)"/>
+        </text>
         <!-- labeling each rect w name of song 
         <text x="{$xPos + $barWidth div 2}" y="{5 * $yScale}" text-anchor="middle">
             <xsl:value-of select="@title"/>
