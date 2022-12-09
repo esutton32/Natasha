@@ -48,7 +48,7 @@
             <xsl:value-of select="@title"/>
         </text>
         <text x="{$xPos + $barWidth div 2}" y="-{$refPercentage*10 + 5}" text-anchor="middle">
-            <xsl:value-of select="round-half-to-even($refPercentage)"/>
+            <xsl:value-of select="round-half-to-even($refPercentage)"/><xsl:text>%</xsl:text>
         </text>
         <!-- labeling each rect w name of song 
         <text x="{$xPos + $barWidth div 2}" y="{5 * $yScale}" text-anchor="middle">
