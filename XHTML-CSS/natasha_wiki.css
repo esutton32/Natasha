@@ -1,7 +1,7 @@
 .wikiTitle {
     text-align: left;
     text-indent: 1em;
-    font-size: 1.75em;
+    font-size: 2em;
     margin-left:150px;
     margin-right:200px;
     
@@ -20,15 +20,20 @@ th {
 */
 .container {
     display: grid;
-    grid-template-columns:[first] 40px [line2] 50px [line3] auto [col4-start] 200px [five] 200px [end];
+    grid-template-columns:[first] 400px [line2] 400px [line3] auto [col4-start] 200px [five] 200px [end];
     grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+    justify-content: space-around;
 }
 
 .item-b {
+  padding:10px;
     grid-column-start: 1;
-    grid-column-end: span col4-start;
-    grid-row-start: 2;
-    grid-row-end: span 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: last-line;
+    color:black;
+    background-color: #FED69A;
+
 }
 
 .item-a {
@@ -38,13 +43,22 @@ th {
     padding: 10px;
 }
 
-.sub-item {
-    
-
+.item-c {  
+padding:10px;
+    grid-column-start: 2;
+    grid-column-end: span col4-start;
+    grid-row-start: 1;
+    grid-row-end: last-line;
+    color:black;
+    background-color: #FED69A;
 }
 
 .side {
     color:black;
+}
+
+li {
+    font-size:1.25em;
 }
 
 .wiki {
@@ -55,6 +69,19 @@ th {
     text-align: left;
     text-indent: 1em;
     font-size: 1.5em;
-    border:0px solid black;
-    background-color:#B3090c;
+    border:1px solid black;
+    background-color: #FED69A;
+}
+
+p {
+    color: black;
+    font-size:1.15em;
+    margin-left:20px;
+}
+
+.sidetxt {
+    color:white;
+    font-size:1em;
+    text-align:center;
+    margin-left:5px;
 }

@@ -54,11 +54,19 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-family: "Georgia", serif;
+    font-size: 1.75em;
+    border: 1px solid black;
+    background-color: #FED69A;
+    text-align: center;
+}
+
 
 p {
     font-family: "Georgia", serif;
     font-size: 1em;
-    color: white;
+    color: black;
 }
 /* The sidebar menu */
 .sidenav {
@@ -84,6 +92,7 @@ p {
 
 .sidenav p {
     text-align: center;
+    color: white;
 }
 /* Style page content */
 .main {
@@ -122,3 +131,25 @@ p {
     background-color: #FED69A;
     color: purple;
 }
+
+/* Taken from https://coder-coder.com/display-divs-side-by-side/ */
+.flex-container {
+    display:flex;
+    gap: 10px;
+}
+
+.flex-child {
+    flex-basis: 100%;
+    border: 2px solid black;
+    background-color: #FED69A;
+}  
+
+.flex-header {
+     background-color: #B3090c;
+     color: white;
+}
+
+.flex-para {
+    padding: 15px;
+}
+
