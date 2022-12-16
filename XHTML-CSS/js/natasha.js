@@ -7,7 +7,7 @@ window.addEventListener('load', function () {
     const span_array = document.getElementsByTagName("span");
     const span_count = span_array.length;
     
-    //loop through a list of elements.
+   //Styling spans by clicking on paragraphs with matching ids
     for (let i = 0; i < count; i++) {
         
         const p = p_array[i];
@@ -21,11 +21,13 @@ window.addEventListener('load', function () {
             for (let i = 0; i < count; i++) {
                 lyric_ref[i].style.color = "#B3090c";
                 lyric_ref[i].style.fontWeight = "bold";
-                window.location.hash = lyric_ref[i].className;
+                lyric_ref[i].scrollIntoView();
+                //window.location.hash = lyric_ref[i].className;
             }
         })
     }
     
+    //Styling paragraphs by clicking on spans with matching class
     for (let i = 0; i < span_count; i++) {
         const span = span_array[i];
         const span_ref = span.className;
@@ -34,7 +36,8 @@ window.addEventListener('load', function () {
         span.addEventListener("click", function () {
             p_ref.style.color = "#B3090c";
             p_ref.style.fontWeight = "bold";
-            window.location.hash = p_ref.id;
+            p_ref.scrollIntoView();
+            //window.location.hash = p_ref.id;
         })
     }
 });
