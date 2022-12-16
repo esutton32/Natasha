@@ -22,14 +22,16 @@
     <!-- Templates                                                        -->
     <!-- ================================================================ -->
     <xsl:template match="/">
-        <svg viewBox="-100 -{$maxHeight + 25} {$maxWidth + 125} {$maxHeight + 300}" width="100%">
+        <svg viewBox="-100 -{$maxHeight + 25} {$maxWidth + 125} {$maxHeight + 300}" width="100%"
+            style="background-color:#FED69A;">
             <xsl:for-each select="0 to 10">
                 <!-- ==================================================== -->
                 <!-- Horizontal ruling lines, tick marks, labels          -->
                 <!-- ==================================================== -->
                 <xsl:variable name="yPos" as="xs:double" select=". * 10 * $yScale"/>
                 <line x1="0" y1="-{$yPos}" x2="-10" y2="-{$yPos}" stroke="black"/>
-                <line x1="0" y1="-{$yPos}" x2="{$maxWidth}" y2="-{$yPos}" stroke="lightgray"/>
+                <line x1="0" y1="-{$yPos}" x2="{$maxWidth}" y2="-{$yPos}" 
+                    stroke="silver"/>
                 <text x="-20" y="-{$yPos}" text-anchor="end" dominant-baseline="central">
                     <xsl:value-of select=". * 10"/>
                 </text>

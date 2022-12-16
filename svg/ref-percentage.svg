@@ -1,38 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      viewBox="-100 -525 1340 800"
-     width="100%">
+     width="100%"
+     style="background-color:#FED69A;">
    <line x1="0" y1="-0" x2="-10" y2="-0" stroke="black"/>
-   <line x1="0" y1="-0" x2="1215" y2="-0" stroke="lightgray"/>
+   <line x1="0" y1="-0" x2="1215" y2="-0" stroke="silver"/>
    <text x="-20" y="-0" text-anchor="end" dominant-baseline="central">0</text>
    <line x1="0" y1="-50" x2="-10" y2="-50" stroke="black"/>
-   <line x1="0" y1="-50" x2="1215" y2="-50" stroke="lightgray"/>
+   <line x1="0" y1="-50" x2="1215" y2="-50" stroke="silver"/>
    <text x="-20" y="-50" text-anchor="end" dominant-baseline="central">10</text>
    <line x1="0" y1="-100" x2="-10" y2="-100" stroke="black"/>
-   <line x1="0" y1="-100" x2="1215" y2="-100" stroke="lightgray"/>
+   <line x1="0" y1="-100" x2="1215" y2="-100" stroke="silver"/>
    <text x="-20" y="-100" text-anchor="end" dominant-baseline="central">20</text>
    <line x1="0" y1="-150" x2="-10" y2="-150" stroke="black"/>
-   <line x1="0" y1="-150" x2="1215" y2="-150" stroke="lightgray"/>
+   <line x1="0" y1="-150" x2="1215" y2="-150" stroke="silver"/>
    <text x="-20" y="-150" text-anchor="end" dominant-baseline="central">30</text>
    <line x1="0" y1="-200" x2="-10" y2="-200" stroke="black"/>
-   <line x1="0" y1="-200" x2="1215" y2="-200" stroke="lightgray"/>
+   <line x1="0" y1="-200" x2="1215" y2="-200" stroke="silver"/>
    <text x="-20" y="-200" text-anchor="end" dominant-baseline="central">40</text>
    <line x1="0" y1="-250" x2="-10" y2="-250" stroke="black"/>
-   <line x1="0" y1="-250" x2="1215" y2="-250" stroke="lightgray"/>
+   <line x1="0" y1="-250" x2="1215" y2="-250" stroke="silver"/>
    <text x="-20" y="-250" text-anchor="end" dominant-baseline="central">50</text>
    <line x1="0" y1="-300" x2="-10" y2="-300" stroke="black"/>
-   <line x1="0" y1="-300" x2="1215" y2="-300" stroke="lightgray"/>
+   <line x1="0" y1="-300" x2="1215" y2="-300" stroke="silver"/>
    <text x="-20" y="-300" text-anchor="end" dominant-baseline="central">60</text>
    <line x1="0" y1="-350" x2="-10" y2="-350" stroke="black"/>
-   <line x1="0" y1="-350" x2="1215" y2="-350" stroke="lightgray"/>
+   <line x1="0" y1="-350" x2="1215" y2="-350" stroke="silver"/>
    <text x="-20" y="-350" text-anchor="end" dominant-baseline="central">70</text>
    <line x1="0" y1="-400" x2="-10" y2="-400" stroke="black"/>
-   <line x1="0" y1="-400" x2="1215" y2="-400" stroke="lightgray"/>
+   <line x1="0" y1="-400" x2="1215" y2="-400" stroke="silver"/>
    <text x="-20" y="-400" text-anchor="end" dominant-baseline="central">80</text>
    <line x1="0" y1="-450" x2="-10" y2="-450" stroke="black"/>
-   <line x1="0" y1="-450" x2="1215" y2="-450" stroke="lightgray"/>
+   <line x1="0" y1="-450" x2="1215" y2="-450" stroke="silver"/>
    <text x="-20" y="-450" text-anchor="end" dominant-baseline="central">90</text>
    <line x1="0" y1="-500" x2="-10" y2="-500" stroke="black"/>
-   <line x1="0" y1="-500" x2="1215" y2="-500" stroke="lightgray"/>
+   <line x1="0" y1="-500" x2="1215" y2="-500" stroke="silver"/>
    <text x="-20" y="-500" text-anchor="end" dominant-baseline="central">100</text>
    <rect x="7.5" y="-0" width="30" height="0" fill="red"/>
    <text x="22.5"
