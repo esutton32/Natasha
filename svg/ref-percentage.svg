@@ -356,7 +356,7 @@
          stroke="black"
          stroke-linecap="square"/>
    <text x="607.5" y="175" text-anchor="middle" font-size="larger">Songs</text>
-   <text x="-80"
+   <text x="-70"
          y="-250"
          writing-mode="tb"
          text-anchor="middle"

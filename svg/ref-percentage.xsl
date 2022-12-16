@@ -50,7 +50,7 @@
             <!-- ======================================================== -->
             <text x="{$maxWidth div 2}" y="{35 * $yScale}" text-anchor="middle" font-size="larger"
                 >Songs</text>
-            <text x="-80" y="-{$maxHeight div 2}" writing-mode="tb" text-anchor="middle"
+            <text x="-70" y="-{$maxHeight div 2}" writing-mode="tb" text-anchor="middle"
                 font-size="larger">
                 <tspan>Percentage of song lines drawn from </tspan>
                 <tspan font-style="italic">War and peace</tspan>
