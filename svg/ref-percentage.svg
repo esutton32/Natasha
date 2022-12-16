@@ -257,7 +257,7 @@
          text-anchor="start"
          dominant-baseline="middle"
          font-size="smaller"
-         writing-mode="tb">Abduction</text>
+         writing-mode="tb">The Abduction</text>
    <text x="832.5" y="-282.77777777777777" text-anchor="middle">56%</text>
    <rect x="862.5" y="-437.5" width="30" height="437.5" fill="red"/>
    <text x="877.5"
@@ -362,6 +362,6 @@
          text-anchor="middle"
          font-size="larger">
       <tspan>Percentage of song lines drawn from </tspan>
-      <tspan font-style="italic">War and peace</tspan>
+      <tspan font-style="italic">War and Peace</tspan>
    </text>
 </svg>
