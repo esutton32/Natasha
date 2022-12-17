@@ -7,29 +7,88 @@
     <xsl:variable name="barWidth" as="xs:double" select="50"/>
     <xsl:variable name="barSpacing" as="xs:double" select="$barWidth div 2"/>
     <xsl:variable name="totalBarWidth" as="xs:double" select="($barWidth + $barSpacing) * 2"/>
-    <xsl:variable name="yScale" as="xs:double" select="10"/>
-    <xsl:variable name="maxHeight" as="xs:double" select="60 * $yScale"/>
+    <xsl:variable name="yScale" as="xs:double" select="50"/>
+    <xsl:variable name="maxHeight" as="xs:double" select="20 * $yScale"/>
     <xsl:variable name="maxWidth" as="xs:double"
-        select="$totalBarWidth * count(distinct-values(//@speaker))"/>
-
+        select="$totalBarWidth * count(distinct-values(//stanza[descendant::s-action]/@speaker)) + $totalBarWidth div 2"/>
+    <xsl:variable name="combinedChBarWidth" as="xs:double" select="$totalBarWidth * 2 + 60"/>
+    <xsl:variable name="bar-color" as="map(*)" select="
+        map {
+        'NATASHA': '#8A07E4',
+        'PIERRE': '#B65D5D',
+        'BOLKONSKY': '#065143',
+        'ALL': '#FABC2A',
+        'OPERA': '#98D2EB',
+        'ANDREY': '#6B351C',
+        'HÉLÈNE': '#02BFAB',
+        'DOLOKHOV': '#1D5413',
+        'ANATOLE': '#F17412'
+        }"/>
 
     <xsl:template match="/">
-        <svg height="{$maxHeight + 150}" viewBox="-100 -100 3000 100" width="100%">
-            <xsl:for-each select="1 to 6">
-                <xsl:variable name="height" as="xs:double" select=". * 10 * $yScale"/>
+        <svg viewBox="-100 -{$maxHeight+50} {$maxWidth + 250} {$maxHeight + 250}" width="100%"
+            height="{$maxHeight + 250}">
+            <xsl:for-each select="0 to 4">
+                <xsl:variable name="height" as="xs:double" select=". * 5 * $yScale"/>
                 <line x1="0" y1="-{$height}" x2="-10" y2="-{$height}" stroke="black"/>
                 <line x1="0" y1="-{$height}" x2="{$maxWidth}" y2="-{$height}" stroke="lightgray"/>
                 <text x="-20" y="-{$height}" text-anchor="end" dominant-baseline="central">
-                    <xsl:value-of select=". * 10"/>
+                    <xsl:value-of select=". * 5"/>
                 </text>
             </xsl:for-each>
-            <xsl:apply-templates select="//stanza/@speaker"></xsl:apply-templates>
+
+            <xsl:for-each-group select="//stanza[descendant::s-action]" group-by="@speaker">
+                <xsl:sort select="current-grouping-key()"/>
+                <!--  -->
+                <xsl:variable name="self1st" as="xs:integer"
+                    select="count(current-group()//s-action[@kind = 'self' and @type = '1st'])"/>
+                <xsl:variable name="self3rd" as="xs:integer"
+                    select="count(current-group()//s-action[@kind = 'self' and @type = '3rd'])"/>
+                <!--<xsl:variable name="otherDesc" as="xs:integer" select="count(current-group()//s-action[@kind = 'other'])"/>-->
+                <xsl:variable name="otherDesc" select="current-group()//s-action[@kind = 'other']"/>
+                <xsl:variable name="longrect" as="xs:integer" select="$self1st + $self3rd"/>
+
+                <xsl:variable name="xPos" as="xs:double" select="
+                        $totalBarWidth * position() - $barWidth"/>
+
+                <!--<xsl:message select="string-join((current-grouping-key(), $self1st, $self3rd, $otherDesc), ',')"></xsl:message>-->
+
+                <!-- rectangles -->
+                <rect x="{$xPos - $barWidth - 5}" y="-{$longrect * $yScale}" width="{$barWidth}"
+                    height="{$longrect * $yScale}" fill="#66DEDC" stroke="black" stroke-width="1"/>
+                <rect x="{$xPos - $barWidth - 5}" y="-{$self1st * $yScale}" width="{$barWidth}"
+                    height="{$self1st * $yScale}" fill="red" stroke="black" stroke-width="1"/>
+                <xsl:for-each select="distinct-values($otherDesc/@descr)">
+                    <xsl:sort/>
+                    <xsl:variable name="speakerDescrCount" as="xs:integer"
+                        select="count($otherDesc[@descr eq current()])"/>
+                    <xsl:variable name="prevDescrCount" as="xs:integer"
+                        select="count($otherDesc[@descr lt current()])"/>
+                    <xsl:message
+                        select="string-join((current-grouping-key(), ., $speakerDescrCount, $prevDescrCount), ',')"/>
+                    <rect x="{$xPos + 5}" y="-{sum(($speakerDescrCount, $prevDescrCount))* $yScale}"
+                        width="{$barWidth}" height="{$speakerDescrCount * $yScale}" fill="{$bar-color(current())}"
+                        stroke="black" stroke-width="1">
+                        <title>
+                            <xsl:value-of select="concat(current(), ' (', $speakerDescrCount, ')')"/>
+                        </title>
+                    </rect>
+                </xsl:for-each>
+                <!--<rect x="{$xPos + 5}" y="-{$otherDesc * $yScale}"
+                    width="{$barWidth}" height="{$otherDesc * $yScale}" fill="pink"/>-->
+
+                <!-- labels -->
+                <text x="{$xPos}" y="20" text-anchor="middle" font-size="smaller">
+                    <xsl:value-of select="current-grouping-key()"/>
+                </text>             
+            </xsl:for-each-group>
+
             <line x1="0" y1="0" x2="{$maxWidth}" y2="0" stroke="black" stroke-linecap="square"/>
             <line x1="0" y1="0" x2="0" y2="-{$maxHeight}" stroke="black" stroke-linecap="square"/>
-            <text x="{$maxWidth div 2}" y="{10 * $yScale}" text-anchor="middle" font-size="larger"
-                >number of instances of spoken action</text>
+            <text x="{$maxWidth div 2}" y="45" text-anchor="middle" font-size="larger"
+                >Characters who Perform Spoken Action</text>
             <text x="-60" y="-{$maxHeight div 2}" writing-mode="tb" text-anchor="middle"
-                font-size="larger">yasssss characters</text>
+                font-size="larger">Number of Instances of Spoken Action</text>
         </svg>
     </xsl:template>
 
@@ -54,7 +113,7 @@
             width="{$barWidth}" height="{$self1st * $yScale}" fill="pink"/>
 
         <!-- LABELING EACH BAR -->
-        <text x="{$xPos}" y="{5 * $yScale}" text-anchor="middle" font-size="smaller">
+        <text x="{$xPos}" y="10" text-anchor="middle" font-size="smaller">
             <xsl:value-of select="current()"/>
         </text>
         <!--<text x="{$xPos + $barWidth div 2}" y="-{$refPercentage*10 + 5}" text-anchor="middle">
