@@ -15,7 +15,7 @@
                 </xsl:for-each-group>
             </xsl:map>
         </xsl:variable>
-        <svg viewBox="0 -300 300 330" height="350" width="500">
+        <svg viewBox="0 -400 400 400" height="500" width="500">
             <xsl:for-each select="map:keys($novel-characters)">
                 <xsl:sort/>
                 <xsl:variable name="xPos" as="xs:double" select="position() * 30"/>
@@ -24,7 +24,7 @@
                 <count><xsl:value-of select="$novel-characters(.)"/></count>-->
                 <rect x="{$xPos}" y="-{$yPos}" width="20"
                     height="{$yPos}" fill="blue"/>
-                <text x="{$xPos + 10}" y="10" text-anchor="middle">
+                <text x="{$xPos + 10}" y="20" text-anchor="middle">
                     <xsl:value-of select="."/>
                 </text>
             </xsl:for-each>
