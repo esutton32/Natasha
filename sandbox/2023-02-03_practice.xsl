@@ -56,14 +56,20 @@
             <!-- ==================================================== -->
             
             <xsl:for-each select="0 to 10">
-                <xsl:variable name="yPos" as="xs:integer" select=". * 20"/>
-                <line x1="0" y1="-{$yPos}" x2="300" y2="-{$yPos}" stroke="silver"/>
+                <xsl:variable name="yPos" as="xs:integer" select=". * 30"/>
+                <xsl:variable name="xPos" as="xs:integer" select=". * 20"/>
+                <xsl:variable name="yLabel" as="xs:integer" select=". * 10"/>
+                <text x="-30" y="{-$yPos}" font-size="12">
+                   <xsl:value-of select="$yLabel"/>
+                </text>
+                <line x1="0" y1="-{$yPos}" x2="{$maxWidth + 800}" y2="-{$yPos}" stroke="silver"/>
                 <text x="-20" y="-{$yPos}" text-anchor="end" dominant-baseline="central">
                     <xsl:value-of select="$novel-characters(.)"/>
                 </text>
             </xsl:for-each>
             <xsl:for-each select="map:keys($novel-characters)">
                 <xsl:sort/>
+
 
                 <!--<name><xsl:value-of select="."/></name>
                 <count><xsl:value-of select="$novel-characters(.)"/></count>-->
@@ -82,30 +88,32 @@
                 <!-- ============================================================ -->
                 <!-- Bar label (percentage)                                       -->
                 <!-- ============================================================ -->
-                <text x="{$xPos + ($barWidth div 2)}" y="-{$yPos + 5}" text-anchor="middle" font-size="smaller">
-                    <xsl:value-of select="$novel-characters(.)"/>
+                <xsl:variable name="novel-chara-percent" as="xs:double" select="avg($novel-characters(.))"/>
+                <text x="{$xPos + ($barWidth div 2)}" y="-{$yPos + 5}" text-anchor="middle" font-size="12">
+                    <xsl:value-of select="(round($novel-chara-percent))"/>%
                 </text>
-                <text x="{$xPos2 + ($barWidth div 2)}" y="-{$yPos2 + 5}" text-anchor="middle" font-size="smaller">
-                    <xsl:value-of select="$song-characters(.)"/> 
+                <xsl:variable name="song-chara-percent" as="xs:double" select="avg($song-characters(.))"/>
+                <text x="{$xPos2 + ($barWidth div 2)}" y="-{$yPos2 + 5}" text-anchor="middle" font-size="12">
+                    <xsl:value-of select="(round($song-chara-percent))"/>%
                 </text>
             </xsl:for-each>
 
             <!-- ======================================================== -->
             <!-- Axes                                                     -->
             <!-- ======================================================== -->
-            <line x1="0" y1="0" x2="{$maxWidth}" y2="0" stroke="black" stroke-linecap="square"/>
-            <line x1="0" y1="0" x2="0" y2="-{$maxHeight}" stroke="black" stroke-linecap="square"/>
+            <line x1="0" y1="0" x2="{$maxWidth + 800}" y2="0" stroke="black" stroke-linecap="square"/>
+            <line x1="0" y1="0" x2="0" y2="-{$maxHeight - 200}" stroke="black" stroke-linecap="square"/>
             <!-- ======================================================== -->
             <!-- Axis labels                                              -->
             <!-- ======================================================== -->
-            <text x="{$maxWidth div 2}" y="{$yScale * 35}" text-anchor="middle" font-size="larger"
+            <text x="{($maxWidth +800 )div 2}" y="{$yScale * 35}" text-anchor="middle" font-size="large"
                 >Characters</text>
-            <text x="-80" y="-{$maxHeight div 2}" writing-mode="tb" text-anchor="middle"
-                font-size="larger">
+            <text x="-80" y="-{($maxHeight - 200) div 2}" writing-mode="tb" text-anchor="middle"
+                font-size="large">
                 <tspan>Frequency of Character References</tspan>
             </text>
             <text x="-110" y="-{$maxHeight div 2}" writing-mode="tb" text-anchor="middle"
-                font-size="larger">
+                font-size="large">
                 <tspan>by Count</tspan>
             </text>
             <!-- <xsl:for-each select="map:keys($song-characters)">
