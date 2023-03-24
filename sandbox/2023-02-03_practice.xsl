@@ -12,6 +12,7 @@
         select="document('../XML/War-And-Peace_Book-Eight.xml')"/>
     <xsl:variable name="allSongs" as="document-node()+"
         select="collection('../XML/xml_lyrics?match=\d.*\.xml')"/>
+    <xsl:variable name="novel-characters-count" as="xs:integer" select="count($book8//chara)"/>
     <xsl:variable name="novel-characters" as="map(*)">
         <xsl:map>
             <xsl:for-each-group select="$book8//chara/@ref" group-by=".">
@@ -30,13 +31,16 @@
             </xsl:for-each-group>
         </xsl:map>
     </xsl:variable>
-    <xsl:variable name="maxCount" as="xs:integer" select="map:for-each(map:merge(($novel-characters, $song-characters)), function($k, $v) {$v}) => max()"/>
+    <xsl:variable name="maxCount" as="xs:integer" select="
+            map:for-each(map:merge(($novel-characters, $song-characters)), function ($k, $v) {
+                $v
+            }) => max()"/>
     <xsl:variable name="barWidth" as="xs:double" select="30"/>
     <xsl:variable name="barSpacing" as="xs:double" select="$barWidth div 2"/>
     <xsl:variable name="totalBarWidth" as="xs:double" select="$barWidth + $barSpacing"/>
     <xsl:variable name="yScale" as="xs:double" select="5"/>
     <xsl:variable name="maxHeight" as="xs:double" select="100 * $yScale"/>
-    <xsl:variable name="maxWidth" as="xs:double" select="$totalBarWidth * count($novel-characters)"/>
+    <xsl:variable name="maxWidth" as="xs:double" select="$totalBarWidth * count(map:keys($novel-characters))"/>
     <!-- User-defined functions -->
     <xsl:function name="comet:titleCase" as="xs:string">
         <xsl:param name="input" as="xs:string"/>
@@ -46,21 +50,23 @@
     </xsl:function>
     <!-- Templates -->
     <xsl:template name="xsl:initial-template">
+        <xsl:message select="$maxWidth"></xsl:message>
         <!-- ================================================================ -->
         <!-- SVG                                                        -->
         <!-- ================================================================ -->
-        <svg viewBox="-150 -{$maxHeight + 25} {$maxWidth + 800} {$maxHeight + 300}" width="100%"
-            style="background-color:#FED69A;"> 
+        <svg viewBox="-150 -{$maxHeight + 25} {$maxWidth + 500} {$maxHeight + 300}" width="100%"
+            style="background-color:#FED69A;">
             <!-- ==================================================== -->
             <!-- Horizontal ruling lines, tick marks, labels          -->
             <!-- ==================================================== -->
-            
+
             <xsl:for-each select="0 to 10">
                 <xsl:variable name="yPos" as="xs:integer" select=". * 30"/>
                 <xsl:variable name="xPos" as="xs:integer" select=". * 20"/>
-                <xsl:variable name="yLabel" as="xs:integer" select=". * 10"/>
-                <text x="-30" y="{-$yPos}" font-size="12">
-                   <xsl:value-of select="$yLabel"/>
+                <xsl:variable name="yLabel" as="xs:string"
+                    select="format-number(100 * . * 30 div $novel-characters-count, '0.00')"/>
+                <text x="-10" y="{-$yPos}" font-size="12" text-anchor="end">
+                    <xsl:value-of select="$yLabel"/>
                 </text>
                 <line x1="0" y1="-{$yPos}" x2="{$maxWidth + 800}" y2="-{$yPos}" stroke="silver"/>
                 <text x="-20" y="-{$yPos}" text-anchor="end" dominant-baseline="central">
@@ -88,26 +94,29 @@
                 <!-- ============================================================ -->
                 <!-- Bar label (percentage)                                       -->
                 <!-- ============================================================ -->
-                <xsl:variable name="novel-chara-percent" as="xs:double" select="avg($novel-characters(.))"/>
-                <text x="{$xPos + ($barWidth div 2)}" y="-{$yPos + 5}" text-anchor="middle" font-size="12">
-                    <xsl:value-of select="(round($novel-chara-percent))"/>%
-                </text>
-                <xsl:variable name="song-chara-percent" as="xs:double" select="avg($song-characters(.))"/>
-                <text x="{$xPos2 + ($barWidth div 2)}" y="-{$yPos2 + 5}" text-anchor="middle" font-size="12">
-                    <xsl:value-of select="(round($song-chara-percent))"/>%
-                </text>
+                <xsl:variable name="novel-chara-percent" as="xs:double"
+                    select="100 * $novel-characters(.) div $novel-characters-count"/>
+                <text x="{$xPos + ($barWidth div 2)}" y="-{$yPos + 5}" text-anchor="middle"
+                    font-size="12">
+                    <xsl:value-of select="(round($novel-chara-percent, 2))"/>% </text>
+                <xsl:variable name="song-chara-percent" as="xs:double"
+                    select="avg($song-characters(.))"/>
+                <text x="{$xPos2 + ($barWidth div 2)}" y="-{$yPos2 + 5}" text-anchor="middle"
+                    font-size="12">
+                    <xsl:value-of select="(round($song-chara-percent))"/>% </text>
             </xsl:for-each>
 
             <!-- ======================================================== -->
             <!-- Axes                                                     -->
             <!-- ======================================================== -->
             <line x1="0" y1="0" x2="{$maxWidth + 800}" y2="0" stroke="black" stroke-linecap="square"/>
-            <line x1="0" y1="0" x2="0" y2="-{$maxHeight - 200}" stroke="black" stroke-linecap="square"/>
+            <line x1="0" y1="0" x2="0" y2="-{$maxHeight - 200}" stroke="black"
+                stroke-linecap="square"/>
             <!-- ======================================================== -->
             <!-- Axis labels                                              -->
             <!-- ======================================================== -->
-            <text x="{($maxWidth +800 )div 2}" y="{$yScale * 35}" text-anchor="middle" font-size="large"
-                >Characters</text>
+            <text x="{($maxWidth +800 )div 2}" y="{$yScale * 35}" text-anchor="middle"
+                font-size="large">Characters</text>
             <text x="-80" y="-{($maxHeight - 200) div 2}" writing-mode="tb" text-anchor="middle"
                 font-size="large">
                 <tspan>Frequency of Character References</tspan>
