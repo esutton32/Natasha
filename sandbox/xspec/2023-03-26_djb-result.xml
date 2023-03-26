@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.jenitennison.com/xslt/xspec"
+        xspec="file:/Users/djb/repos/Natasha/sandbox/2023-03-26_djb.xspec"
+        stylesheet="file:/Users/djb/repos/Natasha/sandbox/2023-03-26_djb.xsl"
+        date="2023-03-26T13:15:46.940247-04:00">
+   <scenario id="x7cf26cd5-ff1b-3b97-891d-d3ff1bc7f6ed"
+             xspec="file:/Users/djb/repos/Natasha/sandbox/2023-03-26_djb.xspec">
+      <label>Scenarios for testing function titleCase</label>
+      <input-wrap xmlns="">
+         <x:call xmlns:comet="http://natasha.obdurodon.org/"
+                 xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                 function="comet:titleCase"/>
+      </input-wrap>
+      <scenario id="x6e9e06f9-c292-3ede-834b-f120a6ab724e"
+                xspec="file:/Users/djb/repos/Natasha/sandbox/2023-03-26_djb.xspec">
+         <label>two-word phrase capitalizes both words</label>
+         <input-wrap xmlns="">
+            <x:call xmlns:comet="http://natasha.obdurodon.org/"
+                    xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+               <x:param name="input" select="'natasha rostova'"/>
+            </x:call>
+         </input-wrap>
+         <result select="'Natasha Rostova'"/>
+         <test id="x6e9e06f9-c292-3ede-834b-f120a6ab724e-expect1" successful="true">
+            <label>Capitalizes both words</label>
+            <expect select="'Natasha Rostova'"/>
+         </test>
+      </scenario>
+   </scenario>
+   <scenario id="xdd472123-629c-36a9-9fc7-659e3cd4cec9"
+             xspec="file:/Users/djb/repos/Natasha/sandbox/2023-03-26_djb.xspec">
+      <label>Scenarios for testing function round-up-to-integer</label>
+      <input-wrap xmlns="">
+         <x:call xmlns:comet="http://natasha.obdurodon.org/"
+                 xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                 function="comet:round-up-to-integer"/>
+      </input-wrap>
+      <scenario id="x755f1b1a-598a-3ef7-aade-be293e1d11b1"
+                xspec="file:/Users/djb/repos/Natasha/sandbox/2023-03-26_djb.xspec">
+         <label>with double input not equal to integer multiple</label>
+         <input-wrap xmlns="">
+            <x:call xmlns:comet="http://natasha.obdurodon.org/"
+                    xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+               <x:param name="input" select="28.6"/>
+               <x:param name="rounding-target" select="3"/>
+            </x:call>
+         </input-wrap>
+         <result select="30"/>
+         <test id="x755f1b1a-598a-3ef7-aade-be293e1d11b1-expect1" successful="true">
+            <label>28.6 rounds up to 30</label>
+            <expect select="30"/>
+         </test>
+      </scenario>
+      <scenario id="x47c80a63-6192-3f1c-8648-cc6d93e01f94"
+                xspec="file:/Users/djb/repos/Natasha/sandbox/2023-03-26_djb.xspec">
+         <label>with double input equal to integer multiple</label>
+         <input-wrap xmlns="">
+            <x:call xmlns:comet="http://natasha.obdurodon.org/"
+                    xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+               <x:param name="input" select="27.0"/>
+               <x:param name="rounding-target" select="3"/>
+            </x:call>
+         </input-wrap>
+         <result select="27"/>
+         <test id="x47c80a63-6192-3f1c-8648-cc6d93e01f94-expect1" successful="true">
+            <label>27.0 returns 27</label>
+            <expect select="27"/>
+         </test>
+      </scenario>
+      <scenario id="x3279f0b9-c964-32d7-ab1e-5cfe61c3ed3d"
+                xspec="file:/Users/djb/repos/Natasha/sandbox/2023-03-26_djb.xspec">
+         <label>with integer input equal to integer multiple</label>
+         <input-wrap xmlns="">
+            <x:call xmlns:comet="http://natasha.obdurodon.org/"
+                    xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+               <x:param name="input" select="27.0"/>
+               <x:param name="rounding-target" select="3"/>
+            </x:call>
+         </input-wrap>
+         <result select="27"/>
+         <test id="x3279f0b9-c964-32d7-ab1e-5cfe61c3ed3d-expect1" successful="true">
+            <label>27 (integer) returns itself</label>
+            <expect select="27"/>
+         </test>
+      </scenario>
+   </scenario>
+</report>

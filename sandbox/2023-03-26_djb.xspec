@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  xmlns:comet="http://natasha.obdurodon.org/" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  stylesheet="2023-03-26_djb.xsl">
+  <x:scenario label="Scenarios for testing function titleCase">
+    <x:call function="comet:titleCase"/>
+    <x:scenario label="two-word phrase capitalizes both words">
+      <x:call>
+        <x:param name="input" select="'natasha rostova'"/>
+      </x:call>
+      <x:expect label="Capitalizes both words" select="'Natasha Rostova'"/>
+    </x:scenario>
+  </x:scenario>
+  <x:scenario label="Scenarios for testing function round-up-to-integer">
+    <x:call function="comet:round-up-to-integer"/>
+    <x:scenario label="with double input not equal to integer multiple">
+      <x:call>
+        <x:param name="input" select="28.6"/>
+        <x:param name="rounding-target" select="3"/>
+      </x:call>
+      <x:expect label="28.6 rounds up to 30" select="30"/>
+    </x:scenario>
+    <x:scenario label="with double input equal to integer multiple">
+      <x:call>
+        <x:param name="input" select="27.0"/>
+        <x:param name="rounding-target" select="3"/>
+      </x:call>
+      <x:expect label="27.0 returns 27" select="27"/>
+    </x:scenario>
+    <x:scenario label="with integer input equal to integer multiple">
+      <x:call>
+        <x:param name="input" select="27.0"/>
+        <x:param name="rounding-target" select="3"/>
+      </x:call>
+      <x:expect label="27 (integer) returns itself" select="27"/>
+    </x:scenario>
+  </x:scenario>
+</x:description>
