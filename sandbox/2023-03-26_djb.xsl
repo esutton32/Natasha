@@ -112,10 +112,8 @@
       <!--     evenly divisible by three)                                 -->
       <!--   $y-ruling-range : integer percentages for y ruling           -->
       <!-- ============================================================== -->
-      <xsl:variable name="max-novel-pct" select="
-          map:for-each($novel-characters, function ($k, $v) {
-            $v cast as xs:integer
-          }) => max() div $novel-characters-count * 100"/>
+      <xsl:variable name="max-novel-pct" as="xs:double"
+        select="$novel-characters?* => max() div $novel-characters-count * 100"/>
       <xsl:variable name="y-ruling-max" as="xs:integer"
         select="comet:round-up-to-integer($max-novel-pct, 3)"/>
       <xsl:variable name="y-ruling-range" as="xs:integer+"
