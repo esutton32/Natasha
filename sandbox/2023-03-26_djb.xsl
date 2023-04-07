@@ -113,14 +113,14 @@
       <!--     evenly divisible by three)                                 -->
       <!--   $y-ruling-range : integer percentages for y ruling           -->
       <!-- ============================================================== -->
-      <xsl:variable name="max-novel-pct" as="xs:double"
-        select="$novel-characters?* => max() div $novel-characters-count * 100"/>
+      <xsl:variable name="max-song-pct" as="xs:double"
+        select="$song-characters?* => max() div $song-characters-count * 100"/>
       <xsl:variable name="y-ruling-max" as="xs:integer"
-        select="comet:round-up-to-integer($max-novel-pct, 3)"/>
+        select="comet:round-up-to-integer($max-song-pct, 3)"/>
       <xsl:variable name="y-ruling-range" as="xs:integer+"
         select="(0 to $y-ruling-max)[. mod 3 eq 0]"/>
       <xsl:for-each select="$y-ruling-range">
-        <xsl:variable name="yPos" as="xs:double" select=". * $novel-characters-count div 100"/>
+        <xsl:variable name="yPos" as="xs:double" select=". * 10"/>
         <line x1="0" y1="-{$yPos}" x2="{$maxWidth + $barSpacing}" y2="-{$yPos}" stroke="silver"
           stroke-width="1"/>
         <text x="-5" y="-{$yPos}" text-anchor="end" dominant-baseline="central" font-size="smaller">
@@ -132,32 +132,39 @@
       <!-- ============================================================== -->
       <xsl:for-each select="map:keys($novel-characters)">
         <xsl:sort/>
+        <xsl:message
+          select="string-join((., $song-characters(.), $novel-characters(.), $song-characters-count, $novel-characters-count, round($song-characters(.) div $song-characters-count * 100, 2), round($novel-characters(.) div $novel-characters-count * 100, 2)), ', ')"/>
         <!-- ============================================================ -->
         <!-- Local variables                                              -->
         <!-- ============================================================ -->
-        <xsl:variable name="xPos" as="xs:double"
+        <xsl:variable name="xPos-Songs" as="xs:double"
           select="$barSpacing + (position() - 1) * (2 * $barWidth + $barSpacing)"/>
-        <xsl:variable name="yPos" as="xs:double" select="$novel-characters(.)"/>
-        <xsl:variable name="xPos2" as="xs:double" select="$xPos + $barWidth"/>
-        <xsl:variable name="yPos2" as="xs:double" select="$song-characters(.)"/>
+        <xsl:variable name="yPos-Songs" as="xs:double" select="$song-characters(.) div $song-characters-count * 100 * 10"/>
+        <xsl:variable name="xPos-Book" as="xs:double" select="$xPos-Songs + $barWidth"/>
+        <xsl:variable name="yPos-Book" as="xs:double" select="$novel-characters(.) div $novel-characters-count * 100 * 10"/>
         <!-- ============================================================ -->
         <!-- Plot bars and bar names                                      -->
         <!-- ============================================================ -->
-        <rect x="{$xPos}" y="-{$yPos}" width="{$barWidth}" height="{$yPos}" fill="navy"/>
-        <text x="{$xPos2}" y="10" writing-mode="tb">
+        <rect x="{$xPos-Songs}" y="-{$yPos-Songs}" width="{$barWidth}" height="{$yPos-Songs}"
+          fill="navy"/>
+        <text x="{$xPos-Book}" y="10" writing-mode="tb">
           <xsl:value-of select="comet:titleCase(.)"/>
         </text>
-        <rect x="{$xPos2}" y="-{$yPos2}" width="{$barWidth}" height="{$yPos2}" fill="crimson"/>
+        <rect x="{$xPos-Book}" y="-{$yPos-Book}" width="{$barWidth}" height="{$yPos-Book}"
+          fill="crimson"/>
         <!-- ============================================================ -->
         <!-- Plot bar percentage labels                                   -->
         <!-- ============================================================ -->
         <xsl:variable name="novel-chara-percent" as="xs:double"
           select="100 * $novel-characters(.) div $novel-characters-count"/>
-        <text x="{$xPos + ($barWidth div 2)}" y="-{$yPos + 5}" text-anchor="middle" font-size="12">
+        <text x="{$xPos-Book + ($barWidth div 2)}" y="-{$yPos-Book + 5}" text-anchor="middle"
+          font-size="12">
           <xsl:value-of select="(round($novel-chara-percent, 2))"/>% </text>
-        
-        <xsl:variable name="song-chara-percent" as="xs:double" select="100 * $song-characters(.) div $song-characters-count"/>
-        <text x="{$xPos2 + ($barWidth div 2)}" y="-{$yPos2 + 5}" text-anchor="middle" font-size="12">
+
+        <xsl:variable name="song-chara-percent" as="xs:double"
+          select="100 * $song-characters(.) div $song-characters-count"/>
+        <text x="{$xPos-Songs + ($barWidth div 2)}" y="-{$yPos-Songs + 5}" text-anchor="middle"
+          font-size="12">
           <xsl:value-of select="(round($song-chara-percent, 2))"/>% </text>
       </xsl:for-each>
       <!-- ======================================================== -->
@@ -169,32 +176,29 @@
       <!-- ======================================================== -->
       <!-- Chart Labels                                              -->
       <!-- ======================================================== -->
-      <text x="{$maxWidth div 2}" y="{$yScale * 35}" text-anchor="middle"
-        font-size="large">Characters</text>
-      <text x="-80" y="-{$maxHeight div 2}" writing-mode="tb" text-anchor="-end"
-        font-size="large">
+      <text x="{$maxWidth div 2}" y="{$yScale * 35}" text-anchor="middle" font-size="large"
+        >Characters</text>
+      <text x="-80" y="-{$maxHeight div 2}" writing-mode="tb" text-anchor="-end" font-size="large">
         <tspan>Frequency of Character</tspan>
       </text>
-      <text x="-110" y="-{$maxHeight div 2}" writing-mode="tb" text-anchor="-end"
-        font-size="large">
+      <text x="-110" y="-{$maxHeight div 2}" writing-mode="tb" text-anchor="-end" font-size="large">
         <tspan>References by Percentage</tspan>
       </text>
       <!-- ======================================================== -->
       <!-- Key                                                      -->
       <!-- ======================================================== -->
-      <text x="{$maxWidth div 2}" y="{$yScale * -70}" text-anchor="middle" font-size="large">Comparing the Percentage of Character References between Novel and Musical</text>
+      <text x="{$maxWidth div 2}" y="{$yScale * -70}" text-anchor="middle" font-size="large"
+        >Comparing the Percentage of Character References between Novel and Musical</text>
       <rect x="{$maxWidth + 50}" y="{$yScale * -40}" width="300" height="100" fill="white"/>
-      <text
-        x="{$maxWidth + 60}" y="-{$yScale * 34}" font-size="large">
-        <tspan>KEY:</tspan>
+      <text x="{$maxWidth + 60}" y="-{$yScale * 34}" font-size="large">
+        <tspan>Key:</tspan>
       </text>
-      <text
-        x="{$maxWidth + 100}" y="-{$yScale * 28}" text-anchor="-end" font-size="small">
-        <tspan>"The Great Comet"</tspan>
+      <text x="{$maxWidth + 100}" y="-{$yScale * 28}" text-anchor="-end" font-size="small">
+        <tspan>“The Great Comet”</tspan>
       </text>
-      <text
-        x="{$maxWidth + 100}" y="-{$yScale * 23}" text-anchor="-end" font-size="small" font-style="italic">
-        <tspan>War and Peace</tspan> 
+      <text x="{$maxWidth + 100}" y="-{$yScale * 23}" text-anchor="-end" font-size="small"
+        font-style="italic">
+        <tspan>War and Peace</tspan>
       </text>
       <rect x="{$maxWidth + 60}" y="-{$yScale * 26}" width="15" height="15" fill="crimson"/>
       <rect x="{$maxWidth + 60}" y="-{$yScale * 31}" width="15" height="15" fill="navy"/>
