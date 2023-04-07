@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="-150 -525 1125 800"
+     width="100%"
+     style="background-color:#FED69A;">
+   <line x1="0"
+         y1="-0"
+         x2="840"
+         y2="-0"
+         stroke="silver"
+         stroke-width="1"/>
+   <text x="-5"
+         y="-0"
+         text-anchor="end"
+         dominant-baseline="central"
+         font-size="smaller">0</text>
+   <line x1="0"
+         y1="-31.74"
+         x2="840"
+         y2="-31.74"
+         stroke="silver"
+         stroke-width="1"/>
+   <text x="-5"
+         y="-31.74"
+         text-anchor="end"
+         dominant-baseline="central"
+         font-size="smaller">3</text>
+   <line x1="0"
+         y1="-63.48"
+         x2="840"
+         y2="-63.48"
+         stroke="silver"
+         stroke-width="1"/>
+   <text x="-5"
+         y="-63.48"
+         text-anchor="end"
+         dominant-baseline="central"
+         font-size="smaller">6</text>
+   <line x1="0"
+         y1="-95.22"
+         x2="840"
+         y2="-95.22"
+         stroke="silver"
+         stroke-width="1"/>
+   <text x="-5"
+         y="-95.22"
+         text-anchor="end"
+         dominant-baseline="central"
+         font-size="smaller">9</text>
+   <line x1="0"
+         y1="-126.96"
+         x2="840"
+         y2="-126.96"
+         stroke="silver"
+         stroke-width="1"/>
+   <text x="-5"
+         y="-126.96"
+         text-anchor="end"
+         dominant-baseline="central"
+         font-size="smaller">12</text>
+   <line x1="0"
+         y1="-158.7"
+         x2="840"
+         y2="-158.7"
+         stroke="silver"
+         stroke-width="1"/>
+   <text x="-5"
+         y="-158.7"
+         text-anchor="end"
+         dominant-baseline="central"
+         font-size="smaller">15</text>
+   <line x1="0"
+         y1="-190.44"
+         x2="840"
+         y2="-190.44"
+         stroke="silver"
+         stroke-width="1"/>
+   <text x="-5"
+         y="-190.44"
+         text-anchor="end"
+         dominant-baseline="central"
+         font-size="smaller">18</text>
+   <line x1="0"
+         y1="-222.18"
+         x2="840"
+         y2="-222.18"
+         stroke="silver"
+         stroke-width="1"/>
+   <text x="-5"
+         y="-222.18"
+         text-anchor="end"
+         dominant-baseline="central"
+         font-size="smaller">21</text>
+   <line x1="0"
+         y1="-253.92"
+         x2="840"
+         y2="-253.92"
+         stroke="silver"
+         stroke-width="1"/>
+   <text x="-5"
+         y="-253.92"
+         text-anchor="end"
+         dominant-baseline="central"
+         font-size="smaller">24</text>
+   <line x1="0"
+         y1="-285.66"
+         x2="840"
+         y2="-285.66"
+         stroke="silver"
+         stroke-width="1"/>
+   <text x="-5"
+         y="-285.66"
+         text-anchor="end"
+         dominant-baseline="central"
+         font-size="smaller">27</text>
+   <rect x="15" y="-152" width="30" height="152" fill="blue"/>
+   <text x="45" y="10" writing-mode="tb">Anatole</text>
+   <rect x="45" y="-78" width="30" height="78" fill="red"/>
+   <text x="30" y="-157" text-anchor="middle" font-size="12">14.37% </text>
+   <text x="60" y="-83" text-anchor="middle" font-size="12">78% </text>
+   <rect x="90" y="-65" width="30" height="65" fill="blue"/>
+   <text x="120" y="10" writing-mode="tb">Andrey</text>
+   <rect x="120" y="-53" width="30" height="53" fill="red"/>
+   <text x="105" y="-70" text-anchor="middle" font-size="12">6.14% </text>
+   <text x="135" y="-58" text-anchor="middle" font-size="12">53% </text>
+   <rect x="165" y="-20" width="30" height="20" fill="blue"/>
+   <text x="195" y="10" writing-mode="tb">Balaga</text>
+   <rect x="195" y="-48" width="30" height="48" fill="red"/>
+   <text x="180" y="-25" text-anchor="middle" font-size="12">1.89% </text>
+   <text x="210" y="-53" text-anchor="middle" font-size="12">48% </text>
+   <rect x="240" y="-47" width="30" height="47" fill="blue"/>
+   <text x="270" y="10" writing-mode="tb">Bolkonsky</text>
+   <rect x="270" y="-29" width="30" height="29" fill="red"/>
+   <text x="255" y="-52" text-anchor="middle" font-size="12">4.44% </text>
+   <text x="285" y="-34" text-anchor="middle" font-size="12">29% </text>
+   <rect x="315" y="-56" width="30" height="56" fill="blue"/>
+   <text x="345" y="10" writing-mode="tb">Dolokhov</text>
+   <rect x="345" y="-18" width="30" height="18" fill="red"/>
+   <text x="330" y="-61" text-anchor="middle" font-size="12">5.29% </text>
+   <text x="360" y="-23" text-anchor="middle" font-size="12">18% </text>
+   <rect x="390" y="-42" width="30" height="42" fill="blue"/>
+   <text x="420" y="10" writing-mode="tb">Hélène</text>
+   <rect x="420" y="-14" width="30" height="14" fill="red"/>
+   <text x="405" y="-47" text-anchor="middle" font-size="12">3.97% </text>
+   <text x="435" y="-19" text-anchor="middle" font-size="12">14% </text>
+   <rect x="465" y="-83" width="30" height="83" fill="blue"/>
+   <text x="495" y="10" writing-mode="tb">Mary</text>
+   <rect x="495" y="-12" width="30" height="12" fill="red"/>
+   <text x="480" y="-88" text-anchor="middle" font-size="12">7.84% </text>
+   <text x="510" y="-17" text-anchor="middle" font-size="12">12% </text>
+   <rect x="540" y="-70" width="30" height="70" fill="blue"/>
+   <text x="570" y="10" writing-mode="tb">Marya D</text>
+   <rect x="570" y="-15" width="30" height="15" fill="red"/>
+   <text x="555" y="-75" text-anchor="middle" font-size="12">6.62% </text>
+   <text x="585" y="-20" text-anchor="middle" font-size="12">15% </text>
+   <rect x="615" y="-284" width="30" height="284" fill="blue"/>
+   <text x="645" y="10" writing-mode="tb">Natasha</text>
+   <rect x="645" y="-148" width="30" height="148" fill="red"/>
+   <text x="630" y="-289" text-anchor="middle" font-size="12">26.84% </text>
+   <text x="660" y="-153" text-anchor="middle" font-size="12">148% </text>
+   <rect x="690" y="-154" width="30" height="154" fill="blue"/>
+   <text x="720" y="10" writing-mode="tb">Pierre</text>
+   <rect x="720" y="-57" width="30" height="57" fill="red"/>
+   <text x="705" y="-159" text-anchor="middle" font-size="12">14.56% </text>
+   <text x="735" y="-62" text-anchor="middle" font-size="12">57% </text>
+   <rect x="765" y="-85" width="30" height="85" fill="blue"/>
+   <text x="795" y="10" writing-mode="tb">Sonya</text>
+   <rect x="795" y="-28" width="30" height="28" fill="red"/>
+   <text x="780" y="-90" text-anchor="middle" font-size="12">8.03% </text>
+   <text x="810" y="-33" text-anchor="middle" font-size="12">28% </text>
+   <line x1="0"
+         y1="0"
+         x2="840"
+         y2="0"
+         stroke="black"
+         stroke-linecap="square"/>
+   <line x1="0"
+         y1="0"
+         x2="0"
+         y2="-300"
+         stroke="black"
+         stroke-linecap="square"/>
+</svg>
