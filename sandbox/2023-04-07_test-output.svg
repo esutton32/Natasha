@@ -287,18 +287,10 @@
          stroke="black"
          stroke-linecap="square"/>
    <text x="412.5" y="175" text-anchor="middle" font-size="large">Characters</text>
-   <text x="-80"
-         y="-250"
-         writing-mode="tb"
-         text-anchor="-end"
-         font-size="large">
+   <text x="-80" y="-250" writing-mode="tb" font-size="large">
       <tspan>Frequency of Character</tspan>
    </text>
-   <text x="-110"
-         y="-250"
-         writing-mode="tb"
-         text-anchor="-end"
-         font-size="large">
+   <text x="-110" y="-250" writing-mode="tb" font-size="large">
       <tspan>References by Percentage</tspan>
    </text>
    <text x="412.5" y="-350" text-anchor="middle" font-size="large">Comparing the Percentage of Character References between Novel and Musical</text>
@@ -306,14 +298,10 @@
    <text x="885" y="-170" font-size="large">
       <tspan>Key:</tspan>
    </text>
-   <text x="925" y="-140" text-anchor="-end" font-size="small">
+   <text x="925" y="-140" font-size="small">
       <tspan>“The Great Comet”</tspan>
    </text>
-   <text x="925"
-         y="-115"
-         text-anchor="-end"
-         font-size="small"
-         font-style="italic">
+   <text x="925" y="-115" font-size="small" font-style="italic">
       <tspan>War and Peace</tspan>
    </text>
    <rect x="885" y="-130" width="15" height="15" fill="crimson"/>

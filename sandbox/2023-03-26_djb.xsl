@@ -178,10 +178,10 @@
       <!-- ======================================================== -->
       <text x="{$maxWidth div 2}" y="{$yScale * 35}" text-anchor="middle" font-size="large"
         >Characters</text>
-      <text x="-80" y="-{$maxHeight div 2}" writing-mode="tb" text-anchor="-end" font-size="large">
+      <text x="-80" y="-{$maxHeight div 2}" writing-mode="tb" font-size="large">
         <tspan>Frequency of Character</tspan>
       </text>
-      <text x="-110" y="-{$maxHeight div 2}" writing-mode="tb" text-anchor="-end" font-size="large">
+      <text x="-110" y="-{$maxHeight div 2}" writing-mode="tb" font-size="large">
         <tspan>References by Percentage</tspan>
       </text>
       <!-- ======================================================== -->
@@ -193,10 +193,10 @@
       <text x="{$maxWidth + 60}" y="-{$yScale * 34}" font-size="large">
         <tspan>Key:</tspan>
       </text>
-      <text x="{$maxWidth + 100}" y="-{$yScale * 28}" text-anchor="-end" font-size="small">
+      <text x="{$maxWidth + 100}" y="-{$yScale * 28}" font-size="small">
         <tspan>“The Great Comet”</tspan>
       </text>
-      <text x="{$maxWidth + 100}" y="-{$yScale * 23}" text-anchor="-end" font-size="small"
+      <text x="{$maxWidth + 100}" y="-{$yScale * 23}" font-size="small"
         font-style="italic">
         <tspan>War and Peace</tspan>
       </text>
