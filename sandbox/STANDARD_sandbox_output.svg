@@ -195,7 +195,7 @@
          font-size="large">
       <tspan>References by Percentage</tspan>
    </text>
-   <text x="412.5" y="-350" text-anchor="middle" font-size="larger">Comparing the Percentage of Character References between Novel and Musical</text>
+   <text x="412.5" y="-350" text-anchor="middle" font-size="large">Comparing the Percentage of Character References between Novel and Musical</text>
    <rect x="875" y="-200" width="300" height="100" fill="white"/>
    <text x="885" y="-170" font-size="large">
       <tspan>KEY:</tspan>
