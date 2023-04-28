@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200"
+        height="1000" viewBox="0 -1750 1050 750" style="background-color:#FED69A;">
+        <desc>Web depicting the relationships between the characters of the play and book.</desc>
+    <!-- ======================================================
+         Creating the arrowhead which is applied to every arrow.
+         ====================================================== -->
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"
+                stroke="black">
+                <polygon points="0 0, 10 3.5, 0 7"/>
+        </marker>
+    <!-- =====================================================
+         Group containing the illustration lines for the graph.
+         ===================================================== -->
+        <g marker-end="url(#arrowhead)" stroke="black" stroke-width="3px">
+                <line x1="950" y1="-1700" x2="950" y2="-1632"/>
+                <line x1="950" y1="-1632" x2="950" y2="-1670"/>
+                <line x1="700" y1="-1550" x2="878" y2="-1684"/>
+                <line x1="925" y1="-1700" x2="705" y2="-1424"/>
+                <line x1="702" y1="-1421" x2="904" y2="-1674"/>
+                <line x1="950" y1="-1200" x2="950" y2="-1270"/>
+                <line x1="100" y1="-1700" x2="100" y2="-1632"/>
+                <line x1="100" y1="-1400" x2="100" y2="-1468"/>
+                <line x1="100" y1="-1600" x2="100" y2="-1670"/>
+                <line x1="125" y1="-1700" x2="574" y2="-1558"/>
+                <line x1="574" y1="-1558" x2="155" y2="-1690"/>
+                <line x1="125" y1="-1700" x2="600" y2="-1416"/>
+                <line x1="100" y1="-1700" x2="100" y2="-1432"/>
+                <line x1="100" y1="-1200" x2="100" y2="-1274"/>
+                <line x1="150" y1="-1350" x2="274" y2="-1350"/>
+                <line x2="176" y2="-1350" x1="274" y1="-1350"/>
+                <line x1="700" y1="-1350" x2="870" y2="-1350"/>
+                <line x1="900" y1="-1350" x2="732" y2="-1350"/>
+                <line x1="925" y1="-1200" x2="721" y2="-1321"/>
+        </g>
+    <!-- ===================================================
+         Images created, spaced, and rendered as hyperlinks!
+         =================================================== -->
+        <a xlink:href="natasha_wiki.xhtml#Pierre" id="Pierre"><image
+                        xlink:href="img/pierre-square.jpeg" x="50" y="-1800" width="100"
+                        height="100"/></a>
+        <a xlink:href="natasha_wiki.xhtml#Natasha" id="Natasha"><image
+                        xlink:href="img/natasha-square.jpeg" x="900" y="-1800" width="100"
+                        height="100"/></a>
+        <a xlink:href="natasha_wiki.xhtml#Helene" id="Helene"><image
+                        xlink:href="img/helene-square.jpeg" x="50" y="-1600" width="100"
+                        height="100"/></a>
+        <a xlink:href="natasha_wiki.xhtml#MaryaD" id="MaryaD"><image
+                        xlink:href="img/marya-d-square.jpeg" x="600" y="-1600" width="100"
+                        height="100"/></a>
+        <a xlink:href="natasha_wiki.xhtml#Sonya" id="Sonya"><image
+                        xlink:href="img/sonya-square.jpeg" x="900" y="-1600" width="100"
+                        height="100"/></a>
+        <a xlink:href="natasha_wiki.xhtml#Anatole" id="Anatole"><image
+                        xlink:href="img/anatole-square.jpeg" x="50" y="-1400" width="100"
+                        height="100"/></a>
+        <a xlink:href="natasha_wiki.xhtml#Dolokhov" id="Dolokhov"><image
+                        xlink:href="img/dolokhov-square.jpeg" x="300" y="-1400" width="100"
+                        height="100"/></a>
+        <a xlink:href="natasha_wiki.xhtml#Andrey" id="Andrey"><image
+                        xlink:href="img/nikolai-square.jpeg" x="600" y="-1400" width="100"
+                        height="100"/></a>
+        <a xlink:href="natasha_wiki.xhtml#Mary" id="Mary"><image xlink:href="img/mary-square.jpeg"
+                        x="900" y="-1400" width="100" height="100"/></a>
+        <a xlink:href="natasha_wiki.xhtml#Balaga" id="Balaga"><image
+                        xlink:href="img/balaga-square.jpeg" x="50" y="-1200" width="100"
+                        height="100"/></a>
+        <a xlink:href="natasha_wiki.xhtml#Bolkonsky" id="Bolkonsky"><image
+                        xlink:href="img/bolkonsky-square.jpeg" x="900" y="-1200" width="100"
+                        height="100"/></a>
+    <!-- ============================================
+         Annotations for lines created and positioned.
+         ============================================-->
+        <g font-size="15px" stroke="black">
+            <text x="960" y="-1645">Cousins</text>
+            <text x="735" y="-1645">God-mother</text>
+            <text x="800" y="-1525">Engaged</text>
+            <text x="775" y="-1365">Siblings</text>
+            <text x="900" y="-1240">Father</text>
+            <text x="400" y="-1620">Old Friends</text>
+            <text x="450" y="-1515">Best Friends</text>
+            <text x="35" y="-1645"> Married</text>
+            <text x="35" y="-1445">Siblings</text>
+            <text x="200" y="-1360">Friends</text>
+            <text x="110" y="-1240">Troika driver</text>
+        </g>
+</svg>
